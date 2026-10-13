@@ -1,0 +1,152 @@
+[
+  {
+    "id": 2,
+    "name": "Maharashtra Assembly 2024",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 2024,
+    "total_seats": 288,
+    "file": "data/elections/maharashtra_assembly_2024.json",
+    "updated_at": "2026-10-04T14:10:18.198332"
+  },
+  {
+    "id": 19,
+    "name": "Maharashtra Assembly 2019",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 2019,
+    "total_seats": 288,
+    "file": "data/elections/maharashtra_assembly_2019.json",
+    "updated_at": "2026-10-04T14:18:17.641517"
+  },
+  {
+    "id": 32,
+    "name": "Maharashtra Lok Sabha 2019",
+    "state": "Maharashtra",
+    "type": "loksabha",
+    "year": 2019,
+    "total_seats": 48,
+    "file": "data/elections/maharashtra_loksabha_2019.json",
+    "updated_at": "2026-10-04T15:00:24.479852"
+  },
+  {
+    "id": 20,
+    "name": "Maharashtra Assembly 2014",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 2014,
+    "total_seats": 288,
+    "file": "data/elections/maharashtra_assembly_2014.json",
+    "updated_at": "2026-10-04T14:21:26.399263"
+  },
+  {
+    "id": 21,
+    "name": "Maharashtra Assembly 2009",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 2009,
+    "total_seats": 288,
+    "file": "data/elections/maharashtra_assembly_2009.json",
+    "updated_at": "2026-10-04T13:51:15.028364"
+  },
+  {
+    "id": 22,
+    "name": "Maharashtra Assembly 2004",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 2004,
+    "total_seats": 0,
+    "file": "data/elections/maharashtra_assembly_2004.json",
+    "updated_at": "2026-10-04T13:52:41.027548"
+  },
+  {
+    "id": 23,
+    "name": "Maharashtra Assembly 1999",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 1999,
+    "total_seats": 0,
+    "file": "data/elections/maharashtra_assembly_1999.json",
+    "updated_at": "2026-10-04T13:53:24.466296"
+  },
+  {
+    "id": 24,
+    "name": "Maharashtra Assembly 1995",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 1995,
+    "total_seats": 0,
+    "file": "data/elections/maharashtra_assembly_1995.json",
+    "updated_at": "2026-10-04T13:54:27.424875"
+  },
+  {
+    "id": 25,
+    "name": "Maharashtra Assembly 1990",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 1990,
+    "total_seats": 0,
+    "file": "data/elections/maharashtra_assembly_1990.json",
+    "updated_at": "2026-10-04T13:55:23.269986"
+  },
+  {
+    "id": 26,
+    "name": "Maharashtra Assembly 1985",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 1985,
+    "total_seats": 0,
+    "file": "data/elections/maharashtra_assembly_1985.json",
+    "updated_at": "2026-10-04T13:56:13.701911"
+  },
+  {
+    "id": 27,
+    "name": "Maharashtra Assembly 1980",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 1980,
+    "total_seats": 0,
+    "file": "data/elections/maharashtra_assembly_1980.json",
+    "updated_at": "2026-10-04T13:57:03.823605"
+  },
+  {
+    "id": 28,
+    "name": "Maharashtra Assembly 1978",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 1978,
+    "total_seats": 0,
+    "file": "data/elections/maharashtra_assembly_1978.json",
+    "updated_at": "2026-10-04T13:57:54.957858"
+  },
+  {
+    "id": 29,
+    "name": "Maharashtra Assembly 1972",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 1972,
+    "total_seats": 0,
+    "file": "data/elections/maharashtra_assembly_1972.json",
+    "updated_at": "2026-10-04T13:58:36.829149"
+  },
+  {
+    "id": 30,
+    "name": "Maharashtra Assembly 1967",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 1967,
+    "total_seats": 0,
+    "file": "data/elections/maharashtra_assembly_1967.json",
+    "updated_at": "2026-10-04T13:59:51.448096"
+  },
+  {
+    "id": 31,
+    "name": "Maharashtra Assembly 1962",
+    "state": "Maharashtra",
+    "type": "assembly",
+    "year": 1962,
+    "total_seats": 0,
+    "file": "data/elections/maharashtra_assembly_1962.json",
+    "updated_at": "2026-10-04T14:01:02.750243"
+  }
+]

@@ -1,0 +1,4119 @@
+{
+  "state": "Manipur",
+  "key": "mn",
+  "year": 2022,
+  "type": "assembly",
+  "icon": "🌺",
+  "total_seats": 60,
+  "majority_mark": 31,
+  "leading_party": "BJP",
+  "leading_seats": 32,
+  "status": "BJP Majority (32/60)",
+  "total_electors": 2070113,
+  "total_votes_polled": 1857664,
+  "avg_turnout_pct": 89.74,
+  "parties": [
+    {
+      "party": "BJP",
+      "seats": 32,
+      "votes": 702720
+    },
+    {
+      "party": "NPEP",
+      "seats": 7,
+      "votes": 321303
+    },
+    {
+      "party": "JDU",
+      "seats": 6,
+      "votes": 200103
+    },
+    {
+      "party": "INC",
+      "seats": 5,
+      "votes": 312705
+    },
+    {
+      "party": "NPF",
+      "seats": 5,
+      "votes": 150209
+    },
+    {
+      "party": "IND",
+      "seats": 3,
+      "votes": 94333
+    },
+    {
+      "party": "KPA",
+      "seats": 2,
+      "votes": 18808
+    }
+  ],
+  "constituencies": [
+    {
+      "ac_no": 1,
+      "name": "Khundrakpam",
+      "category": "GEN",
+      "electors": 27777,
+      "votes_polled": 24911,
+      "turnout_pct": 89.68,
+      "winner_name": "Thokchom Lokeshwar Singh",
+      "winner_party": "INC",
+      "winner_votes": 12211,
+      "runner_up_name": "Thangjam Mohendro Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 11996,
+      "margin": 215,
+      "nota_votes": 167,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Thokchom Lokeshwar Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 12027,
+          "postal_votes": 184,
+          "total_votes": 12211
+        },
+        {
+          "name": "Thangjam Mohendro Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 11786,
+          "postal_votes": 210,
+          "total_votes": 11996
+        },
+        {
+          "name": "Elangbam Sovid Singh",
+          "party": "RPPRINAT",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 493,
+          "postal_votes": 4,
+          "total_votes": 497
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 165,
+          "postal_votes": 2,
+          "total_votes": 167
+        },
+        {
+          "name": "Thangjam Shyam Singh",
+          "party": "SHS",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 38,
+          "postal_votes": 2,
+          "total_votes": 40
+        }
+      ]
+    },
+    {
+      "ac_no": 2,
+      "name": "Heingang",
+      "category": "GEN",
+      "electors": 34177,
+      "votes_polled": 31596,
+      "turnout_pct": 92.45,
+      "winner_name": "Nongthombam Biren Singh",
+      "winner_party": "BJP",
+      "winner_votes": 24814,
+      "runner_up_name": "Pangeijam Saratchandra Singh",
+      "runner_up_party": "INC",
+      "runner_up_votes": 6543,
+      "margin": 18271,
+      "nota_votes": 239,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Nongthombam Biren Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 24268,
+          "postal_votes": 546,
+          "total_votes": 24814
+        },
+        {
+          "name": "Pangeijam Saratchandra Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 6486,
+          "postal_votes": 57,
+          "total_votes": 6543
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 239,
+          "postal_votes": 0,
+          "total_votes": 239
+        }
+      ]
+    },
+    {
+      "ac_no": 3,
+      "name": "Khurai",
+      "category": "GEN",
+      "electors": 35747,
+      "votes_polled": 33110,
+      "turnout_pct": 92.62,
+      "winner_name": "Leishangthem Susindro Meitei",
+      "winner_party": "BJP",
+      "winner_votes": 11131,
+      "runner_up_name": "Laitonjam Jayananda Singh",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 8894,
+      "margin": 2237,
+      "nota_votes": 169,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Leishangthem Susindro Meitei",
+          "party": "BJP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 10745,
+          "postal_votes": 386,
+          "total_votes": 11131
+        },
+        {
+          "name": "Laitonjam Jayananda Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 8767,
+          "postal_votes": 127,
+          "total_votes": 8894
+        },
+        {
+          "name": "Khagokpam Khamba Singh",
+          "party": "RPPRINAT",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 6722,
+          "postal_votes": 70,
+          "total_votes": 6792
+        },
+        {
+          "name": "Toijam Lokendro Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 2897,
+          "postal_votes": 25,
+          "total_votes": 2922
+        },
+        {
+          "name": "Khuraijam Ratankumar Singh",
+          "party": "NCP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 2438,
+          "postal_votes": 23,
+          "total_votes": 2461
+        },
+        {
+          "name": "Heisnam Subhas Singh",
+          "party": "LJPRV",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 376,
+          "postal_votes": 9,
+          "total_votes": 385
+        },
+        {
+          "name": "R.K. Amusana Singh",
+          "party": "CPI",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 351,
+          "postal_votes": 5,
+          "total_votes": 356
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 169,
+          "postal_votes": 0,
+          "total_votes": 169
+        }
+      ]
+    },
+    {
+      "ac_no": 4,
+      "name": "Khetrigao",
+      "category": "GEN",
+      "electors": 36835,
+      "votes_polled": 34100,
+      "turnout_pct": 92.57,
+      "winner_name": "Sheikh Noorul Hassan",
+      "winner_party": "NPEP",
+      "winner_votes": 13118,
+      "runner_up_name": "Nahakpam Indrajit Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 12376,
+      "margin": 742,
+      "nota_votes": 238,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Sheikh Noorul Hassan",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 12753,
+          "postal_votes": 365,
+          "total_votes": 13118
+        },
+        {
+          "name": "Nahakpam Indrajit Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 11900,
+          "postal_votes": 476,
+          "total_votes": 12376
+        },
+        {
+          "name": "Wahengbam Rojit Singh @ Bullet",
+          "party": "JDU",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 5352,
+          "postal_votes": 85,
+          "total_votes": 5437
+        },
+        {
+          "name": "Mohammed Amin Shah",
+          "party": "INC",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 2792,
+          "postal_votes": 40,
+          "total_votes": 2832
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 238,
+          "postal_votes": 0,
+          "total_votes": 238
+        },
+        {
+          "name": "Punnam Rani Wangkhem",
+          "party": "NCP",
+          "gender": "F",
+          "age": 53,
+          "evm_votes": 97,
+          "postal_votes": 2,
+          "total_votes": 99
+        }
+      ]
+    },
+    {
+      "ac_no": 5,
+      "name": "Thongju",
+      "category": "GEN",
+      "electors": 32132,
+      "votes_polled": 29510,
+      "turnout_pct": 91.84,
+      "winner_name": "Thongam Biswajit Singh",
+      "winner_party": "BJP",
+      "winner_votes": 15338,
+      "runner_up_name": "Seram Neken Singh",
+      "runner_up_party": "INC",
+      "runner_up_votes": 8649,
+      "margin": 6689,
+      "nota_votes": 674,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Thongam Biswajit Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 14789,
+          "postal_votes": 549,
+          "total_votes": 15338
+        },
+        {
+          "name": "Seram Neken Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 8534,
+          "postal_votes": 115,
+          "total_votes": 8649
+        },
+        {
+          "name": "Sanglakpam Preshyojit Sharma",
+          "party": "JDU",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 4799,
+          "postal_votes": 50,
+          "total_votes": 4849
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 671,
+          "postal_votes": 3,
+          "total_votes": 674
+        }
+      ]
+    },
+    {
+      "ac_no": 6,
+      "name": "Keirao",
+      "category": "GEN",
+      "electors": 30224,
+      "votes_polled": 28103,
+      "turnout_pct": 92.98,
+      "winner_name": "Lourembam Rameshwor Meetei",
+      "winner_party": "BJP",
+      "winner_votes": 17335,
+      "runner_up_name": "Md. Nasiruddin Khan",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 9126,
+      "margin": 8209,
+      "nota_votes": 97,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Lourembam Rameshwor Meetei",
+          "party": "BJP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 16957,
+          "postal_votes": 378,
+          "total_votes": 17335
+        },
+        {
+          "name": "Md. Nasiruddin Khan",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 8935,
+          "postal_votes": 191,
+          "total_votes": 9126
+        },
+        {
+          "name": "M.I. Khan",
+          "party": "NCP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 981,
+          "postal_votes": 2,
+          "total_votes": 983
+        },
+        {
+          "name": "Thongram Tony Meitei",
+          "party": "INC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 246,
+          "postal_votes": 3,
+          "total_votes": 249
+        },
+        {
+          "name": "Toijam Debananda Singh",
+          "party": "SHS",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 154,
+          "postal_votes": 48,
+          "total_votes": 202
+        },
+        {
+          "name": "Yumnam Shanta Meetei",
+          "party": "JDU",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 110,
+          "postal_votes": 1,
+          "total_votes": 111
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 96,
+          "postal_votes": 1,
+          "total_votes": 97
+        }
+      ]
+    },
+    {
+      "ac_no": 7,
+      "name": "Andro",
+      "category": "GEN",
+      "electors": 35930,
+      "votes_polled": 33423,
+      "turnout_pct": 93.02,
+      "winner_name": "Thounaojam Shyamkumar",
+      "winner_party": "BJP",
+      "winner_votes": 16739,
+      "runner_up_name": "Lourembam Sanjoy Singh",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 15282,
+      "margin": 1457,
+      "nota_votes": 120,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Thounaojam Shyamkumar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 16259,
+          "postal_votes": 480,
+          "total_votes": 16739
+        },
+        {
+          "name": "Lourembam Sanjoy Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 15039,
+          "postal_votes": 243,
+          "total_votes": 15282
+        },
+        {
+          "name": "Asheibam Bele Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 871,
+          "postal_votes": 23,
+          "total_votes": 894
+        },
+        {
+          "name": "Keisham Ningthemjao Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 381,
+          "postal_votes": 7,
+          "total_votes": 388
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 120,
+          "postal_votes": 0,
+          "total_votes": 120
+        }
+      ]
+    },
+    {
+      "ac_no": 8,
+      "name": "Lamlai",
+      "category": "GEN",
+      "electors": 30376,
+      "votes_polled": 28665,
+      "turnout_pct": 94.37,
+      "winner_name": "Khongbantabam Ibomcha",
+      "winner_party": "BJP",
+      "winner_votes": 10105,
+      "runner_up_name": "Kshetrimayum Biren Singh",
+      "runner_up_party": "JDU",
+      "runner_up_votes": 9984,
+      "margin": 121,
+      "nota_votes": 112,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Khongbantabam Ibomcha",
+          "party": "BJP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 9940,
+          "postal_votes": 165,
+          "total_votes": 10105
+        },
+        {
+          "name": "Kshetrimayum Biren Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 9749,
+          "postal_votes": 235,
+          "total_votes": 9984
+        },
+        {
+          "name": "Achoibam Deben Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 6977,
+          "postal_votes": 72,
+          "total_votes": 7049
+        },
+        {
+          "name": "Mongjam Poireihenba Meetei",
+          "party": "RPPRINAT",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 953,
+          "postal_votes": 4,
+          "total_votes": 957
+        },
+        {
+          "name": "Sapam Kangleipal Meitei",
+          "party": "IND",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 455,
+          "postal_votes": 3,
+          "total_votes": 458
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 108,
+          "postal_votes": 4,
+          "total_votes": 112
+        }
+      ]
+    },
+    {
+      "ac_no": 9,
+      "name": "Thangmeiband",
+      "category": "GEN",
+      "electors": 28212,
+      "votes_polled": 24302,
+      "turnout_pct": 86.14,
+      "winner_name": "Khumukcham Joykisan Singh",
+      "winner_party": "JDU",
+      "winner_votes": 13629,
+      "runner_up_name": "Jotin Waikhom",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 9856,
+      "margin": 3773,
+      "nota_votes": 360,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Khumukcham Joykisan Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 13208,
+          "postal_votes": 421,
+          "total_votes": 13629
+        },
+        {
+          "name": "Jotin Waikhom",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 9633,
+          "postal_votes": 223,
+          "total_votes": 9856
+        },
+        {
+          "name": "Hijam Nutanchandra Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 449,
+          "postal_votes": 8,
+          "total_votes": 457
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 356,
+          "postal_votes": 4,
+          "total_votes": 360
+        }
+      ]
+    },
+    {
+      "ac_no": 10,
+      "name": "Uripok",
+      "category": "GEN",
+      "electors": 25727,
+      "votes_polled": 23041,
+      "turnout_pct": 89.56,
+      "winner_name": "Khwairakpam Raghumani Singh",
+      "winner_party": "BJP",
+      "winner_votes": 8335,
+      "runner_up_name": "Yumnam Joykumar Singh",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 7426,
+      "margin": 909,
+      "nota_votes": 268,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Khwairakpam Raghumani Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 8116,
+          "postal_votes": 219,
+          "total_votes": 8335
+        },
+        {
+          "name": "Yumnam Joykumar Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 68,
+          "evm_votes": 7147,
+          "postal_votes": 279,
+          "total_votes": 7426
+        },
+        {
+          "name": "Khombongmayum Suresh Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 5383,
+          "postal_votes": 89,
+          "total_votes": 5472
+        },
+        {
+          "name": "Nunglepam Mahananda Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 1517,
+          "postal_votes": 23,
+          "total_votes": 1540
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 265,
+          "postal_votes": 3,
+          "total_votes": 268
+        }
+      ]
+    },
+    {
+      "ac_no": 11,
+      "name": "Sagolband",
+      "category": "GEN",
+      "electors": 24019,
+      "votes_polled": 20244,
+      "turnout_pct": 84.28,
+      "winner_name": "Rajkumar Imo Singh",
+      "winner_party": "BJP",
+      "winner_votes": 11054,
+      "runner_up_name": "Dr. Khwairakpam Loken Singh",
+      "runner_up_party": "JDU",
+      "runner_up_votes": 8398,
+      "margin": 2656,
+      "nota_votes": 228,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Rajkumar Imo Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 10585,
+          "postal_votes": 469,
+          "total_votes": 11054
+        },
+        {
+          "name": "Dr. Khwairakpam Loken Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 8219,
+          "postal_votes": 179,
+          "total_votes": 8398
+        },
+        {
+          "name": "Moirangthem Momo Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 556,
+          "postal_votes": 8,
+          "total_votes": 564
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 227,
+          "postal_votes": 1,
+          "total_votes": 228
+        }
+      ]
+    },
+    {
+      "ac_no": 12,
+      "name": "Keisamthong",
+      "category": "GEN",
+      "electors": 27536,
+      "votes_polled": 25352,
+      "turnout_pct": 92.07,
+      "winner_name": "Nishikant Sapam",
+      "winner_party": "IND",
+      "winner_votes": 8874,
+      "runner_up_name": "Maheshwar Thounaojam",
+      "runner_up_party": "RPPRINAT",
+      "runner_up_votes": 8687,
+      "margin": 187,
+      "nota_votes": 142,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Nishikant Sapam",
+          "party": "IND",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 8650,
+          "postal_votes": 224,
+          "total_votes": 8874
+        },
+        {
+          "name": "Maheshwar Thounaojam",
+          "party": "RPPRINAT",
+          "gender": "M",
+          "age": 29,
+          "evm_votes": 8467,
+          "postal_votes": 220,
+          "total_votes": 8687
+        },
+        {
+          "name": "Langpoklakpam Jayanta Kumar Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 5511,
+          "postal_votes": 249,
+          "total_votes": 5760
+        },
+        {
+          "name": "Elangbam Samuel Johnson",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 1739,
+          "postal_votes": 77,
+          "total_votes": 1816
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 141,
+          "postal_votes": 1,
+          "total_votes": 142
+        },
+        {
+          "name": "Aribam Pramodini Devi",
+          "party": "INC",
+          "gender": "F",
+          "age": 77,
+          "evm_votes": 71,
+          "postal_votes": 2,
+          "total_votes": 73
+        }
+      ]
+    },
+    {
+      "ac_no": 13,
+      "name": "Singjamei",
+      "category": "GEN",
+      "electors": 20734,
+      "votes_polled": 19015,
+      "turnout_pct": 91.71,
+      "winner_name": "Yumnam Khemchand Singh",
+      "winner_party": "BJP",
+      "winner_votes": 8709,
+      "runner_up_name": "Oinam Romen Singh",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 6414,
+      "margin": 2295,
+      "nota_votes": 128,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Yumnam Khemchand Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 8391,
+          "postal_votes": 318,
+          "total_votes": 8709
+        },
+        {
+          "name": "Oinam Romen Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 6296,
+          "postal_votes": 118,
+          "total_votes": 6414
+        },
+        {
+          "name": "Ngangbam Robert Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 2130,
+          "postal_votes": 34,
+          "total_votes": 2164
+        },
+        {
+          "name": "Irengbam Hemochandra Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 1564,
+          "postal_votes": 36,
+          "total_votes": 1600
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 128,
+          "postal_votes": 0,
+          "total_votes": 128
+        }
+      ]
+    },
+    {
+      "ac_no": 14,
+      "name": "Yaiskul",
+      "category": "GEN",
+      "electors": 26794,
+      "votes_polled": 24157,
+      "turnout_pct": 90.16,
+      "winner_name": "Thokchom Satyabrata Singh",
+      "winner_party": "BJP",
+      "winner_votes": 9724,
+      "runner_up_name": "Huidrom Vikramjit Singh",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 9092,
+      "margin": 632,
+      "nota_votes": 119,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Thokchom Satyabrata Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 9346,
+          "postal_votes": 378,
+          "total_votes": 9724
+        },
+        {
+          "name": "Huidrom Vikramjit Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 8868,
+          "postal_votes": 224,
+          "total_votes": 9092
+        },
+        {
+          "name": "Thounaojam Brinda",
+          "party": "JDU",
+          "gender": "F",
+          "age": 43,
+          "evm_votes": 4519,
+          "postal_votes": 55,
+          "total_votes": 4574
+        },
+        {
+          "name": "Ningombam Helendro Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 517,
+          "postal_votes": 9,
+          "total_votes": 526
+        },
+        {
+          "name": "Rajkumar Suraj Singh",
+          "party": "SHS",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 122,
+          "postal_votes": 0,
+          "total_votes": 122
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 117,
+          "postal_votes": 2,
+          "total_votes": 119
+        }
+      ]
+    },
+    {
+      "ac_no": 15,
+      "name": "Wangkhei",
+      "category": "GEN",
+      "electors": 37235,
+      "votes_polled": 32461,
+      "turnout_pct": 87.18,
+      "winner_name": "Thangjam Arunkumar",
+      "winner_party": "JDU",
+      "winner_votes": 11593,
+      "runner_up_name": "Okram Henry",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 10840,
+      "margin": 753,
+      "nota_votes": 337,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Thangjam Arunkumar",
+          "party": "JDU",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 11451,
+          "postal_votes": 142,
+          "total_votes": 11593
+        },
+        {
+          "name": "Okram Henry",
+          "party": "BJP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 10564,
+          "postal_votes": 276,
+          "total_votes": 10840
+        },
+        {
+          "name": "Yumkham Erabot Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 82,
+          "evm_votes": 9095,
+          "postal_votes": 180,
+          "total_votes": 9275
+        },
+        {
+          "name": "Rajkumar Priyobarta Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 399,
+          "postal_votes": 17,
+          "total_votes": 416
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 336,
+          "postal_votes": 1,
+          "total_votes": 337
+        }
+      ]
+    },
+    {
+      "ac_no": 16,
+      "name": "Sekmai",
+      "category": "SC",
+      "electors": 30487,
+      "votes_polled": 27201,
+      "turnout_pct": 89.22,
+      "winner_name": "Heikham Dingo Singh",
+      "winner_party": "BJP",
+      "winner_votes": 10010,
+      "runner_up_name": "Ayangbam Oken Singh",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 6677,
+      "margin": 3333,
+      "nota_votes": 190,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Heikham Dingo Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 9804,
+          "postal_votes": 206,
+          "total_votes": 10010
+        },
+        {
+          "name": "Ayangbam Oken Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 6608,
+          "postal_votes": 69,
+          "total_votes": 6677
+        },
+        {
+          "name": "Khwairakpam Devendro Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 5836,
+          "postal_votes": 130,
+          "total_votes": 5966
+        },
+        {
+          "name": "Ningthoujam Popilal Singh",
+          "party": "NCP",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 1975,
+          "postal_votes": 32,
+          "total_votes": 2007
+        },
+        {
+          "name": "Ningthoujam Biren Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 1556,
+          "postal_votes": 39,
+          "total_votes": 1595
+        },
+        {
+          "name": "Khaidem Ranjit Singh",
+          "party": "SHS",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 470,
+          "postal_votes": 1,
+          "total_votes": 471
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 188,
+          "postal_votes": 2,
+          "total_votes": 190
+        },
+        {
+          "name": "Khwairakpam Robin Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 182,
+          "postal_votes": 4,
+          "total_votes": 186
+        },
+        {
+          "name": "Maharabam Anita Devi",
+          "party": "IND",
+          "gender": "F",
+          "age": 49,
+          "evm_votes": 95,
+          "postal_votes": 4,
+          "total_votes": 99
+        }
+      ]
+    },
+    {
+      "ac_no": 17,
+      "name": "Lamsang",
+      "category": "GEN",
+      "electors": 33787,
+      "votes_polled": 31770,
+      "turnout_pct": 94.03,
+      "winner_name": "Sorokhaibam Rajen Singh",
+      "winner_party": "BJP",
+      "winner_votes": 15185,
+      "runner_up_name": "Pukhrambam Sumati Devi",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 14785,
+      "margin": 400,
+      "nota_votes": 210,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Sorokhaibam Rajen Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 14847,
+          "postal_votes": 338,
+          "total_votes": 15185
+        },
+        {
+          "name": "Pukhrambam Sumati Devi",
+          "party": "NPEP",
+          "gender": "F",
+          "age": 63,
+          "evm_votes": 14628,
+          "postal_votes": 157,
+          "total_votes": 14785
+        },
+        {
+          "name": "Arambam Karamjit Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 723,
+          "postal_votes": 10,
+          "total_votes": 733
+        },
+        {
+          "name": "Khundrakpam Kanba Meitei",
+          "party": "JDU",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 605,
+          "postal_votes": 11,
+          "total_votes": 616
+        },
+        {
+          "name": "Likmabam Manibabu Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 229,
+          "postal_votes": 12,
+          "total_votes": 241
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 209,
+          "postal_votes": 1,
+          "total_votes": 210
+        }
+      ]
+    },
+    {
+      "ac_no": 18,
+      "name": "Konthoujam",
+      "category": "GEN",
+      "electors": 30018,
+      "votes_polled": 28403,
+      "turnout_pct": 94.62,
+      "winner_name": "Dr. Sapam Ranjan Singh",
+      "winner_party": "BJP",
+      "winner_votes": 13432,
+      "runner_up_name": "Konthoujam Sharat Singh",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 13038,
+      "margin": 394,
+      "nota_votes": 152,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Dr. Sapam Ranjan Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 12934,
+          "postal_votes": 498,
+          "total_votes": 13432
+        },
+        {
+          "name": "Konthoujam Sharat Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 12784,
+          "postal_votes": 254,
+          "total_votes": 13038
+        },
+        {
+          "name": "Laishram Nando Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 889,
+          "postal_votes": 6,
+          "total_votes": 895
+        },
+        {
+          "name": "Nongmaithem Herojit Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 805,
+          "postal_votes": 6,
+          "total_votes": 811
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 151,
+          "postal_votes": 1,
+          "total_votes": 152
+        },
+        {
+          "name": "Khoirom Binarani Devi",
+          "party": "NCP",
+          "gender": "F",
+          "age": 44,
+          "evm_votes": 70,
+          "postal_votes": 5,
+          "total_votes": 75
+        }
+      ]
+    },
+    {
+      "ac_no": 19,
+      "name": "Patsoi",
+      "category": "GEN",
+      "electors": 37604,
+      "votes_polled": 34836,
+      "turnout_pct": 92.64,
+      "winner_name": "Sapam Kunjakeswor (Keba) Singh",
+      "winner_party": "BJP",
+      "winner_votes": 12186,
+      "runner_up_name": "Akoijam Mirabai Devi",
+      "runner_up_party": "INC",
+      "runner_up_votes": 11499,
+      "margin": 687,
+      "nota_votes": 285,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Sapam Kunjakeswor (Keba) Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 11916,
+          "postal_votes": 270,
+          "total_votes": 12186
+        },
+        {
+          "name": "Akoijam Mirabai Devi",
+          "party": "INC",
+          "gender": "F",
+          "age": 57,
+          "evm_votes": 11202,
+          "postal_votes": 297,
+          "total_votes": 11499
+        },
+        {
+          "name": "R.K. Rameshwar Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 10531,
+          "postal_votes": 210,
+          "total_votes": 10741
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 284,
+          "postal_votes": 1,
+          "total_votes": 285
+        },
+        {
+          "name": "Wakambam Ibomcha Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 125,
+          "postal_votes": 0,
+          "total_votes": 125
+        }
+      ]
+    },
+    {
+      "ac_no": 20,
+      "name": "Langthabal",
+      "category": "GEN",
+      "electors": 28413,
+      "votes_polled": 26267,
+      "turnout_pct": 92.45,
+      "winner_name": "Karam Shyam",
+      "winner_party": "BJP",
+      "winner_votes": 10815,
+      "runner_up_name": "Okram Joy Singh",
+      "runner_up_party": "INC",
+      "runner_up_votes": 8762,
+      "margin": 2053,
+      "nota_votes": 237,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Karam Shyam",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 10620,
+          "postal_votes": 195,
+          "total_votes": 10815
+        },
+        {
+          "name": "Okram Joy Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 80,
+          "evm_votes": 8552,
+          "postal_votes": 210,
+          "total_votes": 8762
+        },
+        {
+          "name": "Karam Nabakishor Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 5895,
+          "postal_votes": 54,
+          "total_votes": 5949
+        },
+        {
+          "name": "Hijam Somarendro Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 499,
+          "postal_votes": 5,
+          "total_votes": 504
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 236,
+          "postal_votes": 1,
+          "total_votes": 237
+        }
+      ]
+    },
+    {
+      "ac_no": 21,
+      "name": "Naoriya Pakhanglakpa",
+      "category": "GEN",
+      "electors": 35053,
+      "votes_polled": 32964,
+      "turnout_pct": 94.04,
+      "winner_name": "Sagolshem Kebi Devi",
+      "winner_party": "BJP",
+      "winner_votes": 11058,
+      "runner_up_name": "Soibam Subhaschandra Singh",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 10527,
+      "margin": 531,
+      "nota_votes": 214,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Sagolshem Kebi Devi",
+          "party": "BJP",
+          "gender": "F",
+          "age": 32,
+          "evm_votes": 10668,
+          "postal_votes": 390,
+          "total_votes": 11058
+        },
+        {
+          "name": "Soibam Subhaschandra Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 10266,
+          "postal_votes": 261,
+          "total_votes": 10527
+        },
+        {
+          "name": "Soraisham Manaoton Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 9243,
+          "postal_votes": 201,
+          "total_votes": 9444
+        },
+        {
+          "name": "Konthoujam Manoranjan Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 1693,
+          "postal_votes": 28,
+          "total_votes": 1721
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 214,
+          "postal_votes": 0,
+          "total_votes": 214
+        }
+      ]
+    },
+    {
+      "ac_no": 22,
+      "name": "Wangoi",
+      "category": "GEN",
+      "electors": 30031,
+      "votes_polled": 28224,
+      "turnout_pct": 93.98,
+      "winner_name": "Khuraijam Loken Singh",
+      "winner_party": "NPEP",
+      "winner_votes": 15606,
+      "runner_up_name": "Oinam Lukhoi Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 12340,
+      "margin": 3266,
+      "nota_votes": 122,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Khuraijam Loken Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 15330,
+          "postal_votes": 276,
+          "total_votes": 15606
+        },
+        {
+          "name": "Oinam Lukhoi Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 11828,
+          "postal_votes": 512,
+          "total_votes": 12340
+        },
+        {
+          "name": "Salam Joy Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 141,
+          "postal_votes": 15,
+          "total_votes": 156
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 122,
+          "postal_votes": 0,
+          "total_votes": 122
+        }
+      ]
+    },
+    {
+      "ac_no": 23,
+      "name": "Mayang Imphal",
+      "category": "GEN",
+      "electors": 32053,
+      "votes_polled": 30679,
+      "turnout_pct": 95.71,
+      "winner_name": "Kongkham Robindro Singh",
+      "winner_party": "BJP",
+      "winner_votes": 14642,
+      "runner_up_name": "Dr. Khumujam Ratankumar Singh",
+      "runner_up_party": "INC",
+      "runner_up_votes": 8513,
+      "margin": 6129,
+      "nota_votes": 150,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Kongkham Robindro Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 14164,
+          "postal_votes": 478,
+          "total_votes": 14642
+        },
+        {
+          "name": "Dr. Khumujam Ratankumar Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 8292,
+          "postal_votes": 221,
+          "total_votes": 8513
+        },
+        {
+          "name": "Urikhimbam Ramesh Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 7333,
+          "postal_votes": 41,
+          "total_votes": 7374
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 150,
+          "postal_votes": 0,
+          "total_votes": 150
+        }
+      ]
+    },
+    {
+      "ac_no": 24,
+      "name": "Nambol",
+      "category": "GEN",
+      "electors": 33399,
+      "votes_polled": 30834,
+      "turnout_pct": 92.32,
+      "winner_name": "Thounaojam Basanta Kumar Singh",
+      "winner_party": "BJP",
+      "winner_votes": 16885,
+      "runner_up_name": "Nameirakpam Loken Singh",
+      "runner_up_party": "INC",
+      "runner_up_votes": 13825,
+      "margin": 3060,
+      "nota_votes": 124,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Thounaojam Basanta Kumar Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 16387,
+          "postal_votes": 498,
+          "total_votes": 16885
+        },
+        {
+          "name": "Nameirakpam Loken Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 13276,
+          "postal_votes": 549,
+          "total_votes": 13825
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 123,
+          "postal_votes": 1,
+          "total_votes": 124
+        }
+      ]
+    },
+    {
+      "ac_no": 25,
+      "name": "Oinam",
+      "category": "GEN",
+      "electors": 28688,
+      "votes_polled": 26641,
+      "turnout_pct": 92.86,
+      "winner_name": "Irengbam Nalini Devi",
+      "winner_party": "NPEP",
+      "winner_votes": 10808,
+      "runner_up_name": "Laishram Radhakishore Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 10366,
+      "margin": 442,
+      "nota_votes": 128,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Irengbam Nalini Devi",
+          "party": "NPEP",
+          "gender": "F",
+          "age": 61,
+          "evm_votes": 10573,
+          "postal_votes": 235,
+          "total_votes": 10808
+        },
+        {
+          "name": "Laishram Radhakishore Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 10049,
+          "postal_votes": 317,
+          "total_votes": 10366
+        },
+        {
+          "name": "Thokchom Ithoibi Devi",
+          "party": "INC",
+          "gender": "F",
+          "age": 41,
+          "evm_votes": 3200,
+          "postal_votes": 89,
+          "total_votes": 3289
+        },
+        {
+          "name": "Laitonjam Brojen Singh",
+          "party": "RPPRINAT",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 965,
+          "postal_votes": 5,
+          "total_votes": 970
+        },
+        {
+          "name": "Thingbaijam Swarankumar Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 511,
+          "postal_votes": 16,
+          "total_votes": 527
+        },
+        {
+          "name": "Ashem Babu Singh",
+          "party": "SHS",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 405,
+          "postal_votes": 3,
+          "total_votes": 408
+        },
+        {
+          "name": "Ngangom Shivakumar Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 27,
+          "evm_votes": 145,
+          "postal_votes": 0,
+          "total_votes": 145
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 124,
+          "postal_votes": 4,
+          "total_votes": 128
+        }
+      ]
+    },
+    {
+      "ac_no": 26,
+      "name": "Bishenpur",
+      "category": "SC",
+      "electors": 32115,
+      "votes_polled": 29558,
+      "turnout_pct": 92.04,
+      "winner_name": "Konthoujam Govindas Singh",
+      "winner_party": "BJP",
+      "winner_votes": 13611,
+      "runner_up_name": "Oinam Nabakishore Singh",
+      "runner_up_party": "JDU",
+      "runner_up_votes": 12202,
+      "margin": 1409,
+      "nota_votes": 350,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Konthoujam Govindas Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 12944,
+          "postal_votes": 667,
+          "total_votes": 13611
+        },
+        {
+          "name": "Oinam Nabakishore Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 12037,
+          "postal_votes": 165,
+          "total_votes": 12202
+        },
+        {
+          "name": "Ningthoujam Joykumar Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 3332,
+          "postal_votes": 63,
+          "total_votes": 3395
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 345,
+          "postal_votes": 5,
+          "total_votes": 350
+        }
+      ]
+    },
+    {
+      "ac_no": 27,
+      "name": "Moirang",
+      "category": "GEN",
+      "electors": 39876,
+      "votes_polled": 36309,
+      "turnout_pct": 91.05,
+      "winner_name": "Thongam Shanti Singh",
+      "winner_party": "NPEP",
+      "winner_votes": 14428,
+      "runner_up_name": "Mairembam Prithviraj Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 12206,
+      "margin": 2222,
+      "nota_votes": 271,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Thongam Shanti Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 14087,
+          "postal_votes": 341,
+          "total_votes": 14428
+        },
+        {
+          "name": "Mairembam Prithviraj Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 11833,
+          "postal_votes": 373,
+          "total_votes": 12206
+        },
+        {
+          "name": "Pukhrem Sharatchandra Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 71,
+          "evm_votes": 9156,
+          "postal_votes": 248,
+          "total_votes": 9404
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 263,
+          "postal_votes": 8,
+          "total_votes": 271
+        }
+      ]
+    },
+    {
+      "ac_no": 28,
+      "name": "Thanga",
+      "category": "SC",
+      "electors": 22984,
+      "votes_polled": 21135,
+      "turnout_pct": 91.96,
+      "winner_name": "Tongbram Robindro Singh",
+      "winner_party": "BJP",
+      "winner_votes": 13095,
+      "runner_up_name": "Birla Haobijam",
+      "runner_up_party": "INC",
+      "runner_up_votes": 7844,
+      "margin": 5251,
+      "nota_votes": 196,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Tongbram Robindro Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 12531,
+          "postal_votes": 564,
+          "total_votes": 13095
+        },
+        {
+          "name": "Birla Haobijam",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 7731,
+          "postal_votes": 113,
+          "total_votes": 7844
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 195,
+          "postal_votes": 1,
+          "total_votes": 196
+        }
+      ]
+    },
+    {
+      "ac_no": 29,
+      "name": "Kumbi",
+      "category": "GEN",
+      "electors": 28161,
+      "votes_polled": 26087,
+      "turnout_pct": 92.64,
+      "winner_name": "Sanasam Premchandra Singh",
+      "winner_party": "BJP",
+      "winner_votes": 8513,
+      "runner_up_name": "Ahanthem Shanjoy Singh",
+      "runner_up_party": "JDU",
+      "runner_up_votes": 8141,
+      "margin": 372,
+      "nota_votes": 147,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Sanasam Premchandra Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 8382,
+          "postal_votes": 131,
+          "total_votes": 8513
+        },
+        {
+          "name": "Ahanthem Shanjoy Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 8078,
+          "postal_votes": 63,
+          "total_votes": 8141
+        },
+        {
+          "name": "Ningthoujam Mangi Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 71,
+          "evm_votes": 7642,
+          "postal_votes": 145,
+          "total_votes": 7787
+        },
+        {
+          "name": "Dr. Khangembam Romesh Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 1147,
+          "postal_votes": 22,
+          "total_votes": 1169
+        },
+        {
+          "name": "Naorem Sorojini Devi",
+          "party": "IND",
+          "gender": "F",
+          "age": 43,
+          "evm_votes": 329,
+          "postal_votes": 1,
+          "total_votes": 330
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 147,
+          "postal_votes": 0,
+          "total_votes": 147
+        }
+      ]
+    },
+    {
+      "ac_no": 30,
+      "name": "Lilong",
+      "category": "GEN",
+      "electors": 36006,
+      "votes_polled": 33969,
+      "turnout_pct": 94.34,
+      "winner_name": "Mohd Abdul Nasir",
+      "winner_party": "JDU",
+      "winner_votes": 16886,
+      "runner_up_name": "Y. Antas Khan",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 16316,
+      "margin": 570,
+      "nota_votes": 140,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Mohd Abdul Nasir",
+          "party": "JDU",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 16361,
+          "postal_votes": 525,
+          "total_votes": 16886
+        },
+        {
+          "name": "Y. Antas Khan",
+          "party": "BJP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 15808,
+          "postal_votes": 508,
+          "total_votes": 16316
+        },
+        {
+          "name": "Syed Anwar Hussain",
+          "party": "INC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 431,
+          "postal_votes": 14,
+          "total_votes": 445
+        },
+        {
+          "name": "Abdul Manan",
+          "party": "IND",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 162,
+          "postal_votes": 0,
+          "total_votes": 162
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 139,
+          "postal_votes": 1,
+          "total_votes": 140
+        },
+        {
+          "name": "Md Irshad Hussain",
+          "party": "IND",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 20,
+          "postal_votes": 0,
+          "total_votes": 20
+        }
+      ]
+    },
+    {
+      "ac_no": 31,
+      "name": "Thoubal",
+      "category": "GEN",
+      "electors": 32132,
+      "votes_polled": 29581,
+      "turnout_pct": 92.06,
+      "winner_name": "Okram Ibobi Singh",
+      "winner_party": "INC",
+      "winner_votes": 15085,
+      "runner_up_name": "Leitanthem Basanta Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 12542,
+      "margin": 2543,
+      "nota_votes": 187,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Okram Ibobi Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 73,
+          "evm_votes": 14324,
+          "postal_votes": 761,
+          "total_votes": 15085
+        },
+        {
+          "name": "Leitanthem Basanta Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 12002,
+          "postal_votes": 540,
+          "total_votes": 12542
+        },
+        {
+          "name": "Konsam Michael Singh",
+          "party": "SHS",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 1582,
+          "postal_votes": 40,
+          "total_votes": 1622
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 184,
+          "postal_votes": 3,
+          "total_votes": 187
+        },
+        {
+          "name": "Irom Chaoba Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 143,
+          "postal_votes": 2,
+          "total_votes": 145
+        }
+      ]
+    },
+    {
+      "ac_no": 32,
+      "name": "Wangkhem",
+      "category": "GEN",
+      "electors": 33866,
+      "votes_polled": 30277,
+      "turnout_pct": 89.4,
+      "winner_name": "Keisham Meghachandra Singh",
+      "winner_party": "INC",
+      "winner_votes": 8889,
+      "runner_up_name": "Yumnam Nabachandra Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 7597,
+      "margin": 1292,
+      "nota_votes": 136,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Keisham Meghachandra Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 8304,
+          "postal_votes": 585,
+          "total_votes": 8889
+        },
+        {
+          "name": "Yumnam Nabachandra Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 7309,
+          "postal_votes": 288,
+          "total_votes": 7597
+        },
+        {
+          "name": "Prof. (Dr.) Nimai Chand Luwang",
+          "party": "RPPRINAT",
+          "gender": "M",
+          "age": 74,
+          "evm_votes": 6879,
+          "postal_votes": 221,
+          "total_votes": 7100
+        },
+        {
+          "name": "Kharibam Jiban Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 3419,
+          "postal_votes": 55,
+          "total_votes": 3474
+        },
+        {
+          "name": "Kangabam Jadu @ Jadumani Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 2837,
+          "postal_votes": 54,
+          "total_votes": 2891
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 131,
+          "postal_votes": 5,
+          "total_votes": 136
+        },
+        {
+          "name": "Oinam Haridas Singh",
+          "party": "NCP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 75,
+          "postal_votes": 7,
+          "total_votes": 82
+        },
+        {
+          "name": "Md Abdul Halim",
+          "party": "IND",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 71,
+          "postal_votes": 3,
+          "total_votes": 74
+        },
+        {
+          "name": "Laishram Domen Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 33,
+          "postal_votes": 1,
+          "total_votes": 34
+        }
+      ]
+    },
+    {
+      "ac_no": 33,
+      "name": "Heirok",
+      "category": "GEN",
+      "electors": 33098,
+      "votes_polled": 31748,
+      "turnout_pct": 95.92,
+      "winner_name": "Thokchom Radheshyam Singh",
+      "winner_party": "BJP",
+      "winner_votes": 13589,
+      "runner_up_name": "Moirangthem Okendro",
+      "runner_up_party": "INC",
+      "runner_up_votes": 13186,
+      "margin": 403,
+      "nota_votes": 121,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Thokchom Radheshyam Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 12989,
+          "postal_votes": 600,
+          "total_votes": 13589
+        },
+        {
+          "name": "Moirangthem Okendro",
+          "party": "INC",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 12568,
+          "postal_votes": 618,
+          "total_votes": 13186
+        },
+        {
+          "name": "Ningthoujam Diten Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 4712,
+          "postal_votes": 54,
+          "total_votes": 4766
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 120,
+          "postal_votes": 1,
+          "total_votes": 121
+        },
+        {
+          "name": "Moirangthem Totomsana Nongshaba",
+          "party": "RJSNP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 86,
+          "postal_votes": 0,
+          "total_votes": 86
+        }
+      ]
+    },
+    {
+      "ac_no": 34,
+      "name": "Wangjing Tentha",
+      "category": "GEN",
+      "electors": 33398,
+      "votes_polled": 30498,
+      "turnout_pct": 91.32,
+      "winner_name": "Paonam Brojen Singh",
+      "winner_party": "BJP",
+      "winner_votes": 15765,
+      "runner_up_name": "Moirangthem Hemanta Singh",
+      "runner_up_party": "INC",
+      "runner_up_votes": 13852,
+      "margin": 1913,
+      "nota_votes": 158,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Paonam Brojen Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 15339,
+          "postal_votes": 426,
+          "total_votes": 15765
+        },
+        {
+          "name": "Moirangthem Hemanta Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 13445,
+          "postal_votes": 407,
+          "total_votes": 13852
+        },
+        {
+          "name": "Usham Manglem",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 709,
+          "postal_votes": 14,
+          "total_votes": 723
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 157,
+          "postal_votes": 1,
+          "total_votes": 158
+        }
+      ]
+    },
+    {
+      "ac_no": 35,
+      "name": "Khangabo",
+      "category": "GEN",
+      "electors": 37687,
+      "votes_polled": 35035,
+      "turnout_pct": 92.96,
+      "winner_name": "Surjakumar Okram",
+      "winner_party": "INC",
+      "winner_votes": 17435,
+      "runner_up_name": "Khundrakpam Menjor Mangang",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 9632,
+      "margin": 7803,
+      "nota_votes": 413,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Surjakumar Okram",
+          "party": "INC",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 16710,
+          "postal_votes": 725,
+          "total_votes": 17435
+        },
+        {
+          "name": "Khundrakpam Menjor Mangang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 9449,
+          "postal_votes": 183,
+          "total_votes": 9632
+        },
+        {
+          "name": "Thokchom Jadumani Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 7476,
+          "postal_votes": 79,
+          "total_votes": 7555
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 410,
+          "postal_votes": 3,
+          "total_votes": 413
+        }
+      ]
+    },
+    {
+      "ac_no": 36,
+      "name": "Wabgai",
+      "category": "GEN",
+      "electors": 31681,
+      "votes_polled": 29353,
+      "turnout_pct": 92.65,
+      "winner_name": "Dr.USHAM DEBEN SINGH",
+      "winner_party": "BJP",
+      "winner_votes": 9138,
+      "runner_up_name": "Md.Fajur Rahim",
+      "runner_up_party": "INC",
+      "runner_up_votes": 9088,
+      "margin": 50,
+      "nota_votes": 152,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Dr.USHAM DEBEN SINGH",
+          "party": "BJP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 8871,
+          "postal_votes": 267,
+          "total_votes": 9138
+        },
+        {
+          "name": "Md.Fajur Rahim",
+          "party": "INC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 8929,
+          "postal_votes": 159,
+          "total_votes": 9088
+        },
+        {
+          "name": "Mayengbam Ranjit Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 5745,
+          "postal_votes": 128,
+          "total_votes": 5873
+        },
+        {
+          "name": "Md. Sikander",
+          "party": "JDU",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 3565,
+          "postal_votes": 36,
+          "total_votes": 3601
+        },
+        {
+          "name": "Sakir Ahmed",
+          "party": "IND",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 1479,
+          "postal_votes": 22,
+          "total_votes": 1501
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 152,
+          "postal_votes": 0,
+          "total_votes": 152
+        }
+      ]
+    },
+    {
+      "ac_no": 37,
+      "name": "Kakching",
+      "category": "SC",
+      "electors": 30499,
+      "votes_polled": 27135,
+      "turnout_pct": 88.97,
+      "winner_name": "Mayanglambam Rameshwar Singh",
+      "winner_party": "NPEP",
+      "winner_votes": 8546,
+      "runner_up_name": "Yengkhom Surchandra Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 7341,
+      "margin": 1205,
+      "nota_votes": 239,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Mayanglambam Rameshwar Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 8392,
+          "postal_votes": 154,
+          "total_votes": 8546
+        },
+        {
+          "name": "Yengkhom Surchandra Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 70,
+          "evm_votes": 7079,
+          "postal_votes": 262,
+          "total_votes": 7341
+        },
+        {
+          "name": "Kshetrimayum Kennedy Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 5777,
+          "postal_votes": 96,
+          "total_votes": 5873
+        },
+        {
+          "name": "Naorem Nabachandra Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 2421,
+          "postal_votes": 30,
+          "total_votes": 2451
+        },
+        {
+          "name": "Yengkhom Nilachandra Singh",
+          "party": "NCP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 1974,
+          "postal_votes": 35,
+          "total_votes": 2009
+        },
+        {
+          "name": "Yengkhom Roma Devi",
+          "party": "CPI",
+          "gender": "F",
+          "age": 51,
+          "evm_votes": 660,
+          "postal_votes": 16,
+          "total_votes": 676
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 235,
+          "postal_votes": 4,
+          "total_votes": 239
+        }
+      ]
+    },
+    {
+      "ac_no": 38,
+      "name": "Hiyanglam",
+      "category": "GEN",
+      "electors": 27926,
+      "votes_polled": 26363,
+      "turnout_pct": 94.4,
+      "winner_name": "Dr. Yumnam Radheshyam Singh",
+      "winner_party": "BJP",
+      "winner_votes": 8713,
+      "runner_up_name": "Dr. Huidrom Jiten Singh",
+      "runner_up_party": "INC",
+      "runner_up_votes": 6584,
+      "margin": 2129,
+      "nota_votes": 150,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Dr. Yumnam Radheshyam Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 8549,
+          "postal_votes": 164,
+          "total_votes": 8713
+        },
+        {
+          "name": "Dr. Huidrom Jiten Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 6481,
+          "postal_votes": 103,
+          "total_votes": 6584
+        },
+        {
+          "name": "Elangbam Dwijamani Singh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 6409,
+          "postal_votes": 150,
+          "total_votes": 6559
+        },
+        {
+          "name": "Maibam Dhanabir Singh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 4162,
+          "postal_votes": 61,
+          "total_votes": 4223
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 149,
+          "postal_votes": 1,
+          "total_votes": 150
+        },
+        {
+          "name": "Nongmaithem Sanjay Singh",
+          "party": "RPPRINAT",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 114,
+          "postal_votes": 20,
+          "total_votes": 134
+        }
+      ]
+    },
+    {
+      "ac_no": 39,
+      "name": "Sugnoo",
+      "category": "GEN",
+      "electors": 28268,
+      "votes_polled": 25031,
+      "turnout_pct": 88.55,
+      "winner_name": "Kangujam Ranjit Singh",
+      "winner_party": "INC",
+      "winner_votes": 12673,
+      "runner_up_name": "Mayanglambam Binod",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 11657,
+      "margin": 1016,
+      "nota_votes": 146,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Kangujam Ranjit Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 12354,
+          "postal_votes": 319,
+          "total_votes": 12673
+        },
+        {
+          "name": "Mayanglambam Binod",
+          "party": "BJP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 11446,
+          "postal_votes": 211,
+          "total_votes": 11657
+        },
+        {
+          "name": "Kakyenpaibam Muktasana Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 550,
+          "postal_votes": 5,
+          "total_votes": 555
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 145,
+          "postal_votes": 1,
+          "total_votes": 146
+        }
+      ]
+    },
+    {
+      "ac_no": 40,
+      "name": "Jiribam",
+      "category": "GEN",
+      "electors": 29426,
+      "votes_polled": 26648,
+      "turnout_pct": 90.56,
+      "winner_name": "Md. Achab Uddin",
+      "winner_party": "JDU",
+      "winner_votes": 12313,
+      "runner_up_name": "Nameirakpam Budhachandra Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 11897,
+      "margin": 416,
+      "nota_votes": 579,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Md. Achab Uddin",
+          "party": "JDU",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 12253,
+          "postal_votes": 60,
+          "total_votes": 12313
+        },
+        {
+          "name": "Nameirakpam Budhachandra Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 11767,
+          "postal_votes": 130,
+          "total_votes": 11897
+        },
+        {
+          "name": "Makakmayum Abbas Khan",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 1108,
+          "postal_votes": 5,
+          "total_votes": 1113
+        },
+        {
+          "name": "Badrur Rahman",
+          "party": "INC",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 738,
+          "postal_votes": 8,
+          "total_votes": 746
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 578,
+          "postal_votes": 1,
+          "total_votes": 579
+        }
+      ]
+    },
+    {
+      "ac_no": 41,
+      "name": "Chandel",
+      "category": "ST",
+      "electors": 50378,
+      "votes_polled": 46882,
+      "turnout_pct": 93.06,
+      "winner_name": "SS. Olish",
+      "winner_party": "BJP",
+      "winner_votes": 37066,
+      "runner_up_name": "Langhu Paulhring Anal",
+      "runner_up_party": "NPF",
+      "runner_up_votes": 9725,
+      "margin": 27341,
+      "nota_votes": 91,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "SS. Olish",
+          "party": "BJP",
+          "gender": "F",
+          "age": 44,
+          "evm_votes": 36810,
+          "postal_votes": 256,
+          "total_votes": 37066
+        },
+        {
+          "name": "Langhu Paulhring Anal",
+          "party": "NPF",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 9553,
+          "postal_votes": 172,
+          "total_votes": 9725
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 81,
+          "postal_votes": 10,
+          "total_votes": 91
+        }
+      ]
+    },
+    {
+      "ac_no": 42,
+      "name": "Tengnoupal",
+      "category": "ST",
+      "electors": 44914,
+      "votes_polled": 41902,
+      "turnout_pct": 93.29,
+      "winner_name": "Letpao Haokip",
+      "winner_party": "BJP",
+      "winner_votes": 21663,
+      "runner_up_name": "D. Korungthang",
+      "runner_up_party": "NPF",
+      "runner_up_votes": 15252,
+      "margin": 6411,
+      "nota_votes": 32,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Letpao Haokip",
+          "party": "BJP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 21523,
+          "postal_votes": 140,
+          "total_votes": 21663
+        },
+        {
+          "name": "D. Korungthang",
+          "party": "NPF",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 15201,
+          "postal_votes": 51,
+          "total_votes": 15252
+        },
+        {
+          "name": "Wairok Morung Makunga",
+          "party": "INC",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 4040,
+          "postal_votes": 59,
+          "total_votes": 4099
+        },
+        {
+          "name": "Tantanga Kohai Moshilpha",
+          "party": "IND",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 775,
+          "postal_votes": 2,
+          "total_votes": 777
+        },
+        {
+          "name": "Kh. David Maring",
+          "party": "RPPRINAT",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 49,
+          "postal_votes": 3,
+          "total_votes": 52
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 30,
+          "postal_votes": 2,
+          "total_votes": 32
+        },
+        {
+          "name": "Jamkholun Haokip",
+          "party": "IND",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 25,
+          "postal_votes": 2,
+          "total_votes": 27
+        }
+      ]
+    },
+    {
+      "ac_no": 43,
+      "name": "Phungyar",
+      "category": "ST",
+      "electors": 34789,
+      "votes_polled": 30838,
+      "turnout_pct": 88.64,
+      "winner_name": "Leishiyo Keishing",
+      "winner_party": "NPF",
+      "winner_votes": 11642,
+      "runner_up_name": "Awung Shimray Hopingson",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 10863,
+      "margin": 779,
+      "nota_votes": 33,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Leishiyo Keishing",
+          "party": "NPF",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 11579,
+          "postal_votes": 63,
+          "total_votes": 11642
+        },
+        {
+          "name": "Awung Shimray Hopingson",
+          "party": "BJP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 10751,
+          "postal_votes": 112,
+          "total_votes": 10863
+        },
+        {
+          "name": "Victor Keishing",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 7384,
+          "postal_votes": 69,
+          "total_votes": 7453
+        },
+        {
+          "name": "Wungnaoshang Kasar",
+          "party": "JDU",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 692,
+          "postal_votes": 1,
+          "total_votes": 693
+        },
+        {
+          "name": "Ninghor Jajo",
+          "party": "SHS",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 152,
+          "postal_votes": 2,
+          "total_votes": 154
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 33,
+          "postal_votes": 0,
+          "total_votes": 33
+        }
+      ]
+    },
+    {
+      "ac_no": 44,
+      "name": "Ukhrul",
+      "category": "ST",
+      "electors": 48307,
+      "votes_polled": 40073,
+      "turnout_pct": 82.95,
+      "winner_name": "Ram Muivah",
+      "winner_party": "NPF",
+      "winner_votes": 15503,
+      "runner_up_name": "Alfred Kanngam S. Arthur",
+      "runner_up_party": "INC",
+      "runner_up_votes": 14561,
+      "margin": 942,
+      "nota_votes": 48,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Ram Muivah",
+          "party": "NPF",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 15376,
+          "postal_votes": 127,
+          "total_votes": 15503
+        },
+        {
+          "name": "Alfred Kanngam S. Arthur",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 14431,
+          "postal_votes": 130,
+          "total_votes": 14561
+        },
+        {
+          "name": "Somatai Shaiza",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 9829,
+          "postal_votes": 132,
+          "total_votes": 9961
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 47,
+          "postal_votes": 1,
+          "total_votes": 48
+        }
+      ]
+    },
+    {
+      "ac_no": 45,
+      "name": "Chingai",
+      "category": "ST",
+      "electors": 47449,
+      "votes_polled": 40898,
+      "turnout_pct": 86.19,
+      "winner_name": "Khashim Vashum",
+      "winner_party": "NPF",
+      "winner_votes": 12837,
+      "runner_up_name": "Ningam Chamroy",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 10501,
+      "margin": 2336,
+      "nota_votes": 61,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Khashim Vashum",
+          "party": "NPF",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 12746,
+          "postal_votes": 91,
+          "total_votes": 12837
+        },
+        {
+          "name": "Ningam Chamroy",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 10368,
+          "postal_votes": 133,
+          "total_votes": 10501
+        },
+        {
+          "name": "Preshow Mk Shimray",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 9246,
+          "postal_votes": 103,
+          "total_votes": 9349
+        },
+        {
+          "name": "Sword Vashum",
+          "party": "INC",
+          "gender": "M",
+          "age": 73,
+          "evm_votes": 8078,
+          "postal_votes": 72,
+          "total_votes": 8150
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 61,
+          "postal_votes": 0,
+          "total_votes": 61
+        }
+      ]
+    },
+    {
+      "ac_no": 46,
+      "name": "Saikul",
+      "category": "ST",
+      "electors": 29417,
+      "votes_polled": 26436,
+      "turnout_pct": 89.87,
+      "winner_name": "Kimneo Haokip Hangshing",
+      "winner_party": "KPA",
+      "winner_votes": 6710,
+      "runner_up_name": "Kenn Raikhan",
+      "runner_up_party": "IND",
+      "runner_up_votes": 5461,
+      "margin": 1249,
+      "nota_votes": 103,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Kimneo Haokip Hangshing",
+          "party": "KPA",
+          "gender": "F",
+          "age": 34,
+          "evm_votes": 6655,
+          "postal_votes": 55,
+          "total_votes": 6710
+        },
+        {
+          "name": "Kenn Raikhan",
+          "party": "IND",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 5441,
+          "postal_votes": 20,
+          "total_votes": 5461
+        },
+        {
+          "name": "Chungkhokai Doungel",
+          "party": "IND",
+          "gender": "M",
+          "age": 81,
+          "evm_votes": 5076,
+          "postal_votes": 31,
+          "total_votes": 5107
+        },
+        {
+          "name": "Ch. Ajang Khongsai",
+          "party": "JDU",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 4446,
+          "postal_votes": 40,
+          "total_votes": 4486
+        },
+        {
+          "name": "Yamthong Haokip",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 2634,
+          "postal_votes": 33,
+          "total_votes": 2667
+        },
+        {
+          "name": "Lhingkim Haokip",
+          "party": "INC",
+          "gender": "F",
+          "age": 50,
+          "evm_votes": 903,
+          "postal_votes": 32,
+          "total_votes": 935
+        },
+        {
+          "name": "Seikholal Haokip",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 637,
+          "postal_votes": 8,
+          "total_votes": 645
+        },
+        {
+          "name": "Jamchinlen Lunkim",
+          "party": "RPPRINAT",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 320,
+          "postal_votes": 2,
+          "total_votes": 322
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 101,
+          "postal_votes": 2,
+          "total_votes": 103
+        }
+      ]
+    },
+    {
+      "ac_no": 47,
+      "name": "Karong",
+      "category": "ST",
+      "electors": 54916,
+      "votes_polled": 49360,
+      "turnout_pct": 89.88,
+      "winner_name": "J Kumo Sha",
+      "winner_party": "IND",
+      "winner_votes": 17191,
+      "runner_up_name": "R Yuh Jonathan Tao",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 13649,
+      "margin": 3542,
+      "nota_votes": 44,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "J Kumo Sha",
+          "party": "IND",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 17167,
+          "postal_votes": 24,
+          "total_votes": 17191
+        },
+        {
+          "name": "R Yuh Jonathan Tao",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 13619,
+          "postal_votes": 30,
+          "total_votes": 13649
+        },
+        {
+          "name": "Khoho Siile Anthony",
+          "party": "NPF",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 10462,
+          "postal_votes": 21,
+          "total_votes": 10483
+        },
+        {
+          "name": "D. D. Thaisii",
+          "party": "INC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 5839,
+          "postal_votes": 52,
+          "total_votes": 5891
+        },
+        {
+          "name": "Thaiba Sanii",
+          "party": "IND",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 2099,
+          "postal_votes": 3,
+          "total_votes": 2102
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 43,
+          "postal_votes": 1,
+          "total_votes": 44
+        }
+      ]
+    },
+    {
+      "ac_no": 48,
+      "name": "Mao",
+      "category": "ST",
+      "electors": 55735,
+      "votes_polled": 50974,
+      "turnout_pct": 91.46,
+      "winner_name": "Losii Dikho",
+      "winner_party": "NPF",
+      "winner_votes": 29591,
+      "runner_up_name": "Woba Joram",
+      "runner_up_party": "IND",
+      "runner_up_votes": 21078,
+      "margin": 8513,
+      "nota_votes": 26,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Losii Dikho",
+          "party": "NPF",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 29531,
+          "postal_votes": 60,
+          "total_votes": 29591
+        },
+        {
+          "name": "Woba Joram",
+          "party": "IND",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 21042,
+          "postal_votes": 36,
+          "total_votes": 21078
+        },
+        {
+          "name": "Sanii Alexander Maikho",
+          "party": "BJP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 244,
+          "postal_votes": 35,
+          "total_votes": 279
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 26,
+          "postal_votes": 0,
+          "total_votes": 26
+        }
+      ]
+    },
+    {
+      "ac_no": 49,
+      "name": "Tadubi",
+      "category": "ST",
+      "electors": 49410,
+      "votes_polled": 45179,
+      "turnout_pct": 91.44,
+      "winner_name": "N. Kayisii",
+      "winner_party": "NPEP",
+      "winner_votes": 21601,
+      "runner_up_name": "M. Francis Ngajokpa",
+      "runner_up_party": "NPF",
+      "runner_up_votes": 21052,
+      "margin": 549,
+      "nota_votes": 58,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "N. Kayisii",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 21559,
+          "postal_votes": 42,
+          "total_votes": 21601
+        },
+        {
+          "name": "M. Francis Ngajokpa",
+          "party": "NPF",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 20977,
+          "postal_votes": 75,
+          "total_votes": 21052
+        },
+        {
+          "name": "Robert Tailu Maram",
+          "party": "IND",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 2270,
+          "postal_votes": 7,
+          "total_votes": 2277
+        },
+        {
+          "name": "O. Lohrii",
+          "party": "BJP",
+          "gender": "M",
+          "age": 69,
+          "evm_votes": 122,
+          "postal_votes": 69,
+          "total_votes": 191
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 55,
+          "postal_votes": 3,
+          "total_votes": 58
+        }
+      ]
+    },
+    {
+      "ac_no": 50,
+      "name": "Kangpokpi",
+      "category": "ST",
+      "electors": 28124,
+      "votes_polled": 25119,
+      "turnout_pct": 89.32,
+      "winner_name": "Nemcha Kipgen",
+      "winner_party": "BJP",
+      "winner_votes": 14412,
+      "runner_up_name": "Soshim Gurung",
+      "runner_up_party": "JDU",
+      "runner_up_votes": 9016,
+      "margin": 5396,
+      "nota_votes": 315,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Nemcha Kipgen",
+          "party": "BJP",
+          "gender": "F",
+          "age": 56,
+          "evm_votes": 14284,
+          "postal_votes": 128,
+          "total_votes": 14412
+        },
+        {
+          "name": "Soshim Gurung",
+          "party": "JDU",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 8976,
+          "postal_votes": 40,
+          "total_votes": 9016
+        },
+        {
+          "name": "Ngamkhohen Kipgen",
+          "party": "INC",
+          "gender": "M",
+          "age": 77,
+          "evm_votes": 1343,
+          "postal_votes": 33,
+          "total_votes": 1376
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 315,
+          "postal_votes": 0,
+          "total_votes": 315
+        }
+      ]
+    },
+    {
+      "ac_no": 51,
+      "name": "Saitu",
+      "category": "ST",
+      "electors": 44686,
+      "votes_polled": 39512,
+      "turnout_pct": 88.42,
+      "winner_name": "Haokholet Kipgen",
+      "winner_party": "IND",
+      "winner_votes": 12456,
+      "runner_up_name": "Ngamthang Haokip",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 9762,
+      "margin": 2694,
+      "nota_votes": 95,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Haokholet Kipgen",
+          "party": "IND",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 12417,
+          "postal_votes": 39,
+          "total_votes": 12456
+        },
+        {
+          "name": "Ngamthang Haokip",
+          "party": "BJP",
+          "gender": "M",
+          "age": 69,
+          "evm_votes": 9618,
+          "postal_votes": 144,
+          "total_votes": 9762
+        },
+        {
+          "name": "Lamtinthang Haokip",
+          "party": "INC",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 7017,
+          "postal_votes": 116,
+          "total_votes": 7133
+        },
+        {
+          "name": "K Lhouvum",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 6950,
+          "postal_votes": 28,
+          "total_votes": 6978
+        },
+        {
+          "name": "Th. Sanglou Maram",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 2917,
+          "postal_votes": 7,
+          "total_votes": 2924
+        },
+        {
+          "name": "L Johny Gangmei",
+          "party": "JDU",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 154,
+          "postal_votes": 10,
+          "total_votes": 164
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 92,
+          "postal_votes": 3,
+          "total_votes": 95
+        }
+      ]
+    },
+    {
+      "ac_no": 52,
+      "name": "Tamei",
+      "category": "ST",
+      "electors": 42117,
+      "votes_polled": 38644,
+      "turnout_pct": 91.75,
+      "winner_name": "Awangbow Newmai",
+      "winner_party": "NPF",
+      "winner_votes": 19643,
+      "runner_up_name": "Z. Kikhonbou Newmai",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 17945,
+      "margin": 1698,
+      "nota_votes": 32,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Awangbow Newmai",
+          "party": "NPF",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 19528,
+          "postal_votes": 115,
+          "total_votes": 19643
+        },
+        {
+          "name": "Z. Kikhonbou Newmai",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 17837,
+          "postal_votes": 108,
+          "total_votes": 17945
+        },
+        {
+          "name": "Wilubou Newmai",
+          "party": "BJP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 613,
+          "postal_votes": 14,
+          "total_votes": 627
+        },
+        {
+          "name": "GN. Kumuiteung (Dr. Aku)",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 391,
+          "postal_votes": 6,
+          "total_votes": 397
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 31,
+          "postal_votes": 1,
+          "total_votes": 32
+        }
+      ]
+    },
+    {
+      "ac_no": 53,
+      "name": "Tamenglong",
+      "category": "ST",
+      "electors": 35888,
+      "votes_polled": 30653,
+      "turnout_pct": 85.41,
+      "winner_name": "Janghemlung Panmei",
+      "winner_party": "NPEP",
+      "winner_votes": 10456,
+      "runner_up_name": "Huri Golmei",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 9147,
+      "margin": 1309,
+      "nota_votes": 122,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Janghemlung Panmei",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 10036,
+          "postal_votes": 420,
+          "total_votes": 10456
+        },
+        {
+          "name": "Huri Golmei",
+          "party": "BJP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 8862,
+          "postal_votes": 285,
+          "total_votes": 9147
+        },
+        {
+          "name": "Samuel Jendai",
+          "party": "JDU",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 6196,
+          "postal_votes": 251,
+          "total_votes": 6447
+        },
+        {
+          "name": "Khangthuanang Panmei",
+          "party": "NPF",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 4405,
+          "postal_votes": 76,
+          "total_votes": 4481
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 122,
+          "postal_votes": 0,
+          "total_votes": 122
+        }
+      ]
+    },
+    {
+      "ac_no": 54,
+      "name": "Nungba",
+      "category": "ST",
+      "electors": 29510,
+      "votes_polled": 25201,
+      "turnout_pct": 85.4,
+      "winner_name": "Dinganglung Gangmei",
+      "winner_party": "BJP",
+      "winner_votes": 14464,
+      "runner_up_name": "Gaikhangam",
+      "runner_up_party": "INC",
+      "runner_up_votes": 10678,
+      "margin": 3786,
+      "nota_votes": 59,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Dinganglung Gangmei",
+          "party": "BJP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 14216,
+          "postal_votes": 248,
+          "total_votes": 14464
+        },
+        {
+          "name": "Gaikhangam",
+          "party": "INC",
+          "gender": "M",
+          "age": 71,
+          "evm_votes": 10372,
+          "postal_votes": 306,
+          "total_votes": 10678
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 59,
+          "postal_votes": 0,
+          "total_votes": 59
+        }
+      ]
+    },
+    {
+      "ac_no": 55,
+      "name": "Tipaimukh",
+      "category": "ST",
+      "electors": 18606,
+      "votes_polled": 12728,
+      "turnout_pct": 68.41,
+      "winner_name": "Ngursanglur Sanate",
+      "winner_party": "JDU",
+      "winner_votes": 6267,
+      "runner_up_name": "Chalton Lien Amo",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 5018,
+      "margin": 1249,
+      "nota_votes": 128,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Ngursanglur Sanate",
+          "party": "JDU",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 6259,
+          "postal_votes": 8,
+          "total_votes": 6267
+        },
+        {
+          "name": "Chalton Lien Amo",
+          "party": "BJP",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 4970,
+          "postal_votes": 48,
+          "total_votes": 5018
+        },
+        {
+          "name": "Thangthatling Sinate",
+          "party": "NPEP",
+          "gender": "F",
+          "age": 64,
+          "evm_votes": 1313,
+          "postal_votes": 2,
+          "total_votes": 1315
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 128,
+          "postal_votes": 0,
+          "total_votes": 128
+        }
+      ]
+    },
+    {
+      "ac_no": 56,
+      "name": "Thanlon",
+      "category": "ST",
+      "electors": 18042,
+      "votes_polled": 13340,
+      "turnout_pct": 73.94,
+      "winner_name": "Vungzagin Valte",
+      "winner_party": "BJP",
+      "winner_votes": 4863,
+      "runner_up_name": "Khanthang Tonsing",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 4112,
+      "margin": 751,
+      "nota_votes": 50,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Vungzagin Valte",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 4828,
+          "postal_votes": 35,
+          "total_votes": 4863
+        },
+        {
+          "name": "Khanthang Tonsing",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 4091,
+          "postal_votes": 21,
+          "total_votes": 4112
+        },
+        {
+          "name": "Langkhanpau Guite",
+          "party": "IND",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 2779,
+          "postal_votes": 10,
+          "total_votes": 2789
+        },
+        {
+          "name": "Thangkhosei Guite",
+          "party": "JDU",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 795,
+          "postal_votes": 2,
+          "total_votes": 797
+        },
+        {
+          "name": "Lalhlunsang Sungte",
+          "party": "SHS",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 651,
+          "postal_votes": 7,
+          "total_votes": 658
+        },
+        {
+          "name": "Thangkhangin",
+          "party": "LJPRV",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 70,
+          "postal_votes": 1,
+          "total_votes": 71
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 48,
+          "postal_votes": 2,
+          "total_votes": 50
+        }
+      ]
+    },
+    {
+      "ac_no": 57,
+      "name": "Henglep",
+      "category": "ST",
+      "electors": 31944,
+      "votes_polled": 27596,
+      "turnout_pct": 86.39,
+      "winner_name": "Letzamang Haokip",
+      "winner_party": "BJP",
+      "winner_votes": 13897,
+      "runner_up_name": "T. Manga Vaiphei",
+      "runner_up_party": "INC",
+      "runner_up_votes": 6049,
+      "margin": 7848,
+      "nota_votes": 40,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Letzamang Haokip",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 13823,
+          "postal_votes": 74,
+          "total_votes": 13897
+        },
+        {
+          "name": "T. Manga Vaiphei",
+          "party": "INC",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 5996,
+          "postal_votes": 53,
+          "total_votes": 6049
+        },
+        {
+          "name": "Nehminthang Haokip",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 3788,
+          "postal_votes": 36,
+          "total_votes": 3824
+        },
+        {
+          "name": "T. Thangzalam Haokip",
+          "party": "SHS",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 2587,
+          "postal_votes": 18,
+          "total_votes": 2605
+        },
+        {
+          "name": "Genneikhup",
+          "party": "JDU",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 1082,
+          "postal_votes": 15,
+          "total_votes": 1097
+        },
+        {
+          "name": "Sehpu Haokip",
+          "party": "IND",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 80,
+          "postal_votes": 4,
+          "total_votes": 84
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 40,
+          "postal_votes": 0,
+          "total_votes": 40
+        }
+      ]
+    },
+    {
+      "ac_no": 58,
+      "name": "Churachandpur",
+      "category": "ST",
+      "electors": 65325,
+      "votes_polled": 47671,
+      "turnout_pct": 72.98,
+      "winner_name": "L.M. Khaute",
+      "winner_party": "JDU",
+      "winner_votes": 18231,
+      "runner_up_name": "V Hangkhanlian",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 17607,
+      "margin": 624,
+      "nota_votes": 174,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "L.M. Khaute",
+          "party": "JDU",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 17964,
+          "postal_votes": 267,
+          "total_votes": 18231
+        },
+        {
+          "name": "V Hangkhanlian",
+          "party": "BJP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 17320,
+          "postal_votes": 287,
+          "total_votes": 17607
+        },
+        {
+          "name": "H. Mangchinkhup Paite",
+          "party": "INC",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 8290,
+          "postal_votes": 192,
+          "total_votes": 8482
+        },
+        {
+          "name": "James Khuma Hauzel",
+          "party": "IND",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 2233,
+          "postal_votes": 11,
+          "total_votes": 2244
+        },
+        {
+          "name": "Th. THANGZALIAN",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 498,
+          "postal_votes": 17,
+          "total_votes": 515
+        },
+        {
+          "name": "Dr. JAINSON HAOKIP D.D.",
+          "party": "KNA",
+          "gender": "M",
+          "age": 74,
+          "evm_votes": 235,
+          "postal_votes": 13,
+          "total_votes": 248
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 162,
+          "postal_votes": 12,
+          "total_votes": 174
+        },
+        {
+          "name": "H.Lianchinthang",
+          "party": "LJPRV",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 167,
+          "postal_votes": 3,
+          "total_votes": 170
+        }
+      ]
+    },
+    {
+      "ac_no": 59,
+      "name": "Saikot",
+      "category": "ST",
+      "electors": 62613,
+      "votes_polled": 52590,
+      "turnout_pct": 83.99,
+      "winner_name": "Paolienlal Haokip",
+      "winner_party": "BJP",
+      "winner_votes": 18457,
+      "runner_up_name": "Khaipao Haokip",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 12586,
+      "margin": 5871,
+      "nota_votes": 186,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Paolienlal Haokip",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 18239,
+          "postal_votes": 218,
+          "total_votes": 18457
+        },
+        {
+          "name": "Khaipao Haokip",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 12481,
+          "postal_votes": 105,
+          "total_votes": 12586
+        },
+        {
+          "name": "T. N Haokip",
+          "party": "INC",
+          "gender": "M",
+          "age": 71,
+          "evm_votes": 10099,
+          "postal_votes": 151,
+          "total_votes": 10250
+        },
+        {
+          "name": "Karong Onkholer",
+          "party": "IND",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 5151,
+          "postal_votes": 18,
+          "total_votes": 5169
+        },
+        {
+          "name": "George T. Haokip",
+          "party": "NCP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 4726,
+          "postal_votes": 70,
+          "total_votes": 4796
+        },
+        {
+          "name": "Joshua Thiek",
+          "party": "KNA",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 817,
+          "postal_votes": 20,
+          "total_votes": 837
+        },
+        {
+          "name": "John H Pulamte",
+          "party": "JDU",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 203,
+          "postal_votes": 28,
+          "total_votes": 231
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 183,
+          "postal_votes": 3,
+          "total_votes": 186
+        },
+        {
+          "name": "John Mk Thang",
+          "party": "IND",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 72,
+          "postal_votes": 6,
+          "total_votes": 78
+        }
+      ]
+    },
+    {
+      "ac_no": 60,
+      "name": "Singhat",
+      "category": "ST",
+      "electors": 27832,
+      "votes_polled": 23532,
+      "turnout_pct": 84.55,
+      "winner_name": "Chinlunthang",
+      "winner_party": "KPA",
+      "winner_votes": 12098,
+      "runner_up_name": "Ginsuanhau Zou",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 10079,
+      "margin": 2019,
+      "nota_votes": 57,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Chinlunthang",
+          "party": "KPA",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 12042,
+          "postal_votes": 56,
+          "total_votes": 12098
+        },
+        {
+          "name": "Ginsuanhau Zou",
+          "party": "BJP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 10009,
+          "postal_votes": 70,
+          "total_votes": 10079
+        },
+        {
+          "name": "T. Hangkhanpau",
+          "party": "JDU",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 1031,
+          "postal_votes": 0,
+          "total_votes": 1031
+        },
+        {
+          "name": "Tuankhan Kiamlo Hangzo",
+          "party": "INC",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 252,
+          "postal_votes": 15,
+          "total_votes": 267
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 55,
+          "postal_votes": 2,
+          "total_votes": 57
+        }
+      ]
+    }
+  ]
+}

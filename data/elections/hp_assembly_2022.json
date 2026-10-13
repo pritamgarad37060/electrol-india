@@ -1,0 +1,5646 @@
+{
+  "state": "Himachal Pradesh",
+  "key": "hp",
+  "year": 2022,
+  "type": "assembly",
+  "icon": "🏔️",
+  "total_seats": 68,
+  "majority_mark": 35,
+  "leading_party": "INC",
+  "leading_seats": 40,
+  "status": "INC Majority (40/68)",
+  "total_electors": 5592828,
+  "total_votes_polled": 4219635,
+  "avg_turnout_pct": 75.45,
+  "parties": [
+    {
+      "party": "INC",
+      "seats": 40,
+      "votes": 1852504
+    },
+    {
+      "party": "BJP",
+      "seats": 25,
+      "votes": 1814530
+    },
+    {
+      "party": "IND",
+      "seats": 3,
+      "votes": 409273
+    }
+  ],
+  "constituencies": [
+    {
+      "ac_no": 1,
+      "name": "Churah (SC)",
+      "category": "SC",
+      "electors": 78823,
+      "votes_polled": 62327,
+      "turnout_pct": 79.07,
+      "winner_name": "Hans Raj",
+      "winner_party": "BJP",
+      "winner_votes": 32095,
+      "runner_up_name": "Yashwant Singh",
+      "runner_up_party": "INC",
+      "runner_up_votes": 29453,
+      "margin": 2642,
+      "nota_votes": 394,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Hans Raj",
+          "party": "BJP",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 31640,
+          "postal_votes": 455,
+          "total_votes": 32095
+        },
+        {
+          "name": "Yashwant Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 28938,
+          "postal_votes": 515,
+          "total_votes": 29453
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 391,
+          "postal_votes": 3,
+          "total_votes": 394
+        },
+        {
+          "name": "Nand Kumar Jaryal",
+          "party": "AAP",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 380,
+          "postal_votes": 5,
+          "total_votes": 385
+        }
+      ]
+    },
+    {
+      "ac_no": 2,
+      "name": "Bharmour (ST)",
+      "category": "ST",
+      "electors": 79000,
+      "votes_polled": 56509,
+      "turnout_pct": 71.53,
+      "winner_name": "Dr. Janak Raj",
+      "winner_party": "BJP",
+      "winner_votes": 30336,
+      "runner_up_name": "Thakur Singh Bharmouri",
+      "runner_up_party": "INC",
+      "runner_up_votes": 25164,
+      "margin": 5172,
+      "nota_votes": 343,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Dr. Janak Raj",
+          "party": "BJP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 29957,
+          "postal_votes": 379,
+          "total_votes": 30336
+        },
+        {
+          "name": "Thakur Singh Bharmouri",
+          "party": "INC",
+          "gender": "M",
+          "age": 75,
+          "evm_votes": 24845,
+          "postal_votes": 319,
+          "total_votes": 25164
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 342,
+          "postal_votes": 1,
+          "total_votes": 343
+        },
+        {
+          "name": "Puja",
+          "party": "HIMJKP",
+          "gender": "F",
+          "age": 29,
+          "evm_votes": 236,
+          "postal_votes": 6,
+          "total_votes": 242
+        },
+        {
+          "name": "Parkash Chand",
+          "party": "AAP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 234,
+          "postal_votes": 3,
+          "total_votes": 237
+        },
+        {
+          "name": "Rasila Ram",
+          "party": "HCHLJP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 187,
+          "postal_votes": 0,
+          "total_votes": 187
+        }
+      ]
+    },
+    {
+      "ac_no": 3,
+      "name": "Chamba",
+      "category": "GEN",
+      "electors": 84616,
+      "votes_polled": 61528,
+      "turnout_pct": 72.71,
+      "winner_name": "Neeraj Nayar",
+      "winner_party": "INC",
+      "winner_votes": 32783,
+      "runner_up_name": "Neelam Nayyar",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 25001,
+      "margin": 7782,
+      "nota_votes": 539,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Neeraj Nayar",
+          "party": "INC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 31898,
+          "postal_votes": 885,
+          "total_votes": 32783
+        },
+        {
+          "name": "Neelam Nayyar",
+          "party": "BJP",
+          "gender": "F",
+          "age": 60,
+          "evm_votes": 24602,
+          "postal_votes": 399,
+          "total_votes": 25001
+        },
+        {
+          "name": "Indira Kapoor",
+          "party": "IND",
+          "gender": "F",
+          "age": 47,
+          "evm_votes": 2416,
+          "postal_votes": 27,
+          "total_votes": 2443
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 537,
+          "postal_votes": 2,
+          "total_votes": 539
+        },
+        {
+          "name": "Shasi Kant",
+          "party": "AAP",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 346,
+          "postal_votes": 10,
+          "total_votes": 356
+        },
+        {
+          "name": "Paras Ram",
+          "party": "BSP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 246,
+          "postal_votes": 1,
+          "total_votes": 247
+        },
+        {
+          "name": "Uttam Chand",
+          "party": "BVD",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 159,
+          "postal_votes": 0,
+          "total_votes": 159
+        }
+      ]
+    },
+    {
+      "ac_no": 4,
+      "name": "Dalhousie",
+      "category": "GEN",
+      "electors": 75714,
+      "votes_polled": 58246,
+      "turnout_pct": 76.93,
+      "winner_name": "D. S. Thakur",
+      "winner_party": "BJP",
+      "winner_votes": 33488,
+      "runner_up_name": "Asha Kumari",
+      "runner_up_party": "INC",
+      "runner_up_votes": 23570,
+      "margin": 9918,
+      "nota_votes": 382,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "D. S. Thakur",
+          "party": "BJP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 32863,
+          "postal_votes": 625,
+          "total_votes": 33488
+        },
+        {
+          "name": "Asha Kumari",
+          "party": "INC",
+          "gender": "F",
+          "age": 67,
+          "evm_votes": 23073,
+          "postal_votes": 497,
+          "total_votes": 23570
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 380,
+          "postal_votes": 2,
+          "total_votes": 382
+        },
+        {
+          "name": "Ashok Bakaria",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 353,
+          "postal_votes": 5,
+          "total_votes": 358
+        },
+        {
+          "name": "Rinku",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 240,
+          "postal_votes": 1,
+          "total_votes": 241
+        },
+        {
+          "name": "Manish Sareen",
+          "party": "AAP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 200,
+          "postal_votes": 7,
+          "total_votes": 207
+        }
+      ]
+    },
+    {
+      "ac_no": 5,
+      "name": "Bhattiyat",
+      "category": "GEN",
+      "electors": 81594,
+      "votes_polled": 59424,
+      "turnout_pct": 72.83,
+      "winner_name": "Kuldeep Singh Pathania",
+      "winner_party": "INC",
+      "winner_votes": 25989,
+      "runner_up_name": "Bikram Singh Jaryal",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 24422,
+      "margin": 1567,
+      "nota_votes": 468,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Kuldeep Singh Pathania",
+          "party": "INC",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 25235,
+          "postal_votes": 754,
+          "total_votes": 25989
+        },
+        {
+          "name": "Bikram Singh Jaryal",
+          "party": "BJP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 23798,
+          "postal_votes": 624,
+          "total_votes": 24422
+        },
+        {
+          "name": "Nirmal Singh Pandey",
+          "party": "IND",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 7646,
+          "postal_votes": 95,
+          "total_votes": 7741
+        },
+        {
+          "name": "Amrita Chaudhry",
+          "party": "HSP",
+          "gender": "F",
+          "age": 35,
+          "evm_votes": 594,
+          "postal_votes": 13,
+          "total_votes": 607
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 464,
+          "postal_votes": 4,
+          "total_votes": 468
+        },
+        {
+          "name": "Naresh Kumar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 189,
+          "postal_votes": 8,
+          "total_votes": 197
+        }
+      ]
+    },
+    {
+      "ac_no": 6,
+      "name": "Nurpur",
+      "category": "GEN",
+      "electors": 93717,
+      "votes_polled": 70664,
+      "turnout_pct": 75.4,
+      "winner_name": "Ranbir Singh (nikka)",
+      "winner_party": "BJP",
+      "winner_votes": 44132,
+      "runner_up_name": "Ajay Mahajan",
+      "runner_up_party": "INC",
+      "runner_up_votes": 25380,
+      "margin": 18752,
+      "nota_votes": 302,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Ranbir Singh (nikka)",
+          "party": "BJP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 43679,
+          "postal_votes": 453,
+          "total_votes": 44132
+        },
+        {
+          "name": "Ajay Mahajan",
+          "party": "INC",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 24816,
+          "postal_votes": 564,
+          "total_votes": 25380
+        },
+        {
+          "name": "Sali Ram",
+          "party": "BSP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 324,
+          "postal_votes": 1,
+          "total_votes": 325
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 300,
+          "postal_votes": 2,
+          "total_votes": 302
+        },
+        {
+          "name": "Manisha Kumari",
+          "party": "AAP",
+          "gender": "F",
+          "age": 30,
+          "evm_votes": 271,
+          "postal_votes": 15,
+          "total_votes": 286
+        },
+        {
+          "name": "Subhash Singh Dhadwal",
+          "party": "IND",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 238,
+          "postal_votes": 1,
+          "total_votes": 239
+        }
+      ]
+    },
+    {
+      "ac_no": 7,
+      "name": "Indora (SC)",
+      "category": "SC",
+      "electors": 93244,
+      "votes_polled": 67618,
+      "turnout_pct": 72.52,
+      "winner_name": "Malender Rajan",
+      "winner_party": "INC",
+      "winner_votes": 30797,
+      "runner_up_name": "Reeta Devi",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 28547,
+      "margin": 2250,
+      "nota_votes": 482,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Malender Rajan",
+          "party": "INC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 30421,
+          "postal_votes": 376,
+          "total_votes": 30797
+        },
+        {
+          "name": "Reeta Devi",
+          "party": "BJP",
+          "gender": "F",
+          "age": 47,
+          "evm_votes": 28179,
+          "postal_votes": 368,
+          "total_votes": 28547
+        },
+        {
+          "name": "Manohar Lal",
+          "party": "IND",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 4394,
+          "postal_votes": 48,
+          "total_votes": 4442
+        },
+        {
+          "name": "Jagdish Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 1455,
+          "postal_votes": 19,
+          "total_votes": 1474
+        },
+        {
+          "name": "Nirmal Parshad",
+          "party": "IND",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 1461,
+          "postal_votes": 9,
+          "total_votes": 1470
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 478,
+          "postal_votes": 4,
+          "total_votes": 482
+        },
+        {
+          "name": "Hans Raj",
+          "party": "BSP",
+          "gender": "M",
+          "age": 72,
+          "evm_votes": 258,
+          "postal_votes": 3,
+          "total_votes": 261
+        },
+        {
+          "name": "Laxman Dass",
+          "party": "HSP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 144,
+          "postal_votes": 1,
+          "total_votes": 145
+        }
+      ]
+    },
+    {
+      "ac_no": 8,
+      "name": "Fatehpur",
+      "category": "GEN",
+      "electors": 90203,
+      "votes_polled": 64133,
+      "turnout_pct": 71.1,
+      "winner_name": "Bhawani Singh Pathania",
+      "winner_party": "INC",
+      "winner_votes": 33238,
+      "runner_up_name": "Rakesh Pathania",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 25884,
+      "margin": 7354,
+      "nota_votes": 185,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Bhawani Singh Pathania",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 32452,
+          "postal_votes": 786,
+          "total_votes": 33238
+        },
+        {
+          "name": "Rakesh Pathania",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 25462,
+          "postal_votes": 422,
+          "total_votes": 25884
+        },
+        {
+          "name": "Kripal Singh Parmar",
+          "party": "IND",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 2794,
+          "postal_votes": 17,
+          "total_votes": 2811
+        },
+        {
+          "name": "Dr. Rajan Sushant",
+          "party": "AAP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 1266,
+          "postal_votes": 36,
+          "total_votes": 1302
+        },
+        {
+          "name": "Tilak Raj",
+          "party": "BSP",
+          "gender": "M",
+          "age": 30,
+          "evm_votes": 281,
+          "postal_votes": 17,
+          "total_votes": 298
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 185,
+          "postal_votes": 0,
+          "total_votes": 185
+        },
+        {
+          "name": "Dr. Ashok Kumar Somal",
+          "party": "IND",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 155,
+          "postal_votes": 1,
+          "total_votes": 156
+        },
+        {
+          "name": "Adv. Sanjay Sharma",
+          "party": "IND",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 140,
+          "postal_votes": 1,
+          "total_votes": 141
+        },
+        {
+          "name": "Vijay Koundal",
+          "party": "IND",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 117,
+          "postal_votes": 1,
+          "total_votes": 118
+        }
+      ]
+    },
+    {
+      "ac_no": 9,
+      "name": "Jawali",
+      "category": "GEN",
+      "electors": 101845,
+      "votes_polled": 74669,
+      "turnout_pct": 73.32,
+      "winner_name": "Chander Kumar",
+      "winner_party": "INC",
+      "winner_votes": 38243,
+      "runner_up_name": "Sanjay Guleria",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 35212,
+      "margin": 3031,
+      "nota_votes": 373,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Chander Kumar",
+          "party": "INC",
+          "gender": "M",
+          "age": 78,
+          "evm_votes": 37220,
+          "postal_votes": 1023,
+          "total_votes": 38243
+        },
+        {
+          "name": "Sanjay Guleria",
+          "party": "BJP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 34589,
+          "postal_votes": 623,
+          "total_votes": 35212
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 370,
+          "postal_votes": 3,
+          "total_votes": 373
+        },
+        {
+          "name": "Arun Kumar",
+          "party": "HIMJKP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 300,
+          "postal_votes": 6,
+          "total_votes": 306
+        },
+        {
+          "name": "Baldev Raj",
+          "party": "AAP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 263,
+          "postal_votes": 14,
+          "total_votes": 277
+        },
+        {
+          "name": "Bir Singh",
+          "party": "BSP",
+          "gender": "M",
+          "age": 69,
+          "evm_votes": 251,
+          "postal_votes": 7,
+          "total_votes": 258
+        }
+      ]
+    },
+    {
+      "ac_no": 10,
+      "name": "Dehra",
+      "category": "GEN",
+      "electors": 85263,
+      "votes_polled": 60575,
+      "turnout_pct": 71.04,
+      "winner_name": "Hoshyar Singh",
+      "winner_party": "IND",
+      "winner_votes": 22997,
+      "runner_up_name": "Dr. Rajesh Sharma",
+      "runner_up_party": "INC",
+      "runner_up_votes": 19120,
+      "margin": 3877,
+      "nota_votes": 472,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Hoshyar Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 22563,
+          "postal_votes": 434,
+          "total_votes": 22997
+        },
+        {
+          "name": "Dr. Rajesh Sharma",
+          "party": "INC",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 18539,
+          "postal_votes": 581,
+          "total_votes": 19120
+        },
+        {
+          "name": "Ramesh Chand",
+          "party": "BJP",
+          "gender": "M",
+          "age": 71,
+          "evm_votes": 16375,
+          "postal_votes": 355,
+          "total_votes": 16730
+        },
+        {
+          "name": "Varun Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 553,
+          "postal_votes": 7,
+          "total_votes": 560
+        },
+        {
+          "name": "Manish Kumar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 465,
+          "postal_votes": 18,
+          "total_votes": 483
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 467,
+          "postal_votes": 5,
+          "total_votes": 472
+        },
+        {
+          "name": "Harbans Singh",
+          "party": "BSP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 210,
+          "postal_votes": 3,
+          "total_votes": 213
+        }
+      ]
+    },
+    {
+      "ac_no": 11,
+      "name": "Jaswan-Pragpur",
+      "category": "GEN",
+      "electors": 79856,
+      "votes_polled": 59201,
+      "turnout_pct": 74.13,
+      "winner_name": "Bikram Singh",
+      "winner_party": "BJP",
+      "winner_votes": 22658,
+      "runner_up_name": "Surinder Singh Mankotia",
+      "runner_up_party": "INC",
+      "runner_up_votes": 20869,
+      "margin": 1789,
+      "nota_votes": 259,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Bikram Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 22189,
+          "postal_votes": 469,
+          "total_votes": 22658
+        },
+        {
+          "name": "Surinder Singh Mankotia",
+          "party": "INC",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 20318,
+          "postal_votes": 551,
+          "total_votes": 20869
+        },
+        {
+          "name": "Sanjay Prashar",
+          "party": "IND",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 13173,
+          "postal_votes": 232,
+          "total_votes": 13405
+        },
+        {
+          "name": "Mukesh Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 1649,
+          "postal_votes": 9,
+          "total_votes": 1658
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 256,
+          "postal_votes": 3,
+          "total_votes": 259
+        },
+        {
+          "name": "Prem Chand",
+          "party": "BSP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 185,
+          "postal_votes": 4,
+          "total_votes": 189
+        },
+        {
+          "name": "Sahil Chouhan",
+          "party": "AAP",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 158,
+          "postal_votes": 5,
+          "total_votes": 163
+        }
+      ]
+    },
+    {
+      "ac_no": 12,
+      "name": "Jawalamukhi",
+      "category": "GEN",
+      "electors": 80141,
+      "votes_polled": 59872,
+      "turnout_pct": 74.71,
+      "winner_name": "Sanjay Rattan",
+      "winner_party": "INC",
+      "winner_votes": 27827,
+      "runner_up_name": "Ravinder Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 21423,
+      "margin": 6404,
+      "nota_votes": 201,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Sanjay Rattan",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 26920,
+          "postal_votes": 907,
+          "total_votes": 27827
+        },
+        {
+          "name": "Ravinder Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 20850,
+          "postal_votes": 573,
+          "total_votes": 21423
+        },
+        {
+          "name": "Atul Kaushal",
+          "party": "IND",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 9408,
+          "postal_votes": 103,
+          "total_votes": 9511
+        },
+        {
+          "name": "Hoshiar Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 603,
+          "postal_votes": 13,
+          "total_votes": 616
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 200,
+          "postal_votes": 1,
+          "total_votes": 201
+        },
+        {
+          "name": "Sushil Kumar",
+          "party": "BSP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 196,
+          "postal_votes": 5,
+          "total_votes": 201
+        },
+        {
+          "name": "Sunil Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 91,
+          "postal_votes": 2,
+          "total_votes": 93
+        }
+      ]
+    },
+    {
+      "ac_no": 13,
+      "name": "Jaisinghpur (SC)",
+      "category": "SC",
+      "electors": 85180,
+      "votes_polled": 55637,
+      "turnout_pct": 65.32,
+      "winner_name": "Yadvinder Goma",
+      "winner_party": "INC",
+      "winner_votes": 28058,
+      "runner_up_name": "Ravinder Kumar Dhiman",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 25362,
+      "margin": 2696,
+      "nota_votes": 298,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Yadvinder Goma",
+          "party": "INC",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 27464,
+          "postal_votes": 594,
+          "total_votes": 28058
+        },
+        {
+          "name": "Ravinder Kumar Dhiman",
+          "party": "BJP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 24870,
+          "postal_votes": 492,
+          "total_votes": 25362
+        },
+        {
+          "name": "Sushil Kumar",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 931,
+          "postal_votes": 12,
+          "total_votes": 943
+        },
+        {
+          "name": "Santosh Kumar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 680,
+          "postal_votes": 17,
+          "total_votes": 697
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 289,
+          "postal_votes": 9,
+          "total_votes": 298
+        },
+        {
+          "name": "Surender Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 152,
+          "postal_votes": 3,
+          "total_votes": 155
+        },
+        {
+          "name": "Dr. Kehar Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 122,
+          "postal_votes": 2,
+          "total_votes": 124
+        }
+      ]
+    },
+    {
+      "ac_no": 14,
+      "name": "Sullah",
+      "category": "GEN",
+      "electors": 106976,
+      "votes_polled": 75845,
+      "turnout_pct": 70.9,
+      "winner_name": "Vipin Singh Parmar",
+      "winner_party": "BJP",
+      "winner_votes": 36670,
+      "runner_up_name": "Jagjiwan Paul",
+      "runner_up_party": "IND",
+      "runner_up_votes": 29558,
+      "margin": 7112,
+      "nota_votes": 394,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Vipin Singh Parmar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 35840,
+          "postal_votes": 830,
+          "total_votes": 36670
+        },
+        {
+          "name": "Jagjiwan Paul",
+          "party": "IND",
+          "gender": "M",
+          "age": 68,
+          "evm_votes": 29038,
+          "postal_votes": 520,
+          "total_votes": 29558
+        },
+        {
+          "name": "Jagdish Chand Sapehia",
+          "party": "INC",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 6656,
+          "postal_votes": 172,
+          "total_votes": 6828
+        },
+        {
+          "name": "Ravinder Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 946,
+          "postal_votes": 17,
+          "total_votes": 963
+        },
+        {
+          "name": "Chander Bhan",
+          "party": "IND",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 756,
+          "postal_votes": 4,
+          "total_votes": 760
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 390,
+          "postal_votes": 4,
+          "total_votes": 394
+        },
+        {
+          "name": "Suman Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 27,
+          "evm_votes": 231,
+          "postal_votes": 1,
+          "total_votes": 232
+        },
+        {
+          "name": "Rekha Rani",
+          "party": "IND",
+          "gender": "F",
+          "age": 40,
+          "evm_votes": 203,
+          "postal_votes": 8,
+          "total_votes": 211
+        },
+        {
+          "name": "Suresh Kumar",
+          "party": "BSP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 164,
+          "postal_votes": 1,
+          "total_votes": 165
+        },
+        {
+          "name": "Dr. Swaroop Singh Rana",
+          "party": "IND",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 62,
+          "postal_votes": 2,
+          "total_votes": 64
+        }
+      ]
+    },
+    {
+      "ac_no": 15,
+      "name": "Nagrota",
+      "category": "GEN",
+      "electors": 90962,
+      "votes_polled": 70275,
+      "turnout_pct": 77.26,
+      "winner_name": "R.s. Bali",
+      "winner_party": "INC",
+      "winner_votes": 42079,
+      "runner_up_name": "Arun Kumar (kuka)",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 26187,
+      "margin": 15892,
+      "nota_votes": 385,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "R.s. Bali",
+          "party": "INC",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 41465,
+          "postal_votes": 614,
+          "total_votes": 42079
+        },
+        {
+          "name": "Arun Kumar (kuka)",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 25595,
+          "postal_votes": 592,
+          "total_votes": 26187
+        },
+        {
+          "name": "Uma Kant",
+          "party": "AAP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 1313,
+          "postal_votes": 19,
+          "total_votes": 1332
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 382,
+          "postal_votes": 3,
+          "total_votes": 385
+        },
+        {
+          "name": "Sikander Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 288,
+          "postal_votes": 4,
+          "total_votes": 292
+        }
+      ]
+    },
+    {
+      "ac_no": 16,
+      "name": "Kangra",
+      "category": "GEN",
+      "electors": 83547,
+      "votes_polled": 63339,
+      "turnout_pct": 75.81,
+      "winner_name": "Pawan Kumar Kajal",
+      "winner_party": "BJP",
+      "winner_votes": 35239,
+      "runner_up_name": "Choudhary Surinder Kaku",
+      "runner_up_party": "INC",
+      "runner_up_votes": 15405,
+      "margin": 19834,
+      "nota_votes": 464,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Pawan Kumar Kajal",
+          "party": "BJP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 34505,
+          "postal_votes": 734,
+          "total_votes": 35239
+        },
+        {
+          "name": "Choudhary Surinder Kaku",
+          "party": "INC",
+          "gender": "M",
+          "age": 68,
+          "evm_votes": 14915,
+          "postal_votes": 490,
+          "total_votes": 15405
+        },
+        {
+          "name": "Kulbhash Chand",
+          "party": "IND",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 7899,
+          "postal_votes": 95,
+          "total_votes": 7994
+        },
+        {
+          "name": "Amit Verma",
+          "party": "IND",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 3010,
+          "postal_votes": 23,
+          "total_votes": 3033
+        },
+        {
+          "name": "Raj Kumar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 68,
+          "evm_votes": 848,
+          "postal_votes": 18,
+          "total_votes": 866
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 457,
+          "postal_votes": 7,
+          "total_votes": 464
+        },
+        {
+          "name": "Vijay Kumar",
+          "party": "BSP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 334,
+          "postal_votes": 4,
+          "total_votes": 338
+        }
+      ]
+    },
+    {
+      "ac_no": 17,
+      "name": "Shahpur",
+      "category": "GEN",
+      "electors": 89978,
+      "votes_polled": 66088,
+      "turnout_pct": 73.45,
+      "winner_name": "Kewal Singh",
+      "winner_party": "INC",
+      "winner_votes": 36603,
+      "runner_up_name": "Sarveen Choudhary",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 24360,
+      "margin": 12243,
+      "nota_votes": 519,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Kewal Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 35862,
+          "postal_votes": 741,
+          "total_votes": 36603
+        },
+        {
+          "name": "Sarveen Choudhary",
+          "party": "BJP",
+          "gender": "F",
+          "age": 56,
+          "evm_votes": 23931,
+          "postal_votes": 429,
+          "total_votes": 24360
+        },
+        {
+          "name": "Joginder Singh (panku Kangdia)",
+          "party": "IND",
+          "gender": "M",
+          "age": 30,
+          "evm_votes": 2281,
+          "postal_votes": 17,
+          "total_votes": 2298
+        },
+        {
+          "name": "Abhishek Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 1559,
+          "postal_votes": 17,
+          "total_votes": 1576
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 516,
+          "postal_votes": 3,
+          "total_votes": 519
+        },
+        {
+          "name": "Ramesh Gautam",
+          "party": "IND",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 325,
+          "postal_votes": 5,
+          "total_votes": 330
+        },
+        {
+          "name": "Banarshi Dass Dogra",
+          "party": "BSP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 304,
+          "postal_votes": 2,
+          "total_votes": 306
+        },
+        {
+          "name": "Ashish Sharma",
+          "party": "HSP",
+          "gender": "M",
+          "age": 30,
+          "evm_votes": 96,
+          "postal_votes": 0,
+          "total_votes": 96
+        }
+      ]
+    },
+    {
+      "ac_no": 18,
+      "name": "Dharamshala",
+      "category": "GEN",
+      "electors": 83829,
+      "votes_polled": 60010,
+      "turnout_pct": 71.59,
+      "winner_name": "Sudhir Sharma",
+      "winner_party": "INC",
+      "winner_votes": 27323,
+      "runner_up_name": "Rakesh Choudhary",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 24038,
+      "margin": 3285,
+      "nota_votes": 438,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Sudhir Sharma",
+          "party": "INC",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 26689,
+          "postal_votes": 634,
+          "total_votes": 27323
+        },
+        {
+          "name": "Rakesh Choudhary",
+          "party": "BJP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 23563,
+          "postal_votes": 475,
+          "total_votes": 24038
+        },
+        {
+          "name": "Vipan Nehria",
+          "party": "IND",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 7332,
+          "postal_votes": 84,
+          "total_votes": 7416
+        },
+        {
+          "name": "Kulwant Singh Rana",
+          "party": "AAP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 512,
+          "postal_votes": 15,
+          "total_votes": 527
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 429,
+          "postal_votes": 9,
+          "total_votes": 438
+        },
+        {
+          "name": "Subhash Chand Shukla",
+          "party": "IND",
+          "gender": "M",
+          "age": 69,
+          "evm_votes": 169,
+          "postal_votes": 1,
+          "total_votes": 170
+        },
+        {
+          "name": "Dr. Abhay Kumar Ashok",
+          "party": "IND",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 96,
+          "postal_votes": 2,
+          "total_votes": 98
+        }
+      ]
+    },
+    {
+      "ac_no": 19,
+      "name": "Palampur",
+      "category": "GEN",
+      "electors": 78449,
+      "votes_polled": 57476,
+      "turnout_pct": 73.27,
+      "winner_name": "Ashish Butail",
+      "winner_party": "INC",
+      "winner_votes": 30874,
+      "runner_up_name": "Trilok Kapoor",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 25546,
+      "margin": 5328,
+      "nota_votes": 382,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Ashish Butail",
+          "party": "INC",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 29980,
+          "postal_votes": 894,
+          "total_votes": 30874
+        },
+        {
+          "name": "Trilok Kapoor",
+          "party": "BJP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 24843,
+          "postal_votes": 703,
+          "total_votes": 25546
+        },
+        {
+          "name": "Sanjay Bhardwaj",
+          "party": "AAP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 423,
+          "postal_votes": 7,
+          "total_votes": 430
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 378,
+          "postal_votes": 4,
+          "total_votes": 382
+        },
+        {
+          "name": "Suresh Kumar",
+          "party": "BSP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 230,
+          "postal_votes": 14,
+          "total_votes": 244
+        }
+      ]
+    },
+    {
+      "ac_no": 20,
+      "name": "Baijnath (SC)",
+      "category": "SC",
+      "electors": 91352,
+      "votes_polled": 58301,
+      "turnout_pct": 63.82,
+      "winner_name": "Kishori Lal",
+      "winner_party": "INC",
+      "winner_votes": 29338,
+      "runner_up_name": "Mulkh Raj Premi",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 25892,
+      "margin": 3446,
+      "nota_votes": 669,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Kishori Lal",
+          "party": "INC",
+          "gender": "M",
+          "age": 75,
+          "evm_votes": 28605,
+          "postal_votes": 733,
+          "total_votes": 29338
+        },
+        {
+          "name": "Mulkh Raj Premi",
+          "party": "BJP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 25395,
+          "postal_votes": 497,
+          "total_votes": 25892
+        },
+        {
+          "name": "Parmodh Chand",
+          "party": "AAP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 1086,
+          "postal_votes": 23,
+          "total_votes": 1109
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 661,
+          "postal_votes": 8,
+          "total_votes": 669
+        },
+        {
+          "name": "Ajay Kumar",
+          "party": "BSP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 523,
+          "postal_votes": 13,
+          "total_votes": 536
+        },
+        {
+          "name": "Gurdas Ram",
+          "party": "IND",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 528,
+          "postal_votes": 3,
+          "total_votes": 531
+        },
+        {
+          "name": "Vishesh Verma",
+          "party": "SWAP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 223,
+          "postal_votes": 3,
+          "total_votes": 226
+        }
+      ]
+    },
+    {
+      "ac_no": 21,
+      "name": "Lahaul & Spiti (ST)",
+      "category": "ST",
+      "electors": 25496,
+      "votes_polled": 18801,
+      "turnout_pct": 73.74,
+      "winner_name": "Ravi Thakur",
+      "winner_party": "INC",
+      "winner_votes": 9948,
+      "runner_up_name": "Dr.ram Lal Markanda",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 8332,
+      "margin": 1616,
+      "nota_votes": 67,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Ravi Thakur",
+          "party": "INC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 9734,
+          "postal_votes": 214,
+          "total_votes": 9948
+        },
+        {
+          "name": "Dr.ram Lal Markanda",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 8058,
+          "postal_votes": 274,
+          "total_votes": 8332
+        },
+        {
+          "name": "Sudarshan Jaspa",
+          "party": "AAP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 441,
+          "postal_votes": 13,
+          "total_votes": 454
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 64,
+          "postal_votes": 3,
+          "total_votes": 67
+        }
+      ]
+    },
+    {
+      "ac_no": 22,
+      "name": "Manali",
+      "category": "GEN",
+      "electors": 74903,
+      "votes_polled": 60437,
+      "turnout_pct": 80.69,
+      "winner_name": "Bhuvneshwar Gaur",
+      "winner_party": "INC",
+      "winner_votes": 29892,
+      "runner_up_name": "Govind Singh Thakur",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 26935,
+      "margin": 2957,
+      "nota_votes": 238,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Bhuvneshwar Gaur",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 29331,
+          "postal_votes": 561,
+          "total_votes": 29892
+        },
+        {
+          "name": "Govind Singh Thakur",
+          "party": "BJP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 26468,
+          "postal_votes": 467,
+          "total_votes": 26935
+        },
+        {
+          "name": "Mahinder Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 1331,
+          "postal_votes": 14,
+          "total_votes": 1345
+        },
+        {
+          "name": "Amar Chand",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 981,
+          "postal_votes": 16,
+          "total_votes": 997
+        },
+        {
+          "name": "Anurag Prarthi",
+          "party": "AAP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 720,
+          "postal_votes": 10,
+          "total_votes": 730
+        },
+        {
+          "name": "Tara Chand",
+          "party": "BSP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 297,
+          "postal_votes": 3,
+          "total_votes": 300
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 237,
+          "postal_votes": 1,
+          "total_votes": 238
+        }
+      ]
+    },
+    {
+      "ac_no": 23,
+      "name": "Kullu",
+      "category": "GEN",
+      "electors": 92050,
+      "votes_polled": 71165,
+      "turnout_pct": 77.31,
+      "winner_name": "Sunder Singh Thakur",
+      "winner_party": "INC",
+      "winner_votes": 30286,
+      "runner_up_name": "Narotam Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 26183,
+      "margin": 4103,
+      "nota_votes": 346,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Sunder Singh Thakur",
+          "party": "INC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 29413,
+          "postal_votes": 873,
+          "total_votes": 30286
+        },
+        {
+          "name": "Narotam Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 25493,
+          "postal_votes": 690,
+          "total_votes": 26183
+        },
+        {
+          "name": "Ram Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 11790,
+          "postal_votes": 147,
+          "total_votes": 11937
+        },
+        {
+          "name": "Sher Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 1101,
+          "postal_votes": 18,
+          "total_votes": 1119
+        },
+        {
+          "name": "Hotam Singh",
+          "party": "CPIM",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 1093,
+          "postal_votes": 9,
+          "total_votes": 1102
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 341,
+          "postal_votes": 5,
+          "total_votes": 346
+        },
+        {
+          "name": "Lot Rama Thakur",
+          "party": "IND",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 191,
+          "postal_votes": 1,
+          "total_votes": 192
+        }
+      ]
+    },
+    {
+      "ac_no": 24,
+      "name": "Banjar",
+      "category": "GEN",
+      "electors": 75592,
+      "votes_polled": 61908,
+      "turnout_pct": 81.9,
+      "winner_name": "Surender Shourie",
+      "winner_party": "BJP",
+      "winner_votes": 25038,
+      "runner_up_name": "Khimi Ram",
+      "runner_up_party": "INC",
+      "runner_up_votes": 20704,
+      "margin": 4334,
+      "nota_votes": 492,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Surender Shourie",
+          "party": "BJP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 24241,
+          "postal_votes": 797,
+          "total_votes": 25038
+        },
+        {
+          "name": "Khimi Ram",
+          "party": "INC",
+          "gender": "M",
+          "age": 73,
+          "evm_votes": 19963,
+          "postal_votes": 741,
+          "total_votes": 20704
+        },
+        {
+          "name": "Hiteshwar Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 14568,
+          "postal_votes": 364,
+          "total_votes": 14932
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 489,
+          "postal_votes": 3,
+          "total_votes": 492
+        },
+        {
+          "name": "Neeraj Saini",
+          "party": "AAP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 264,
+          "postal_votes": 3,
+          "total_votes": 267
+        },
+        {
+          "name": "Jhabe Ram Kaushal",
+          "party": "BSP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 259,
+          "postal_votes": 4,
+          "total_votes": 263
+        },
+        {
+          "name": "Chet Ram",
+          "party": "HIMJKP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 212,
+          "postal_votes": 0,
+          "total_votes": 212
+        }
+      ]
+    },
+    {
+      "ac_no": 25,
+      "name": "Anni (SC)",
+      "category": "SC",
+      "electors": 88955,
+      "votes_polled": 67468,
+      "turnout_pct": 75.85,
+      "winner_name": "Lokender Kumar",
+      "winner_party": "BJP",
+      "winner_votes": 24133,
+      "runner_up_name": "Paras Ram",
+      "runner_up_party": "IND",
+      "runner_up_votes": 17355,
+      "margin": 6778,
+      "nota_votes": 520,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Lokender Kumar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 23491,
+          "postal_votes": 642,
+          "total_votes": 24133
+        },
+        {
+          "name": "Paras Ram",
+          "party": "IND",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 16768,
+          "postal_votes": 587,
+          "total_votes": 17355
+        },
+        {
+          "name": "Bansi Lal",
+          "party": "INC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 13699,
+          "postal_votes": 525,
+          "total_votes": 14224
+        },
+        {
+          "name": "Kishori Lal",
+          "party": "IND",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 6782,
+          "postal_votes": 111,
+          "total_votes": 6893
+        },
+        {
+          "name": "Devki Nand",
+          "party": "CPIM",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 3551,
+          "postal_votes": 23,
+          "total_votes": 3574
+        },
+        {
+          "name": "Inder Pal",
+          "party": "AAP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 756,
+          "postal_votes": 13,
+          "total_votes": 769
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 515,
+          "postal_votes": 5,
+          "total_votes": 520
+        }
+      ]
+    },
+    {
+      "ac_no": 26,
+      "name": "Karsog (SC)",
+      "category": "SC",
+      "electors": 76609,
+      "votes_polled": 60169,
+      "turnout_pct": 78.54,
+      "winner_name": "Deep Raj",
+      "winner_party": "BJP",
+      "winner_votes": 34512,
+      "runner_up_name": "Mahesh Raj",
+      "runner_up_party": "INC",
+      "runner_up_votes": 23978,
+      "margin": 10534,
+      "nota_votes": 363,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Deep Raj",
+          "party": "BJP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 33655,
+          "postal_votes": 857,
+          "total_votes": 34512
+        },
+        {
+          "name": "Mahesh Raj",
+          "party": "INC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 23139,
+          "postal_votes": 839,
+          "total_votes": 23978
+        },
+        {
+          "name": "Kishori Lal",
+          "party": "CPIM",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 471,
+          "postal_votes": 9,
+          "total_votes": 480
+        },
+        {
+          "name": "Bhagwant Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 468,
+          "postal_votes": 3,
+          "total_votes": 471
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 357,
+          "postal_votes": 6,
+          "total_votes": 363
+        },
+        {
+          "name": "Chaman Lal",
+          "party": "BSP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 207,
+          "postal_votes": 2,
+          "total_votes": 209
+        },
+        {
+          "name": "Ghanshyam Azad",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 156,
+          "postal_votes": 0,
+          "total_votes": 156
+        }
+      ]
+    },
+    {
+      "ac_no": 27,
+      "name": "Sundernagar",
+      "category": "GEN",
+      "electors": 83690,
+      "votes_polled": 66651,
+      "turnout_pct": 79.64,
+      "winner_name": "Rakesh Jamwal",
+      "winner_party": "BJP",
+      "winner_votes": 29432,
+      "runner_up_name": "Sohan Lal",
+      "runner_up_party": "INC",
+      "runner_up_votes": 21307,
+      "margin": 8125,
+      "nota_votes": 211,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Rakesh Jamwal",
+          "party": "BJP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 28413,
+          "postal_votes": 1019,
+          "total_votes": 29432
+        },
+        {
+          "name": "Sohan Lal",
+          "party": "INC",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 20588,
+          "postal_votes": 719,
+          "total_votes": 21307
+        },
+        {
+          "name": "Abhishek Thakur",
+          "party": "IND",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 14402,
+          "postal_votes": 302,
+          "total_votes": 14704
+        },
+        {
+          "name": "Narayan Singh",
+          "party": "BSP",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 268,
+          "postal_votes": 7,
+          "total_votes": 275
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 207,
+          "postal_votes": 4,
+          "total_votes": 211
+        },
+        {
+          "name": "Thakur Singh",
+          "party": "SASP",
+          "gender": "M",
+          "age": 69,
+          "evm_votes": 193,
+          "postal_votes": 2,
+          "total_votes": 195
+        },
+        {
+          "name": "Tek Chand",
+          "party": "IND",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 148,
+          "postal_votes": 1,
+          "total_votes": 149
+        },
+        {
+          "name": "Advocate Pooja Thakur",
+          "party": "AAP",
+          "gender": "F",
+          "age": 31,
+          "evm_votes": 134,
+          "postal_votes": 14,
+          "total_votes": 148
+        },
+        {
+          "name": "Het Ram",
+          "party": "IND",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 138,
+          "postal_votes": 2,
+          "total_votes": 140
+        },
+        {
+          "name": "Ran Vijay Singh",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 89,
+          "postal_votes": 1,
+          "total_votes": 90
+        }
+      ]
+    },
+    {
+      "ac_no": 28,
+      "name": "Nachan (SC)",
+      "category": "SC",
+      "electors": 88483,
+      "votes_polled": 71559,
+      "turnout_pct": 80.87,
+      "winner_name": "Vinod Kumar",
+      "winner_party": "BJP",
+      "winner_votes": 33200,
+      "runner_up_name": "Naresh Kumar",
+      "runner_up_party": "INC",
+      "runner_up_votes": 24244,
+      "margin": 8956,
+      "nota_votes": 456,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Vinod Kumar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 32122,
+          "postal_votes": 1078,
+          "total_votes": 33200
+        },
+        {
+          "name": "Naresh Kumar",
+          "party": "INC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 23361,
+          "postal_votes": 883,
+          "total_votes": 24244
+        },
+        {
+          "name": "Gian Chand",
+          "party": "IND",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 9981,
+          "postal_votes": 152,
+          "total_votes": 10133
+        },
+        {
+          "name": "Jasveer Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 2622,
+          "postal_votes": 69,
+          "total_votes": 2691
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 448,
+          "postal_votes": 8,
+          "total_votes": 456
+        },
+        {
+          "name": "Nand Lal",
+          "party": "BSP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 313,
+          "postal_votes": 6,
+          "total_votes": 319
+        },
+        {
+          "name": "Jabna Kumari",
+          "party": "AAP",
+          "gender": "F",
+          "age": 29,
+          "evm_votes": 269,
+          "postal_votes": 21,
+          "total_votes": 290
+        },
+        {
+          "name": "Saunu Ram",
+          "party": "IND",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 221,
+          "postal_votes": 5,
+          "total_votes": 226
+        }
+      ]
+    },
+    {
+      "ac_no": 29,
+      "name": "Seraj",
+      "category": "GEN",
+      "electors": 84315,
+      "votes_polled": 70752,
+      "turnout_pct": 83.91,
+      "winner_name": "Jai Ram Thakur",
+      "winner_party": "BJP",
+      "winner_votes": 53562,
+      "runner_up_name": "Chet Ram",
+      "runner_up_party": "INC",
+      "runner_up_votes": 15379,
+      "margin": 38183,
+      "nota_votes": 292,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Jai Ram Thakur",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 52076,
+          "postal_votes": 1486,
+          "total_votes": 53562
+        },
+        {
+          "name": "Chet Ram",
+          "party": "INC",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 15069,
+          "postal_votes": 310,
+          "total_votes": 15379
+        },
+        {
+          "name": "Mahender Rana",
+          "party": "CPIM",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 799,
+          "postal_votes": 19,
+          "total_votes": 818
+        },
+        {
+          "name": "Gita Nand",
+          "party": "AAP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 338,
+          "postal_votes": 1,
+          "total_votes": 339
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 289,
+          "postal_votes": 3,
+          "total_votes": 292
+        },
+        {
+          "name": "Indra Devi",
+          "party": "BSP",
+          "gender": "F",
+          "age": 53,
+          "evm_votes": 260,
+          "postal_votes": 4,
+          "total_votes": 264
+        },
+        {
+          "name": "Narender Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 98,
+          "postal_votes": 0,
+          "total_votes": 98
+        }
+      ]
+    },
+    {
+      "ac_no": 30,
+      "name": "Darang",
+      "category": "GEN",
+      "electors": 91525,
+      "votes_polled": 73490,
+      "turnout_pct": 80.3,
+      "winner_name": "Puran Chand Thakur",
+      "winner_party": "BJP",
+      "winner_votes": 36572,
+      "runner_up_name": "Kaul Singh",
+      "runner_up_party": "INC",
+      "runner_up_votes": 35954,
+      "margin": 618,
+      "nota_votes": 579,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Puran Chand Thakur",
+          "party": "BJP",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 35843,
+          "postal_votes": 729,
+          "total_votes": 36572
+        },
+        {
+          "name": "Kaul Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 76,
+          "evm_votes": 34856,
+          "postal_votes": 1098,
+          "total_votes": 35954
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 570,
+          "postal_votes": 9,
+          "total_votes": 579
+        },
+        {
+          "name": "Ramesh Kumar",
+          "party": "BSP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 380,
+          "postal_votes": 5,
+          "total_votes": 385
+        }
+      ]
+    },
+    {
+      "ac_no": 31,
+      "name": "Jogindernagar",
+      "category": "GEN",
+      "electors": 101046,
+      "votes_polled": 70563,
+      "turnout_pct": 69.83,
+      "winner_name": "Prakash Rana",
+      "winner_party": "BJP",
+      "winner_votes": 33782,
+      "runner_up_name": "Thakur Surender Paul",
+      "runner_up_party": "INC",
+      "runner_up_votes": 29443,
+      "margin": 4339,
+      "nota_votes": 377,
+      "num_candidates": 12,
+      "candidates": [
+        {
+          "name": "Prakash Rana",
+          "party": "BJP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 32715,
+          "postal_votes": 1067,
+          "total_votes": 33782
+        },
+        {
+          "name": "Thakur Surender Paul",
+          "party": "INC",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 28354,
+          "postal_votes": 1089,
+          "total_votes": 29443
+        },
+        {
+          "name": "Kushal Bhardwaj",
+          "party": "CPIM",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 3081,
+          "postal_votes": 56,
+          "total_votes": 3137
+        },
+        {
+          "name": "Sanjeev Bhandari",
+          "party": "IND",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 2459,
+          "postal_votes": 35,
+          "total_votes": 2494
+        },
+        {
+          "name": "Ravinder Pal Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 365,
+          "postal_votes": 18,
+          "total_votes": 383
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 369,
+          "postal_votes": 8,
+          "total_votes": 377
+        },
+        {
+          "name": "Kamal Kant",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 250,
+          "postal_votes": 9,
+          "total_votes": 259
+        },
+        {
+          "name": "Narender Kumar",
+          "party": "BSP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 235,
+          "postal_votes": 9,
+          "total_votes": 244
+        },
+        {
+          "name": "Thakur Surender Singh Advocate",
+          "party": "IND",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 202,
+          "postal_votes": 4,
+          "total_votes": 206
+        },
+        {
+          "name": "Baba Lal Giri",
+          "party": "IND",
+          "gender": "M",
+          "age": 74,
+          "evm_votes": 95,
+          "postal_votes": 4,
+          "total_votes": 99
+        },
+        {
+          "name": "Kulbhushan Thakur",
+          "party": "IND",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 80,
+          "postal_votes": 2,
+          "total_votes": 82
+        },
+        {
+          "name": "Mehar Chand",
+          "party": "RSHTLKNTP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 55,
+          "postal_votes": 2,
+          "total_votes": 57
+        }
+      ]
+    },
+    {
+      "ac_no": 32,
+      "name": "Dharampur",
+      "category": "GEN",
+      "electors": 82732,
+      "votes_polled": 59857,
+      "turnout_pct": 72.35,
+      "winner_name": "Chander Shekhar",
+      "winner_party": "INC",
+      "winner_votes": 31063,
+      "runner_up_name": "Rajat Thakur",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 28037,
+      "margin": 3026,
+      "nota_votes": 216,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Chander Shekhar",
+          "party": "INC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 29621,
+          "postal_votes": 1442,
+          "total_votes": 31063
+        },
+        {
+          "name": "Rajat Thakur",
+          "party": "BJP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 26814,
+          "postal_votes": 1223,
+          "total_votes": 28037
+        },
+        {
+          "name": "Rakesh Mandhotra",
+          "party": "AAP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 217,
+          "postal_votes": 13,
+          "total_votes": 230
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 210,
+          "postal_votes": 6,
+          "total_votes": 216
+        },
+        {
+          "name": "Prakash Chand Bhardwaj",
+          "party": "BSP",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 158,
+          "postal_votes": 12,
+          "total_votes": 170
+        },
+        {
+          "name": "Chander Shekhar",
+          "party": "IND",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 135,
+          "postal_votes": 6,
+          "total_votes": 141
+        }
+      ]
+    },
+    {
+      "ac_no": 33,
+      "name": "Mandi",
+      "category": "GEN",
+      "electors": 78113,
+      "votes_polled": 58650,
+      "turnout_pct": 75.08,
+      "winner_name": "Anil Sharma",
+      "winner_party": "BJP",
+      "winner_votes": 31303,
+      "runner_up_name": "Champa Thakur",
+      "runner_up_party": "INC",
+      "runner_up_votes": 21297,
+      "margin": 10006,
+      "nota_votes": 448,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Anil Sharma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 30204,
+          "postal_votes": 1099,
+          "total_votes": 31303
+        },
+        {
+          "name": "Champa Thakur",
+          "party": "INC",
+          "gender": "F",
+          "age": 48,
+          "evm_votes": 20424,
+          "postal_votes": 873,
+          "total_votes": 21297
+        },
+        {
+          "name": "Praveen Sharma \"pinnu\"",
+          "party": "IND",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 4040,
+          "postal_votes": 66,
+          "total_votes": 4106
+        },
+        {
+          "name": "Shyam Lal",
+          "party": "AAP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 538,
+          "postal_votes": 21,
+          "total_votes": 559
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 442,
+          "postal_votes": 6,
+          "total_votes": 448
+        },
+        {
+          "name": "Chet Ram",
+          "party": "BSP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 266,
+          "postal_votes": 6,
+          "total_votes": 272
+        },
+        {
+          "name": "Rajeev Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 246,
+          "postal_votes": 5,
+          "total_votes": 251
+        },
+        {
+          "name": "Major Khem Singh Thakur",
+          "party": "IND",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 143,
+          "postal_votes": 14,
+          "total_votes": 157
+        },
+        {
+          "name": "Laxmender Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 145,
+          "postal_votes": 3,
+          "total_votes": 148
+        },
+        {
+          "name": "Sanjay Kumar",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 104,
+          "postal_votes": 5,
+          "total_votes": 109
+        }
+      ]
+    },
+    {
+      "ac_no": 34,
+      "name": "Balh (SC)",
+      "category": "SC",
+      "electors": 81597,
+      "votes_polled": 64726,
+      "turnout_pct": 79.32,
+      "winner_name": "Inder Singh",
+      "winner_party": "BJP",
+      "winner_votes": 31792,
+      "runner_up_name": "Prakash Chaudhary",
+      "runner_up_party": "INC",
+      "runner_up_votes": 30485,
+      "margin": 1307,
+      "nota_votes": 498,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Inder Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 30774,
+          "postal_votes": 1018,
+          "total_votes": 31792
+        },
+        {
+          "name": "Prakash Chaudhary",
+          "party": "INC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 29186,
+          "postal_votes": 1299,
+          "total_votes": 30485
+        },
+        {
+          "name": "Tara Chand",
+          "party": "AAP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 1372,
+          "postal_votes": 34,
+          "total_votes": 1406
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 487,
+          "postal_votes": 11,
+          "total_votes": 498
+        },
+        {
+          "name": "Prof. Prem Kumar Hawal",
+          "party": "BSP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 286,
+          "postal_votes": 14,
+          "total_votes": 300
+        },
+        {
+          "name": "Jiwan Ram",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 235,
+          "postal_votes": 10,
+          "total_votes": 245
+        }
+      ]
+    },
+    {
+      "ac_no": 35,
+      "name": "Sarkaghat",
+      "category": "GEN",
+      "electors": 92207,
+      "votes_polled": 63761,
+      "turnout_pct": 69.15,
+      "winner_name": "Dalip Thakur",
+      "winner_party": "BJP",
+      "winner_votes": 27346,
+      "runner_up_name": "Pawan Kumar",
+      "runner_up_party": "INC",
+      "runner_up_votes": 25539,
+      "margin": 1807,
+      "nota_votes": 342,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Dalip Thakur",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 26515,
+          "postal_votes": 831,
+          "total_votes": 27346
+        },
+        {
+          "name": "Pawan Kumar",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 24534,
+          "postal_votes": 1005,
+          "total_votes": 25539
+        },
+        {
+          "name": "Munish Sharma",
+          "party": "IND",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 9687,
+          "postal_votes": 173,
+          "total_votes": 9860
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 331,
+          "postal_votes": 11,
+          "total_votes": 342
+        },
+        {
+          "name": "Kailash Chand",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 253,
+          "postal_votes": 9,
+          "total_votes": 262
+        },
+        {
+          "name": "Dhameshwar Ram",
+          "party": "AAP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 200,
+          "postal_votes": 10,
+          "total_votes": 210
+        },
+        {
+          "name": "Ramesh Chand",
+          "party": "BSP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 197,
+          "postal_votes": 5,
+          "total_votes": 202
+        }
+      ]
+    },
+    {
+      "ac_no": 36,
+      "name": "Bhoranj (SC)",
+      "category": "SC",
+      "electors": 82738,
+      "votes_polled": 57417,
+      "turnout_pct": 69.4,
+      "winner_name": "Suresh Kumar",
+      "winner_party": "INC",
+      "winner_votes": 24779,
+      "runner_up_name": "Dr. Anil Dhiman",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 24719,
+      "margin": 60,
+      "nota_votes": 293,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Suresh Kumar",
+          "party": "INC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 23917,
+          "postal_votes": 862,
+          "total_votes": 24779
+        },
+        {
+          "name": "Dr. Anil Dhiman",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 23985,
+          "postal_votes": 734,
+          "total_votes": 24719
+        },
+        {
+          "name": "Pawan Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 6744,
+          "postal_votes": 117,
+          "total_votes": 6861
+        },
+        {
+          "name": "Rajni Kaushal",
+          "party": "AAP",
+          "gender": "F",
+          "age": 49,
+          "evm_votes": 439,
+          "postal_votes": 24,
+          "total_votes": 463
+        },
+        {
+          "name": "Jarnail Singh",
+          "party": "BSP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 295,
+          "postal_votes": 7,
+          "total_votes": 302
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 289,
+          "postal_votes": 4,
+          "total_votes": 293
+        }
+      ]
+    },
+    {
+      "ac_no": 37,
+      "name": "Sujanpur",
+      "category": "GEN",
+      "electors": 75396,
+      "votes_polled": 55597,
+      "turnout_pct": 73.74,
+      "winner_name": "Rajinder Rana",
+      "winner_party": "INC",
+      "winner_votes": 27679,
+      "runner_up_name": "Ranjit Singh Rana",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 27280,
+      "margin": 399,
+      "nota_votes": 237,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Rajinder Rana",
+          "party": "INC",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 26834,
+          "postal_votes": 845,
+          "total_votes": 27679
+        },
+        {
+          "name": "Ranjit Singh Rana",
+          "party": "BJP",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 26718,
+          "postal_votes": 562,
+          "total_votes": 27280
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 233,
+          "postal_votes": 4,
+          "total_votes": 237
+        },
+        {
+          "name": "Anil Rana",
+          "party": "AAP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 194,
+          "postal_votes": 18,
+          "total_votes": 212
+        },
+        {
+          "name": "Gian Chand",
+          "party": "BSP",
+          "gender": "M",
+          "age": 68,
+          "evm_votes": 100,
+          "postal_votes": 3,
+          "total_votes": 103
+        },
+        {
+          "name": "Rajesh Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 82,
+          "postal_votes": 4,
+          "total_votes": 86
+        }
+      ]
+    },
+    {
+      "ac_no": 38,
+      "name": "Hamirpur",
+      "category": "GEN",
+      "electors": 76646,
+      "votes_polled": 55039,
+      "turnout_pct": 71.81,
+      "winner_name": "Ashish Sharma",
+      "winner_party": "IND",
+      "winner_votes": 25916,
+      "runner_up_name": "Dr. Pushpinder Verma",
+      "runner_up_party": "INC",
+      "runner_up_votes": 13017,
+      "margin": 12899,
+      "nota_votes": 246,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Ashish Sharma",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 25533,
+          "postal_votes": 383,
+          "total_votes": 25916
+        },
+        {
+          "name": "Dr. Pushpinder Verma",
+          "party": "INC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 12482,
+          "postal_votes": 535,
+          "total_votes": 13017
+        },
+        {
+          "name": "Narinder Thakur",
+          "party": "BJP",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 12480,
+          "postal_votes": 314,
+          "total_votes": 12794
+        },
+        {
+          "name": "Naresh Kumar Darji",
+          "party": "IND",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 1208,
+          "postal_votes": 9,
+          "total_votes": 1217
+        },
+        {
+          "name": "Dr. Kashmir Singh Thakur",
+          "party": "CPIM",
+          "gender": "M",
+          "age": 68,
+          "evm_votes": 621,
+          "postal_votes": 6,
+          "total_votes": 627
+        },
+        {
+          "name": "Ashish Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 547,
+          "postal_votes": 10,
+          "total_votes": 557
+        },
+        {
+          "name": "Sushil Kumar Surroch",
+          "party": "AAP",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 293,
+          "postal_votes": 5,
+          "total_votes": 298
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 244,
+          "postal_votes": 2,
+          "total_votes": 246
+        },
+        {
+          "name": "Abhinay Bhardwaj",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 225,
+          "postal_votes": 6,
+          "total_votes": 231
+        },
+        {
+          "name": "Praveen Kumar Kaushal",
+          "party": "BSP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 136,
+          "postal_votes": 0,
+          "total_votes": 136
+        }
+      ]
+    },
+    {
+      "ac_no": 39,
+      "name": "Barsar",
+      "category": "GEN",
+      "electors": 87505,
+      "votes_polled": 62907,
+      "turnout_pct": 71.89,
+      "winner_name": "Inder Dutt Lakhanpal",
+      "winner_party": "INC",
+      "winner_votes": 30293,
+      "runner_up_name": "Maya Sharma",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 16501,
+      "margin": 13792,
+      "nota_votes": 297,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Inder Dutt Lakhanpal",
+          "party": "INC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 29105,
+          "postal_votes": 1188,
+          "total_votes": 30293
+        },
+        {
+          "name": "Maya Sharma",
+          "party": "BJP",
+          "gender": "F",
+          "age": 52,
+          "evm_votes": 15931,
+          "postal_votes": 570,
+          "total_votes": 16501
+        },
+        {
+          "name": "Sanjeev Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 14994,
+          "postal_votes": 258,
+          "total_votes": 15252
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 294,
+          "postal_votes": 3,
+          "total_votes": 297
+        },
+        {
+          "name": "Rattan Chand Katoch",
+          "party": "BSP",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 200,
+          "postal_votes": 8,
+          "total_votes": 208
+        },
+        {
+          "name": "Gulshan Soni",
+          "party": "AAP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 148,
+          "postal_votes": 10,
+          "total_votes": 158
+        },
+        {
+          "name": "Paramjit Dhatwalia",
+          "party": "HIMJKP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 130,
+          "postal_votes": 2,
+          "total_votes": 132
+        },
+        {
+          "name": "Naresh Kumar",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 63,
+          "postal_votes": 3,
+          "total_votes": 66
+        }
+      ]
+    },
+    {
+      "ac_no": 40,
+      "name": "Nadaun",
+      "category": "GEN",
+      "electors": 94931,
+      "votes_polled": 71039,
+      "turnout_pct": 74.83,
+      "winner_name": "Sukhvinder Singh Sukhu",
+      "winner_party": "INC",
+      "winner_votes": 36142,
+      "runner_up_name": "Vijay Agnihotri",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 32779,
+      "margin": 3363,
+      "nota_votes": 192,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Sukhvinder Singh Sukhu",
+          "party": "INC",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 35011,
+          "postal_votes": 1131,
+          "total_votes": 36142
+        },
+        {
+          "name": "Vijay Agnihotri",
+          "party": "BJP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 31954,
+          "postal_votes": 825,
+          "total_votes": 32779
+        },
+        {
+          "name": "Shankey Thukral",
+          "party": "AAP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 1469,
+          "postal_votes": 18,
+          "total_votes": 1487
+        },
+        {
+          "name": "Desh Raj Daroch",
+          "party": "BSP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 225,
+          "postal_votes": 0,
+          "total_votes": 225
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 186,
+          "postal_votes": 6,
+          "total_votes": 192
+        },
+        {
+          "name": "Ranjit Singh Jeetu",
+          "party": "IND",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 113,
+          "postal_votes": 3,
+          "total_votes": 116
+        },
+        {
+          "name": "Surender Kumar Gautam",
+          "party": "IND",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 97,
+          "postal_votes": 1,
+          "total_votes": 98
+        }
+      ]
+    },
+    {
+      "ac_no": 41,
+      "name": "Chintpurni (SC)",
+      "category": "SC",
+      "electors": 84013,
+      "votes_polled": 62072,
+      "turnout_pct": 73.88,
+      "winner_name": "Sudarshan Singh Babloo",
+      "winner_party": "INC",
+      "winner_votes": 32712,
+      "runner_up_name": "Balbir Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 27854,
+      "margin": 4858,
+      "nota_votes": 355,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Sudarshan Singh Babloo",
+          "party": "INC",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 31816,
+          "postal_votes": 896,
+          "total_votes": 32712
+        },
+        {
+          "name": "Balbir Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 27239,
+          "postal_votes": 615,
+          "total_votes": 27854
+        },
+        {
+          "name": "Ram Paul",
+          "party": "AAP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 755,
+          "postal_votes": 12,
+          "total_votes": 767
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 353,
+          "postal_votes": 2,
+          "total_votes": 355
+        },
+        {
+          "name": "Virender Kumar",
+          "party": "BSP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 220,
+          "postal_votes": 6,
+          "total_votes": 226
+        },
+        {
+          "name": "Kewal Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 152,
+          "postal_votes": 6,
+          "total_votes": 158
+        }
+      ]
+    },
+    {
+      "ac_no": 42,
+      "name": "Gagret",
+      "category": "GEN",
+      "electors": 84517,
+      "votes_polled": 66665,
+      "turnout_pct": 78.88,
+      "winner_name": "Chaitanya Sharma",
+      "winner_party": "INC",
+      "winner_votes": 40767,
+      "runner_up_name": "Rajesh Thakur",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 25082,
+      "margin": 15685,
+      "nota_votes": 404,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Chaitanya Sharma",
+          "party": "INC",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 40001,
+          "postal_votes": 766,
+          "total_votes": 40767
+        },
+        {
+          "name": "Rajesh Thakur",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 24484,
+          "postal_votes": 598,
+          "total_votes": 25082
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 400,
+          "postal_votes": 4,
+          "total_votes": 404
+        },
+        {
+          "name": "Manohar Lal Dadwal",
+          "party": "AAP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 139,
+          "postal_votes": 6,
+          "total_votes": 145
+        },
+        {
+          "name": "Vinod Dadwal (pintu)",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 121,
+          "postal_votes": 4,
+          "total_votes": 125
+        },
+        {
+          "name": "Lekh Raj Katnoria",
+          "party": "BSP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 93,
+          "postal_votes": 4,
+          "total_votes": 97
+        },
+        {
+          "name": "Raghubir Singh",
+          "party": "HIMJKP",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 43,
+          "postal_votes": 2,
+          "total_votes": 45
+        }
+      ]
+    },
+    {
+      "ac_no": 43,
+      "name": "Haroli",
+      "category": "GEN",
+      "electors": 88951,
+      "votes_polled": 69858,
+      "turnout_pct": 78.54,
+      "winner_name": "Mukesh Agnihotri",
+      "winner_party": "INC",
+      "winner_votes": 38652,
+      "runner_up_name": "Ram Kumar",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 29504,
+      "margin": 9148,
+      "nota_votes": 175,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Mukesh Agnihotri",
+          "party": "INC",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 37756,
+          "postal_votes": 896,
+          "total_votes": 38652
+        },
+        {
+          "name": "Ram Kumar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 29008,
+          "postal_votes": 496,
+          "total_votes": 29504
+        },
+        {
+          "name": "Naresh Kumar",
+          "party": "BSP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 629,
+          "postal_votes": 7,
+          "total_votes": 636
+        },
+        {
+          "name": "Ravinder Mann",
+          "party": "AAP",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 588,
+          "postal_votes": 13,
+          "total_votes": 601
+        },
+        {
+          "name": "Ashhwani Kumar Rana",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 286,
+          "postal_votes": 4,
+          "total_votes": 290
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 174,
+          "postal_votes": 1,
+          "total_votes": 175
+        }
+      ]
+    },
+    {
+      "ac_no": 44,
+      "name": "Una",
+      "category": "GEN",
+      "electors": 87136,
+      "votes_polled": 67877,
+      "turnout_pct": 77.9,
+      "winner_name": "Satpal Singh Satti",
+      "winner_party": "BJP",
+      "winner_votes": 33974,
+      "runner_up_name": "Satpal Singh Raizada",
+      "runner_up_party": "INC",
+      "runner_up_votes": 32238,
+      "margin": 1736,
+      "nota_votes": 240,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Satpal Singh Satti",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 33423,
+          "postal_votes": 551,
+          "total_votes": 33974
+        },
+        {
+          "name": "Satpal Singh Raizada",
+          "party": "INC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 31867,
+          "postal_votes": 371,
+          "total_votes": 32238
+        },
+        {
+          "name": "Rajiv Gautam",
+          "party": "AAP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 724,
+          "postal_votes": 13,
+          "total_votes": 737
+        },
+        {
+          "name": "Ramesh Chand",
+          "party": "BSP",
+          "gender": "M",
+          "age": 71,
+          "evm_votes": 339,
+          "postal_votes": 2,
+          "total_votes": 341
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 234,
+          "postal_votes": 6,
+          "total_votes": 240
+        },
+        {
+          "name": "Chander Mohan",
+          "party": "IND",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 185,
+          "postal_votes": 0,
+          "total_votes": 185
+        },
+        {
+          "name": "Kamal Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 160,
+          "postal_votes": 2,
+          "total_votes": 162
+        }
+      ]
+    },
+    {
+      "ac_no": 45,
+      "name": "Kutlehar",
+      "category": "GEN",
+      "electors": 86934,
+      "votes_polled": 66808,
+      "turnout_pct": 76.85,
+      "winner_name": "Davinder Kumar Bhutto",
+      "winner_party": "INC",
+      "winner_votes": 36636,
+      "runner_up_name": "Virender Kanwar",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 29057,
+      "margin": 7579,
+      "nota_votes": 378,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Davinder Kumar Bhutto",
+          "party": "INC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 35956,
+          "postal_votes": 680,
+          "total_votes": 36636
+        },
+        {
+          "name": "Virender Kanwar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 28503,
+          "postal_votes": 554,
+          "total_votes": 29057
+        },
+        {
+          "name": "Anil Mankotia",
+          "party": "AAP",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 570,
+          "postal_votes": 26,
+          "total_votes": 596
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 377,
+          "postal_votes": 1,
+          "total_votes": 378
+        },
+        {
+          "name": "Capt. Jaidyal Singh Pal",
+          "party": "IND",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 139,
+          "postal_votes": 2,
+          "total_votes": 141
+        }
+      ]
+    },
+    {
+      "ac_no": 46,
+      "name": "Jhanduta (SC)",
+      "category": "SC",
+      "electors": 80977,
+      "votes_polled": 60501,
+      "turnout_pct": 74.71,
+      "winner_name": "Jeet Ram Katwal",
+      "winner_party": "BJP",
+      "winner_votes": 28268,
+      "runner_up_name": "Vivek Kumar",
+      "runner_up_party": "INC",
+      "runner_up_votes": 22469,
+      "margin": 5799,
+      "nota_votes": 246,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Jeet Ram Katwal",
+          "party": "BJP",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 27433,
+          "postal_votes": 835,
+          "total_votes": 28268
+        },
+        {
+          "name": "Vivek Kumar",
+          "party": "INC",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 21940,
+          "postal_votes": 529,
+          "total_votes": 22469
+        },
+        {
+          "name": "Raj Kumar Kaundal",
+          "party": "IND",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 8180,
+          "postal_votes": 178,
+          "total_votes": 8358
+        },
+        {
+          "name": "Sudhir Kumar Suman",
+          "party": "AAP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 402,
+          "postal_votes": 25,
+          "total_votes": 427
+        },
+        {
+          "name": "Manoj Kumar",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 280,
+          "postal_votes": 2,
+          "total_votes": 282
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 242,
+          "postal_votes": 4,
+          "total_votes": 246
+        },
+        {
+          "name": "Amar Nath",
+          "party": "BSP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 241,
+          "postal_votes": 4,
+          "total_votes": 245
+        },
+        {
+          "name": "Jitender Pal",
+          "party": "IND",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 204,
+          "postal_votes": 2,
+          "total_votes": 206
+        }
+      ]
+    },
+    {
+      "ac_no": 47,
+      "name": "Ghumarwin",
+      "category": "GEN",
+      "electors": 90144,
+      "votes_polled": 68092,
+      "turnout_pct": 75.54,
+      "winner_name": "Rajesh Dharmani",
+      "winner_party": "INC",
+      "winner_votes": 35378,
+      "runner_up_name": "Rajinder Garg",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 29767,
+      "margin": 5611,
+      "nota_votes": 242,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Rajesh Dharmani",
+          "party": "INC",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 34019,
+          "postal_votes": 1359,
+          "total_votes": 35378
+        },
+        {
+          "name": "Rajinder Garg",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 28843,
+          "postal_votes": 924,
+          "total_votes": 29767
+        },
+        {
+          "name": "Rakesh Kumar Chopra",
+          "party": "AAP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 1595,
+          "postal_votes": 38,
+          "total_votes": 1633
+        },
+        {
+          "name": "Yogesh Thakur",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 456,
+          "postal_votes": 11,
+          "total_votes": 467
+        },
+        {
+          "name": "Prem Lal Banga",
+          "party": "BSP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 315,
+          "postal_votes": 4,
+          "total_votes": 319
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 235,
+          "postal_votes": 7,
+          "total_votes": 242
+        },
+        {
+          "name": "Manohar Lal",
+          "party": "IND",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 123,
+          "postal_votes": 5,
+          "total_votes": 128
+        },
+        {
+          "name": "Varun Kumar Thakur",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 88,
+          "postal_votes": 1,
+          "total_votes": 89
+        },
+        {
+          "name": "Nand Lal",
+          "party": "IND",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 66,
+          "postal_votes": 3,
+          "total_votes": 69
+        }
+      ]
+    },
+    {
+      "ac_no": 48,
+      "name": "Bilaspur",
+      "category": "GEN",
+      "electors": 83903,
+      "votes_polled": 64877,
+      "turnout_pct": 77.32,
+      "winner_name": "Trilok Jamwal",
+      "winner_party": "BJP",
+      "winner_votes": 30988,
+      "runner_up_name": "Bumber Thakur",
+      "runner_up_party": "INC",
+      "runner_up_votes": 30712,
+      "margin": 276,
+      "nota_votes": 270,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Trilok Jamwal",
+          "party": "BJP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 30373,
+          "postal_votes": 615,
+          "total_votes": 30988
+        },
+        {
+          "name": "Bumber Thakur",
+          "party": "INC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 29977,
+          "postal_votes": 735,
+          "total_votes": 30712
+        },
+        {
+          "name": "Subhash Sharma",
+          "party": "IND",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 1470,
+          "postal_votes": 29,
+          "total_votes": 1499
+        },
+        {
+          "name": "Amar Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 380,
+          "postal_votes": 8,
+          "total_votes": 388
+        },
+        {
+          "name": "Puja Pal",
+          "party": "RTRYDVBHMP",
+          "gender": "F",
+          "age": 44,
+          "evm_votes": 361,
+          "postal_votes": 6,
+          "total_votes": 367
+        },
+        {
+          "name": "Amar Nath",
+          "party": "BSP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 302,
+          "postal_votes": 4,
+          "total_votes": 306
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 269,
+          "postal_votes": 1,
+          "total_votes": 270
+        },
+        {
+          "name": "Bal Ram",
+          "party": "SWAP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 154,
+          "postal_votes": 0,
+          "total_votes": 154
+        },
+        {
+          "name": "Lata Chandel",
+          "party": "IND",
+          "gender": "F",
+          "age": 47,
+          "evm_votes": 108,
+          "postal_votes": 2,
+          "total_votes": 110
+        },
+        {
+          "name": "Piyush Kanga",
+          "party": "IND",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 81,
+          "postal_votes": 2,
+          "total_votes": 83
+        }
+      ]
+    },
+    {
+      "ac_no": 49,
+      "name": "Sri Naina Deviji",
+      "category": "GEN",
+      "electors": 75176,
+      "votes_polled": 62254,
+      "turnout_pct": 82.81,
+      "winner_name": "Randhir Sharma",
+      "winner_party": "BJP",
+      "winner_votes": 29403,
+      "runner_up_name": "Ram Lal Thakur",
+      "runner_up_party": "INC",
+      "runner_up_votes": 29232,
+      "margin": 171,
+      "nota_votes": 225,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Randhir Sharma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 28878,
+          "postal_votes": 525,
+          "total_votes": 29403
+        },
+        {
+          "name": "Ram Lal Thakur",
+          "party": "INC",
+          "gender": "M",
+          "age": 71,
+          "evm_votes": 28733,
+          "postal_votes": 499,
+          "total_votes": 29232
+        },
+        {
+          "name": "Deepak Kumar",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 2099,
+          "postal_votes": 15,
+          "total_votes": 2114
+        },
+        {
+          "name": "Narinder Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 648,
+          "postal_votes": 5,
+          "total_votes": 653
+        },
+        {
+          "name": "Bhag Singh",
+          "party": "CPI",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 622,
+          "postal_votes": 5,
+          "total_votes": 627
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 221,
+          "postal_votes": 4,
+          "total_votes": 225
+        }
+      ]
+    },
+    {
+      "ac_no": 50,
+      "name": "Arki",
+      "category": "GEN",
+      "electors": 95788,
+      "votes_polled": 73536,
+      "turnout_pct": 76.77,
+      "winner_name": "Sanjay",
+      "winner_party": "INC",
+      "winner_votes": 30897,
+      "runner_up_name": "Rajender",
+      "runner_up_party": "IND",
+      "runner_up_votes": 26075,
+      "margin": 4822,
+      "nota_votes": 466,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Sanjay",
+          "party": "INC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 29804,
+          "postal_votes": 1093,
+          "total_votes": 30897
+        },
+        {
+          "name": "Rajender",
+          "party": "IND",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 25547,
+          "postal_votes": 528,
+          "total_votes": 26075
+        },
+        {
+          "name": "Govind Ram",
+          "party": "BJP",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 13031,
+          "postal_votes": 413,
+          "total_votes": 13444
+        },
+        {
+          "name": "Jai Dev Singh",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 1722,
+          "postal_votes": 25,
+          "total_votes": 1747
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 464,
+          "postal_votes": 2,
+          "total_votes": 466
+        },
+        {
+          "name": "Jeet Ram",
+          "party": "AAP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 307,
+          "postal_votes": 9,
+          "total_votes": 316
+        },
+        {
+          "name": "Kamlesh",
+          "party": "BSP",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 299,
+          "postal_votes": 7,
+          "total_votes": 306
+        },
+        {
+          "name": "Sanjay Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 282,
+          "postal_votes": 3,
+          "total_votes": 285
+        }
+      ]
+    },
+    {
+      "ac_no": 51,
+      "name": "Nalagarh",
+      "category": "GEN",
+      "electors": 91955,
+      "votes_polled": 75101,
+      "turnout_pct": 81.67,
+      "winner_name": "K. L. Thakur",
+      "winner_party": "IND",
+      "winner_votes": 33427,
+      "runner_up_name": "Hardeep Singh Bawa",
+      "runner_up_party": "INC",
+      "runner_up_votes": 20163,
+      "margin": 13264,
+      "nota_votes": 590,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "K. L. Thakur",
+          "party": "IND",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 33053,
+          "postal_votes": 374,
+          "total_votes": 33427
+        },
+        {
+          "name": "Hardeep Singh Bawa",
+          "party": "INC",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 19783,
+          "postal_votes": 380,
+          "total_votes": 20163
+        },
+        {
+          "name": "Lakhwinder Singh Rana",
+          "party": "BJP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 17008,
+          "postal_votes": 265,
+          "total_votes": 17273
+        },
+        {
+          "name": "Jagdish Chand",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 1140,
+          "postal_votes": 6,
+          "total_votes": 1146
+        },
+        {
+          "name": "Dharam Pal",
+          "party": "AAP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 1101,
+          "postal_votes": 7,
+          "total_votes": 1108
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 590,
+          "postal_votes": 0,
+          "total_votes": 590
+        },
+        {
+          "name": "Paras Bains",
+          "party": "BSP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 552,
+          "postal_votes": 3,
+          "total_votes": 555
+        },
+        {
+          "name": "Jagpal Singh Rana",
+          "party": "IND",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 531,
+          "postal_votes": 3,
+          "total_votes": 534
+        },
+        {
+          "name": "Kishori Lal",
+          "party": "SWAP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 304,
+          "postal_votes": 1,
+          "total_votes": 305
+        }
+      ]
+    },
+    {
+      "ac_no": 52,
+      "name": "Doon",
+      "category": "GEN",
+      "electors": 71948,
+      "votes_polled": 61744,
+      "turnout_pct": 85.82,
+      "winner_name": "Ram Kumar",
+      "winner_party": "INC",
+      "winner_votes": 32038,
+      "runner_up_name": "Paramjeet Singh Pammi",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 25227,
+      "margin": 6811,
+      "nota_votes": 224,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Ram Kumar",
+          "party": "INC",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 31630,
+          "postal_votes": 408,
+          "total_votes": 32038
+        },
+        {
+          "name": "Paramjeet Singh Pammi",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 24931,
+          "postal_votes": 296,
+          "total_votes": 25227
+        },
+        {
+          "name": "Des Raj Chauhan",
+          "party": "IND",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 1871,
+          "postal_votes": 24,
+          "total_votes": 1895
+        },
+        {
+          "name": "Balwant Singh",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 1421,
+          "postal_votes": 4,
+          "total_votes": 1425
+        },
+        {
+          "name": "Swarn Singh Saini",
+          "party": "AAP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 655,
+          "postal_votes": 4,
+          "total_votes": 659
+        },
+        {
+          "name": "Nagender Chand",
+          "party": "BSP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 273,
+          "postal_votes": 3,
+          "total_votes": 276
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 222,
+          "postal_votes": 2,
+          "total_votes": 224
+        }
+      ]
+    },
+    {
+      "ac_no": 53,
+      "name": "Solan (SC)",
+      "category": "SC",
+      "electors": 86333,
+      "votes_polled": 58385,
+      "turnout_pct": 67.63,
+      "winner_name": "Dhani Ram Shandil",
+      "winner_party": "INC",
+      "winner_votes": 30089,
+      "runner_up_name": "Rajesh Kashyap",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 26231,
+      "margin": 3858,
+      "nota_votes": 634,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Dhani Ram Shandil",
+          "party": "INC",
+          "gender": "M",
+          "age": 82,
+          "evm_votes": 29523,
+          "postal_votes": 566,
+          "total_votes": 30089
+        },
+        {
+          "name": "Rajesh Kashyap",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 25887,
+          "postal_votes": 344,
+          "total_votes": 26231
+        },
+        {
+          "name": "Anju",
+          "party": "AAP",
+          "gender": "F",
+          "age": 41,
+          "evm_votes": 1094,
+          "postal_votes": 14,
+          "total_votes": 1108
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 632,
+          "postal_votes": 2,
+          "total_votes": 634
+        },
+        {
+          "name": "Rajinder",
+          "party": "BSP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 317,
+          "postal_votes": 6,
+          "total_votes": 323
+        }
+      ]
+    },
+    {
+      "ac_no": 54,
+      "name": "Kasauli (SC)",
+      "category": "SC",
+      "electors": 68932,
+      "votes_polled": 54125,
+      "turnout_pct": 78.52,
+      "winner_name": "Vinod Sultanpuri",
+      "winner_party": "INC",
+      "winner_votes": 28200,
+      "runner_up_name": "Rajiv Saizal",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 21432,
+      "margin": 6768,
+      "nota_votes": 348,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Vinod Sultanpuri",
+          "party": "INC",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 27908,
+          "postal_votes": 292,
+          "total_votes": 28200
+        },
+        {
+          "name": "Rajiv Saizal",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 21225,
+          "postal_votes": 207,
+          "total_votes": 21432
+        },
+        {
+          "name": "Harmel Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 1796,
+          "postal_votes": 13,
+          "total_votes": 1809
+        },
+        {
+          "name": "Rajeev Kumar Kaundel",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 1666,
+          "postal_votes": 11,
+          "total_votes": 1677
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 347,
+          "postal_votes": 1,
+          "total_votes": 348
+        },
+        {
+          "name": "Om Prakash",
+          "party": "IND",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 327,
+          "postal_votes": 4,
+          "total_votes": 331
+        },
+        {
+          "name": "Rajinder",
+          "party": "HIMJKP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 211,
+          "postal_votes": 0,
+          "total_votes": 211
+        },
+        {
+          "name": "Ram Rattan",
+          "party": "BSP",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 116,
+          "postal_votes": 1,
+          "total_votes": 117
+        }
+      ]
+    },
+    {
+      "ac_no": 55,
+      "name": "Pachhad (SC)",
+      "category": "SC",
+      "electors": 77181,
+      "votes_polled": 61450,
+      "turnout_pct": 79.62,
+      "winner_name": "Reena",
+      "winner_party": "BJP",
+      "winner_votes": 21215,
+      "runner_up_name": "Dayal Pyari",
+      "runner_up_party": "INC",
+      "runner_up_votes": 17358,
+      "margin": 3857,
+      "nota_votes": 466,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Reena",
+          "party": "BJP",
+          "gender": "F",
+          "age": 38,
+          "evm_votes": 20630,
+          "postal_votes": 585,
+          "total_votes": 21215
+        },
+        {
+          "name": "Dayal Pyari",
+          "party": "INC",
+          "gender": "F",
+          "age": 43,
+          "evm_votes": 16837,
+          "postal_votes": 521,
+          "total_votes": 17358
+        },
+        {
+          "name": "Gangu Ram Musafir",
+          "party": "IND",
+          "gender": "M",
+          "age": 77,
+          "evm_votes": 12946,
+          "postal_votes": 241,
+          "total_votes": 13187
+        },
+        {
+          "name": "Susheel Kumar Bhrigu",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 8013,
+          "postal_votes": 100,
+          "total_votes": 8113
+        },
+        {
+          "name": "Ajay Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 552,
+          "postal_votes": 16,
+          "total_votes": 568
+        },
+        {
+          "name": "Ashish Kumar",
+          "party": "CPIM",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 537,
+          "postal_votes": 6,
+          "total_votes": 543
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 464,
+          "postal_votes": 2,
+          "total_votes": 466
+        }
+      ]
+    },
+    {
+      "ac_no": 56,
+      "name": "Nahan",
+      "category": "GEN",
+      "electors": 85818,
+      "votes_polled": 70475,
+      "turnout_pct": 82.12,
+      "winner_name": "Ajay Solanki",
+      "winner_party": "INC",
+      "winner_votes": 35291,
+      "runner_up_name": "Dr. Rajeev Bindal",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 33652,
+      "margin": 1639,
+      "nota_votes": 470,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Ajay Solanki",
+          "party": "INC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 34545,
+          "postal_votes": 746,
+          "total_votes": 35291
+        },
+        {
+          "name": "Dr. Rajeev Bindal",
+          "party": "BJP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 33057,
+          "postal_votes": 595,
+          "total_votes": 33652
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 468,
+          "postal_votes": 2,
+          "total_votes": 470
+        },
+        {
+          "name": "Sunil Sharma",
+          "party": "AAP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 381,
+          "postal_votes": 6,
+          "total_votes": 387
+        },
+        {
+          "name": "Salender Singh",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 295,
+          "postal_votes": 2,
+          "total_votes": 297
+        },
+        {
+          "name": "Ayodhya Prasad Verma",
+          "party": "BSP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 258,
+          "postal_votes": 2,
+          "total_votes": 260
+        },
+        {
+          "name": "Ramjan",
+          "party": "IND",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 117,
+          "postal_votes": 1,
+          "total_votes": 118
+        }
+      ]
+    },
+    {
+      "ac_no": 57,
+      "name": "Sri Renukaji (SC)",
+      "category": "SC",
+      "electors": 74365,
+      "votes_polled": 59687,
+      "turnout_pct": 80.26,
+      "winner_name": "Vinay Kumar",
+      "winner_party": "INC",
+      "winner_votes": 28642,
+      "runner_up_name": "Narain Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 27782,
+      "margin": 860,
+      "nota_votes": 485,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Vinay Kumar",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 27846,
+          "postal_votes": 796,
+          "total_votes": 28642
+        },
+        {
+          "name": "Narain Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 27126,
+          "postal_votes": 656,
+          "total_votes": 27782
+        },
+        {
+          "name": "Jagmohan Singh",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 2074,
+          "postal_votes": 18,
+          "total_votes": 2092
+        },
+        {
+          "name": "Ram Kishan",
+          "party": "AAP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 674,
+          "postal_votes": 12,
+          "total_votes": 686
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 482,
+          "postal_votes": 3,
+          "total_votes": 485
+        }
+      ]
+    },
+    {
+      "ac_no": 58,
+      "name": "Paonta Sahib",
+      "category": "GEN",
+      "electors": 85540,
+      "votes_polled": 66075,
+      "turnout_pct": 77.24,
+      "winner_name": "Sukh Ram Chaudhary",
+      "winner_party": "BJP",
+      "winner_votes": 31008,
+      "runner_up_name": "Kirnesh Jung",
+      "runner_up_party": "INC",
+      "runner_up_votes": 22412,
+      "margin": 8596,
+      "nota_votes": 495,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Sukh Ram Chaudhary",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 30585,
+          "postal_votes": 423,
+          "total_votes": 31008
+        },
+        {
+          "name": "Kirnesh Jung",
+          "party": "INC",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 22104,
+          "postal_votes": 308,
+          "total_votes": 22412
+        },
+        {
+          "name": "Manish Thakur",
+          "party": "AAP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 5058,
+          "postal_votes": 32,
+          "total_votes": 5090
+        },
+        {
+          "name": "Manish Tomar",
+          "party": "IND",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 3384,
+          "postal_votes": 33,
+          "total_votes": 3417
+        },
+        {
+          "name": "Roshan Lal Chaudhary",
+          "party": "IND",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 1860,
+          "postal_votes": 12,
+          "total_votes": 1872
+        },
+        {
+          "name": "Suneel Chaudhary",
+          "party": "IND",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 891,
+          "postal_votes": 5,
+          "total_votes": 896
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 493,
+          "postal_votes": 2,
+          "total_votes": 495
+        },
+        {
+          "name": "Ashwani Verma",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 366,
+          "postal_votes": 1,
+          "total_votes": 367
+        },
+        {
+          "name": "Rameshwar Sharma",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 314,
+          "postal_votes": 1,
+          "total_votes": 315
+        },
+        {
+          "name": "Seema",
+          "party": "BSP",
+          "gender": "F",
+          "age": 38,
+          "evm_votes": 194,
+          "postal_votes": 9,
+          "total_votes": 203
+        }
+      ]
+    },
+    {
+      "ac_no": 59,
+      "name": "Shillai",
+      "category": "GEN",
+      "electors": 76343,
+      "votes_polled": 65271,
+      "turnout_pct": 85.5,
+      "winner_name": "Harshwardhan Chauhan",
+      "winner_party": "INC",
+      "winner_votes": 32093,
+      "runner_up_name": "Baldev Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 31711,
+      "margin": 382,
+      "nota_votes": 525,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Harshwardhan Chauhan",
+          "party": "INC",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 31430,
+          "postal_votes": 663,
+          "total_votes": 32093
+        },
+        {
+          "name": "Baldev Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 31019,
+          "postal_votes": 692,
+          "total_votes": 31711
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 523,
+          "postal_votes": 2,
+          "total_votes": 525
+        },
+        {
+          "name": "Naathu Ram Chauhan",
+          "party": "AAP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 479,
+          "postal_votes": 9,
+          "total_votes": 488
+        },
+        {
+          "name": "Suresh Kumar",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 452,
+          "postal_votes": 2,
+          "total_votes": 454
+        }
+      ]
+    },
+    {
+      "ac_no": 60,
+      "name": "Chopal",
+      "category": "GEN",
+      "electors": 81782,
+      "votes_polled": 62227,
+      "turnout_pct": 76.09,
+      "winner_name": "Sh. Balbir Singh Verma",
+      "winner_party": "BJP",
+      "winner_votes": 25873,
+      "runner_up_name": "Sh. Rajneesh Kimta",
+      "runner_up_party": "INC",
+      "runner_up_votes": 20840,
+      "margin": 5033,
+      "nota_votes": 550,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Sh. Balbir Singh Verma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 25493,
+          "postal_votes": 380,
+          "total_votes": 25873
+        },
+        {
+          "name": "Sh. Rajneesh Kimta",
+          "party": "INC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 20351,
+          "postal_votes": 489,
+          "total_votes": 20840
+        },
+        {
+          "name": "Dr.subhash Chand Manglate",
+          "party": "IND",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 13452,
+          "postal_votes": 254,
+          "total_votes": 13706
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 548,
+          "postal_votes": 2,
+          "total_votes": 550
+        },
+        {
+          "name": "Sh. Ashok Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 459,
+          "postal_votes": 4,
+          "total_votes": 463
+        },
+        {
+          "name": "Sh.uday Singhta",
+          "party": "AAP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 406,
+          "postal_votes": 7,
+          "total_votes": 413
+        },
+        {
+          "name": "Bhagat Lal",
+          "party": "BSP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 382,
+          "postal_votes": 0,
+          "total_votes": 382
+        }
+      ]
+    },
+    {
+      "ac_no": 61,
+      "name": "Theog",
+      "category": "GEN",
+      "electors": 86236,
+      "votes_polled": 65980,
+      "turnout_pct": 76.51,
+      "winner_name": "Kuldeep Singh Rathore",
+      "winner_party": "INC",
+      "winner_votes": 19447,
+      "runner_up_name": "Ajay Shyam",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 14178,
+      "margin": 5269,
+      "nota_votes": 349,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Kuldeep Singh Rathore",
+          "party": "INC",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 18709,
+          "postal_votes": 738,
+          "total_votes": 19447
+        },
+        {
+          "name": "Ajay Shyam",
+          "party": "BJP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 13809,
+          "postal_votes": 369,
+          "total_votes": 14178
+        },
+        {
+          "name": "Indu Varma",
+          "party": "IND",
+          "gender": "F",
+          "age": 60,
+          "evm_votes": 13635,
+          "postal_votes": 213,
+          "total_votes": 13848
+        },
+        {
+          "name": "Rakesh Singha",
+          "party": "CPIM",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 12003,
+          "postal_votes": 207,
+          "total_votes": 12210
+        },
+        {
+          "name": "Vijay Pal Khachi",
+          "party": "IND",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 4408,
+          "postal_votes": 168,
+          "total_votes": 4576
+        },
+        {
+          "name": "Amit Mehta",
+          "party": "IND",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 573,
+          "postal_votes": 8,
+          "total_votes": 581
+        },
+        {
+          "name": "Attar Singh Chandel",
+          "party": "AAP",
+          "gender": "M",
+          "age": 69,
+          "evm_votes": 473,
+          "postal_votes": 14,
+          "total_votes": 487
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 347,
+          "postal_votes": 2,
+          "total_votes": 349
+        },
+        {
+          "name": "Jia Lal Sadhak",
+          "party": "BSP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 298,
+          "postal_votes": 6,
+          "total_votes": 304
+        }
+      ]
+    },
+    {
+      "ac_no": 62,
+      "name": "Kasumpti",
+      "category": "GEN",
+      "electors": 67017,
+      "votes_polled": 46470,
+      "turnout_pct": 69.34,
+      "winner_name": "Anirudh Singh",
+      "winner_party": "INC",
+      "winner_votes": 25759,
+      "runner_up_name": "Suresh Bhardwaj",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 17104,
+      "margin": 8655,
+      "nota_votes": 335,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Anirudh Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 25251,
+          "postal_votes": 508,
+          "total_votes": 25759
+        },
+        {
+          "name": "Suresh Bhardwaj",
+          "party": "BJP",
+          "gender": "M",
+          "age": 70,
+          "evm_votes": 16820,
+          "postal_votes": 284,
+          "total_votes": 17104
+        },
+        {
+          "name": "Kuldip Singh Tanwar",
+          "party": "CPIM",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 2635,
+          "postal_votes": 35,
+          "total_votes": 2670
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 332,
+          "postal_votes": 3,
+          "total_votes": 335
+        },
+        {
+          "name": "Dr. Rajesh Chanana",
+          "party": "AAP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 306,
+          "postal_votes": 1,
+          "total_votes": 307
+        },
+        {
+          "name": "Kameshwar",
+          "party": "BSP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 155,
+          "postal_votes": 4,
+          "total_votes": 159
+        },
+        {
+          "name": "Ram Prakash",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 133,
+          "postal_votes": 3,
+          "total_votes": 136
+        }
+      ]
+    },
+    {
+      "ac_no": 63,
+      "name": "Shimla",
+      "category": "GEN",
+      "electors": 48608,
+      "votes_polled": 30778,
+      "turnout_pct": 63.32,
+      "winner_name": "Harish Janartha",
+      "winner_party": "INC",
+      "winner_votes": 15803,
+      "runner_up_name": "Sanjay Sood",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 12766,
+      "margin": 3037,
+      "nota_votes": 237,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Harish Janartha",
+          "party": "INC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 15576,
+          "postal_votes": 227,
+          "total_votes": 15803
+        },
+        {
+          "name": "Sanjay Sood",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 12566,
+          "postal_votes": 200,
+          "total_votes": 12766
+        },
+        {
+          "name": "Tikender Singh Panwar",
+          "party": "CPIM",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 1386,
+          "postal_votes": 14,
+          "total_votes": 1400
+        },
+        {
+          "name": "Chaman Rakesh Azta",
+          "party": "AAP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 327,
+          "postal_votes": 1,
+          "total_votes": 328
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 236,
+          "postal_votes": 1,
+          "total_votes": 237
+        },
+        {
+          "name": "Abhishek Barowalia",
+          "party": "IND",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 120,
+          "postal_votes": 0,
+          "total_votes": 120
+        },
+        {
+          "name": "Kalyan Singh",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 74,
+          "postal_votes": 4,
+          "total_votes": 78
+        },
+        {
+          "name": "Rajesh Kumar Gill",
+          "party": "BSP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 44,
+          "postal_votes": 2,
+          "total_votes": 46
+        }
+      ]
+    },
+    {
+      "ac_no": 64,
+      "name": "Shimla Rural",
+      "category": "GEN",
+      "electors": 78294,
+      "votes_polled": 58597,
+      "turnout_pct": 74.84,
+      "winner_name": "Vikramaditya Singh",
+      "winner_party": "INC",
+      "winner_votes": 35269,
+      "runner_up_name": "Ravi Kumar Mehta",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 21409,
+      "margin": 13860,
+      "nota_votes": 293,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Vikramaditya Singh",
+          "party": "INC",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 34334,
+          "postal_votes": 935,
+          "total_votes": 35269
+        },
+        {
+          "name": "Ravi Kumar Mehta",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 20915,
+          "postal_votes": 494,
+          "total_votes": 21409
+        },
+        {
+          "name": "Puran Dutt",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 904,
+          "postal_votes": 11,
+          "total_votes": 915
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 288,
+          "postal_votes": 5,
+          "total_votes": 293
+        },
+        {
+          "name": "Balvinder Kumar Singh",
+          "party": "BSP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 266,
+          "postal_votes": 5,
+          "total_votes": 271
+        },
+        {
+          "name": "Prem Kumar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 240,
+          "postal_votes": 4,
+          "total_votes": 244
+        },
+        {
+          "name": "Praveen Kumar",
+          "party": "IND",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 195,
+          "postal_votes": 1,
+          "total_votes": 196
+        }
+      ]
+    },
+    {
+      "ac_no": 65,
+      "name": "Jubbal-Kotkhai",
+      "category": "GEN",
+      "electors": 73362,
+      "votes_polled": 59627,
+      "turnout_pct": 81.28,
+      "winner_name": "Rohit Thakur",
+      "winner_party": "INC",
+      "winner_votes": 31393,
+      "runner_up_name": "Chetan Singh Bragta",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 26324,
+      "margin": 5069,
+      "nota_votes": 187,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Rohit Thakur",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 30362,
+          "postal_votes": 1031,
+          "total_votes": 31393
+        },
+        {
+          "name": "Chetan Singh Bragta",
+          "party": "BJP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 25796,
+          "postal_votes": 528,
+          "total_votes": 26324
+        },
+        {
+          "name": "Vishal Shankta",
+          "party": "CPIM",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 1215,
+          "postal_votes": 41,
+          "total_votes": 1256
+        },
+        {
+          "name": "Ram Pal",
+          "party": "BSP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 237,
+          "postal_votes": 2,
+          "total_votes": 239
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 186,
+          "postal_votes": 1,
+          "total_votes": 187
+        },
+        {
+          "name": "Shrikant Chauhan",
+          "party": "AAP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 161,
+          "postal_votes": 2,
+          "total_votes": 163
+        },
+        {
+          "name": "Suman Kadam",
+          "party": "IND",
+          "gender": "F",
+          "age": 34,
+          "evm_votes": 64,
+          "postal_votes": 1,
+          "total_votes": 65
+        }
+      ]
+    },
+    {
+      "ac_no": 66,
+      "name": "Rampur (SC)",
+      "category": "SC",
+      "electors": 77215,
+      "votes_polled": 57871,
+      "turnout_pct": 74.95,
+      "winner_name": "Nand Lal",
+      "winner_party": "INC",
+      "winner_votes": 28397,
+      "runner_up_name": "Kaul Singh",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 27830,
+      "margin": 567,
+      "nota_votes": 377,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Nand Lal",
+          "party": "INC",
+          "gender": "M",
+          "age": 68,
+          "evm_votes": 27458,
+          "postal_votes": 939,
+          "total_votes": 28397
+        },
+        {
+          "name": "Kaul Singh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 27315,
+          "postal_votes": 515,
+          "total_votes": 27830
+        },
+        {
+          "name": "Uday Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 690,
+          "postal_votes": 16,
+          "total_votes": 706
+        },
+        {
+          "name": "Desh Raj",
+          "party": "BSP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 439,
+          "postal_votes": 5,
+          "total_votes": 444
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 371,
+          "postal_votes": 6,
+          "total_votes": 377
+        },
+        {
+          "name": "Pritam Dev",
+          "party": "IND",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 116,
+          "postal_votes": 1,
+          "total_votes": 117
+        }
+      ]
+    },
+    {
+      "ac_no": 67,
+      "name": "Rohru (SC)",
+      "category": "SC",
+      "electors": 75253,
+      "votes_polled": 55454,
+      "turnout_pct": 73.69,
+      "winner_name": "Mohan Lal Brakta",
+      "winner_party": "INC",
+      "winner_votes": 34327,
+      "runner_up_name": "Shashi Bala",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 14988,
+      "margin": 19339,
+      "nota_votes": 413,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Mohan Lal Brakta",
+          "party": "INC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 33344,
+          "postal_votes": 983,
+          "total_votes": 34327
+        },
+        {
+          "name": "Shashi Bala",
+          "party": "BJP",
+          "gender": "F",
+          "age": 40,
+          "evm_votes": 14676,
+          "postal_votes": 312,
+          "total_votes": 14988
+        },
+        {
+          "name": "Rajender Singh",
+          "party": "IND",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 3510,
+          "postal_votes": 87,
+          "total_votes": 3597
+        },
+        {
+          "name": "Ashwani Kumar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 1379,
+          "postal_votes": 21,
+          "total_votes": 1400
+        },
+        {
+          "name": "Prakash Andta",
+          "party": "BSP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 510,
+          "postal_votes": 10,
+          "total_votes": 520
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 410,
+          "postal_votes": 3,
+          "total_votes": 413
+        },
+        {
+          "name": "Narender Singh",
+          "party": "RTRYDVBHMP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 207,
+          "postal_votes": 2,
+          "total_votes": 209
+        }
+      ]
+    },
+    {
+      "ac_no": 68,
+      "name": "Kinnaur (ST)",
+      "category": "ST",
+      "electors": 60289,
+      "votes_polled": 44085,
+      "turnout_pct": 73.12,
+      "winner_name": "Jagat Singh Negi",
+      "winner_party": "INC",
+      "winner_votes": 20696,
+      "runner_up_name": "Surat Negi",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 13732,
+      "margin": 6964,
+      "nota_votes": 223,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Jagat Singh Negi",
+          "party": "INC",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 20208,
+          "postal_votes": 488,
+          "total_votes": 20696
+        },
+        {
+          "name": "Surat Negi",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 13515,
+          "postal_votes": 217,
+          "total_votes": 13732
+        },
+        {
+          "name": "Tejwant Singh Negi",
+          "party": "IND",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 8412,
+          "postal_votes": 162,
+          "total_votes": 8574
+        },
+        {
+          "name": "Tersem Singh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 567,
+          "postal_votes": 13,
+          "total_votes": 580
+        },
+        {
+          "name": "Anil Kapoor",
+          "party": "BSP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 277,
+          "postal_votes": 3,
+          "total_votes": 280
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 218,
+          "postal_votes": 5,
+          "total_votes": 223
+        }
+      ]
+    }
+  ]
+}

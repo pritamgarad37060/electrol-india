@@ -1,0 +1,4588 @@
+{
+  "state": "Meghalaya",
+  "key": "ml",
+  "year": 2023,
+  "type": "assembly",
+  "icon": "🌧️",
+  "total_seats": 60,
+  "majority_mark": 31,
+  "leading_party": "NPEP",
+  "leading_seats": 26,
+  "status": "NPEP Leading / Plurality",
+  "total_electors": 2179084,
+  "total_votes_polled": 1872854,
+  "avg_turnout_pct": 85.95,
+  "parties": [
+    {
+      "party": "NPEP",
+      "seats": 26,
+      "votes": 597595
+    },
+    {
+      "party": "UDP",
+      "seats": 12,
+      "votes": 317426
+    },
+    {
+      "party": "AITC",
+      "seats": 5,
+      "votes": 255831
+    },
+    {
+      "party": "INC",
+      "seats": 5,
+      "votes": 245603
+    },
+    {
+      "party": "VOTPP",
+      "seats": 4,
+      "votes": 101264
+    },
+    {
+      "party": "BJP",
+      "seats": 2,
+      "votes": 173083
+    },
+    {
+      "party": "IND",
+      "seats": 2,
+      "votes": 66704
+    },
+    {
+      "party": "HSPDP",
+      "seats": 2,
+      "votes": 66051
+    },
+    {
+      "party": "PDF",
+      "seats": 2,
+      "votes": 34974
+    }
+  ],
+  "constituencies": [
+    {
+      "ac_no": 1,
+      "name": "Nartiang (ST)",
+      "category": "ST",
+      "electors": 44478,
+      "votes_polled": 40394,
+      "turnout_pct": 90.82,
+      "winner_name": "Sniawbhalang Dhar",
+      "winner_party": "NPEP",
+      "winner_votes": 16969,
+      "runner_up_name": "Emlang Laloo",
+      "runner_up_party": "INC",
+      "runner_up_votes": 14846,
+      "margin": 2123,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Sniawbhalang Dhar",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 16601,
+          "postal_votes": 368,
+          "total_votes": 16969
+        },
+        {
+          "name": "Emlang Laloo",
+          "party": "INC",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 14683,
+          "postal_votes": 163,
+          "total_votes": 14846
+        },
+        {
+          "name": "Generous Paslein",
+          "party": "IND",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 7357,
+          "postal_votes": 47,
+          "total_votes": 7404
+        },
+        {
+          "name": "Dawan Lyngdoh",
+          "party": "UDP",
+          "gender": "M",
+          "age": 29,
+          "evm_votes": 884,
+          "postal_votes": 9,
+          "total_votes": 893
+        },
+        {
+          "name": "Rimiki Sari",
+          "party": "BJP",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 278,
+          "postal_votes": 4,
+          "total_votes": 282
+        }
+      ]
+    },
+    {
+      "ac_no": 2,
+      "name": "Jowai (ST)",
+      "category": "ST",
+      "electors": 40581,
+      "votes_polled": 36293,
+      "turnout_pct": 89.43,
+      "winner_name": "Wailadmiki Shylla",
+      "winner_party": "NPEP",
+      "winner_votes": 14079,
+      "runner_up_name": "Awhai Andrew Shullai",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 11412,
+      "margin": 2667,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Wailadmiki Shylla",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 13397,
+          "postal_votes": 682,
+          "total_votes": 14079
+        },
+        {
+          "name": "Awhai Andrew Shullai",
+          "party": "AITC",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 10802,
+          "postal_votes": 610,
+          "total_votes": 11412
+        },
+        {
+          "name": "Moonlight Pariat",
+          "party": "UDP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 9710,
+          "postal_votes": 550,
+          "total_votes": 10260
+        },
+        {
+          "name": "Allan Keith Suchiang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 315,
+          "postal_votes": 11,
+          "total_votes": 326
+        },
+        {
+          "name": "Daniel Dann",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 210,
+          "postal_votes": 6,
+          "total_votes": 216
+        }
+      ]
+    },
+    {
+      "ac_no": 3,
+      "name": "Raliang (ST)",
+      "category": "ST",
+      "electors": 39074,
+      "votes_polled": 35101,
+      "turnout_pct": 89.83,
+      "winner_name": "Coming One Ymbon",
+      "winner_party": "NPEP",
+      "winner_votes": 13626,
+      "runner_up_name": "Lakhon Biam",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 8289,
+      "margin": 5337,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Coming One Ymbon",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 13134,
+          "postal_votes": 492,
+          "total_votes": 13626
+        },
+        {
+          "name": "Lakhon Biam",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 8117,
+          "postal_votes": 172,
+          "total_votes": 8289
+        },
+        {
+          "name": "J Treilang Suchiang",
+          "party": "UDP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 5183,
+          "postal_votes": 67,
+          "total_votes": 5250
+        },
+        {
+          "name": "Richard Singh Lyngdoh",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 4097,
+          "postal_votes": 57,
+          "total_votes": 4154
+        },
+        {
+          "name": "Shemhok Garod",
+          "party": "PDF",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 2444,
+          "postal_votes": 69,
+          "total_votes": 2513
+        },
+        {
+          "name": "Robinus Syngkon",
+          "party": "AITC",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 1244,
+          "postal_votes": 25,
+          "total_votes": 1269
+        }
+      ]
+    },
+    {
+      "ac_no": 4,
+      "name": "Mowkaiaw (ST)",
+      "category": "ST",
+      "electors": 38967,
+      "votes_polled": 36387,
+      "turnout_pct": 93.38,
+      "winner_name": "Nujorki Sungoh",
+      "winner_party": "UDP",
+      "winner_votes": 14508,
+      "runner_up_name": "Habahun Dkhar",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 10607,
+      "margin": 3901,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Nujorki Sungoh",
+          "party": "UDP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 14137,
+          "postal_votes": 371,
+          "total_votes": 14508
+        },
+        {
+          "name": "Habahun Dkhar",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 10420,
+          "postal_votes": 187,
+          "total_votes": 10607
+        },
+        {
+          "name": "Nehemayah Tyngkan",
+          "party": "INC",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 10166,
+          "postal_votes": 124,
+          "total_votes": 10290
+        },
+        {
+          "name": "Lasting Suchiang",
+          "party": "AITC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 858,
+          "postal_votes": 14,
+          "total_votes": 872
+        },
+        {
+          "name": "Currentis Rabon",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 108,
+          "postal_votes": 2,
+          "total_votes": 110
+        }
+      ]
+    },
+    {
+      "ac_no": 5,
+      "name": "Sutnga Saipung (ST)",
+      "category": "ST",
+      "electors": 46973,
+      "votes_polled": 42997,
+      "turnout_pct": 91.54,
+      "winner_name": "Santa Mary Shylla",
+      "winner_party": "NPEP",
+      "winner_votes": 16974,
+      "runner_up_name": "Vincent .h. Pala",
+      "runner_up_party": "INC",
+      "runner_up_votes": 15146,
+      "margin": 1828,
+      "nota_votes": 0,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Santa Mary Shylla",
+          "party": "NPEP",
+          "gender": "F",
+          "age": 39,
+          "evm_votes": 16719,
+          "postal_votes": 255,
+          "total_votes": 16974
+        },
+        {
+          "name": "Vincent .h. Pala",
+          "party": "INC",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 14866,
+          "postal_votes": 280,
+          "total_votes": 15146
+        },
+        {
+          "name": "Shitlang Pale",
+          "party": "UDP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 10224,
+          "postal_votes": 229,
+          "total_votes": 10453
+        },
+        {
+          "name": "Krison Langstang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 420,
+          "postal_votes": 4,
+          "total_votes": 424
+        }
+      ]
+    },
+    {
+      "ac_no": 6,
+      "name": "Khliehriat (ST)",
+      "category": "ST",
+      "electors": 46944,
+      "votes_polled": 42680,
+      "turnout_pct": 90.92,
+      "winner_name": "Kyrmen Shylla",
+      "winner_party": "UDP",
+      "winner_votes": 23514,
+      "runner_up_name": "Nehlang Lyngdoh",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 17908,
+      "margin": 5606,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Kyrmen Shylla",
+          "party": "UDP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 23011,
+          "postal_votes": 503,
+          "total_votes": 23514
+        },
+        {
+          "name": "Nehlang Lyngdoh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 17519,
+          "postal_votes": 389,
+          "total_votes": 17908
+        },
+        {
+          "name": "Damewanhi L Rymbai",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 851,
+          "postal_votes": 10,
+          "total_votes": 861
+        },
+        {
+          "name": "Bhayes Chyrmang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 170,
+          "postal_votes": 4,
+          "total_votes": 174
+        },
+        {
+          "name": "Jhanika Siangshai",
+          "party": "INC",
+          "gender": "F",
+          "age": 29,
+          "evm_votes": 111,
+          "postal_votes": 3,
+          "total_votes": 114
+        },
+        {
+          "name": "Sunida Bareh",
+          "party": "AITC",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 109,
+          "postal_votes": 0,
+          "total_votes": 109
+        }
+      ]
+    },
+    {
+      "ac_no": 7,
+      "name": "Amlarem (ST)",
+      "category": "ST",
+      "electors": 39149,
+      "votes_polled": 35895,
+      "turnout_pct": 91.69,
+      "winner_name": "Lahkmen Rymbui",
+      "winner_party": "UDP",
+      "winner_votes": 17803,
+      "runner_up_name": "Stephanson Mukhim",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 17746,
+      "margin": 57,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Lahkmen Rymbui",
+          "party": "UDP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 17457,
+          "postal_votes": 346,
+          "total_votes": 17803
+        },
+        {
+          "name": "Stephanson Mukhim",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 17488,
+          "postal_votes": 258,
+          "total_votes": 17746
+        },
+        {
+          "name": "Arbiangkam Kharsohmat",
+          "party": "INC",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 132,
+          "postal_votes": 6,
+          "total_votes": 138
+        },
+        {
+          "name": "Firstborn Manner",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 106,
+          "postal_votes": 2,
+          "total_votes": 108
+        },
+        {
+          "name": "Alban K. Gashnga",
+          "party": "AITC",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 99,
+          "postal_votes": 1,
+          "total_votes": 100
+        }
+      ]
+    },
+    {
+      "ac_no": 8,
+      "name": "Mawhati (ST)",
+      "category": "ST",
+      "electors": 39235,
+      "votes_polled": 35321,
+      "turnout_pct": 90.02,
+      "winner_name": "Charles Marngar",
+      "winner_party": "INC",
+      "winner_votes": 13273,
+      "runner_up_name": "Shemphang Lyngdoh",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 8029,
+      "margin": 5244,
+      "nota_votes": 0,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Charles Marngar",
+          "party": "INC",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 13104,
+          "postal_votes": 169,
+          "total_votes": 13273
+        },
+        {
+          "name": "Shemphang Lyngdoh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 7945,
+          "postal_votes": 84,
+          "total_votes": 8029
+        },
+        {
+          "name": "Baiahunlang Makdoh",
+          "party": "UDP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 6494,
+          "postal_votes": 62,
+          "total_votes": 6556
+        },
+        {
+          "name": "Evalyni Kharbani",
+          "party": "HSPDP",
+          "gender": "F",
+          "age": 39,
+          "evm_votes": 4569,
+          "postal_votes": 21,
+          "total_votes": 4590
+        },
+        {
+          "name": "Dr. Evarist Myrsing",
+          "party": "BJP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 1359,
+          "postal_votes": 17,
+          "total_votes": 1376
+        },
+        {
+          "name": "Dr. Saralin Dorphang",
+          "party": "AITC",
+          "gender": "F",
+          "age": 44,
+          "evm_votes": 717,
+          "postal_votes": 12,
+          "total_votes": 729
+        },
+        {
+          "name": "Roswel Shadap",
+          "party": "PDF",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 553,
+          "postal_votes": 7,
+          "total_votes": 560
+        },
+        {
+          "name": "Osbert B. Rynjah",
+          "party": "IND",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 204,
+          "postal_votes": 4,
+          "total_votes": 208
+        }
+      ]
+    },
+    {
+      "ac_no": 9,
+      "name": "Nongpoh (ST)",
+      "category": "ST",
+      "electors": 37588,
+      "votes_polled": 32575,
+      "turnout_pct": 86.66,
+      "winner_name": "Mayralborn Syiem",
+      "winner_party": "UDP",
+      "winner_votes": 14940,
+      "runner_up_name": "Rona Khymdeit",
+      "runner_up_party": "INC",
+      "runner_up_votes": 8254,
+      "margin": 6686,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Mayralborn Syiem",
+          "party": "UDP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 14391,
+          "postal_votes": 549,
+          "total_votes": 14940
+        },
+        {
+          "name": "Rona Khymdeit",
+          "party": "INC",
+          "gender": "F",
+          "age": 44,
+          "evm_votes": 8065,
+          "postal_votes": 189,
+          "total_votes": 8254
+        },
+        {
+          "name": "Macdalyn Sawkmie Mawlong",
+          "party": "NPEP",
+          "gender": "F",
+          "age": 36,
+          "evm_votes": 7297,
+          "postal_votes": 149,
+          "total_votes": 7446
+        },
+        {
+          "name": "Marian Maring",
+          "party": "BJP",
+          "gender": "F",
+          "age": 36,
+          "evm_votes": 1055,
+          "postal_votes": 24,
+          "total_votes": 1079
+        },
+        {
+          "name": "Long Singh Bey",
+          "party": "AITC",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 639,
+          "postal_votes": 22,
+          "total_votes": 661
+        },
+        {
+          "name": "Bismo Ingtih",
+          "party": "IND",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 192,
+          "postal_votes": 3,
+          "total_votes": 195
+        }
+      ]
+    },
+    {
+      "ac_no": 10,
+      "name": "Jirang (ST)",
+      "category": "ST",
+      "electors": 42206,
+      "votes_polled": 34536,
+      "turnout_pct": 81.83,
+      "winner_name": "Sosthenes Sohtun",
+      "winner_party": "NPEP",
+      "winner_votes": 12690,
+      "runner_up_name": "Adrian Lambert Mylliem",
+      "runner_up_party": "INC",
+      "runner_up_votes": 11067,
+      "margin": 1623,
+      "nota_votes": 0,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Sosthenes Sohtun",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 12502,
+          "postal_votes": 188,
+          "total_votes": 12690
+        },
+        {
+          "name": "Adrian Lambert Mylliem",
+          "party": "INC",
+          "gender": "M",
+          "age": 29,
+          "evm_votes": 10948,
+          "postal_votes": 119,
+          "total_votes": 11067
+        },
+        {
+          "name": "Badhok Nongmalieh",
+          "party": "UDP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 4064,
+          "postal_votes": 43,
+          "total_votes": 4107
+        },
+        {
+          "name": "Sunmoon D. Marak",
+          "party": "AITC",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 3905,
+          "postal_votes": 23,
+          "total_votes": 3928
+        },
+        {
+          "name": "Riya Sangma",
+          "party": "BJP",
+          "gender": "F",
+          "age": 36,
+          "evm_votes": 2056,
+          "postal_votes": 19,
+          "total_votes": 2075
+        },
+        {
+          "name": "Forcaster Nongrang",
+          "party": "IND",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 265,
+          "postal_votes": 3,
+          "total_votes": 268
+        },
+        {
+          "name": "Lee Trevor Bareh",
+          "party": "IND",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 219,
+          "postal_votes": 7,
+          "total_votes": 226
+        },
+        {
+          "name": "Serimina D. Marak",
+          "party": "RPIA",
+          "gender": "F",
+          "age": 53,
+          "evm_votes": 173,
+          "postal_votes": 2,
+          "total_votes": 175
+        }
+      ]
+    },
+    {
+      "ac_no": 11,
+      "name": "Umsning (ST)",
+      "category": "ST",
+      "electors": 38958,
+      "votes_polled": 33609,
+      "turnout_pct": 86.27,
+      "winner_name": "Dr. Celestine Lyngdoh",
+      "winner_party": "INC",
+      "winner_votes": 9907,
+      "runner_up_name": "Sunshine Makri",
+      "runner_up_party": "UDP",
+      "runner_up_votes": 8743,
+      "margin": 1164,
+      "nota_votes": 0,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Dr. Celestine Lyngdoh",
+          "party": "INC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 9733,
+          "postal_votes": 174,
+          "total_votes": 9907
+        },
+        {
+          "name": "Sunshine Makri",
+          "party": "UDP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 8591,
+          "postal_votes": 152,
+          "total_votes": 8743
+        },
+        {
+          "name": "Jason Sawkmie Mawlong",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 7771,
+          "postal_votes": 174,
+          "total_votes": 7945
+        },
+        {
+          "name": "Dr. Ricky A. J. Syngkon",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 5357,
+          "postal_votes": 99,
+          "total_votes": 5456
+        },
+        {
+          "name": "Donlang Sohkhlet",
+          "party": "PDF",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 576,
+          "postal_votes": 9,
+          "total_votes": 585
+        },
+        {
+          "name": "Primson Makdoh",
+          "party": "HSPDP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 351,
+          "postal_votes": 2,
+          "total_votes": 353
+        },
+        {
+          "name": "Duruth Majaw",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 313,
+          "postal_votes": 11,
+          "total_votes": 324
+        },
+        {
+          "name": "Gilbert Nongrum",
+          "party": "AITC",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 291,
+          "postal_votes": 5,
+          "total_votes": 296
+        }
+      ]
+    },
+    {
+      "ac_no": 12,
+      "name": "Umroi (ST)",
+      "category": "ST",
+      "electors": 32602,
+      "votes_polled": 28343,
+      "turnout_pct": 86.94,
+      "winner_name": "Damanbait Lamare",
+      "winner_party": "NPEP",
+      "winner_votes": 14213,
+      "runner_up_name": "George B. Lyngdoh",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 12527,
+      "margin": 1686,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Damanbait Lamare",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 14077,
+          "postal_votes": 136,
+          "total_votes": 14213
+        },
+        {
+          "name": "George B. Lyngdoh",
+          "party": "AITC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 12338,
+          "postal_votes": 189,
+          "total_votes": 12527
+        },
+        {
+          "name": "Stanlywiss Rymbai",
+          "party": "INC",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 1057,
+          "postal_votes": 24,
+          "total_votes": 1081
+        },
+        {
+          "name": "Shanbor Ramde",
+          "party": "BJP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 396,
+          "postal_votes": 8,
+          "total_votes": 404
+        },
+        {
+          "name": "Baiateilang Lapang",
+          "party": "PDF",
+          "gender": "M",
+          "age": 30,
+          "evm_votes": 118,
+          "postal_votes": 0,
+          "total_votes": 118
+        }
+      ]
+    },
+    {
+      "ac_no": 13,
+      "name": "Mawryngkneng (ST)",
+      "category": "ST",
+      "electors": 39802,
+      "votes_polled": 34243,
+      "turnout_pct": 86.03,
+      "winner_name": "Heaving Stone Kharpran",
+      "winner_party": "VOTPP",
+      "winner_votes": 11424,
+      "runner_up_name": "Osaphi Smithson Jyrwa",
+      "runner_up_party": "UDP",
+      "runner_up_votes": 10182,
+      "margin": 1242,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Heaving Stone Kharpran",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 11274,
+          "postal_votes": 150,
+          "total_votes": 11424
+        },
+        {
+          "name": "Osaphi Smithson Jyrwa",
+          "party": "UDP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 10008,
+          "postal_votes": 174,
+          "total_votes": 10182
+        },
+        {
+          "name": "Pyniaid Sing Syiem",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 9281,
+          "postal_votes": 260,
+          "total_votes": 9541
+        },
+        {
+          "name": "Banshanlang Lawai",
+          "party": "AITC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 1526,
+          "postal_votes": 33,
+          "total_votes": 1559
+        },
+        {
+          "name": "Highlander Kharmalki",
+          "party": "BJP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 941,
+          "postal_votes": 27,
+          "total_votes": 968
+        },
+        {
+          "name": "Esron Marwein",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 408,
+          "postal_votes": 25,
+          "total_votes": 433
+        },
+        {
+          "name": "Wyraiwan Sohtun",
+          "party": "HSPDP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 134,
+          "postal_votes": 2,
+          "total_votes": 136
+        }
+      ]
+    },
+    {
+      "ac_no": 14,
+      "name": "Pynthorumkhrah",
+      "category": "ST",
+      "electors": 34823,
+      "votes_polled": 25771,
+      "turnout_pct": 74.01,
+      "winner_name": "Alexander Laloo Hek",
+      "winner_party": "BJP",
+      "winner_votes": 9321,
+      "runner_up_name": "Pynshngainlang Syiem",
+      "runner_up_party": "INC",
+      "runner_up_votes": 6783,
+      "margin": 2538,
+      "nota_votes": 0,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Alexander Laloo Hek",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 9040,
+          "postal_votes": 281,
+          "total_votes": 9321
+        },
+        {
+          "name": "Pynshngainlang Syiem",
+          "party": "INC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 6566,
+          "postal_votes": 217,
+          "total_votes": 6783
+        },
+        {
+          "name": "Mayborn Grace Lyngdoh",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 30,
+          "evm_votes": 5572,
+          "postal_votes": 148,
+          "total_votes": 5720
+        },
+        {
+          "name": "Rocky Hek",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 3277,
+          "postal_votes": 79,
+          "total_votes": 3356
+        },
+        {
+          "name": "Raymond Basaiawmoit",
+          "party": "AITC",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 239,
+          "postal_votes": 8,
+          "total_votes": 247
+        },
+        {
+          "name": "Samborlang Diengdoh",
+          "party": "IND",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 160,
+          "postal_votes": 8,
+          "total_votes": 168
+        },
+        {
+          "name": "Jubanlang Kharbihkhiew",
+          "party": "IND",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 93,
+          "postal_votes": 9,
+          "total_votes": 102
+        },
+        {
+          "name": "Rup Pariat",
+          "party": "IND",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 72,
+          "postal_votes": 2,
+          "total_votes": 74
+        }
+      ]
+    },
+    {
+      "ac_no": 15,
+      "name": "Mawlai (ST)",
+      "category": "ST",
+      "electors": 50101,
+      "votes_polled": 40493,
+      "turnout_pct": 80.82,
+      "winner_name": "Brightstarwell Marbaniang",
+      "winner_party": "VOTPP",
+      "winner_votes": 24262,
+      "runner_up_name": "Teiborlang Pathaw",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 8614,
+      "margin": 15648,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Brightstarwell Marbaniang",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 23632,
+          "postal_votes": 630,
+          "total_votes": 24262
+        },
+        {
+          "name": "Teiborlang Pathaw",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 8377,
+          "postal_votes": 237,
+          "total_votes": 8614
+        },
+        {
+          "name": "Process T. Sawkmie",
+          "party": "UDP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 4898,
+          "postal_votes": 244,
+          "total_votes": 5142
+        },
+        {
+          "name": "Marbud Dkhar",
+          "party": "INC",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 1453,
+          "postal_votes": 53,
+          "total_votes": 1506
+        },
+        {
+          "name": "Wandonbok Jyrwa",
+          "party": "BJP",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 434,
+          "postal_votes": 16,
+          "total_votes": 450
+        },
+        {
+          "name": "Tarcisious Mawlot",
+          "party": "IND",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 260,
+          "postal_votes": 4,
+          "total_votes": 264
+        },
+        {
+          "name": "Stepbournekupar Ryndem",
+          "party": "AITC",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 250,
+          "postal_votes": 5,
+          "total_votes": 255
+        }
+      ]
+    },
+    {
+      "ac_no": 16,
+      "name": "East Shillong (ST)",
+      "category": "ST",
+      "electors": 25504,
+      "votes_polled": 16777,
+      "turnout_pct": 65.78,
+      "winner_name": "Dr. Mazel Ampareen Lyngdoh",
+      "winner_party": "NPEP",
+      "winner_votes": 6637,
+      "runner_up_name": "Manuel Badwar",
+      "runner_up_party": "INC",
+      "runner_up_votes": 4926,
+      "margin": 1711,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Dr. Mazel Ampareen Lyngdoh",
+          "party": "NPEP",
+          "gender": "F",
+          "age": 57,
+          "evm_votes": 6403,
+          "postal_votes": 234,
+          "total_votes": 6637
+        },
+        {
+          "name": "Manuel Badwar",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 4697,
+          "postal_votes": 229,
+          "total_votes": 4926
+        },
+        {
+          "name": "Wankitbok Pohshna",
+          "party": "BJP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 2601,
+          "postal_votes": 42,
+          "total_votes": 2643
+        },
+        {
+          "name": "Avner Medon Pariat",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 1913,
+          "postal_votes": 61,
+          "total_votes": 1974
+        },
+        {
+          "name": "Ajoy Nongrum",
+          "party": "AITC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 255,
+          "postal_votes": 9,
+          "total_votes": 264
+        },
+        {
+          "name": "Wanpynhun Kharsyntiew",
+          "party": "IND",
+          "gender": "F",
+          "age": 42,
+          "evm_votes": 236,
+          "postal_votes": 7,
+          "total_votes": 243
+        },
+        {
+          "name": "Romeo Phira Rani",
+          "party": "PDF",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 87,
+          "postal_votes": 3,
+          "total_votes": 90
+        }
+      ]
+    },
+    {
+      "ac_no": 17,
+      "name": "North Shillong (ST)",
+      "category": "ST",
+      "electors": 28336,
+      "votes_polled": 18766,
+      "turnout_pct": 66.23,
+      "winner_name": "Adelbert Nongrum",
+      "winner_party": "VOTPP",
+      "winner_votes": 5583,
+      "runner_up_name": "Mariahom Kharkrang",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 4550,
+      "margin": 1033,
+      "nota_votes": 0,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Adelbert Nongrum",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 5333,
+          "postal_votes": 250,
+          "total_votes": 5583
+        },
+        {
+          "name": "Mariahom Kharkrang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 4444,
+          "postal_votes": 106,
+          "total_votes": 4550
+        },
+        {
+          "name": "Dr. Aman Warr",
+          "party": "UDP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 3650,
+          "postal_votes": 141,
+          "total_votes": 3791
+        },
+        {
+          "name": "Ransom Sutnga",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 1899,
+          "postal_votes": 76,
+          "total_votes": 1975
+        },
+        {
+          "name": "J. Antonius Lyngdoh",
+          "party": "INC",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 1491,
+          "postal_votes": 64,
+          "total_votes": 1555
+        },
+        {
+          "name": "Elgiva Gwyneth Rynjah",
+          "party": "AITC",
+          "gender": "F",
+          "age": 31,
+          "evm_votes": 783,
+          "postal_votes": 33,
+          "total_votes": 816
+        },
+        {
+          "name": "L. Michael Kharsyntiew",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 376,
+          "postal_votes": 9,
+          "total_votes": 385
+        },
+        {
+          "name": "Kyrsoibor Pyrtuh",
+          "party": "IND",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 111,
+          "postal_votes": 0,
+          "total_votes": 111
+        }
+      ]
+    },
+    {
+      "ac_no": 18,
+      "name": "West Shillong",
+      "category": "ST",
+      "electors": 27329,
+      "votes_polled": 18583,
+      "turnout_pct": 68.0,
+      "winner_name": "Paul Lyngdoh",
+      "winner_party": "UDP",
+      "winner_votes": 7917,
+      "runner_up_name": "Mohendro Rapsang",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 4432,
+      "margin": 3485,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Paul Lyngdoh",
+          "party": "UDP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 7680,
+          "postal_votes": 237,
+          "total_votes": 7917
+        },
+        {
+          "name": "Mohendro Rapsang",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 4358,
+          "postal_votes": 74,
+          "total_votes": 4432
+        },
+        {
+          "name": "Ernest Mawrie",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 3723,
+          "postal_votes": 48,
+          "total_votes": 3771
+        },
+        {
+          "name": "Raja Jyrwa",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 1789,
+          "postal_votes": 70,
+          "total_votes": 1859
+        },
+        {
+          "name": "Bethleen Dkhar",
+          "party": "INC",
+          "gender": "F",
+          "age": 50,
+          "evm_votes": 393,
+          "postal_votes": 24,
+          "total_votes": 417
+        },
+        {
+          "name": "Iwan Maria",
+          "party": "AITC",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 180,
+          "postal_votes": 7,
+          "total_votes": 187
+        }
+      ]
+    },
+    {
+      "ac_no": 19,
+      "name": "South Shillong",
+      "category": "ST",
+      "electors": 34186,
+      "votes_polled": 21177,
+      "turnout_pct": 61.95,
+      "winner_name": "Sanbor Shullai",
+      "winner_party": "BJP",
+      "winner_votes": 14213,
+      "runner_up_name": "Danny Langstieh",
+      "runner_up_party": "VOTPP",
+      "runner_up_votes": 2604,
+      "margin": 11609,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Sanbor Shullai",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 13871,
+          "postal_votes": 342,
+          "total_votes": 14213
+        },
+        {
+          "name": "Danny Langstieh",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 2534,
+          "postal_votes": 70,
+          "total_votes": 2604
+        },
+        {
+          "name": "Angela G. Rangad",
+          "party": "IND",
+          "gender": "F",
+          "age": 47,
+          "evm_votes": 1662,
+          "postal_votes": 52,
+          "total_votes": 1714
+        },
+        {
+          "name": "Ian Andrew Lyngdoh Nongkynrih",
+          "party": "AITC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 1526,
+          "postal_votes": 34,
+          "total_votes": 1560
+        },
+        {
+          "name": "Venetia Pearl Mawlong",
+          "party": "INC",
+          "gender": "F",
+          "age": 48,
+          "evm_votes": 1052,
+          "postal_votes": 34,
+          "total_votes": 1086
+        }
+      ]
+    },
+    {
+      "ac_no": 20,
+      "name": "Mylliem (ST)",
+      "category": "ST",
+      "electors": 37369,
+      "votes_polled": 30791,
+      "turnout_pct": 82.4,
+      "winner_name": "Ronnie V. Lyngdoh",
+      "winner_party": "INC",
+      "winner_votes": 8904,
+      "runner_up_name": "Aibandaplin F. Lyngdoh",
+      "runner_up_party": "VOTPP",
+      "runner_up_votes": 8866,
+      "margin": 38,
+      "nota_votes": 0,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Ronnie V. Lyngdoh",
+          "party": "INC",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 8616,
+          "postal_votes": 288,
+          "total_votes": 8904
+        },
+        {
+          "name": "Aibandaplin F. Lyngdoh",
+          "party": "VOTPP",
+          "gender": "F",
+          "age": 32,
+          "evm_votes": 8689,
+          "postal_votes": 177,
+          "total_votes": 8866
+        },
+        {
+          "name": "Hamletson Dohling",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 8486,
+          "postal_votes": 226,
+          "total_votes": 8712
+        },
+        {
+          "name": "Mitchel Wankhar",
+          "party": "UDP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 2567,
+          "postal_votes": 52,
+          "total_votes": 2619
+        },
+        {
+          "name": "Pynshai Manik Syiem",
+          "party": "IND",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 583,
+          "postal_votes": 31,
+          "total_votes": 614
+        },
+        {
+          "name": "Gilbert Guidingstar Laloo",
+          "party": "AITC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 545,
+          "postal_votes": 21,
+          "total_votes": 566
+        },
+        {
+          "name": "Samuel Hashah",
+          "party": "BJP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 420,
+          "postal_votes": 15,
+          "total_votes": 435
+        },
+        {
+          "name": "Richard Nongbsap",
+          "party": "IND",
+          "gender": "M",
+          "age": 27,
+          "evm_votes": 74,
+          "postal_votes": 1,
+          "total_votes": 75
+        }
+      ]
+    },
+    {
+      "ac_no": 21,
+      "name": "Nongthymmai (ST)",
+      "category": "ST",
+      "electors": 36602,
+      "votes_polled": 24659,
+      "turnout_pct": 67.37,
+      "winner_name": "Charles Pyngrope",
+      "winner_party": "AITC",
+      "winner_votes": 7452,
+      "runner_up_name": "Jemino Mawthoh",
+      "runner_up_party": "UDP",
+      "runner_up_votes": 6253,
+      "margin": 1199,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Charles Pyngrope",
+          "party": "AITC",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 7243,
+          "postal_votes": 209,
+          "total_votes": 7452
+        },
+        {
+          "name": "Jemino Mawthoh",
+          "party": "UDP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 6020,
+          "postal_votes": 233,
+          "total_votes": 6253
+        },
+        {
+          "name": "Winston Tony Lyngdoh",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 4346,
+          "postal_votes": 127,
+          "total_votes": 4473
+        },
+        {
+          "name": "David Kharsati",
+          "party": "BJP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 3223,
+          "postal_votes": 51,
+          "total_votes": 3274
+        },
+        {
+          "name": "Jasmine Mary Lyngdoh",
+          "party": "NPEP",
+          "gender": "F",
+          "age": 54,
+          "evm_votes": 1993,
+          "postal_votes": 61,
+          "total_votes": 2054
+        },
+        {
+          "name": "Banida Shisha Kharkongor",
+          "party": "INC",
+          "gender": "F",
+          "age": 45,
+          "evm_votes": 994,
+          "postal_votes": 51,
+          "total_votes": 1045
+        },
+        {
+          "name": "Wankit Kupar Kharumnuid",
+          "party": "IND",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 105,
+          "postal_votes": 3,
+          "total_votes": 108
+        }
+      ]
+    },
+    {
+      "ac_no": 22,
+      "name": "Nongkrem (ST)",
+      "category": "ST",
+      "electors": 38705,
+      "votes_polled": 32389,
+      "turnout_pct": 83.68,
+      "winner_name": "Ardent Miller Basaiawmoit",
+      "winner_party": "VOTPP",
+      "winner_votes": 13286,
+      "runner_up_name": "Lambor Malngiang",
+      "runner_up_party": "UDP",
+      "runner_up_votes": 9099,
+      "margin": 4187,
+      "nota_votes": 0,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Ardent Miller Basaiawmoit",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 13059,
+          "postal_votes": 227,
+          "total_votes": 13286
+        },
+        {
+          "name": "Lambor Malngiang",
+          "party": "UDP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 8991,
+          "postal_votes": 108,
+          "total_votes": 9099
+        },
+        {
+          "name": "Dasakhiatbha Lamare",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 30,
+          "evm_votes": 7409,
+          "postal_votes": 82,
+          "total_votes": 7491
+        },
+        {
+          "name": "Egenstar Kurkalang",
+          "party": "PDF",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 1362,
+          "postal_votes": 13,
+          "total_votes": 1375
+        },
+        {
+          "name": "David T. Kharkongor",
+          "party": "BJP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 454,
+          "postal_votes": 77,
+          "total_votes": 531
+        },
+        {
+          "name": "Sardonik Nongkhlaw",
+          "party": "INC",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 272,
+          "postal_votes": 21,
+          "total_votes": 293
+        },
+        {
+          "name": "Joannes J.t.l. Lamare",
+          "party": "AITC",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 170,
+          "postal_votes": 6,
+          "total_votes": 176
+        },
+        {
+          "name": "B. M. Lanong",
+          "party": "IND",
+          "gender": "M",
+          "age": 74,
+          "evm_votes": 135,
+          "postal_votes": 3,
+          "total_votes": 138
+        }
+      ]
+    },
+    {
+      "ac_no": 23,
+      "name": "Sohiong (ST)",
+      "category": "ST",
+      "electors": 34790,
+      "votes_polled": 32161,
+      "turnout_pct": 92.44,
+      "winner_name": "Synshar Kupar Roy Lyngdoh Thabah",
+      "winner_party": "UDP",
+      "winner_votes": 16679,
+      "runner_up_name": "Samlin Malngiang",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 13257,
+      "margin": 3422,
+      "nota_votes": 272,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Synshar Kupar Roy Lyngdoh Thabah",
+          "party": "UDP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 16577,
+          "postal_votes": 102,
+          "total_votes": 16679
+        },
+        {
+          "name": "Samlin Malngiang",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 13176,
+          "postal_votes": 81,
+          "total_votes": 13257
+        },
+        {
+          "name": "S. Osborne Kharjana",
+          "party": "INC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 1756,
+          "postal_votes": 6,
+          "total_votes": 1762
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 272,
+          "postal_votes": 0,
+          "total_votes": 272
+        },
+        {
+          "name": "Stodingstar Thabah",
+          "party": "AITC",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 89,
+          "postal_votes": 0,
+          "total_votes": 89
+        },
+        {
+          "name": "Sandondor Ryntathiang",
+          "party": "HSPDP",
+          "gender": "M",
+          "age": 27,
+          "evm_votes": 61,
+          "postal_votes": 1,
+          "total_votes": 62
+        },
+        {
+          "name": "Seraph Eric Kharbuki",
+          "party": "BJP",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 40,
+          "postal_votes": 0,
+          "total_votes": 40
+        }
+      ]
+    },
+    {
+      "ac_no": 24,
+      "name": "Mawphlang (ST)",
+      "category": "ST",
+      "electors": 35484,
+      "votes_polled": 31117,
+      "turnout_pct": 87.69,
+      "winner_name": "Matthew Beyondstar Kurbah",
+      "winner_party": "UDP",
+      "winner_votes": 6690,
+      "runner_up_name": "Auspicious Lyngdoh Mawphlang",
+      "runner_up_party": "PDF",
+      "runner_up_votes": 6586,
+      "margin": 104,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Matthew Beyondstar Kurbah",
+          "party": "UDP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 6596,
+          "postal_votes": 94,
+          "total_votes": 6690
+        },
+        {
+          "name": "Auspicious Lyngdoh Mawphlang",
+          "party": "PDF",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 6481,
+          "postal_votes": 105,
+          "total_votes": 6586
+        },
+        {
+          "name": "Dannyson Kurbah",
+          "party": "INC",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 5518,
+          "postal_votes": 76,
+          "total_votes": 5594
+        },
+        {
+          "name": "Doristar Marbaniang",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 4759,
+          "postal_votes": 52,
+          "total_votes": 4811
+        },
+        {
+          "name": "Kennedy Cornelius Khyriem",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 4670,
+          "postal_votes": 63,
+          "total_votes": 4733
+        },
+        {
+          "name": "Mawkordor Rynjah",
+          "party": "AITC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 1493,
+          "postal_votes": 14,
+          "total_votes": 1507
+        },
+        {
+          "name": "Wossarroi Rani",
+          "party": "BJP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 1184,
+          "postal_votes": 12,
+          "total_votes": 1196
+        }
+      ]
+    },
+    {
+      "ac_no": 25,
+      "name": "Mawsynram (ST)",
+      "category": "ST",
+      "electors": 37188,
+      "votes_polled": 32871,
+      "turnout_pct": 88.39,
+      "winner_name": "Ollan Singh Suin",
+      "winner_party": "UDP",
+      "winner_votes": 10987,
+      "runner_up_name": "Himalaya Muktan Shangpliang",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 10032,
+      "margin": 955,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Ollan Singh Suin",
+          "party": "UDP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 10846,
+          "postal_votes": 141,
+          "total_votes": 10987
+        },
+        {
+          "name": "Himalaya Muktan Shangpliang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 9890,
+          "postal_votes": 142,
+          "total_votes": 10032
+        },
+        {
+          "name": "Alvin Khyriem Sawkmie",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 9899,
+          "postal_votes": 103,
+          "total_votes": 10002
+        },
+        {
+          "name": "Gopal Stone Hynniewta",
+          "party": "INC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 1033,
+          "postal_votes": 23,
+          "total_votes": 1056
+        },
+        {
+          "name": "Vincent T Sangma",
+          "party": "AITC",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 683,
+          "postal_votes": 6,
+          "total_votes": 689
+        },
+        {
+          "name": "Starfing Jove Langpen Pdahkasiej",
+          "party": "HSPDP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 103,
+          "postal_votes": 2,
+          "total_votes": 105
+        }
+      ]
+    },
+    {
+      "ac_no": 26,
+      "name": "Shella (ST)",
+      "category": "ST",
+      "electors": 34682,
+      "votes_polled": 30258,
+      "turnout_pct": 87.24,
+      "winner_name": "Balajied Kupar Synrem",
+      "winner_party": "UDP",
+      "winner_votes": 13274,
+      "runner_up_name": "Grace Mary Kharpuri",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 12840,
+      "margin": 434,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Balajied Kupar Synrem",
+          "party": "UDP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 13077,
+          "postal_votes": 197,
+          "total_votes": 13274
+        },
+        {
+          "name": "Grace Mary Kharpuri",
+          "party": "NPEP",
+          "gender": "F",
+          "age": 55,
+          "evm_votes": 12722,
+          "postal_votes": 118,
+          "total_votes": 12840
+        },
+        {
+          "name": "Arena Hynniewta",
+          "party": "BJP",
+          "gender": "F",
+          "age": 43,
+          "evm_votes": 2655,
+          "postal_votes": 15,
+          "total_votes": 2670
+        },
+        {
+          "name": "Playness Khiewtam",
+          "party": "AITC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 877,
+          "postal_votes": 5,
+          "total_votes": 882
+        },
+        {
+          "name": "Wellborn Bynnud",
+          "party": "INC",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 583,
+          "postal_votes": 9,
+          "total_votes": 592
+        }
+      ]
+    },
+    {
+      "ac_no": 27,
+      "name": "Pynursla (ST)",
+      "category": "ST",
+      "electors": 38907,
+      "votes_polled": 34618,
+      "turnout_pct": 88.98,
+      "winner_name": "Prestone Tynsong",
+      "winner_party": "NPEP",
+      "winner_votes": 13745,
+      "runner_up_name": "Nehru Suting",
+      "runner_up_party": "INC",
+      "runner_up_votes": 5605,
+      "margin": 8140,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Prestone Tynsong",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 13601,
+          "postal_votes": 144,
+          "total_votes": 13745
+        },
+        {
+          "name": "Nehru Suting",
+          "party": "INC",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 5567,
+          "postal_votes": 38,
+          "total_votes": 5605
+        },
+        {
+          "name": "Anthony Justine Kongwang",
+          "party": "UDP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 5356,
+          "postal_votes": 21,
+          "total_votes": 5377
+        },
+        {
+          "name": "Don Kupar Massar",
+          "party": "IND",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 4812,
+          "postal_votes": 16,
+          "total_votes": 4828
+        },
+        {
+          "name": "Manbhalang Thabah",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 3405,
+          "postal_votes": 77,
+          "total_votes": 3482
+        },
+        {
+          "name": "Edmund Khongngai",
+          "party": "AITC",
+          "gender": "M",
+          "age": 29,
+          "evm_votes": 1201,
+          "postal_votes": 3,
+          "total_votes": 1204
+        },
+        {
+          "name": "Rowelly Khongsni",
+          "party": "BJP",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 376,
+          "postal_votes": 1,
+          "total_votes": 377
+        }
+      ]
+    },
+    {
+      "ac_no": 28,
+      "name": "Sohra (ST)",
+      "category": "ST",
+      "electors": 29932,
+      "votes_polled": 26723,
+      "turnout_pct": 89.28,
+      "winner_name": "Gavin Miguel Mylliem",
+      "winner_party": "PDF",
+      "winner_votes": 11358,
+      "runner_up_name": "Titosstar Well Chyne",
+      "runner_up_party": "UDP",
+      "runner_up_votes": 11343,
+      "margin": 15,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Gavin Miguel Mylliem",
+          "party": "PDF",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 11201,
+          "postal_votes": 157,
+          "total_votes": 11358
+        },
+        {
+          "name": "Titosstar Well Chyne",
+          "party": "UDP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 11190,
+          "postal_votes": 153,
+          "total_votes": 11343
+        },
+        {
+          "name": "Alan West Kharkongor",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 1585,
+          "postal_votes": 13,
+          "total_votes": 1598
+        },
+        {
+          "name": "Harold Firming Khongsit",
+          "party": "AITC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 1118,
+          "postal_votes": 19,
+          "total_votes": 1137
+        },
+        {
+          "name": "G.phaiyolin Nongrum",
+          "party": "VOTPP",
+          "gender": "F",
+          "age": 60,
+          "evm_votes": 904,
+          "postal_votes": 12,
+          "total_votes": 916
+        },
+        {
+          "name": "Lakyntiew Sohkhlet",
+          "party": "INC",
+          "gender": "F",
+          "age": 35,
+          "evm_votes": 219,
+          "postal_votes": 10,
+          "total_votes": 229
+        },
+        {
+          "name": "Michael Ronnie Kshiar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 140,
+          "postal_votes": 2,
+          "total_votes": 142
+        }
+      ]
+    },
+    {
+      "ac_no": 29,
+      "name": "Mawkynrew (ST)",
+      "category": "ST",
+      "electors": 37189,
+      "votes_polled": 33207,
+      "turnout_pct": 89.29,
+      "winner_name": "Banteidor Lyngdoh",
+      "winner_party": "PDF",
+      "winner_votes": 11789,
+      "runner_up_name": "Martle N. Mukhim",
+      "runner_up_party": "HSPDP",
+      "runner_up_votes": 7652,
+      "margin": 4137,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Banteidor Lyngdoh",
+          "party": "PDF",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 11732,
+          "postal_votes": 57,
+          "total_votes": 11789
+        },
+        {
+          "name": "Martle N. Mukhim",
+          "party": "HSPDP",
+          "gender": "M",
+          "age": 73,
+          "evm_votes": 7610,
+          "postal_votes": 42,
+          "total_votes": 7652
+        },
+        {
+          "name": "Kansing Lyngshiang",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 7335,
+          "postal_votes": 25,
+          "total_votes": 7360
+        },
+        {
+          "name": "Remington Pyngrope",
+          "party": "UDP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 5361,
+          "postal_votes": 24,
+          "total_votes": 5385
+        },
+        {
+          "name": "Pynhunlang Nongrum",
+          "party": "INC",
+          "gender": "F",
+          "age": 33,
+          "evm_votes": 461,
+          "postal_votes": 4,
+          "total_votes": 465
+        },
+        {
+          "name": "Dondor Marbaniang",
+          "party": "AITC",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 463,
+          "postal_votes": 0,
+          "total_votes": 463
+        },
+        {
+          "name": "Counsellor Mukhim",
+          "party": "BJP",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 92,
+          "postal_votes": 1,
+          "total_votes": 93
+        }
+      ]
+    },
+    {
+      "ac_no": 30,
+      "name": "Mairang (ST)",
+      "category": "ST",
+      "electors": 42402,
+      "votes_polled": 39166,
+      "turnout_pct": 92.37,
+      "winner_name": "Metbah Lyngdoh",
+      "winner_party": "UDP",
+      "winner_votes": 19066,
+      "runner_up_name": "Batskhem Ryntathiang",
+      "runner_up_party": "INC",
+      "runner_up_votes": 18911,
+      "margin": 155,
+      "nota_votes": 0,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Metbah Lyngdoh",
+          "party": "UDP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 18684,
+          "postal_votes": 382,
+          "total_votes": 19066
+        },
+        {
+          "name": "Batskhem Ryntathiang",
+          "party": "INC",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 18584,
+          "postal_votes": 327,
+          "total_votes": 18911
+        },
+        {
+          "name": "Shanlang Warjri",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 931,
+          "postal_votes": 13,
+          "total_votes": 944
+        },
+        {
+          "name": "Mark Rinaldy Sawkmie",
+          "party": "BJP",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 240,
+          "postal_votes": 5,
+          "total_votes": 245
+        }
+      ]
+    },
+    {
+      "ac_no": 31,
+      "name": "Mawthadraishan (ST)",
+      "category": "ST",
+      "electors": 43766,
+      "votes_polled": 40420,
+      "turnout_pct": 92.35,
+      "winner_name": "Shakliar Warjri",
+      "winner_party": "HSPDP",
+      "winner_votes": 17366,
+      "runner_up_name": "Brolding Nongsiej",
+      "runner_up_party": "UDP",
+      "runner_up_votes": 15013,
+      "margin": 2353,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Shakliar Warjri",
+          "party": "HSPDP",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 17126,
+          "postal_votes": 240,
+          "total_votes": 17366
+        },
+        {
+          "name": "Brolding Nongsiej",
+          "party": "UDP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 14726,
+          "postal_votes": 287,
+          "total_votes": 15013
+        },
+        {
+          "name": "Biolinda L.nonglait",
+          "party": "NPEP",
+          "gender": "F",
+          "age": 36,
+          "evm_votes": 7574,
+          "postal_votes": 84,
+          "total_votes": 7658
+        },
+        {
+          "name": "Fourteenson Lyngkhoi",
+          "party": "INC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 251,
+          "postal_votes": 9,
+          "total_votes": 260
+        },
+        {
+          "name": "Darikmen L.marshillong",
+          "party": "BJP",
+          "gender": "F",
+          "age": 33,
+          "evm_votes": 116,
+          "postal_votes": 7,
+          "total_votes": 123
+        }
+      ]
+    },
+    {
+      "ac_no": 32,
+      "name": "Nongstoin (ST)",
+      "category": "ST",
+      "electors": 43120,
+      "votes_polled": 39273,
+      "turnout_pct": 91.08,
+      "winner_name": "Gabriel Wahlang",
+      "winner_party": "INC",
+      "winner_votes": 13847,
+      "runner_up_name": "Macmillan Byrsat",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 11223,
+      "margin": 2624,
+      "nota_votes": 0,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Gabriel Wahlang",
+          "party": "INC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 13408,
+          "postal_votes": 439,
+          "total_votes": 13847
+        },
+        {
+          "name": "Macmillan Byrsat",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 10563,
+          "postal_votes": 660,
+          "total_votes": 11223
+        },
+        {
+          "name": "Polestar Nongsiej",
+          "party": "UDP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 7340,
+          "postal_votes": 165,
+          "total_votes": 7505
+        },
+        {
+          "name": "Bobby Boldrick Kharchandy",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 3650,
+          "postal_votes": 105,
+          "total_votes": 3755
+        },
+        {
+          "name": "Sanjied Kynsai Shangrit",
+          "party": "HSPDP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 1365,
+          "postal_votes": 25,
+          "total_votes": 1390
+        },
+        {
+          "name": "Macmillan Kharbani",
+          "party": "AITC",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 1060,
+          "postal_votes": 31,
+          "total_votes": 1091
+        },
+        {
+          "name": "Diosstarness Jyndiang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 245,
+          "postal_votes": 8,
+          "total_votes": 253
+        },
+        {
+          "name": "Stainbinel Wanniang",
+          "party": "IND",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 202,
+          "postal_votes": 7,
+          "total_votes": 209
+        }
+      ]
+    },
+    {
+      "ac_no": 33,
+      "name": "Rambrai Jyrngam (ST)",
+      "category": "ST",
+      "electors": 39415,
+      "votes_polled": 33856,
+      "turnout_pct": 85.9,
+      "winner_name": "Remington Gabil Momin",
+      "winner_party": "IND",
+      "winner_votes": 9057,
+      "runner_up_name": "K. Phlastingwel Pangniang",
+      "runner_up_party": "HSPDP",
+      "runner_up_votes": 8947,
+      "margin": 110,
+      "nota_votes": 0,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Remington Gabil Momin",
+          "party": "IND",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 8925,
+          "postal_votes": 132,
+          "total_votes": 9057
+        },
+        {
+          "name": "K. Phlastingwel Pangniang",
+          "party": "HSPDP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 8836,
+          "postal_votes": 111,
+          "total_votes": 8947
+        },
+        {
+          "name": "Kimfa Sidney Marbaniang",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 7176,
+          "postal_votes": 96,
+          "total_votes": 7272
+        },
+        {
+          "name": "A Goldenstar Nonglong",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 5751,
+          "postal_votes": 54,
+          "total_votes": 5805
+        },
+        {
+          "name": "Fernandez S. Dkhar",
+          "party": "AITC",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 1544,
+          "postal_votes": 10,
+          "total_votes": 1554
+        },
+        {
+          "name": "Spasterlin Nongrem",
+          "party": "BJP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 686,
+          "postal_votes": 3,
+          "total_votes": 689
+        },
+        {
+          "name": "Francis Pondit R. Sangma",
+          "party": "IND",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 371,
+          "postal_votes": 2,
+          "total_votes": 373
+        },
+        {
+          "name": "Sillash M. Sangma",
+          "party": "IND",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 159,
+          "postal_votes": 0,
+          "total_votes": 159
+        }
+      ]
+    },
+    {
+      "ac_no": 34,
+      "name": "Mawshynrut (ST)",
+      "category": "ST",
+      "electors": 41064,
+      "votes_polled": 36570,
+      "turnout_pct": 89.06,
+      "winner_name": "Methodius Dkhar",
+      "winner_party": "HSPDP",
+      "winner_votes": 19368,
+      "runner_up_name": "Gigur Myrthong",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 14181,
+      "margin": 5187,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Methodius Dkhar",
+          "party": "HSPDP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 19058,
+          "postal_votes": 310,
+          "total_votes": 19368
+        },
+        {
+          "name": "Gigur Myrthong",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 13974,
+          "postal_votes": 207,
+          "total_votes": 14181
+        },
+        {
+          "name": "Justine G. Momin",
+          "party": "AITC",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 2503,
+          "postal_votes": 12,
+          "total_votes": 2515
+        },
+        {
+          "name": "Beejoy Kynter",
+          "party": "BJP",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 282,
+          "postal_votes": 4,
+          "total_votes": 286
+        },
+        {
+          "name": "Andrew Charles Gare",
+          "party": "INC",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 217,
+          "postal_votes": 3,
+          "total_votes": 220
+        }
+      ]
+    },
+    {
+      "ac_no": 35,
+      "name": "Ranikor (ST)",
+      "category": "ST",
+      "electors": 35764,
+      "votes_polled": 32395,
+      "turnout_pct": 90.58,
+      "winner_name": "Pius Marwein",
+      "winner_party": "UDP",
+      "winner_votes": 16502,
+      "runner_up_name": "Martin M. Danggo",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 10853,
+      "margin": 5649,
+      "nota_votes": 0,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Pius Marwein",
+          "party": "UDP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 16263,
+          "postal_votes": 239,
+          "total_votes": 16502
+        },
+        {
+          "name": "Martin M. Danggo",
+          "party": "BJP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 10683,
+          "postal_votes": 170,
+          "total_votes": 10853
+        },
+        {
+          "name": "Mighter Marwein",
+          "party": "IND",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 2995,
+          "postal_votes": 40,
+          "total_votes": 3035
+        },
+        {
+          "name": "Overlin Imiong",
+          "party": "VOTPP",
+          "gender": "M",
+          "age": 29,
+          "evm_votes": 964,
+          "postal_votes": 24,
+          "total_votes": 988
+        },
+        {
+          "name": "Victorealness Syiemlieh",
+          "party": "INC",
+          "gender": "F",
+          "age": 59,
+          "evm_votes": 469,
+          "postal_votes": 25,
+          "total_votes": 494
+        },
+        {
+          "name": "Tengsim G. Momin",
+          "party": "AITC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 149,
+          "postal_votes": 3,
+          "total_votes": 152
+        },
+        {
+          "name": "Krenath N. Marak",
+          "party": "IND",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 136,
+          "postal_votes": 6,
+          "total_votes": 142
+        },
+        {
+          "name": "Savio Phrangsngi Dkhar",
+          "party": "IND",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 114,
+          "postal_votes": 1,
+          "total_votes": 115
+        },
+        {
+          "name": "Bichitro Hajong",
+          "party": "IND",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 114,
+          "postal_votes": 0,
+          "total_votes": 114
+        }
+      ]
+    },
+    {
+      "ac_no": 36,
+      "name": "Mawkyrwat (ST)",
+      "category": "ST",
+      "electors": 37565,
+      "votes_polled": 34170,
+      "turnout_pct": 90.96,
+      "winner_name": "Renikton Lyngdoh Tongkhar",
+      "winner_party": "UDP",
+      "winner_votes": 10678,
+      "runner_up_name": "Carnes Sohshang",
+      "runner_up_party": "INC",
+      "runner_up_votes": 9406,
+      "margin": 1272,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Renikton Lyngdoh Tongkhar",
+          "party": "UDP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 10336,
+          "postal_votes": 342,
+          "total_votes": 10678
+        },
+        {
+          "name": "Carnes Sohshang",
+          "party": "INC",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 9040,
+          "postal_votes": 366,
+          "total_votes": 9406
+        },
+        {
+          "name": "Medalsing Lyngdoh",
+          "party": "HSPDP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 5919,
+          "postal_votes": 163,
+          "total_votes": 6082
+        },
+        {
+          "name": "Sounder Strong Cajee",
+          "party": "AITC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 4485,
+          "postal_votes": 94,
+          "total_votes": 4579
+        },
+        {
+          "name": "H. Stalyne Diengdoh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 3060,
+          "postal_votes": 147,
+          "total_votes": 3207
+        },
+        {
+          "name": "Bity Jyrwa",
+          "party": "BJP",
+          "gender": "F",
+          "age": 56,
+          "evm_votes": 146,
+          "postal_votes": 5,
+          "total_votes": 151
+        },
+        {
+          "name": "Banpynskhemlang Wahlang",
+          "party": "IND",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 67,
+          "postal_votes": 0,
+          "total_votes": 67
+        }
+      ]
+    },
+    {
+      "ac_no": 37,
+      "name": "Kharkutta (ST)",
+      "category": "ST",
+      "electors": 43109,
+      "votes_polled": 36525,
+      "turnout_pct": 84.73,
+      "winner_name": "Rupert Momin",
+      "winner_party": "NPEP",
+      "winner_votes": 17426,
+      "runner_up_name": "Cherak Watre Momin",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 15896,
+      "margin": 1530,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Rupert Momin",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 17210,
+          "postal_votes": 216,
+          "total_votes": 17426
+        },
+        {
+          "name": "Cherak Watre Momin",
+          "party": "AITC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 15710,
+          "postal_votes": 186,
+          "total_votes": 15896
+        },
+        {
+          "name": "Chireng Peter R. Marak",
+          "party": "INC",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 1708,
+          "postal_votes": 38,
+          "total_votes": 1746
+        },
+        {
+          "name": "Elstone D. Marak",
+          "party": "BJP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 927,
+          "postal_votes": 5,
+          "total_votes": 932
+        },
+        {
+          "name": "Luderberg Ch. Momin",
+          "party": "UDP",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 511,
+          "postal_votes": 14,
+          "total_votes": 525
+        }
+      ]
+    },
+    {
+      "ac_no": 38,
+      "name": "Mendipathar (ST)",
+      "category": "ST",
+      "electors": 29232,
+      "votes_polled": 24737,
+      "turnout_pct": 84.62,
+      "winner_name": "Marthon J Sangma",
+      "winner_party": "NPEP",
+      "winner_votes": 9363,
+      "runner_up_name": "Timjim K. Momin",
+      "runner_up_party": "INC",
+      "runner_up_votes": 5538,
+      "margin": 3825,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Marthon J Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 9165,
+          "postal_votes": 198,
+          "total_votes": 9363
+        },
+        {
+          "name": "Timjim K. Momin",
+          "party": "INC",
+          "gender": "M",
+          "age": 30,
+          "evm_votes": 5420,
+          "postal_votes": 118,
+          "total_votes": 5538
+        },
+        {
+          "name": "Sengnab Momin",
+          "party": "BJP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 4013,
+          "postal_votes": 119,
+          "total_votes": 4132
+        },
+        {
+          "name": "Pardinand D. Shira",
+          "party": "AITC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 3221,
+          "postal_votes": 91,
+          "total_votes": 3312
+        },
+        {
+          "name": "Elbarth Marak",
+          "party": "GNASURKP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 1358,
+          "postal_votes": 17,
+          "total_votes": 1375
+        },
+        {
+          "name": "Subrotho G Marak",
+          "party": "UDP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 989,
+          "postal_votes": 28,
+          "total_votes": 1017
+        }
+      ]
+    },
+    {
+      "ac_no": 39,
+      "name": "Resubelpara (ST)",
+      "category": "ST",
+      "electors": 30411,
+      "votes_polled": 26346,
+      "turnout_pct": 86.63,
+      "winner_name": "Timothy D. Shira",
+      "winner_party": "NPEP",
+      "winner_votes": 10948,
+      "runner_up_name": "Rinaldo K. Sangma",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 7483,
+      "margin": 3465,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Timothy D. Shira",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 77,
+          "evm_votes": 10715,
+          "postal_votes": 233,
+          "total_votes": 10948
+        },
+        {
+          "name": "Rinaldo K. Sangma",
+          "party": "AITC",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 7249,
+          "postal_votes": 234,
+          "total_votes": 7483
+        },
+        {
+          "name": "Tweel K. Marak",
+          "party": "INC",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 4959,
+          "postal_votes": 105,
+          "total_votes": 5064
+        },
+        {
+          "name": "Sukharam K. Sangma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 1915,
+          "postal_votes": 42,
+          "total_votes": 1957
+        },
+        {
+          "name": "Starline Momin",
+          "party": "IND",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 590,
+          "postal_votes": 12,
+          "total_votes": 602
+        },
+        {
+          "name": "Taposh D. Marak",
+          "party": "UDP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 290,
+          "postal_votes": 2,
+          "total_votes": 292
+        }
+      ]
+    },
+    {
+      "ac_no": 40,
+      "name": "Bajengdoba (ST)",
+      "category": "ST",
+      "electors": 33102,
+      "votes_polled": 28683,
+      "turnout_pct": 86.65,
+      "winner_name": "Pongseng Marak",
+      "winner_party": "NPEP",
+      "winner_votes": 9900,
+      "runner_up_name": "Brigady Napak Marak",
+      "runner_up_party": "INC",
+      "runner_up_votes": 7584,
+      "margin": 2316,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Pongseng Marak",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 9778,
+          "postal_votes": 122,
+          "total_votes": 9900
+        },
+        {
+          "name": "Brigady Napak Marak",
+          "party": "INC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 7496,
+          "postal_votes": 88,
+          "total_votes": 7584
+        },
+        {
+          "name": "Tengrak R. Marak",
+          "party": "AITC",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 7332,
+          "postal_votes": 99,
+          "total_votes": 7431
+        },
+        {
+          "name": "Chadambe Tengkam B Marak",
+          "party": "IND",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 1988,
+          "postal_votes": 8,
+          "total_votes": 1996
+        },
+        {
+          "name": "Rocky R Marak",
+          "party": "IND",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 741,
+          "postal_votes": 3,
+          "total_votes": 744
+        },
+        {
+          "name": "Henendra A. Sangma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 522,
+          "postal_votes": 15,
+          "total_votes": 537
+        },
+        {
+          "name": "Rakman Ch Marak",
+          "party": "UDP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 487,
+          "postal_votes": 4,
+          "total_votes": 491
+        }
+      ]
+    },
+    {
+      "ac_no": 41,
+      "name": "Songsak (ST)",
+      "category": "ST",
+      "electors": 31824,
+      "votes_polled": 28310,
+      "turnout_pct": 88.96,
+      "winner_name": "Dr. Mukul Sangma",
+      "winner_party": "AITC",
+      "winner_votes": 12689,
+      "runner_up_name": "Nihim D Shira",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 12317,
+      "margin": 372,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Dr. Mukul Sangma",
+          "party": "AITC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 12608,
+          "postal_votes": 81,
+          "total_votes": 12689
+        },
+        {
+          "name": "Nihim D Shira",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 12254,
+          "postal_votes": 63,
+          "total_votes": 12317
+        },
+        {
+          "name": "Champion R. Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 2223,
+          "postal_votes": 9,
+          "total_votes": 2232
+        },
+        {
+          "name": "Thomas Marak",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 774,
+          "postal_votes": 2,
+          "total_votes": 776
+        },
+        {
+          "name": "Sarenni Marak",
+          "party": "RPI",
+          "gender": "F",
+          "age": 46,
+          "evm_votes": 296,
+          "postal_votes": 0,
+          "total_votes": 296
+        }
+      ]
+    },
+    {
+      "ac_no": 42,
+      "name": "Rongjeng (ST)",
+      "category": "ST",
+      "electors": 35340,
+      "votes_polled": 29683,
+      "turnout_pct": 83.99,
+      "winner_name": "Jim M Sangma",
+      "winner_party": "NPEP",
+      "winner_votes": 8836,
+      "runner_up_name": "Walseng M. Sangma",
+      "runner_up_party": "IND",
+      "runner_up_votes": 8708,
+      "margin": 128,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Jim M Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 8768,
+          "postal_votes": 68,
+          "total_votes": 8836
+        },
+        {
+          "name": "Walseng M. Sangma",
+          "party": "IND",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 8638,
+          "postal_votes": 70,
+          "total_votes": 8708
+        },
+        {
+          "name": "Sengnam M. Marak",
+          "party": "AITC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 4364,
+          "postal_votes": 36,
+          "total_votes": 4400
+        },
+        {
+          "name": "Rapiush Ch. Sangma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 3293,
+          "postal_votes": 9,
+          "total_votes": 3302
+        },
+        {
+          "name": "Jebing G Momin",
+          "party": "INC",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 3113,
+          "postal_votes": 18,
+          "total_votes": 3131
+        },
+        {
+          "name": "Andreash G. Momin",
+          "party": "UDP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 1301,
+          "postal_votes": 5,
+          "total_votes": 1306
+        }
+      ]
+    },
+    {
+      "ac_no": 43,
+      "name": "William Nagar (ST)",
+      "category": "ST",
+      "electors": 37359,
+      "votes_polled": 29383,
+      "turnout_pct": 78.65,
+      "winner_name": "Marcuise N Marak",
+      "winner_party": "NPEP",
+      "winner_votes": 10976,
+      "runner_up_name": "Deborah C. Marak",
+      "runner_up_party": "INC",
+      "runner_up_votes": 7133,
+      "margin": 3843,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Marcuise N Marak",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 10655,
+          "postal_votes": 321,
+          "total_votes": 10976
+        },
+        {
+          "name": "Deborah C. Marak",
+          "party": "INC",
+          "gender": "F",
+          "age": 57,
+          "evm_votes": 6940,
+          "postal_votes": 193,
+          "total_votes": 7133
+        },
+        {
+          "name": "Rudreswar Ch. Momin",
+          "party": "IND",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 5016,
+          "postal_votes": 121,
+          "total_votes": 5137
+        },
+        {
+          "name": "Alphonsush R. Marak",
+          "party": "AITC",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 4592,
+          "postal_votes": 217,
+          "total_votes": 4809
+        },
+        {
+          "name": "Robinus T Sangma",
+          "party": "JDU",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 709,
+          "postal_votes": 24,
+          "total_votes": 733
+        },
+        {
+          "name": "Raknang Ch. Momin",
+          "party": "BJP",
+          "gender": "M",
+          "age": 25,
+          "evm_votes": 447,
+          "postal_votes": 10,
+          "total_votes": 457
+        },
+        {
+          "name": "Ballensing Ch Marak",
+          "party": "RPI",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 137,
+          "postal_votes": 1,
+          "total_votes": 138
+        }
+      ]
+    },
+    {
+      "ac_no": 44,
+      "name": "Raksamgre (ST)",
+      "category": "ST",
+      "electors": 31175,
+      "votes_polled": 27467,
+      "turnout_pct": 88.11,
+      "winner_name": "Limison D. Sangma",
+      "winner_party": "NPEP",
+      "winner_votes": 12184,
+      "runner_up_name": "Benedic R. Marak",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 9366,
+      "margin": 2818,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Limison D. Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 12123,
+          "postal_votes": 61,
+          "total_votes": 12184
+        },
+        {
+          "name": "Benedic R. Marak",
+          "party": "BJP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 9328,
+          "postal_votes": 38,
+          "total_votes": 9366
+        },
+        {
+          "name": "Dr. Prabir D. Sangma",
+          "party": "AITC",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 4035,
+          "postal_votes": 40,
+          "total_votes": 4075
+        },
+        {
+          "name": "Frederick D. Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 1409,
+          "postal_votes": 4,
+          "total_votes": 1413
+        },
+        {
+          "name": "Sushil Gayary",
+          "party": "UDP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 260,
+          "postal_votes": 1,
+          "total_votes": 261
+        },
+        {
+          "name": "Thosengcheba A. Sangma",
+          "party": "RPIA",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 165,
+          "postal_votes": 3,
+          "total_votes": 168
+        }
+      ]
+    },
+    {
+      "ac_no": 45,
+      "name": "Tikrikilla (ST)",
+      "category": "ST",
+      "electors": 36080,
+      "votes_polled": 31616,
+      "turnout_pct": 87.63,
+      "winner_name": "Jimmy D. Sangma",
+      "winner_party": "NPEP",
+      "winner_votes": 13218,
+      "runner_up_name": "Dr. Mukul Sangma",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 7905,
+      "margin": 5313,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Jimmy D. Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 13150,
+          "postal_votes": 68,
+          "total_votes": 13218
+        },
+        {
+          "name": "Dr. Mukul Sangma",
+          "party": "AITC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 7840,
+          "postal_votes": 65,
+          "total_votes": 7905
+        },
+        {
+          "name": "Rahinath Barchung",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 7768,
+          "postal_votes": 81,
+          "total_votes": 7849
+        },
+        {
+          "name": "Dr. Kapin Ch. Boro",
+          "party": "INC",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 1210,
+          "postal_votes": 23,
+          "total_votes": 1233
+        },
+        {
+          "name": "Noor Nongrum",
+          "party": "IND",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 1097,
+          "postal_votes": 1,
+          "total_votes": 1098
+        },
+        {
+          "name": "Julius T. Sangma",
+          "party": "UDP",
+          "gender": "M",
+          "age": 30,
+          "evm_votes": 311,
+          "postal_votes": 2,
+          "total_votes": 313
+        }
+      ]
+    },
+    {
+      "ac_no": 46,
+      "name": "Phulbari",
+      "category": "GEN",
+      "electors": 32587,
+      "votes_polled": 29340,
+      "turnout_pct": 90.04,
+      "winner_name": "Abu Taher Mondal",
+      "winner_party": "NPEP",
+      "winner_votes": 14969,
+      "runner_up_name": "S G Esmatur Mominin",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 11729,
+      "margin": 3240,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Abu Taher Mondal",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 14866,
+          "postal_votes": 103,
+          "total_votes": 14969
+        },
+        {
+          "name": "S G Esmatur Mominin",
+          "party": "AITC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 11652,
+          "postal_votes": 77,
+          "total_votes": 11729
+        },
+        {
+          "name": "Edmund K. Sangma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 1826,
+          "postal_votes": 30,
+          "total_votes": 1856
+        },
+        {
+          "name": "Zinbaward N. Sangma",
+          "party": "UDP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 397,
+          "postal_votes": 3,
+          "total_votes": 400
+        },
+        {
+          "name": "Sailendra R. Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 317,
+          "postal_votes": 1,
+          "total_votes": 318
+        },
+        {
+          "name": "Ful Boksha Sheikh",
+          "party": "JDU",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 68,
+          "postal_votes": 0,
+          "total_votes": 68
+        }
+      ]
+    },
+    {
+      "ac_no": 47,
+      "name": "Rajabala",
+      "category": "GEN",
+      "electors": 35882,
+      "votes_polled": 33167,
+      "turnout_pct": 92.43,
+      "winner_name": "Dr. Mizanur Rahman Kazi",
+      "winner_party": "AITC",
+      "winner_votes": 12628,
+      "runner_up_name": "Md Abdus Saleh",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 12618,
+      "margin": 10,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Dr. Mizanur Rahman Kazi",
+          "party": "AITC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 12561,
+          "postal_votes": 67,
+          "total_votes": 12628
+        },
+        {
+          "name": "Md Abdus Saleh",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 12539,
+          "postal_votes": 79,
+          "total_votes": 12618
+        },
+        {
+          "name": "Ashahel D. Shira",
+          "party": "UDP",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 6827,
+          "postal_votes": 43,
+          "total_votes": 6870
+        },
+        {
+          "name": "Bakul Chandra Hajong",
+          "party": "BJP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 428,
+          "postal_votes": 11,
+          "total_votes": 439
+        },
+        {
+          "name": "Nijum Sangma",
+          "party": "IND",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 418,
+          "postal_votes": 1,
+          "total_votes": 419
+        },
+        {
+          "name": "Carla R. Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 27,
+          "evm_votes": 189,
+          "postal_votes": 4,
+          "total_votes": 193
+        }
+      ]
+    },
+    {
+      "ac_no": 48,
+      "name": "Selsella (ST)",
+      "category": "ST",
+      "electors": 36217,
+      "votes_polled": 33106,
+      "turnout_pct": 91.41,
+      "winner_name": "Arbinstone B Marak",
+      "winner_party": "NPEP",
+      "winner_votes": 16595,
+      "runner_up_name": "Agassi R. Marak",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 7854,
+      "margin": 8741,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Arbinstone B Marak",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 16476,
+          "postal_votes": 119,
+          "total_votes": 16595
+        },
+        {
+          "name": "Agassi R. Marak",
+          "party": "AITC",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 7819,
+          "postal_votes": 35,
+          "total_votes": 7854
+        },
+        {
+          "name": "Ferlin C.a. Sangma",
+          "party": "BJP",
+          "gender": "F",
+          "age": 62,
+          "evm_votes": 6915,
+          "postal_votes": 39,
+          "total_votes": 6954
+        },
+        {
+          "name": "Reynold M Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 1176,
+          "postal_votes": 8,
+          "total_votes": 1184
+        },
+        {
+          "name": "Tengsrang Marak",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 205,
+          "postal_votes": 1,
+          "total_votes": 206
+        },
+        {
+          "name": "Pollop R Marak",
+          "party": "IND",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 185,
+          "postal_votes": 0,
+          "total_votes": 185
+        },
+        {
+          "name": "Subhankar Koch",
+          "party": "UDP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 126,
+          "postal_votes": 2,
+          "total_votes": 128
+        }
+      ]
+    },
+    {
+      "ac_no": 49,
+      "name": "Dadenggre (ST)",
+      "category": "ST",
+      "electors": 36136,
+      "votes_polled": 32593,
+      "turnout_pct": 90.2,
+      "winner_name": "Rupa M. Marak",
+      "winner_party": "AITC",
+      "winner_votes": 15702,
+      "runner_up_name": "James Pangsang Kongkal Sangma",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 15684,
+      "margin": 18,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Rupa M. Marak",
+          "party": "AITC",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 15619,
+          "postal_votes": 83,
+          "total_votes": 15702
+        },
+        {
+          "name": "James Pangsang Kongkal Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 15612,
+          "postal_votes": 72,
+          "total_votes": 15684
+        },
+        {
+          "name": "Braining R. Marak",
+          "party": "BJP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 481,
+          "postal_votes": 0,
+          "total_votes": 481
+        },
+        {
+          "name": "Chesterfield Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 364,
+          "postal_votes": 3,
+          "total_votes": 367
+        },
+        {
+          "name": "Witjeng N. Sangma",
+          "party": "RPIA",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 359,
+          "postal_votes": 0,
+          "total_votes": 359
+        }
+      ]
+    },
+    {
+      "ac_no": 50,
+      "name": "North Tura (ST)",
+      "category": "ST",
+      "electors": 34434,
+      "votes_polled": 26632,
+      "turnout_pct": 77.34,
+      "winner_name": "Thomas A. Sangma",
+      "winner_party": "NPEP",
+      "winner_votes": 11386,
+      "runner_up_name": "Adam Kid M. Sangma",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 7501,
+      "margin": 3885,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Thomas A. Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 11015,
+          "postal_votes": 371,
+          "total_votes": 11386
+        },
+        {
+          "name": "Adam Kid M. Sangma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 7376,
+          "postal_votes": 125,
+          "total_votes": 7501
+        },
+        {
+          "name": "Rupert M. Sangma",
+          "party": "AITC",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 4608,
+          "postal_votes": 135,
+          "total_votes": 4743
+        },
+        {
+          "name": "Billykid A. Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 2034,
+          "postal_votes": 79,
+          "total_votes": 2113
+        },
+        {
+          "name": "Dr. Pilne A. Sangma",
+          "party": "UDP",
+          "gender": "F",
+          "age": 47,
+          "evm_votes": 646,
+          "postal_votes": 19,
+          "total_votes": 665
+        },
+        {
+          "name": "Bina Rosaline A. Sangma",
+          "party": "JDU",
+          "gender": "F",
+          "age": 61,
+          "evm_votes": 224,
+          "postal_votes": 0,
+          "total_votes": 224
+        }
+      ]
+    },
+    {
+      "ac_no": 51,
+      "name": "South Tura (ST)",
+      "category": "ST",
+      "electors": 33606,
+      "votes_polled": 25328,
+      "turnout_pct": 75.37,
+      "winner_name": "Conrad Kongkal Sangma",
+      "winner_party": "NPEP",
+      "winner_votes": 13342,
+      "runner_up_name": "Bernard N. Marak",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 8326,
+      "margin": 5016,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Conrad Kongkal Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 12761,
+          "postal_votes": 581,
+          "total_votes": 13342
+        },
+        {
+          "name": "Bernard N. Marak",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 8166,
+          "postal_votes": 160,
+          "total_votes": 8326
+        },
+        {
+          "name": "Richard M Marak",
+          "party": "AITC",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 2193,
+          "postal_votes": 119,
+          "total_votes": 2312
+        },
+        {
+          "name": "John Leslee K. Sangma",
+          "party": "UDP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 748,
+          "postal_votes": 28,
+          "total_votes": 776
+        },
+        {
+          "name": "Brenzield Ch Marak",
+          "party": "INC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 553,
+          "postal_votes": 19,
+          "total_votes": 572
+        }
+      ]
+    },
+    {
+      "ac_no": 52,
+      "name": "Rangsakona (ST)",
+      "category": "ST",
+      "electors": 37543,
+      "votes_polled": 32421,
+      "turnout_pct": 86.36,
+      "winner_name": "Subir Marak",
+      "winner_party": "NPEP",
+      "winner_votes": 13605,
+      "runner_up_name": "Zenith .m. Sangma",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 12817,
+      "margin": 788,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Subir Marak",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 13398,
+          "postal_votes": 207,
+          "total_votes": 13605
+        },
+        {
+          "name": "Zenith .m. Sangma",
+          "party": "AITC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 12649,
+          "postal_votes": 168,
+          "total_votes": 12817
+        },
+        {
+          "name": "Dipul R. Marak",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 4523,
+          "postal_votes": 48,
+          "total_votes": 4571
+        },
+        {
+          "name": "Edmund S Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 807,
+          "postal_votes": 13,
+          "total_votes": 820
+        },
+        {
+          "name": "Indrash M. Marak",
+          "party": "RPIA",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 352,
+          "postal_votes": 1,
+          "total_votes": 353
+        },
+        {
+          "name": "Bipul Ch. Sangma",
+          "party": "UDP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 253,
+          "postal_votes": 2,
+          "total_votes": 255
+        }
+      ]
+    },
+    {
+      "ac_no": 53,
+      "name": "Ampati (ST)",
+      "category": "ST",
+      "electors": 33101,
+      "votes_polled": 29853,
+      "turnout_pct": 90.19,
+      "winner_name": "Miani D. Shira",
+      "winner_party": "AITC",
+      "winner_votes": 13446,
+      "runner_up_name": "Stevie M. Marak",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 11169,
+      "margin": 2277,
+      "nota_votes": 0,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Miani D. Shira",
+          "party": "AITC",
+          "gender": "F",
+          "age": 32,
+          "evm_votes": 13224,
+          "postal_votes": 222,
+          "total_votes": 13446
+        },
+        {
+          "name": "Stevie M. Marak",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 11002,
+          "postal_votes": 167,
+          "total_votes": 11169
+        },
+        {
+          "name": "Premananda Koch",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 4701,
+          "postal_votes": 61,
+          "total_votes": 4762
+        },
+        {
+          "name": "Uttora Guri Sangma",
+          "party": "INC",
+          "gender": "F",
+          "age": 55,
+          "evm_votes": 467,
+          "postal_votes": 9,
+          "total_votes": 476
+        }
+      ]
+    },
+    {
+      "ac_no": 54,
+      "name": "Mahendraganj (ST)",
+      "category": "ST",
+      "electors": 36609,
+      "votes_polled": 32697,
+      "turnout_pct": 89.31,
+      "winner_name": "Sanjay A. Sangma",
+      "winner_party": "NPEP",
+      "winner_votes": 13560,
+      "runner_up_name": "Dikkanchi D Shira",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 11842,
+      "margin": 1718,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Sanjay A. Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 13368,
+          "postal_votes": 192,
+          "total_votes": 13560
+        },
+        {
+          "name": "Dikkanchi D Shira",
+          "party": "AITC",
+          "gender": "F",
+          "age": 57,
+          "evm_votes": 11708,
+          "postal_votes": 134,
+          "total_votes": 11842
+        },
+        {
+          "name": "Tingku N Marak",
+          "party": "BJP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 6568,
+          "postal_votes": 133,
+          "total_votes": 6701
+        },
+        {
+          "name": "Sayeedullah Nongrum",
+          "party": "INC",
+          "gender": "M",
+          "age": 72,
+          "evm_votes": 321,
+          "postal_votes": 10,
+          "total_votes": 331
+        },
+        {
+          "name": "Aditya Hajong",
+          "party": "IND",
+          "gender": "M",
+          "age": 29,
+          "evm_votes": 161,
+          "postal_votes": 2,
+          "total_votes": 163
+        },
+        {
+          "name": "Serazul H Kharkongor",
+          "party": "IND",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 100,
+          "postal_votes": 0,
+          "total_votes": 100
+        }
+      ]
+    },
+    {
+      "ac_no": 55,
+      "name": "Salmanpara (ST)",
+      "category": "ST",
+      "electors": 31067,
+      "votes_polled": 26861,
+      "turnout_pct": 86.46,
+      "winner_name": "Ian Botham K. Sangma",
+      "winner_party": "NPEP",
+      "winner_votes": 11352,
+      "runner_up_name": "Winnerson D. Sangma",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 6114,
+      "margin": 5238,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Ian Botham K. Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 11237,
+          "postal_votes": 115,
+          "total_votes": 11352
+        },
+        {
+          "name": "Winnerson D. Sangma",
+          "party": "AITC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 6042,
+          "postal_votes": 72,
+          "total_votes": 6114
+        },
+        {
+          "name": "Boston Marak",
+          "party": "BJP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 5568,
+          "postal_votes": 32,
+          "total_votes": 5600
+        },
+        {
+          "name": "Ronald Rikman Sangma",
+          "party": "UDP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 2747,
+          "postal_votes": 19,
+          "total_votes": 2766
+        },
+        {
+          "name": "Sinbath Ch Marak",
+          "party": "INC",
+          "gender": "M",
+          "age": 30,
+          "evm_votes": 1021,
+          "postal_votes": 8,
+          "total_votes": 1029
+        }
+      ]
+    },
+    {
+      "ac_no": 56,
+      "name": "Gambegre (ST)",
+      "category": "ST",
+      "electors": 31439,
+      "votes_polled": 28302,
+      "turnout_pct": 90.02,
+      "winner_name": "Saleng A. Sangma",
+      "winner_party": "INC",
+      "winner_votes": 11252,
+      "runner_up_name": "Sadhiarani M. Sangma",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 8381,
+      "margin": 2871,
+      "nota_votes": 0,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Saleng A. Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 11178,
+          "postal_votes": 74,
+          "total_votes": 11252
+        },
+        {
+          "name": "Sadhiarani M. Sangma",
+          "party": "AITC",
+          "gender": "F",
+          "age": 51,
+          "evm_votes": 8345,
+          "postal_votes": 36,
+          "total_votes": 8381
+        },
+        {
+          "name": "Rakesh Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 7594,
+          "postal_votes": 34,
+          "total_votes": 7628
+        },
+        {
+          "name": "Jhim Carter .m. Sangma",
+          "party": "RPIA",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 366,
+          "postal_votes": 1,
+          "total_votes": 367
+        },
+        {
+          "name": "Daniel M Sangma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 315,
+          "postal_votes": 0,
+          "total_votes": 315
+        },
+        {
+          "name": "Sairill D. Marak",
+          "party": "GNC",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 198,
+          "postal_votes": 0,
+          "total_votes": 198
+        },
+        {
+          "name": "Sukberline S. Sangma",
+          "party": "IND",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 159,
+          "postal_votes": 2,
+          "total_votes": 161
+        }
+      ]
+    },
+    {
+      "ac_no": 57,
+      "name": "Dalu (ST)",
+      "category": "ST",
+      "electors": 22157,
+      "votes_polled": 18778,
+      "turnout_pct": 84.75,
+      "winner_name": "Brening A. Sangma",
+      "winner_party": "NPEP",
+      "winner_votes": 5834,
+      "runner_up_name": "Akki A Sangma",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 5307,
+      "margin": 527,
+      "nota_votes": 0,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Brening A. Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 5788,
+          "postal_votes": 46,
+          "total_votes": 5834
+        },
+        {
+          "name": "Akki A Sangma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 30,
+          "evm_votes": 5265,
+          "postal_votes": 42,
+          "total_votes": 5307
+        },
+        {
+          "name": "Sengkal A Sangma",
+          "party": "AITC",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 3073,
+          "postal_votes": 31,
+          "total_votes": 3104
+        },
+        {
+          "name": "Sarbha R. Marak",
+          "party": "IND",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 2067,
+          "postal_votes": 2,
+          "total_votes": 2069
+        },
+        {
+          "name": "Promod S. Koch",
+          "party": "IND",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 692,
+          "postal_votes": 2,
+          "total_votes": 694
+        },
+        {
+          "name": "Kenethson Sangma",
+          "party": "UDP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 633,
+          "postal_votes": 2,
+          "total_votes": 635
+        },
+        {
+          "name": "Panseng R. Marak",
+          "party": "RPIA",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 418,
+          "postal_votes": 29,
+          "total_votes": 447
+        },
+        {
+          "name": "Diraj D. Marak",
+          "party": "IND",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 349,
+          "postal_votes": 6,
+          "total_votes": 355
+        },
+        {
+          "name": "Roger Benny A Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 327,
+          "postal_votes": 6,
+          "total_votes": 333
+        }
+      ]
+    },
+    {
+      "ac_no": 58,
+      "name": "Rongara Siju (ST)",
+      "category": "ST",
+      "electors": 34468,
+      "votes_polled": 29294,
+      "turnout_pct": 84.99,
+      "winner_name": "Rakkam A. Sangma",
+      "winner_party": "NPEP",
+      "winner_votes": 11569,
+      "runner_up_name": "Rophul S Marak",
+      "runner_up_party": "INC",
+      "runner_up_votes": 8311,
+      "margin": 3258,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Rakkam A. Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 11422,
+          "postal_votes": 147,
+          "total_votes": 11569
+        },
+        {
+          "name": "Rophul S Marak",
+          "party": "INC",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 8239,
+          "postal_votes": 72,
+          "total_votes": 8311
+        },
+        {
+          "name": "Dr Rajesh M Marak",
+          "party": "AITC",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 7840,
+          "postal_votes": 98,
+          "total_votes": 7938
+        },
+        {
+          "name": "Calis G Momin",
+          "party": "BJP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 1268,
+          "postal_votes": 11,
+          "total_votes": 1279
+        },
+        {
+          "name": "Teseng A Sangma",
+          "party": "UDP",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 196,
+          "postal_votes": 1,
+          "total_votes": 197
+        }
+      ]
+    },
+    {
+      "ac_no": 59,
+      "name": "Chokpot (ST)",
+      "category": "ST",
+      "electors": 32180,
+      "votes_polled": 28179,
+      "turnout_pct": 87.57,
+      "winner_name": "Sengchim N. Sangma",
+      "winner_party": "NPEP",
+      "winner_votes": 9503,
+      "runner_up_name": "Nikman Ch. Marak",
+      "runner_up_party": "GNC",
+      "runner_up_votes": 9150,
+      "margin": 353,
+      "nota_votes": 0,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Sengchim N. Sangma",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 9433,
+          "postal_votes": 70,
+          "total_votes": 9503
+        },
+        {
+          "name": "Nikman Ch. Marak",
+          "party": "GNC",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 9092,
+          "postal_votes": 58,
+          "total_votes": 9150
+        },
+        {
+          "name": "Lazarus M Sangma",
+          "party": "AITC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 5574,
+          "postal_votes": 41,
+          "total_votes": 5615
+        },
+        {
+          "name": "Karak R. Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 3262,
+          "postal_votes": 31,
+          "total_votes": 3293
+        },
+        {
+          "name": "Novembirth Ch. Marak",
+          "party": "BJP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 611,
+          "postal_votes": 7,
+          "total_votes": 618
+        }
+      ]
+    },
+    {
+      "ac_no": 60,
+      "name": "Baghmara (ST)",
+      "category": "ST",
+      "electors": 33246,
+      "votes_polled": 28968,
+      "turnout_pct": 87.13,
+      "winner_name": "Kartush R. Marak",
+      "winner_party": "IND",
+      "winner_votes": 9013,
+      "runner_up_name": "Samuel M Sangma",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 6788,
+      "margin": 2225,
+      "nota_votes": 0,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Kartush R. Marak",
+          "party": "IND",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 8880,
+          "postal_votes": 133,
+          "total_votes": 9013
+        },
+        {
+          "name": "Samuel M Sangma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 6695,
+          "postal_votes": 93,
+          "total_votes": 6788
+        },
+        {
+          "name": "Satto R. Marak",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 5372,
+          "postal_votes": 121,
+          "total_votes": 5493
+        },
+        {
+          "name": "Nathawal S. Marak",
+          "party": "IND",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 4598,
+          "postal_votes": 60,
+          "total_votes": 4658
+        },
+        {
+          "name": "Dr. Saljagringrang R. Marak",
+          "party": "AITC",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 2680,
+          "postal_votes": 79,
+          "total_votes": 2759
+        },
+        {
+          "name": "Alphonse Ch. Sangma",
+          "party": "INC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 251,
+          "postal_votes": 6,
+          "total_votes": 257
+        }
+      ]
+    }
+  ]
+}

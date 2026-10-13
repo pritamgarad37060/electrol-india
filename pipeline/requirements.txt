@@ -1,0 +1,20 @@
+﻿# Electrol India — Python Requirements
+# Install all: pip install -r pipeline/requirements.txt
+
+# Supabase client
+supabase>=2.0.0
+
+# Excel support
+openpyxl>=3.1.0
+
+# PDF extraction
+pdfplumber>=0.10.0
+
+# .env file loader
+python-dotenv>=1.0.0
+
+# Optional: faster PDF text extraction
+# pdfminer.six>=20221105
+
+# Optional: fuzzy string matching for party names
+# thefuzz[speedup]>=0.20.0

@@ -1,0 +1,2340 @@
+
+const D=window.LS_DATA,S=D.s,P=D.p,NI=P.indexOf('NOTA'),$=id=>document.getElementById(id);
+const LBL={AITC:'TMC',SHSUBT:'SS(UBT)',NCPSP:'NCP(SP)',AAAP:'AAP',LJPRV:'LJP(RV)',BHRTADVSIP:'BAP',ASPKR:'ASP(KR)',JnP:'JSP'};
+const CM={BJP:'#ff6b00',INC:'#1565c0',SP:'#d62828',AITC:'#2a9d8f',DMK:'#6a1b9a',TDP:'#fbc02d','JD(U)':'#2e7d32',SHSUBT:'#d84315',NCPSP:'#c2185b',SHS:'#ff9933',NCP:'#00838f',IND:'#78909c',NOTA:'#9e9e9e',RJD:'#1b8a3a','CPI(M)':'#b71c1c',CPM:'#b71c1c',YSRCP:'#0288d1',JnP:'#e53935',JSP:'#e53935',CPI:'#d63031',TRS:'#e84393',BRS:'#e84393',AIMIM:'#00796b',BSP:'#0984e3',KLP:'#00b894',PDF:'#6c5ce7',SWP:'#00cec9',KMPP:'#fdcb6e'};
+const SYM=window.SYMS||{},SIMG=window.SIMG_||{},SURL=window.SURL||{};
+if(window.SYMS){
+  SYM['JSP']=SYM['JSP']||SYM['JnP']||['Glass tumbler','🥛'];
+  SYM['CPM']=SYM['CPM']||SYM['CPI(M)']||['Hammer, Sickle and Star','⚒️'];
+  SYM['KLP']=SYM['KLP']||['Two bullocks with yoke','🐂'];
+  SYM['PDF']=SYM['PDF']||['Torch','🔥'];
+  SYM['KMPP']=SYM['KMPP']||['Hut','🛖'];
+  SYM['SWP']=SYM['SWP']||['Star','⭐'];
+}
+if(window.SIMG_){
+  SIMG['JSP']=SIMG['JSP']||SIMG['JnP'];
+  SIMG['CPM']=SIMG['CPM']||SIMG['CPI(M)'];
+}
+const shc=(c,s)=>{
+  s=s||20;
+  if(!c)return'';
+  const k=c==='JSP'?'JnP':(c==='CPM'?'CPI(M)':c);
+  const sym=SYM[c]||SYM[k]||['',''];
+  const e=sym[1]||'';
+  const hasImg=!!(SIMG[c]||SIMG[k]);
+  const imgKey=SIMG[c]?c:(SIMG[k]?k:c);
+  if(!hasImg&&!e&&!SURL[c]&&!SURL[k])return'';
+  return`<span class="sy${hasImg?'':' e'}" data-c="${hasImg?imgKey:c}" data-e="${e}" style="width:${s}px;height:${s}px;font-size:${Math.round(s*.78)}px" title="${esc(sym[0]||c)}"></span>`;
+};
+const sh=(i,s)=>shc(P[i],s);
+function initSym(){let c='';for(const k in SIMG)c+=`.sy[data-c="${k}"]{background-image:url(${SIMG[k]})}`;const h=document.createElement('style');h.textContent=c;document.head.appendChild(h);const u=SURL.BJP;if(u){const m=document.createElement('style');let w='';for(const k in SURL)w+=`.wm .sy[data-c="${k}"]{background-image:url("${SURL[k]}")}`;m.textContent=w+'.wm .sy.e::before{content:none}';document.head.appendChild(m);const im=new Image();im.onload=()=>document.documentElement.classList.add('wm');im.src=u}}
+const sy=i=>SYM[P[i]]||['',''];let MM='party',MAPST=null,PG=50,MOVED=false,CI=null,LY=0,SV={};const grp=i=>NDA.has(P[i])?'NDA':IND.has(P[i])?'INDIA':'Others';const mcol=x=>{const i=x.pc?x.pc.w[3]:BJPI;return MM=='party'?col(i):{NDA:'#ff7a00',INDIA:'#1d6fe8',Others:'#8a8f98'}[grp(i)]};const colC=c=>CM[c]||`hsl(${[...c].reduce((a,x)=>a*31+x.charCodeAt(0),7)%360} 45% 48%)`,mal=c=>({BJP:'Mahayuti',SHS:'Mahayuti',NCP:'Mahayuti',INC:'MVA',SHSUBT:'MVA',NCPSP:'MVA'})[c]||'Others',lc=c=>LBL[c]||c,dot2=c=>`<span class="dot" style="background:${colC(c)}"></span>`;
+const lab=i=>LBL[P[i]]||P[i],col=i=>CM[P[i]]||`hsl(${i*47%360} 45% 48%)`,dot=i=>`<span class="dot" style="background:${col(i)}"></span>`;
+const f=n=>Math.round(n).toLocaleString('en-IN'),pc=(a,b)=>b?(a/b*100).toFixed(2):'–',esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const NDA=new Set('BJP TDP JD(U) SHS LJPRV JD(S) JnP RLD AJSUP HAMS AGP NCP UPPL SKM AD(S) ADAL NPP'.split(' ')),IND=new Set('INC SP AITC DMK SHSUBT NCPSP RJD CPI(M) IUML AAAP JMM CPI(ML)(L) VCK CPI JKN KEC RSP MDMK BHRTADVSIP'.split(' '));
+const PC=D.c.map((c,id)=>{const cs=c[6],non=cs.filter(x=>x[3]!=NI),w=non[0],r=non[1],nt=cs.find(x=>x[3]==NI);return{id,si:c[0],n:c[1],cat:c[2],el:c[3],po:c[4],va:c[5],cs,w,r,m:w[6]-(r?r[6]:0),nota:nt?nt[6]:0,t:c[4]/c[3]*100}});
+const SURAT={si:S.indexOf('Gujarat'),w:'Mukesh Dalal'};const BJPI=P.indexOf('BJP');
+const TOTEL=PC.reduce((a,c)=>a+c.el,0),TOTPO=PC.reduce((a,c)=>a+c.po,0),TOTVA=PC.reduce((a,c)=>a+c.va,0);
+const PA=P.map((_,i)=>({i,seats:0,votes:0,cands:0}));PC.forEach(c=>{PA[c.w[3]].seats++;c.cs.forEach(x=>{PA[x[3]].votes+=x[6];PA[x[3]].cands++})});PA[BJPI].seats++;
+const PS=PA.filter(p=>p.i!=NI&&p.seats).sort((a,b)=>b.seats-a.seats||b.votes-a.votes);
+const nm=(a,b)=>`${f(a)}`;
+function hemi(d,total){const n=total,rows=Math.round(Math.sqrt(n)/1.5)+2,rad=[];for(let r=0;r<rows;r++)rad.push(70+r*(105/rows));const tot=rad.reduce((a,b)=>a+b,0);let pts=[];
+rad.forEach(R=>{const k=Math.round(n*R/tot);for(let i=0;i<k;i++){const a=Math.PI*(1-(i+.5)/k);pts.push([a,185+0,180+R*Math.cos(a),190-R*Math.sin(a)])}});pts.sort((a,b)=>b[0]-a[0]);
+const seq=[];d.forEach(x=>{for(let i=0;i<x.seats;i++)seq.push(x.c||P[x.i])});const r=Math.max(2,50/rows/2.2);
+return`<svg viewBox="0 0 360 200" width="100%" style="max-width:420px">${pts.slice(0,n).map((p,i)=>`<circle cx="${p[2].toFixed(1)}" cy="${p[3].toFixed(1)}" r="${r}" fill="${seq[i]==null?'#ccc':colC(seq[i])}"/>`).join('')}<text x="180" y="168" text-anchor="middle" font-size="30" font-weight="700" fill="currentColor">${n}</text><text x="180" y="186" text-anchor="middle" font-size="12" fill="currentColor">Total Seats</text></svg>`}
+const stats=a=>`<div class="g g6" style="margin-top:12px">${a.map(x=>`<div class="card stat"><b>${x[0]}</b><span>${x[1]}</span></div>`).join('')}</div>`;
+const tbl=(h,rows)=>`<div class="sc"><table><tr>${h.map(x=>`<th>${x}</th>`).join('')}</tr>${rows.join('')}</table></div>`;
+const bc=a=>`<div class="bc">${a.map(x=>x[1]!=null?`<a onclick="go('${x[1]}')">${x[0]}</a>`:x[0]).join(' › ')}</div>`;
+const pl=i=>`<a onclick="go('party/${i}')" title="Symbol: ${sy(i)[0]||'n/a'}">${dot(i)}${sh(i,18)} ${esc(lab(i))}</a>`,cl=c=>`<a onclick="go('pc/${c.id}')">${esc(c.n)}</a>`;
+const av=n=>n.split(' ').filter(Boolean).slice(0,2).map(x=>x[0]).join('');
+function stateAgg(si){const cs=PC.filter(c=>c.si==si),m={};cs.forEach(c=>m[c.w[3]]=(m[c.w[3]]||0)+1);if(si==SURAT.si)m[BJPI]=(m[BJPI]||0)+1;const seats=cs.length+(si==SURAT.si?1:0);return{cs,m,seats,el:cs.reduce((a,c)=>a+c.el,0),po:cs.reduce((a,c)=>a+c.po,0)}}
+const SA=S.map((_,i)=>stateAgg(i));
+const cRow=c=>`<tr class="r"><td>${cl(c)}</td><td>${c.cat}</td><td>${S[c.si]}</td><td>${esc(c.w[0])}</td><td>${pl(c.w[3])}</td><td>${f(c.m)}</td><td>${c.r?pl(c.r[3]):'–'}</td><td>${c.t.toFixed(1)}%</td></tr>`;
+const CH=['Constituency','Type','State','Winner','Party','Margin','Runner-up','Turnout'];
+const NDA_SEATS=PS.filter(p=>NDA.has(P[p.i])).reduce((a,p)=>a+p.seats,0);
+const IND_SEATS=PS.filter(p=>IND.has(P[p.i])).reduce((a,p)=>a+p.seats,0);
+const OTH_SEATS=543-NDA_SEATS-IND_SEATS;
+// AP historical years config
+const AP_YEARS=[1955,1957,1962,1967,1972,1978,1983,1985,1989,1994,1999,2004,2009,2014,2019,2024];
+const AP_YEAR_META={
+  1955:{seats:196,note:'First Andhra election',winner:'INC'},1957:{seats:301,note:'Post States Reorganisation',winner:'INC'},
+  1962:{seats:300,note:'Neelam Sanjiva Reddy Ministry',winner:'INC'},1967:{seats:287,note:'Kasu Brahmananda Reddy Ministry',winner:'INC'},
+  1972:{seats:287,note:'P.V. Narasimha Rao Ministry',winner:'INC'},1978:{seats:294,note:'Congress (I) Wave under Chenna Reddy',winner:'INC'},
+  1983:{seats:294,note:'TDP historic win — NTR',winner:'TDP'},1985:{seats:294,note:'TDP wins again',winner:'TDP'},
+  1989:{seats:294,note:'INC returns under YSR',winner:'INC'},1994:{seats:294,note:'TDP landslide — CBN',winner:'TDP'},
+  1999:{seats:294,note:'TDP retains power',winner:'TDP'},2004:{seats:294,note:'INC wins with YSR',winner:'INC'},
+  2009:{seats:294,note:'YSR sweeps again',winner:'INC'},2014:{seats:294,note:'TDP-BJP alliance wins AP, TRS wins Telangana',winner:'TDP'},
+  2019:{seats:175,note:'YSRCP landslide',winner:'YSRCP'},2024:{seats:175,note:'NDA (TDP+JSP+BJP) wins',winner:'TDP'}
+};
+let APH={}; // cache for historical AP data (keyed by year)
+let SEAT_HIST=null;
+function loadSeatHistory(cb){
+  if(SEAT_HIST){cb&&cb(SEAT_HIST);return}
+  fetch('data/ap_history/seat_history.json').then(r=>r.json()).then(d=>{
+    SEAT_HIST=d;cb&&cb(d);
+  }).catch(()=>cb&&cb({}));
+}
+function renderSeatHistoryBox(name,curYr,divId){
+  setTimeout(()=>{
+    const el=$(divId);if(!el)return;
+    loadSeatHistory(hist=>{
+      const norm=(name||'').trim().toLowerCase();
+      const records=(hist[norm]||[]).slice().sort((a,b)=>b.year-a.year);
+      if(!records.length){
+        el.innerHTML='<p class="note">No previous election track record found under exact name match.</p>';
+        return;
+      }
+      el.innerHTML=`
+        <div class="card hist-track-card" style="margin-top:16px">
+          <h3 style="margin:0 0 8px;font-size:16px;color:var(--g)">🏛️ Election Track Record: ${esc(name)} (1955–2024)</h3>
+          <p class="note">Historical winners and runner-ups for this assembly seat across all elections:</p>
+          ${tbl(['Year','Winning Candidate','Winning Party','Margin','Runner-up Candidate','Runner-up Party','Action'],
+            records.map(r=>{
+              const isCur=r.year===+curYr;
+              const link=r.year===2024?`go('apac/${r.no}')`:`go('aphac/${r.year}/${r.no}')`;
+              return`<tr class="r"${isCur?' style="background:rgba(242,194,0,0.14);font-weight:600"':''}>
+                <td><b>${r.year}</b>${isCur?' (Current)':''}</td>
+                <td><b>${esc(r.winner||'–')}</b></td>
+                <td>${dot2(r.party)}${shc(r.party,16)} ${esc(lc(r.party))}</td>
+                <td>${r.margin?f(r.margin):'–'}</td>
+                <td>${esc(r.runner||'–')}</td>
+                <td>${r.runner_party?dot2(r.runner_party)+' '+shc(r.runner_party,16)+' '+esc(lc(r.runner_party)):'–'}</td>
+                <td><button class="btn" style="padding:2px 8px;font-size:11px" onclick="${link}">${isCur?'Viewing':'View '+r.year+' →'}</button></td>
+              </tr>`;
+            })
+          )}
+        </div>
+      `;
+    });
+  },20);
+}
+
+function loadAPYear(year,cb){
+  if(year===2024){initAP();cb&&cb(AP);return}
+  if(APH[year]){cb&&cb(APH[year]);return}
+  const src=`data/ap_history/${year}.json`;
+  fetch(src).then(r=>{
+    if(!r.ok)throw new Error(r.status);
+    return r.json();
+  }).then(data=>{
+    if(data.constituencies){
+      const rawParties=[...new Set([
+        ...(data.party_tally||[]).map(p=>p.party),
+        ...data.constituencies.map(c=>c.winner_party),
+        ...data.constituencies.map(c=>c.runner_party)
+      ].filter(Boolean))];
+      const MP=rawParties;
+      const candsByAC={};
+      if(data.candidates){
+        data.candidates.forEach(cd=>{
+          candsByAC[cd.ac_no]=candsByAC[cd.ac_no]||[];
+          candsByAC[cd.ac_no].push(cd);
+        });
+      }
+      const ac=data.constituencies.map(c=>{
+        const wp=c.winner_party||'';
+        const rp=c.runner_party||'';
+        let wi=MP.indexOf(wp);
+        if(wi<0&&wp){MP.push(wp);wi=MP.length-1}
+        let ri=rp?MP.indexOf(rp):-1;
+        if(ri<0&&rp){MP.push(rp);ri=MP.length-1}
+        const cList=candsByAC[c.ac_no];
+        let cs=[];
+        if(cList&&cList.length){
+          cs=cList.map(x=>{
+            let pi=MP.indexOf(x.party);
+            if(pi<0&&x.party){MP.push(x.party);pi=MP.length-1}
+            return [x.candidate, x.gender||'', x.age||'', pi>=0?pi:0, x.evm_votes||0, x.postal_votes||0, x.total_votes||0];
+          });
+        } else {
+          const w=c.winner_name?[c.winner_name,'','',wi>=0?wi:0,0,0,c.winner_votes||0]:null;
+          const r=c.runner_name?[c.runner_name,'','',ri>=0?ri:0,0,0,c.runner_votes||0]:null;
+          if(w)cs.push(w);
+          if(r)cs.push(r);
+          const remVotes=(c.votes_polled||0)-(c.winner_votes||0)-(c.runner_votes||0);
+          if(remVotes>0){
+            let oi=MP.indexOf('Others');
+            if(oi<0){MP.push('Others');oi=MP.length-1}
+            cs.push(['Other Candidates','','',oi,0,0,remVotes]);
+          }
+        }
+        const w=cs[0]||null;
+        const r=cs[1]||null;
+        return{
+          no:c.ac_no,
+          n:c.ac_name,
+          cat:c.cat||'GEN',
+          el:c.electors||0,
+          cs:cs,
+          w:w,
+          r:r,
+          m:c.margin||0,
+          nota:0,
+          po:c.votes_polled||(w?w[6]:0)+(r?r[6]:0),
+          t:c.turnout_pct||(c.electors?(c.votes_polled/c.electors*100):0),
+          wp:wp,
+          wn:c.winner_name||(w?w[0]:''),
+          wv:c.winner_votes||(w?w[6]:0),
+          rp:rp,
+          rn:c.runner_name||(r?r[0]:''),
+          rv:c.runner_votes||(r?r[6]:0)
+        };
+      });
+      const ps=(data.party_tally||[]).map(p=>({
+        c:p.party,
+        seats:p.seats,
+        votes:p.votes,
+        cn:p.seats
+      }));
+      const tot=data.total_votes||ac.reduce((s,c)=>s+c.po,0);
+      const el=data.total_electors||ac.reduce((s,c)=>s+c.el,0);
+      const idx={};ac.forEach(c=>idx[c.no]=c);
+      const cleanNote=(data.era||data.title||'').replace(/\s*\(?(Undivided|Residual)\)?/gi,'').trim();
+      APH[year]={MP,ac,ps,tot,el,idx,year,state:'Andhra Pradesh',note:cleanNote||('Andhra Pradesh Assembly '+year)};
+      cb&&cb(APH[year]);
+      return;
+    }
+    const MP=data.p,ac=data.a.map(a=>{
+      const cs=a[4],non=cs.filter(x=>MP[x[3]]!='NOTA'),w=non[0],r=non[1],nt=cs.find(x=>MP[x[3]]=='NOTA'),po=cs.reduce((s,x)=>s+x[6],0);
+      const wp=w?MP[w[3]]:'';
+      const rp=r?MP[r[3]]:'';
+      return{
+        no:a[0],n:a[1],cat:a[2],el:a[3],cs,w,r,m:w?(w[6]-(r?r[6]:0)):0,nota:nt?nt[6]:0,po,t:po/a[3]*100,
+        wp:wp,wn:w?w[0]:'',wv:w?w[6]:0,rp:rp,rn:r?r[0]:'',rv:r?r[6]:0
+      }
+    });
+    const se={},vo={},cn={};
+    ac.forEach(c=>{const p=MP[c.w?c.w[3]:0];if(p){se[p]=(se[p]||0)+1};c.cs.forEach(x=>{const q=MP[x[3]];if(q){vo[q]=(vo[q]||0)+x[6];cn[q]=(cn[q]||0)+1}})});
+    const tot=ac.reduce((s,c)=>s+c.po,0),el=ac.reduce((s,c)=>s+c.el,0);
+    const ps=Object.keys(vo).filter(p=>p!='NOTA').map(p=>({c:p,seats:se[p]||0,votes:vo[p],cn:cn[p]})).sort((a,b)=>b.seats-a.seats||b.votes-a.votes);
+    const idx={}; ac.forEach(c=>idx[c.no]=c);
+    APH[year]={MP,ac,ps,tot,el,idx,year,state:'Andhra Pradesh',note:data.note||('Andhra Pradesh Assembly '+year)};
+    cb&&cb(APH[year]);
+  }).catch(()=>{
+    APH[year]=null;
+    cb&&cb(null);
+  });
+}
+const pages={
+'':()=>`<div class="hero">
+<h1>🗳️ Electrol India</h1>
+<div class="sub">National Lok Sabha · State Assemblies · 1,006+ Constituencies · 15,000+ Candidates</div>
+<div class="search-tabs">
+  <button class="search-tab on" id="stab-all" onclick="setSTab('all')">All India</button>
+  <button class="search-tab" id="stab-ls" onclick="setSTab('ls')">Lok Sabha</button>
+  <button class="search-tab" id="stab-mh" onclick="setSTab('mh')">Maharashtra</button>
+  <button class="search-tab" id="stab-ap" onclick="setSTab('ap')">Andhra Pradesh</button>
+</div>
+<div class="hero-search-wrap">
+  <span class="sw hero-sw">
+    <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+    </svg>
+    <input id="hero-search" placeholder="Search any constituency, candidate, or party across India…" aria-label="Search" oninput="sg(this)" onblur="sgh(this)" onkeydown="if(event.key==='Enter')go('q/'+encodeURIComponent(this.value))">
+    <div class="sug"></div>
+  </span>
+</div>
+</div>
+
+<div class="g g4" style="margin-top:16px">${[['🏛️','Lok Sabha','543 seats · 2024 & 2019','ls'],['🏢','Maharashtra Assembly','288 seats','mh'],['🏛️','Andhra Pradesh','175 seats · 1955–2024','ap'],['🗺️','Election Map','Interactive seat map','map'],['🏘️','All Assemblies','State-wise overview','assembly'],['👩','Women in Elections','Representation stats','women'],['⚖️','Compare Elections','Side-by-side analysis','cmp'],['📊','Statistics','Margins, turnout, trends','stats']].map(t=>`<div class="card tile" role="button" tabindex="0" onkeydown="if(event.key==='Enter')this.click()" onclick="go('${t[3]}')"><div class="i">${t[0]}</div><b>${t[1]}</b><small>${t[2]}</small></div>`).join('')}</div>`,
+'assembly':()=>{
+  const assemblies=[
+    {key:'mh',name:'Maharashtra',year:2024,seats:288,emoji:'🏢',note:'Mahayuti majority',fn:()=>{initMH();return MH}},
+    {key:'ap',name:'Andhra Pradesh',year:2024,seats:175,emoji:'🏛️',note:'NDA (TDP+JSP+BJP) majority',fn:()=>{initAP();return AP}}
+  ];
+  const cards=assemblies.map(a=>{
+    const d=a.fn();const top=d&&d.ps?d.ps.slice(0,3):[];
+    return`<div class="asm-card" onclick="go('${a.key}')">
+      <div class="asm-name">${a.emoji} ${a.name} Assembly ${a.year}</div>
+      <div class="asm-meta">${a.seats} seats · ${a.note}</div>
+      <div class="asm-winner">${top.map(p=>`<span class="tag">${dot2(p.c)}${esc(lc(p.c))} <b>${p.seats}</b></span>`).join(' ')}</div>
+    </div>`;
+  }).join('');
+  const histCards=AP_YEARS.slice().reverse().map(yr=>{
+    const m=AP_YEAR_META[yr]||{};
+    return`<div class="asm-card" onclick="go('aph/${yr}')">
+      <div class="asm-name">🏛️ Andhra Pradesh ${yr}</div>
+      <div class="asm-meta">${m.seats||'?'} seats · ${m.note||''}</div>
+      <div class="asm-winner"><span class="tag hist-party">${m.winner||''}</span></div>
+    </div>`;
+  }).join('');
+  return`${bc([['Home',''],['All State Assemblies']])}<h1>🏘️ State Assembly Elections</h1>
+  <div class="section-header"><h2>2024 Assemblies</h2><div class="line"></div></div>
+  <div class="asm-grid">${cards}</div>
+  <div class="section-header" style="margin-top:28px"><h2>📅 Andhra Pradesh – Previous Elections (1955–2024)</h2><div class="line"></div><a onclick="go('aph')" style="white-space:nowrap;font-size:12px">Explore previous elections →</a></div>
+  <div class="asm-grid">${histCards}</div>
+  <div class="card" style="margin-top:20px"><p class="note" style="margin:0">📌 More state assemblies (Delhi, Bihar, UP, etc.) will be added. <a onclick="go('ls')">Explore Lok Sabha 2024 →</a></p></div>
+  ${footer()}`
+},
+'ls':(yr)=>{
+  if(yr && yr!=='2024'){
+    setTimeout(()=>{
+      const el=$('app');if(!el)return;
+      el.innerHTML=`<p>Loading Lok Sabha ${yr} data…</p>`;
+      fetch(`data/elections/maharashtra_loksabha_${yr}.json`).then(r=>r.json()).then(data=>{
+        if(!data){el.innerHTML=`<p class="note">Data for ${yr} not available.</p>`;return}
+        window._ls19Data=data;
+        const consts=data.constituencies||[];
+        const partyCounts={};
+        const partyVotes={};
+        const totVotes=consts.reduce((s,c)=>s+(c.votes_polled||0),0);
+        const totElectors=consts.reduce((s,c)=>s+(c.electors||0),0);
+        const avgTurnout=totElectors?(totVotes/totElectors*100).toFixed(1):'61.0';
+        consts.forEach(c=>{
+          if(c.winner_party){ partyCounts[c.winner_party]=(partyCounts[c.winner_party]||0)+1; }
+          const cands=(data.candidates_by_ac&&data.candidates_by_ac[c.ac_no])||c.candidates||[];
+          cands.forEach(cd=>{
+            if(cd.party&&!cd.is_nota){
+              partyVotes[cd.party]=(partyVotes[cd.party]||0)+(cd.total_votes||0);
+            }
+          });
+        });
+        const psList=Object.keys(partyCounts).map(p=>({c:p,seats:partyCounts[p],votes:partyVotes[p]||0})).sort((a,b)=>b.seats-a.seats||b.votes-a.votes);
+        const ndaSeats=(partyCounts['BJP']||0)+(partyCounts['SHS']||0);
+        const upaSeats=(partyCounts['NCP']||0)+(partyCounts['INC']||0);
+        const othSeats=48-ndaSeats-upaSeats;
+        
+        el.innerHTML=`
+          ${bc([['Home',''],['Lok Sabha','ls'],[yr]])}
+          <div class="card" style="padding:12px 16px;margin-bottom:12px">
+            <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+              <span class="yr-label">📅 Select Year:</span>
+              <button class="yr-btn" onclick="go('ls')">2024 (National - 543 Seats)</button>
+              <button class="yr-btn ${yr==='2019'?'on':''}" onclick="go('ls/2019')">2019 (Maharashtra - 48 Seats)</button>
+            </div>
+            <p class="note" style="margin:4px 0 0">Viewing: <b>${yr} Lok Sabha General Election</b> · Maharashtra · 48 Parliamentary Constituencies</p>
+          </div>
+          <h1>🇮🇳 Lok Sabha Election ${yr} (Maharashtra)</h1>
+          <div class="f" style="margin:12px 0">
+            <button class="btn on">Results</button>
+            <button class="btn" onclick="document.getElementById('ls19-seats-card').scrollIntoView({behavior:'smooth'})">All 48 Constituencies ↓</button>
+            <button class="btn" onclick="go('ls')">← 2024 National Results</button>
+          </div>
+          ${stats([[48,'Total Seats'],[48,'Results Declared'],[(totElectors/1e7).toFixed(2)+' Cr','Total Electors'],[(totVotes/1e7).toFixed(2)+' Cr','Votes Polled'],[avgTurnout+'%','Turnout'],[psList.length,'Parties Winning']])}
+          <div class="g g2" style="margin-top:14px">
+            <div class="card">
+              <h2>Seats Won by Party</h2>
+              ${hemi(psList.map(p=>({c:p.c,seats:p.seats})),48)}
+            </div>
+            <div class="card">
+              <h2>Party-wise Results</h2>
+              ${tbl(['Party','Seats','Seats %','Votes'],psList.map(p=>`<tr class="r"><td>${dot2(p.c)}${shc(p.c,18)} ${esc(lc(p.c))}</td><td><b>${p.seats}</b></td><td>${(p.seats/48*100).toFixed(1)}%</td><td>${f(p.votes)}</td></tr>`))}
+            </div>
+          </div>
+          <div class="card">
+            <h2>Alliance Tally (${yr})</h2>
+            <div style="margin:8px 0">NDA (BJP + Shiv Sena): <b>${ndaSeats}</b> (${(ndaSeats/48*100).toFixed(1)}%)<br><span class="bar" style="width:${ndaSeats/48*100}%;background:#ff7a00"></span></div>
+            <div style="margin:8px 0">UPA (NCP + Congress): <b>${upaSeats}</b> (${(upaSeats/48*100).toFixed(1)}%)<br><span class="bar" style="width:${upaSeats/48*100}%;background:#1d6fe8"></span></div>
+            <div style="margin:8px 0">Others &amp; Independents (AIMIM + IND): <b>${othSeats}</b> (${(othSeats/48*100).toFixed(1)}%)<br><span class="bar" style="width:${othSeats/48*100}%;background:#8a8f98"></span></div>
+            <p class="note">Source: ECI Statistical Report 33 (2019). Majority mark: 25 seats in Maharashtra.</p>
+          </div>
+          <div class="card" id="ls19-seats-card" style="margin-top:16px">
+            <h2>🏛️ All 48 Parliamentary Constituencies (${yr})</h2>
+            <div class="f" style="margin-bottom:10px">
+              <input id="ls19q" placeholder="Search PC / candidate / party…" style="flex:1;min-width:200px" oninput="ls19Filter()">
+              <select id="ls19p" onchange="ls19Filter()"><option value="">All winning parties</option>${psList.map(p=>`<option value="${p.c}">${esc(lc(p.c))} (${p.seats})</option>`)}</select>
+              <select id="ls19cat" onchange="ls19Filter()"><option value="">All categories</option><option value="GEN">General</option><option value="SC">SC</option><option value="ST">ST</option></select>
+            </div>
+            <div id="ls19-table-wrap"></div>
+          </div>
+        `;
+        window.ls19Filter=function(){
+          const wrap=$('ls19-table-wrap');if(!wrap)return;
+          const q=($('ls19q')?$('ls19q').value:'').toLowerCase().trim();
+          const pf=$('ls19p')?$('ls19p').value:'';
+          const catf=$('ls19cat')?$('ls19cat').value:'';
+          const filtered=consts.filter(c=>{
+            const mQ=!q||c.name.toLowerCase().includes(q)||(c.winner_name||'').toLowerCase().includes(q)||(c.winner_party||'').toLowerCase().includes(q)||String(c.ac_no)===q;
+            const mP=!pf||c.winner_party===pf;
+            const mC=!catf||c.category===catf;
+            return mQ&&mP&&mC;
+          });
+          wrap.innerHTML=`<p class="note">${filtered.length} constituencies · tap any row to view candidate votes</p>`+tbl(
+            ['PC No.','Constituency','Category','Winner Candidate','Party','Margin','Turnout %','Runner-up','Action'],
+            filtered.map(c=>`<tr class="r" style="cursor:pointer" onclick="go('lspc/${yr}/${c.ac_no}')">
+              <td>${c.ac_no}</td>
+              <td><b><a onclick="go('lspc/${yr}/${c.ac_no}')">${esc(c.name)}</a></b></td>
+              <td>${c.category||'–'}</td>
+              <td><b>${esc(c.winner_name||'–')}</b></td>
+              <td>${dot2(c.winner_party||'')}${shc(c.winner_party||'',16)} ${esc(lc(c.winner_party||''))}</td>
+              <td>${c.margin?f(c.margin):'–'}</td>
+              <td>${c.turnout_pct?c.turnout_pct.toFixed(1)+'%':'–'}</td>
+              <td>${esc(c.runner_up_name||'–')}</td>
+              <td><button class="btn" style="padding:2px 8px;font-size:11px" onclick="event.stopPropagation();go('lspc/${yr}/${c.ac_no}')">Votes →</button></td>
+            </tr>`)
+          );
+          tr(wrap);
+        };
+        window.ls19Filter();
+        tr(el);
+      }).catch(err=>{console.error(err);el.innerHTML=`<p class="note">Could not load Lok Sabha ${yr} data.</p>`;});
+    },10);
+    return'<p>Loading Lok Sabha 2019 data…</p>';
+  }
+  const al=[['NDA (approx.)',PS.filter(p=>NDA.has(P[p.i])).reduce((a,p)=>a+p.seats,0),'#ff7a00'],['INDIA (approx.)',PS.filter(p=>IND.has(P[p.i])).reduce((a,p)=>a+p.seats,0),'#1d6fe8']];al.push(['Others',543-al[0][1]-al[1][1],'#888']);
+  return`${bc([['Home',''],['Lok Sabha']])}
+<div class="card" style="padding:12px 16px;margin-bottom:12px">
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+    <span class="yr-label">📅 Select Year:</span>
+    <button class="yr-btn on" onclick="go('ls')">2024 (National - 543 Seats)</button>
+    <button class="yr-btn" onclick="go('ls/2019')">2019 (Maharashtra - 48 Seats)</button>
+  </div>
+  <p class="note" style="margin:4px 0 0">Viewing: <b>2024 National Lok Sabha</b> · 543 Parliamentary Constituencies</p>
+</div>
+<h1>Lok Sabha Election 2024</h1>18th Lok Sabha &nbsp; 543 constituencies
+<div class="f" style="margin:12px 0">
+  <button class="btn on">2024 Results</button>
+  <button class="btn" onclick="go('map')">🗺️ Map</button>
+  <button class="btn" onclick="go('pcs')">All 543 Constituencies</button>
+  <button class="btn" onclick="document.getElementById('ls-prev-years').scrollIntoView({behavior:'smooth'})">📅 Previous Lok Sabha (2019)</button>
+</div>
+${stats([['543','Total Seats'],['543','Results Declared'],[(TOTEL/1e7).toFixed(1)+' Cr','Electors (542 PCs)'],[(TOTPO/1e7).toFixed(1)+' Cr','Votes Polled'],[(TOTPO/TOTEL*100).toFixed(1)+'%','Turnout'],[PS.length,'Parties winning seats']])}
+<div class="card" onclick="go('map')" role="button" tabindex="0" style="cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;margin:12px 0;background:linear-gradient(90deg,rgba(29,111,232,0.1),transparent);border:1px solid var(--b);border-radius:10px"><div><b>🗺️ Lok Sabha 2024 Interactive Map</b><br><span class="note">Pan &amp; zoom 543 constituencies or filter by party and alliance</span></div><button class="btn on">Open Interactive Map →</button></div>
+<div class="g g2"><div class="card"><h2>Seats Won by Party</h2>${hemi(PS,543)}</div><div class="card"><h2>Party-wise Results</h2>${tbl(['Party','Seats','Votes','Vote share'],PS.slice(0,14).map(p=>`<tr class="r"><td>${pl(p.i)}</td><td>${p.seats}</td><td>${f(p.votes)}</td><td>${pc(p.votes,TOTVA)}%</td></tr>`))}<a onclick="go('parties')">All parties →</a></div></div>
+<div class="card"><h2>Alliance tally</h2>${al.map(a=>`<div style="margin:6px 0">${a[0]}: <b>${a[1]}</b><br><span class="bar" style="width:${a[1]/543*100}%;background:${a[2]}"></span></div>`).join('')}<p class="note">Alliance grouping is my classification of winning parties (NDA reported at 293). Majority mark: 272.</p></div>
+<div class="card"><h2>Results by State / UT</h2>${tbl(['State / UT','Seats','BJP','INC','Others','Turnout',''],S.map((s,i)=>[i,SA[i]]).sort((a,b)=>b[1].seats-a[1].seats).map(([i,a])=>`<tr class="r"><td>${s_(i)}</td><td>${a.seats}</td><td>${a.m[BJPI]||0}</td><td>${a.m[P.indexOf('INC')]||0}</td><td>${a.seats-(a.m[BJPI]||0)-(a.m[P.indexOf('INC')]||0)}</td><td>${pc(a.po,a.el)}%</td><td><a onclick="go('state/${i}')">View</a></td></tr>`))}
+<p class="note">Source: ECI Statistical Report 33 — Constituency-wise Detailed Result (542 PCs). Surat (Gujarat) was won unopposed by BJP and is added to seat counts, but excluded from votes/turnout.</p></div>
+
+<!-- Previous Lok Sabha section (matching AP and MH pattern!) -->
+<div id="ls-prev-years" class="card" style="margin-top:20px">
+  <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+    <h2 style="margin:0;font-size:18px">📅 Previous Lok Sabha Elections</h2>
+    <button class="btn" onclick="go('ls/2019')">Explore Lok Sabha 2019 →</button>
+  </div>
+  <p class="note">Explore complete results, candidate statistics, and full constituency data for previous Lok Sabha elections:</p>
+  <div class="g g3" style="margin-top:12px">
+    <div class="card" style="margin-top:0;padding:14px;cursor:pointer;border-left:4px solid #ff7a00" onclick="go('ls/2019')">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start">
+        <div><b style="font-size:16px">2019 Lok Sabha</b><br><small class="note">Maharashtra · 48 Seats · NDA Landslide</small></div>
+        <span class="tag" style="background:#ff7a00;color:#fff;font-weight:700">NDA 41</span>
+      </div>
+      <div style="margin-top:8px;font-size:12px;color:var(--m)">48 parliamentary constituencies · 8.87 Cr electors · 61.0% turnout</div>
+      <div style="display:flex;gap:6px;margin-top:10px">
+        <button class="btn" style="padding:3px 8px;font-size:11px" onclick="event.stopPropagation();go('ls/2019')">📊 Results</button>
+        <button class="btn" style="padding:3px 8px;font-size:11px" onclick="event.stopPropagation();go('ls/2019');setTimeout(()=>document.getElementById('ls19-seats-card')?.scrollIntoView({behavior:'smooth'}),300)">🏛️ All 48 Seats</button>
+      </div>
+    </div>
+  </div>
+</div>`},
+'lspc':(yr,no)=>{
+  no=+no;
+  setTimeout(()=>{
+    const el=$('app');if(!el)return;
+    fetch(`data/elections/maharashtra_loksabha_${yr}.json`).then(r=>r.json()).then(data=>{
+      const c=(data.constituencies||[]).find(x=>x.ac_no===no||x.pc_no===no);
+      if(!c){el.innerHTML='<p class="note">Lok Sabha constituency not found.</p>';return}
+      const cands=(data.candidates_by_ac&&(data.candidates_by_ac[no]||data.candidates_by_ac[String(no)]))||c.candidates||[];
+      
+      const non_nota=cands.filter(x=>!x.is_nota).sort((a,b)=>b.total_votes-a.total_votes);
+      const w=non_nota[0], r=non_nota[1];
+      const tv=c.votes_polled||cands.reduce((sum,cd)=>sum+(cd.total_votes||0),0);
+      const mx=w?w.total_votes:1;
+      
+      const box=(x,k,cls)=>{if(!x)return'';return`<div class="pb ${cls}"><div class="av" style="font-size:22px">${shc(x.party,44)||av(x.name)}</div><div><small>${k}</small><br><b style="font-size:16px">${esc(x.name)}</b><br>${dot2(x.party)} ${esc(lc(x.party))}<br><b>${f(x.total_votes)} (${pc(x.total_votes,tv)}%)</b></div></div>`};
+
+      el.innerHTML=`
+        ${bc([['Home',''],[`Lok Sabha ${yr}`,`ls/${yr}`],[c.name]])}
+        <h1 style="color:var(--g)">${esc(c.name)}</h1>
+        <span class="bc">Lok Sabha Constituency · PC ${c.ac_no} · Category: <b>${c.category}</b> · Maharashtra · ${yr}</span>
+        
+        <div class="g g2" style="margin-top:12px">${box(w,'Winner','win')}${box(r,'Runner-up','run')}</div>
+        
+        ${stats([[c.margin?f(c.margin):'–','Winning Margin'],[f(c.electors),'Electors'],[c.votes_polled?f(c.votes_polled):'–','Votes Polled'],[c.turnout_pct?c.turnout_pct.toFixed(1)+'%':'–','Turnout'],[cands.length,'Candidates'],[f(c.nota_votes||0)+' ('+pc(c.nota_votes,tv)+'%)','NOTA']])}
+        
+        <div class="card">
+          <h2>Vote share</h2>
+          ${cands.slice(0,6).map(x=>{
+            return `<div style="margin:6px 0">${dot2(x.party)}${esc(x.name)} (${esc(lc(x.party))}) · ${pc(x.total_votes,tv)}%<br><span class="bar" style="width:${x.total_votes/mx*100}%;background:${colC(x.party)}"></span></div>`;
+          }).join('')}
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>All Candidates &amp; Votes Polled</h2>
+          ${tbl(['#','Candidate Name','Party','Gender','EVM Votes','Postal','Total Votes','Vote %'],
+            cands.map((cd,idx)=>`<tr class="r"${idx===0&&!cd.is_nota?' style="background:rgba(10,125,59,0.1);font-weight:600"':''}>
+              <td>${idx+1}</td>
+              <td><b>${esc(cd.name)}</b>${idx===0&&!cd.is_nota?' 🏆':''}</td>
+              <td>${dot2(cd.party)}${shc(cd.party,16)} ${esc(lc(cd.party))}</td>
+              <td>${cd.gender||'–'}</td>
+              <td>${f(cd.evm_votes||0)}</td>
+              <td>${f(cd.postal_votes||0)}</td>
+              <td><b>${f(cd.total_votes||0)}</b></td>
+              <td>${cd.vote_pct?cd.vote_pct.toFixed(2)+'%':pc(cd.total_votes,tv)+'%'} <span class="bar" style="width:${cd.total_votes/tv*80}px;background:${colC(cd.party)}"></span></td>
+            </tr>`)
+          )}
+        </div>
+        <p><button class="btn" onclick="go('ls/${yr}')">← Back to All 48 Constituencies</button></p>
+      `;
+      tr(el);
+    });
+  },10);
+  return'<p>Loading constituency data…</p>';
+},
+'state':i=>{i=+i;const a=SA[i],par=Object.entries(a.m).sort((x,y)=>y[1]-x[1]);return`${bc([['Home',''],['Lok Sabha 2024','ls'],[S[i]]])}<h1>${S[i]} – Lok Sabha 2024</h1>
+${stats([[a.seats,'Seats'],[par.length,'Parties won'],[f(a.el),'Electors'],[f(a.po),'Votes polled'],[pc(a.po,a.el)+'%','Turnout'],[par[0]?lab(par[0][0]):'','Top party']])}
+<div class="card"><h2>Seats by party</h2>${par.map(([p,n])=>`<span class="tag">${dot(p)}${esc(lab(p))} ${n}</span> `).join('')}</div>
+<div class="card"><h2>All constituencies</h2>${tbl(CH,a.cs.map(cRow).concat(i==SURAT.si?[`<tr class="r"><td>Surat</td><td>GEN</td><td>Gujarat</td><td>Mukesh Dalal</td><td>${pl(BJPI)}</td><td>Unopposed</td><td>–</td><td>–</td></tr>`]:[]))}</div>`},
+'pc':id=>{const c=PC[+id],tv=c.va,top=c.cs.slice(0,6),mx=top[0][6];
+const box=(x,k,cls)=>x?`<div class="pb ${cls}"><div class="av" style="font-size:26px">${SIMG[P[x[3]]]?sh(x[3],44):(sy(x[3])[1]||av(x[0]))}</div><div><small>${k}</small><br><b style="font-size:16px">${esc(x[0])}</b><br>${pl(x[3])}<br><b>${f(x[6])} (${pc(x[6],tv)}%)</b></div></div>`:'';
+return`${bc([['Home',''],['Lok Sabha 2024','ls'],[S[c.si],'state/'+c.si],[esc(c.n)]])}<h1 style="color:var(--g)">${esc(c.n)}</h1><span class="bc">Lok Sabha Constituency · ${S[c.si]} · ${c.cat} · 2024</span>
+<div class="g g2" style="margin-top:12px">${box(c.w,'Winner','win')}${box(c.r,'Runner-up','run')}</div>
+${stats([[f(c.m),'Winning margin'],[f(c.el),'Electors'],[f(c.po),'Votes polled'],[c.t.toFixed(1)+'%','Turnout'],[c.cs.length-1,'Candidates'],[f(c.nota)+' ('+pc(c.nota,tv)+'%)','NOTA']])}
+<p class="note"><b>Margin</b> = winner's votes minus runner-up's. <b>Turnout</b> = votes polled ÷ electors. <b>NOTA</b> = voters who chose “None of the Above”.</p><div class="g g2"><div class="card"><h2>Vote share</h2>${top.map(x=>`<div style="margin:6px 0">${dot(x[3])}${esc(x[3]==NI?'NOTA':x[0])} · ${pc(x[6],tv)}%<br><span class="bar" style="width:${x[6]/mx*100}%;background:${col(x[3])}"></span></div>`).join('')}</div>
+<div class="card"><h2>Votes comparison</h2><svg viewBox="0 0 300 170" width="100%">${top.map((x,i)=>{const h=x[6]/mx*110;return`<rect x="${12+i*48}" y="${130-h}" width="34" height="${h}" fill="${col(x[3])}"/><text x="${29+i*48}" y="${124-h}" text-anchor="middle" font-size="8" fill="currentColor">${f(x[6])}</text><text x="${29+i*48}" y="146" text-anchor="middle" font-size="9" fill="currentColor">${esc(lab(x[3]))}</text>`}).join('')}</svg></div></div>
+<div class="card"><h2>Location</h2><div id="lm" style="min-height:120px"></div><a onclick="go('map/${c.si}')">View ${S[c.si]} map →</a></div><div class="card"><h2>All candidates</h2>${tbl(['#','Candidate','Party','Gender','Age','EVM','Postal','Total votes','% valid'],c.cs.map((x,i)=>`<tr class="r"><td>${i+1}</td><td>${esc(x[0])}</td><td>${pl(x[3])}</td><td>${x[1]}</td><td>${x[2]??'–'}</td><td>${f(x[4])}</td><td>${f(x[5])}</td><td>${f(x[6])}</td><td>${pc(x[6],tv)}% <span class="bar" style="width:${x[6]/tv*80}px;background:${col(x[3])}"></span></td></tr>`))}</div>
+<p class="note">Source: ECI Statistical Report 33. % is of total valid votes (incl. NOTA).</p>`},
+
+'map':(st)=>{st=st===undefined||st===''?null:+st;MAPST=st;const feats=GEO.f.map((f,i)=>({f,i,pc:f[0]>=0?PC[f[0]]:null,si:f[0]>=0?PC[f[0]].si:SURAT.si})),vis=st==null?feats:feats.filter(x=>x.si==st);
+let b=[1e9,1e9,-1e9,-1e9];vis.forEach(x=>{const n=x.f[3].match(/-?\d+\.?\d*/g).map(Number);for(let k=0;k<n.length;k+=2){b[0]=Math.min(b[0],n[k]);b[2]=Math.max(b[2],n[k]);b[1]=Math.min(b[1],n[k+1]);b[3]=Math.max(b[3],n[k+1])}});
+const pd=Math.max(6,(b[2]-b[0])*.04),vb=[b[0]-pd,b[1]-pd,b[2]-b[0]+2*pd,b[3]-b[1]+2*pd].map(n=>n.toFixed(1));
+const paths=vis.map(x=>{const nm=x.pc?x.pc.n:x.f[2];return`<path data-i="${x.i}" data-s="${x.si}" d="${x.f[3]}" fill="${mcol(x)}" fill-rule="evenodd" stroke="var(--c)" stroke-width=".6" vector-effect="non-scaling-stroke" role="link" ${st==null?'':'tabindex="0"'} aria-label="${esc(nm)}, ${esc(x.pc?lab(x.pc.w[3]):'BJP')}" onclick="mclick(${x.i},${x.si})" onkeydown="if(event.key==='Enter')mclick(${x.i},${x.si})" onmousemove="tip(event,${x.i})" onmouseleave="tip()"/>`}).join('');
+let leg;if(MM=='party'){const m={};vis.forEach(x=>{const p=x.pc?x.pc.w[3]:BJPI;m[p]=(m[p]||0)+1});leg=Object.entries(m).sort((x,y)=>y[1]-x[1]).slice(0,12).map(([p,n])=>`<div style="margin:6px 0">${dot(+p)}${sh(+p,20)} <a onclick="go('party/${p}')">${esc(lab(+p))}</a> <b>${n}</b></div>`).join('')}
+else{const m={NDA:0,INDIA:0,Others:0},cc={NDA:'#ff7a00',INDIA:'#1d6fe8',Others:'#8a8f98'};vis.forEach(x=>{m[grp(x.pc?x.pc.w[3]:BJPI)]++});leg=Object.entries(m).map(([k,n])=>`<div style="margin:6px 0"><span class="dot" style="background:${cc[k]}"></span>${k} <b>${n}</b></div>`).join('')+'<p class="note">Alliance grouping is approximate.</p>'}
+return`${bc([['Home',''],['Map',st==null?null:'map'],...(st==null?[]:[[S[st]]])])}<h1>${st==null?'India – Lok Sabha 2024 Map':S[st]+' – Constituency Map'}</h1>
+<div class="f"><button class="btn ${MM=='party'?'on':''}" onclick="MM='party';render()">By party</button><button class="btn ${MM!='party'?'on':''}" onclick="MM='alliance';render()">By alliance</button>${st==null?`<select aria-label="Jump to state" onchange="if(this.value!=='')go('map/'+this.value)"><option value="">Jump to state…</option>${S.map((s,i)=>`<option value="${i}">${s}</option>`)}</select>`:`<button class="btn" onclick="go('map')">← All India</button>`}</div>
+<p class="note">${st==null?'Tap a state to open its constituency map.':'Tap a constituency to preview; use + / − or pinch to zoom, drag to move.'}</p>
+<div class="g mg"><div><div class="card" style="position:relative;margin-top:0"><div class="zc"><button class="btn" onclick="zb(1.5)" aria-label="Zoom in">+</button><button class="btn" onclick="zb(1/1.5)" aria-label="Zoom out">−</button><button class="btn" onclick="zr()" aria-label="Reset zoom">⟲</button></div><svg id="mp" viewBox="${vb.join(' ')}" style="width:100%;height:min(68vh,640px);touch-action:none;display:block" role="img" aria-label="Constituency map">${paths}</svg><div id="tp" style="position:fixed;display:none;background:#000c;color:#fff;padding:5px 8px;border-radius:5px;font-size:12px;pointer-events:none;z-index:9"></div></div>
+<div class="card" id="mc" aria-live="polite"><span class="note">${st==null?'Select a state on the map.':'Select a constituency on the map.'}</span></div></div>
+<div class="card" style="margin-top:0"><h2>${st==null?'Winning party (seats)':S[st]+' – seats'}</h2>${leg}${st==null?'':`<h2 style="margin-top:14px">Constituencies</h2>${SA[st].cs.map(c=>`<div style="padding:5px 0">${dot(c.w[3])}<a onclick="go('pc/${c.id}')">${esc(c.n)}</a> <span class="note">${esc(lab(c.w[3]))}</span></div>`).join('')}`}</div></div>
+<p class="note">Boundaries: DataMeet 2019 outlines (simplified). A few Assam / J&amp;K seats changed after delimitation, so shapes are approximate. Surat is shown as BJP (unopposed).</p>`},
+'cmp':(a,b)=>{
+  const A=a?PC[+a]:null,B=b?PC[+b]:null;
+  const sel=(id,v)=>`<select id="${id}" onchange="cmpgo()" aria-label="Pick constituency"><option value="">Choose a constituency…</option>${PC.slice().sort((x,y)=>x.n.localeCompare(y.n)).map(c=>`<option value="${c.id}" ${v&&v.id==c.id?'selected':''}>${esc(c.n)} (${S[c.si]})</option>`)}</select>`;
+  const cl_=c=>c?`<div class="card"><h2>${esc(c.n)}</h2>${[['State',S[c.si]],['Winner',esc(c.w[0])],['Party',esc(lab(c.w[3]))],['Winner votes',f(c.w[6])],['Margin',f(c.m)],['Margin % of valid',pc(c.m,c.va)+'%'],['Electors',f(c.el)],['Turnout',c.t.toFixed(1)+'%'],['NOTA',f(c.nota)],['Candidates',c.cs.length-1]].map(r=>`<div style="display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--b);padding:7px 0"><span class="note">${r[0]}</span><b style="text-align:right">${r[1]}</b></div>`).join('')}<p><a onclick="go('pc/${c.id}')">Full result →</a></p></div>`:`<div class="card note">Pick a constituency to compare.</div>`;
+  initMH();initAP();
+  setTimeout(()=>{
+    const cbox=$('cmp-states-box');if(cbox)cbox.innerHTML=renderCmpStatesContent();
+    const lsbox=$('cmp-ls-box');if(lsbox)lsbox.innerHTML=renderLS19vs24();
+    const ovbox=$('cmp-overview-box');if(ovbox)ovbox.innerHTML=render2024ElecOverview();
+  },0);
+  return`${bc([['Home',''],['Compare']])}<h1>⚖️ Elections Comparison Center</h1>
+  <p class="note">Compare election years, state-by-state electoral dynamics, national assemblies, or individual constituencies side by side.</p>
+
+  <div class="card" style="margin-bottom:18px">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+      <h2 style="margin:0">🏛️ Compare States in Lok Sabha 2024</h2>
+      <span class="note">Compare two states side by side with seat breakdowns, filter &amp; sort</span>
+    </div>
+    <div id="cmp-states-box" style="margin-top:12px"><p class="note">Loading state comparison…</p></div>
+  </div>
+
+  <div class="card" style="margin-bottom:18px">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+      <h2 style="margin:0">📅 Lok Sabha 2024 vs 2019 Benchmark Comparison</h2>
+      <span class="note">National swings, coalition shift &amp; vote percentages</span>
+    </div>
+    <div id="cmp-ls-box" style="margin-top:12px"><p class="note">Loading Lok Sabha comparison…</p></div>
+  </div>
+
+  <div class="card" style="margin-bottom:18px">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+      <h2 style="margin:0">🏢 Compare 2024 Elections (National &amp; State Assemblies)</h2>
+      <span class="note">Lok Sabha vs Maharashtra vs Andhra Pradesh</span>
+    </div>
+    <div id="cmp-overview-box" style="margin-top:12px"><p class="note">Loading elections overview…</p></div>
+  </div>
+
+  <div class="card" style="margin-bottom:18px">
+    <h2>🏛️ Compare Any 2 Lok Sabha Constituencies</h2>
+    <p class="note">Direct head-to-head constituency performance comparison:</p>
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">
+      <span class="note">Popular Matchups:</span>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="go('cmp/510/500')">Varanasi vs Rae Bareli</button>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="go('cmp/238/104')">Wayanad vs Gandhinagar</button>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="go('cmp/260/301')">Indore vs Mumbai North</button>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="go('cmp/318/294')">Baramati vs Nagpur</button>
+    </div>
+    <div class="g g2">${sel('ca',A)}${sel('cb',B)}</div>
+    <div class="g g2" style="margin-top:10px">${cl_(A)}${cl_(B)}</div>
+  </div>
+
+  <div class="card">
+    <h2>📅 Compare Andhra Pradesh Election Years (1955–2024)</h2>
+    <p class="note">Select any two election years to view swing analysis, seat gains/losses, and turnout trends.</p>
+    <div class="f" style="margin-bottom:10px">
+      <select id="cmp-yr-1" aria-label="Year A">${AP_YEARS.slice().reverse().map(y=>`<option value="${y}" ${y===2024?'selected':''}>${y}</option>`).join('')}</select>
+      <select id="cmp-yr-2" aria-label="Year B">${AP_YEARS.slice().reverse().map(y=>`<option value="${y}" ${y===2019?'selected':''}>${y}</option>`).join('')}</select>
+      <button class="btn on" onclick="const y1=$('cmp-yr-1').value,y2=$('cmp-yr-2').value;if(y1&&y2)go('aphcmp/'+y1+'/'+y2)">Compare Years →</button>
+    </div>
+    <div style="display:flex;gap:6px;flex-wrap:wrap">
+      <span class="note">Popular Comparisons:</span>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="go('aphcmp/2024/2019')">2024 vs 2019</button>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="go('aphcmp/2019/2014')">2019 vs 2014</button>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="go('aphcmp/2014/2009')">2014 vs 2009</button>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="go('aphcmp/1994/1989')">1994 vs 1989</button>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="go('aphcmp/1985/1983')">1985 vs 1983</button>
+    </div>
+  </div>`
+},
+'pcs':a=>{
+  initMH();initAP();
+  const partySet=new Set();
+  PS.forEach(p=>partySet.add(lab(p.i)));
+  if(MH&&MH.ps)MH.ps.forEach(p=>partySet.add(p.c));
+  if(AP&&AP.ps)AP.ps.forEach(p=>partySet.add(p.c));
+  const sortedParties=[...partySet].sort();
+
+  setTimeout(()=>fl(),0);
+
+  return`${bc([['Home',''],['Constituencies']])}<h1>🏛️ All Constituencies in India</h1>
+  <p class="note">Browse, filter and sort all 1,006 Lok Sabha (543) and Assembly constituencies across all states (Maharashtra 288, Andhra Pradesh 175).</p>
+  
+  <div class="card">
+    <div class="tab-pills" style="margin-bottom:14px">
+      <button class="tab-pill on" id="pcstab-all" onclick="setPCSHouse('all')">🏛️ All Houses (1,006)</button>
+      <button class="tab-pill" id="pcstab-ls" onclick="setPCSHouse('ls')">🗳️ Lok Sabha 2024 (543)</button>
+      <button class="tab-pill" id="pcstab-mh" onclick="setPCSHouse('mh')">🏢 Maharashtra Assembly (288)</button>
+      <button class="tab-pill" id="pcstab-ap" onclick="setPCSHouse('ap')">🏛️ Andhra Pradesh Assembly (175)</button>
+    </div>
+
+    <div class="filter-bar-grid">
+      <input id="fq" placeholder="Search constituency / winner / runner-up…" aria-label="Search constituency" oninput="fl()">
+      <select id="fs" aria-label="Filter by State" onchange="fl()">
+        <option value="">All States &amp; UTs</option>
+        ${S.slice().sort().map(s=>`<option value="${s}">${s}</option>`)}
+      </select>
+      <select id="fp" aria-label="Filter by Party" onchange="fl()">
+        <option value="">All Winning Parties</option>
+        ${sortedParties.map(p=>`<option value="${p}">${esc(lc(p))}</option>`)}
+      </select>
+      <select id="fc" aria-label="Filter by Category" onchange="fl()">
+        <option value="">All Categories (GEN/SC/ST)</option>
+        <option value="GEN">General (GEN)</option>
+        <option value="SC">Scheduled Caste (SC)</option>
+        <option value="ST">Scheduled Tribe (ST)</option>
+      </select>
+      <select id="fm" aria-label="Filter by Margin" onchange="fl()">
+        <option value="">All Margin Ranges</option>
+        <option value="thin">⚡ Razor-thin (&lt; 5,000 votes)</option>
+        <option value="close">🥊 Close Contests (5,000 – 25,000)</option>
+        <option value="med">📊 Moderate (25,000 – 100,000)</option>
+        <option value="landslide">🏆 Landslides (&gt; 100,000 votes)</option>
+      </select>
+      <select id="fsort" aria-label="Sort by" onchange="fl()">
+        <option value="default">Default Order</option>
+        <option value="margin-asc">⚡ Margin: Smallest first (Closest)</option>
+        <option value="margin-desc">🏆 Margin: Largest first (Landslides)</option>
+        <option value="turnout-desc">📈 Turnout: Highest first</option>
+        <option value="turnout-asc">📉 Turnout: Lowest first</option>
+        <option value="electors-desc">👥 Electors: Highest first</option>
+        <option value="name-asc">🔤 Constituency Name (A–Z)</option>
+      </select>
+    </div>
+
+    <div class="filter-chips">
+      <span class="note" style="margin:0 4px 0 0">Quick Filters:</span>
+      <button class="filter-chip" data-chip="close10k" onclick="setPCSChip('close10k')">⚡ Close &lt; 10k</button>
+      <button class="filter-chip" data-chip="close25k" onclick="setPCSChip('close25k')">🥊 Close &lt; 25k</button>
+      <button class="filter-chip" data-chip="landslide" onclick="setPCSChip('landslide')">🏆 Landslides &gt; 100k</button>
+      <button class="filter-chip" data-chip="turnout80" onclick="setPCSChip('turnout80')">🔥 High Turnout &gt; 80%</button>
+      <button class="filter-chip" data-chip="women" onclick="setPCSChip('women')">👩 Women Winners</button>
+      <button class="filter-chip" style="margin-left:auto;color:#d63031" onclick="resetPCSFilters()">🔄 Reset All</button>
+    </div>
+
+    <div id="fr"><p class="note">Loading constituencies…</p></div>
+  </div>`
+},
+'parties':()=>`${bc([['Home',''],['Parties']])}<h1>Parties – Lok Sabha 2024</h1><div class="card">${tbl(['Party','Seats won','Contested','Votes','Vote share'],PA.filter(p=>p.i!=NI&&p.cands).sort((a,b)=>b.seats-a.seats||b.votes-a.votes).slice(0,60).map(p=>`<tr class="r"><td>${pl(p.i)}</td><td>${p.seats}</td><td>${p.cands}</td><td>${f(p.votes)}</td><td>${pc(p.votes,TOTVA)}%</td></tr>`))}<p class="note">Top 60 of ${P.length-1} parties/groups by seats, then votes.</p></div>`,
+'party':i=>{i=+i;const p=PA[i],won=PC.filter(c=>c.w[3]==i),st={};won.forEach(c=>st[S[c.si]]=(st[S[c.si]]||0)+1);return`${bc([['Home',''],['Parties','parties'],[esc(lab(i))]])}<h1>${dot(i)}${esc(lab(i))}</h1><div class="card" style="display:flex;gap:14px;align-items:center"><div style="font-size:46px">${sh(i,64)||'🏳️'}</div><div><b>Election symbol (ECI): ${esc(sy(i)[0]||'not in list / varies')}</b><br><span class="note">Symbol images are ECI party symbols from a public dataset; parties without one show an emoji instead. <b>Strike rate</b> = seats won ÷ seats contested.</span></div></div>${stats([[p.seats,'Seats won'],[p.cands,'Contested'],[f(p.votes),'Votes'],[pc(p.votes,TOTVA)+'%','Vote share (India)'],[p.cands?(p.seats/p.cands*100).toFixed(0)+'%':'–','Strike rate'],[Object.keys(st).length,'States won']])}
+<div class="card"><h2>Seats by state</h2>${Object.entries(st).sort((a,b)=>b[1]-a[1]).map(([s,n])=>`<span class="tag">${s} ${n}</span> `).join('')||'–'}</div><div class="card"><h2>Constituencies won</h2>${tbl(CH,won.sort((a,b)=>b.m-a.m).map(cRow))}</div>`},
+'women':()=>{
+  // Women statistics across all elections we have data for
+  const lsAll=PC.flatMap(c=>c.cs.filter(x=>x[3]!=NI));
+  const lsWomen=lsAll.filter(x=>x[1]==='F');
+  const lsWomenWon=PC.filter(c=>c.w[1]==='F');
+  initAP();initMH();
+  const apWomen=AP?AP.ac.reduce((s,c)=>s+c.cs.filter(x=>x[1]==='F'&&AP.MP[x[3]]!=='NOTA').length,0):0;
+  const apWomenWon=AP?AP.ac.filter(c=>c.w&&c.cs.find(x=>x===c.w&&x[1]==='F')).length:0;
+  const mhWomen=MH?MH.ac.reduce((s,c)=>s+c.cs.filter(x=>x[1]==='F'&&MH.MP[x[3]]!=='NOTA').length,0):0;
+  const mhWomenWon=MH?MH.ac.filter(c=>c.w&&c.cs.find(x=>x===c.w&&x[1]==='F')).length:0;
+  const wLS=lsWomenWon.map(c=>`<tr class="r"><td>${cl(c)}</td><td>${S[c.si]}</td><td>${esc(c.w[0])}</td><td>${pl(c.w[3])}</td><td>${c.w[2]||'–'}</td><td>${f(c.m)}</td></tr>`).join('');
+  const wAP=AP?AP.ac.filter(c=>c.w&&c.cs.find(x=>x===c.w&&x[1]==='F')).map(c=>`<tr class="r"><td><a onclick="go('apac/${c.no}')">${esc(c.n)}</a></td><td>${esc(c.w[0])}</td><td>${dot2(AP.MP[c.w[3]])} ${esc(lc(AP.MP[c.w[3]]))}</td><td>${f(c.m)}</td></tr>`).join(''):'';
+  return`${bc([['Home',''],['Women in Elections']])}<h1>👩 Women in Indian Elections</h1>
+  <p class="note">Representation statistics across Lok Sabha 2024, Maharashtra 2024, and Andhra Pradesh 2024.</p>
+  <div class="women-banner">
+    <h2>🗳️ Lok Sabha 2024</h2>
+    <div class="sub">543 constituencies · 18th Lok Sabha</div>
+    <div class="women-stats">
+      <div class="wstat"><b>${lsWomen.length}</b><small>Women Contested</small></div>
+      <div class="wstat"><b>${lsWomenWon.length}</b><small>Women Won</small></div>
+      <div class="wstat"><b>${pc(lsWomenWon.length,lsWomen.length)}%</b><small>Win Rate</small></div>
+      <div class="wstat"><b>${pc(lsWomenWon.length,543)}%</b><small>% of Lok Sabha</small></div>
+      <div class="wstat"><b>${lsWomen.length?pc(lsWomen.length,lsAll.length)+'%':'–'}</b><small>% of Candidates</small></div>
+    </div>
+  </div>
+  <div class="card"><h2>Women winners – Lok Sabha 2024</h2>${tbl(['Constituency','State','Winner','Party','Age','Margin'],lsWomenWon.sort((a,b)=>b.m-a.m).map(c=>`<tr class="r"><td>${cl(c)}</td><td>${S[c.si]}</td><td>${esc(c.w[0])}</td><td>${pl(c.w[3])}</td><td>${c.w[2]||'–'}</td><td>${f(c.m)}</td></tr>`))}</div>
+  <div class="women-banner" style="margin-top:14px">
+    <h2>🏛️ Andhra Pradesh Assembly 2024</h2>
+    <div class="sub">175 seats</div>
+    <div class="women-stats">
+      <div class="wstat"><b>${apWomen}</b><small>Women Contested</small></div>
+      <div class="wstat"><b>${apWomenWon}</b><small>Women Won</small></div>
+      <div class="wstat"><b>${apWomen?pc(apWomenWon,apWomen)+'%':'–'}</b><small>Win Rate</small></div>
+      <div class="wstat"><b>${apWomenWon?pc(apWomenWon,175)+'%':'0%'}</b><small>% of House</small></div>
+    </div>
+  </div>
+  ${wAP?`<div class="card"><h2>Women winners – AP 2024</h2>${tbl(['Constituency','Winner','Party','Margin'],wAP.split('</tr>').filter(Boolean).map(r=>r+'</tr>'))}</div>`:''}
+  <div class="women-banner" style="margin-top:14px">
+    <h2>🏢 Maharashtra Assembly 2024</h2>
+    <div class="sub">288 seats</div>
+    <div class="women-stats">
+      <div class="wstat"><b>${mhWomen}</b><small>Women Contested</small></div>
+      <div class="wstat"><b>${mhWomenWon}</b><small>Women Won</small></div>
+      <div class="wstat"><b>${mhWomen?pc(mhWomenWon,mhWomen)+'%':'–'}</b><small>Win Rate</small></div>
+      <div class="wstat"><b>${mhWomenWon?pc(mhWomenWon,288)+'%':'0%'}</b><small>% of House</small></div>
+    </div>
+  </div>
+  <p class="note" style="margin-top:18px">📌 Historical AP women data (1955–2019) will appear here as PDFs are processed. Run <b>python extract_ap_pdf.py</b> to generate data.</p>
+  ${footer()}`
+},
+'stats':()=>{const W=PC.map(c=>c.w),wm=W.filter(x=>x[1]=='F').length,ages=W.filter(x=>x[2]).map(x=>x[2]),mini=c=>`<tr class="r"><td>${cl(c)}</td><td>${S[c.si]}</td><td>${esc(c.w[0])}</td><td>${pl(c.w[3])}</td>`;
+const T=(h,l,fn)=>`<div class="card"><h2>${h}</h2>${tbl(['Constituency','State','Winner','Party',fn[0]],l.map(c=>mini(c)+`<td>${fn[1](c)}</td></tr>`))}</div>`;
+const cp=PC.slice(),all=PC.flatMap(c=>c.cs.filter(x=>x[3]!=NI)),ca=all.filter(x=>x[2]);
+return`${bc([['Home',''],['Statistics']])}<h1>Lok Sabha 2024 – Statistics</h1>
+<div class="women-banner" style="margin-bottom:14px">
+  <h2>👩 Women in Lok Sabha 2024</h2><div class="sub">Representation at a glance</div>
+  <div class="women-stats">
+    <div class="wstat"><b>${all.filter(x=>x[1]==='F').length}</b><small>Women Contested</small></div>
+    <div class="wstat"><b>${wm}</b><small>Women Won</small></div>
+    <div class="wstat"><b>${pc(wm,543)}%</b><small>% of Lok Sabha</small></div>
+    <div class="wstat"><b><a onclick="go('women')" style="color:#fff">View all →</a></b><small>Women Dashboard</small></div>
+  </div>
+</div>
+${stats([[all.length,'Candidates'],[all.filter(x=>x[1]=='F').length,'Women candidates'],[wm,'Women winners'],[(ages.reduce((a,b)=>a+b,0)/ages.length).toFixed(1),'Avg winner age'],[Math.min(...ages)+'–'+Math.max(...ages),'Winner age range'],[f(PC.reduce((a,c)=>a+c.nota,0)),'Total NOTA']])}
+<div class="g g2">${T('Closest contests',cp.sort((a,b)=>a.m-b.m).slice(0,10),['Margin',c=>f(c.m)])}${T('Biggest margins',cp.sort((a,b)=>b.m-a.m).slice(0,10),['Margin',c=>f(c.m)])}${T('Highest turnout',cp.sort((a,b)=>b.t-a.t).slice(0,10),['Turnout',c=>c.t.toFixed(1)+'%'])}${T('Lowest turnout',cp.sort((a,b)=>a.t-b.t).slice(0,10),['Turnout',c=>c.t.toFixed(1)+'%'])}${T('Highest NOTA',cp.sort((a,b)=>b.nota-a.nota).slice(0,10),['NOTA',c=>f(c.nota)])}${T('Most candidates',cp.sort((a,b)=>b.cs.length-a.cs.length).slice(0,10),['Candidates',c=>c.cs.length-1])}</div>`},
+'q':q=>{
+  q=decodeURIComponent(q||'').toLowerCase().trim();
+  initMH();initAP();
+  
+  // 1. Lok Sabha Constituencies
+  const cs=q?PC.filter(c=>c.n.toLowerCase().includes(q)||S[c.si].toLowerCase().includes(q)).slice(0,30):[];
+  
+  // 2. Lok Sabha Candidates
+  const cd=[];
+  if(q.length>1){
+    for(const c of PC){
+      for(const x of c.cs){
+        if(x[3]!=NI&&x[0].toLowerCase().includes(q)){
+          cd.push([x,c]);
+          if(cd.length>=50)break;
+        }
+      }
+      if(cd.length>=50)break;
+    }
+  }
+
+  // 3. Maharashtra Assembly Constituencies
+  const mhc=MH&&MH.ac?MH.ac.filter(c=>c.n.toLowerCase().includes(q)||c.dist.toLowerCase().includes(q)).slice(0,30):[];
+
+  // 4. Maharashtra Assembly Candidates (ALL candidates)
+  const mhcd=[];
+  if(MH&&MH.ac&&q.length>1){
+    for(const c of MH.ac){
+      for(const x of c.cs){
+        const p=MH.MP[x[3]];
+        if(p!='NOTA'&&x[0].toLowerCase().includes(q)){
+          mhcd.push({x,c,p,isW:x===c.w,isR:x===c.r});
+          if(mhcd.length>=50)break;
+        }
+      }
+      if(mhcd.length>=50)break;
+    }
+  }
+
+  // 5. Andhra Pradesh Assembly Constituencies
+  const apc=AP&&AP.ac?AP.ac.filter(c=>c.n.toLowerCase().includes(q)).slice(0,30):[];
+
+  // 6. Andhra Pradesh Assembly Candidates (ALL candidates)
+  const apcd=[];
+  if(AP&&AP.ac&&q.length>1){
+    for(const c of AP.ac){
+      for(const x of c.cs){
+        const p=AP.MP[x[3]];
+        if(p!='NOTA'&&x[0].toLowerCase().includes(q)){
+          apcd.push({x,c,p,isW:x===c.w,isR:x===c.r});
+          if(apcd.length>=50)break;
+        }
+      }
+      if(apcd.length>=50)break;
+    }
+  }
+
+  const totMatches = cs.length + cd.length + mhc.length + mhcd.length + apc.length + apcd.length;
+
+  return`${bc([['Home',''],['Search']])}<h1>🔍 Search Results: “${esc(q)}”</h1>
+  <p class="note">${totMatches} matches found across Parliamentary and State Assembly elections.</p>
+  
+  <div class="card">
+    <h2>🏢 Maharashtra Assembly Constituencies (${mhc.length})</h2>
+    ${mhc.length?tbl(['AC No.','Constituency','District','Category','Winner Candidate','Winning Party','Margin','Turnout'],
+      mhc.map(c=>`<tr class="r"><td>${c.no}</td><td><a onclick="go('ac/${c.no}')"><b>${esc(c.n)}</b></a></td><td>${esc(c.dist)}</td><td>${c.cat}</td><td>${esc(c.w[0])}</td><td>${dot2(MH.MP[c.w[3]])}${shc(MH.MP[c.w[3]],16)} ${esc(lc(MH.MP[c.w[3]]))}</td><td>${f(c.m)}</td><td>${c.t.toFixed(1)}%</td></tr>`)
+    ):'<p class="note">No matching Maharashtra constituencies.</p>'}
+  </div>
+
+  <div class="card">
+    <h2>👥 Maharashtra Assembly Candidates (${mhcd.length}${mhcd.length>=50?'+':''})</h2>
+    ${mhcd.length?tbl(['Candidate','Party','Constituency','District','Votes Polled','% Votes','Status'],
+      mhcd.map(({x,c,p,isW,isR})=>`<tr class="r"><td><b>${esc(x[0])}</b></td><td>${dot2(p)}${shc(p,16)} ${esc(lc(p))}</td><td><a onclick="go('ac/${c.no}')">${esc(c.n)}</a></td><td>${esc(c.dist)}</td><td>${f(x[6])}</td><td>${pc(x[6],c.po)}%</td><td>${isW?'<span class="badge" style="background:var(--win);color:var(--g)">🏆 Won</span>':(isR?'<span class="badge" style="background:rgba(255,107,0,0.15);color:var(--saffron)">🥈 Runner-up</span>':'Contested')}</td></tr>`)
+    ):'<p class="note">Type at least 2 characters to search all 4,100+ Maharashtra candidates.</p>'}
+  </div>
+
+  <div class="card">
+    <h2>🏛️ Andhra Pradesh Assembly Constituencies (${apc.length})</h2>
+    ${apc.length?tbl(['AC No.','Constituency','Category','Winner Candidate','Party','Margin','Turnout'],
+      apc.map(c=>`<tr class="r"><td>${c.no}</td><td><a onclick="go('apac/${c.no}')"><b>${esc(c.n)}</b></a></td><td>${c.cat}</td><td>${c.w?esc(c.w[0]):'–'}</td><td>${dot2(AP.MP[c.w?c.w[3]:0])}${shc(AP.MP[c.w?c.w[3]:0],16)} ${esc(lc(AP.MP[c.w?c.w[3]:0]))}</td><td>${f(c.m)}</td><td>${c.t.toFixed(1)}%</td></tr>`)
+    ):'<p class="note">No matching Andhra Pradesh constituencies.</p>'}
+  </div>
+
+  <div class="card">
+    <h2>👥 Andhra Pradesh Assembly Candidates (${apcd.length}${apcd.length>=50?'+':''})</h2>
+    ${apcd.length?tbl(['Candidate','Party','Constituency','Votes Polled','% Votes','Status'],
+      apcd.map(({x,c,p,isW,isR})=>`<tr class="r"><td><b>${esc(x[0])}</b></td><td>${dot2(p)}${shc(p,16)} ${esc(lc(p))}</td><td><a onclick="go('apac/${c.no}')">${esc(c.n)}</a></td><td>${f(x[6])}</td><td>${pc(x[6],c.po)}%</td><td>${isW?'<span class="badge" style="background:var(--win);color:var(--g)">🏆 Won</span>':(isR?'<span class="badge" style="background:rgba(255,107,0,0.15);color:var(--saffron)">🥈 Runner-up</span>':'Contested')}</td></tr>`)
+    ):'<p class="note">Type at least 2 characters to search all 2,300+ Andhra Pradesh candidates.</p>'}
+  </div>
+
+  <div class="card">
+    <h2>🏛️ Lok Sabha Constituencies (${cs.length})</h2>
+    ${cs.length?tbl(CH,cs.map(cRow)):'<p class="note">No matching Lok Sabha constituency. Browse <a onclick="go(\'pcs\')">all constituencies</a> or the <a onclick="go(\'map\')">map</a>.</p>'}
+  </div>
+
+  <div class="card">
+    <h2>👥 Lok Sabha Candidates (${cd.length}${cd.length>=50?'+':''})</h2>
+    ${cd.length?tbl(['Candidate','Party','Constituency','State','Votes','Result'],
+      cd.map(([x,c])=>`<tr class="r"><td><b>${esc(x[0])}</b></td><td>${pl(x[3])}</td><td>${cl(c)}</td><td>${S[c.si]}</td><td>${f(x[6])}</td><td>${x===c.w?'<span class="badge" style="background:var(--win);color:var(--g)">🏆 Won</span>':'Lost'}</td></tr>`)
+    ):'<p class="note">Type at least 2 characters to search candidates across India.</p>'}
+  </div>`;
+},
+'mh':(yr)=>{
+  if(yr && yr!=='2024'){
+    setTimeout(()=>{
+      const el=$('app');if(!el)return;
+      el.innerHTML=`<p>Loading Maharashtra ${yr} data…</p>`;
+      fetch(`data/elections/maharashtra_assembly_${yr}.json`).then(r=>r.json()).then(data=>{
+        if(!data){el.innerHTML=`<p class="note">Data for ${yr} not available.</p>`;return}
+        window._mh19Data=data;
+        const consts=data.constituencies||[];
+        const partyCounts={};
+        const partyVotes={};
+        const totVotes=consts.reduce((s,c)=>s+(c.votes_polled||0),0);
+        const totElectors=consts.reduce((s,c)=>s+(c.electors||0),0);
+        const avgTurnout=totElectors?(totVotes/totElectors*100).toFixed(1):'61.4';
+        consts.forEach(c=>{
+          if(c.winner_party){
+            partyCounts[c.winner_party]=(partyCounts[c.winner_party]||0)+1;
+          }
+          if(c.candidates){
+            c.candidates.forEach(cd=>{
+              if(cd.party&&!cd.is_nota){
+                partyVotes[cd.party]=(partyVotes[cd.party]||0)+(cd.total_votes||0);
+              }
+            });
+          }
+        });
+        const psList=Object.keys(partyCounts).map(p=>({c:p,seats:partyCounts[p],votes:partyVotes[p]||0})).sort((a,b)=>b.seats-a.seats||b.votes-a.votes);
+        const ndaSeats=(partyCounts['BJP']||0)+(partyCounts['SHS']||0);
+        const upaSeats=(partyCounts['NCP']||0)+(partyCounts['INC']||0);
+        const othSeats=288-ndaSeats-upaSeats;
+        
+        el.innerHTML=`
+          ${bc([['Home',''],['Maharashtra Assembly','mh'],[yr]])}
+          <div class="card" style="padding:12px 16px;margin-bottom:12px">
+            <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+              <span class="yr-label">📅 Select Year:</span>
+              <button class="yr-btn" onclick="go('mh')">2024</button>
+              <button class="yr-btn ${yr==='2019'?'on':''}" onclick="go('mh/2019')">2019</button>
+              <button class="yr-btn ${yr==='2014'?'on':''}" onclick="go('mh/2014')">2014</button>
+              <button class="yr-btn ${yr==='2009'?'on':''}" onclick="go('mh/2009')">2009</button>
+              <button class="yr-btn ${yr==='2004'?'on':''}" onclick="go('mh/2004')">2004</button>
+            </div>
+            <p class="note" style="margin:4px 0 0">Viewing: <b>${yr} Assembly Election</b> · Maharashtra · 288 Seats</p>
+          </div>
+          <h1>🏢 Maharashtra Assembly Election ${yr}</h1>
+          <div class="f" style="margin:12px 0">
+            <button class="btn on">Results</button>
+            <button class="btn" onclick="go('mhmap/${yr}')">🗺️ Map</button>
+            <button class="btn" onclick="document.getElementById('mh19-seats-card').scrollIntoView({behavior:'smooth'})">All 288 Constituencies ↓</button>
+          </div>
+          ${stats([[288,'Total Seats'],[288,'Results Declared'],[(totElectors/1e7).toFixed(2)+' Cr','Total Electors'],[(totVotes/1e7).toFixed(2)+' Cr','Votes Polled'],[avgTurnout+'%','Turnout'],[psList.length,'Parties Winning']])}
+          <div class="g g2" style="margin-top:14px">
+            <div class="card">
+              <h2>Seats Won by Party</h2>
+              ${hemi(psList.map(p=>({c:p.c,seats:p.seats})),288)}
+            </div>
+            <div class="card">
+              <h2>Party-wise Results</h2>
+              ${tbl(['Party','Seats','Seats %'],psList.map(p=>`<tr class="r"><td>${dot2(p.c)}${shc(p.c,18)} ${esc(lc(p.c))}</td><td><b>${p.seats}</b></td><td>${(p.seats/288*100).toFixed(1)}%</td></tr>`))}
+            </div>
+          </div>
+          <div class="card">
+            <h2>Alliance Tally (${yr})</h2>
+            <div style="margin:8px 0">NDA (BJP + Shiv Sena): <b>${ndaSeats}</b><br><span class="bar" style="width:${ndaSeats/288*100}%;background:#ff7a00"></span></div>
+            <div style="margin:8px 0">UPA (NCP + Congress): <b>${upaSeats}</b><br><span class="bar" style="width:${upaSeats/288*100}%;background:#1d6fe8"></span></div>
+            <div style="margin:8px 0">Others &amp; Independents: <b>${othSeats}</b><br><span class="bar" style="width:${othSeats/288*100}%;background:#8a8f98"></span></div>
+            <p class="note">Majority mark: 145. Source: ECI ${yr} Detailed Results.</p>
+          </div>
+          <div class="card" id="mh19-seats-card" style="margin-top:16px">
+            <h2>🏛️ All 288 Constituencies (${yr})</h2>
+            <div class="f" style="margin-bottom:10px">
+              <input id="mh19q" placeholder="Search constituency / candidate / party…" style="flex:1;min-width:200px" oninput="mh19Filter()">
+              <select id="mh19p" onchange="mh19Filter()"><option value="">All winning parties</option>${psList.map(p=>`<option value="${p.c}">${esc(lc(p.c))} (${p.seats})</option>`)}</select>
+              <select id="mh19cat" onchange="mh19Filter()"><option value="">All categories</option><option value="GEN">General</option><option value="SC">SC</option><option value="ST">ST</option></select>
+            </div>
+            <div id="mh19-table-wrap"></div>
+          </div>
+        `;
+        window.mh19Filter=function(){
+          const wrap=$('mh19-table-wrap');if(!wrap)return;
+          const q=($('mh19q')?$('mh19q').value:'').toLowerCase().trim();
+          const pf=$('mh19p')?$('mh19p').value:'';
+          const catf=$('mh19cat')?$('mh19cat').value:'';
+          const filtered=consts.filter(c=>{
+            const mQ=!q||c.name.toLowerCase().includes(q)||(c.winner_name||'').toLowerCase().includes(q)||(c.winner_party||'').toLowerCase().includes(q)||String(c.ac_no)===q;
+            const mP=!pf||c.winner_party===pf;
+            const mC=!catf||c.category===catf;
+            return mQ&&mP&&mC;
+          });
+          wrap.innerHTML=`<p class="note">${filtered.length} constituencies · tap any row to view candidate votes</p>`+tbl(
+            ['AC No.','Constituency','Category','Winner Candidate','Party','Margin','Turnout %','Runner-up','Action'],
+            filtered.map(c=>`<tr class="r" style="cursor:pointer" onclick="go('mhac/${yr}/${c.ac_no}')">
+              <td>${c.ac_no}</td>
+              <td><b><a onclick="go('mhac/${yr}/${c.ac_no}')">${esc(c.name)}</a></b></td>
+              <td>${c.category||'–'}</td>
+              <td><b>${esc(c.winner_name||'–')}</b></td>
+              <td>${dot2(c.winner_party||'')}${shc(c.winner_party||'',16)} ${esc(lc(c.winner_party||''))}</td>
+              <td>${c.margin?f(c.margin):'–'}</td>
+              <td>${c.turnout_pct?c.turnout_pct.toFixed(1)+'%':'–'}</td>
+              <td>${esc(c.runner_up_name||'–')}</td>
+              <td><button class="btn" style="padding:2px 8px;font-size:11px" onclick="event.stopPropagation();go('mhac/${yr}/${c.ac_no}')">Votes →</button></td>
+            </tr>`)
+          );
+          tr(wrap);
+        };
+        window.mh19Filter();
+        tr(el);
+      }).catch(err=>{el.innerHTML=`<p class="note">Could not load ${yr} data.</p>`;});
+    },10);
+    return'<p>Loading Maharashtra 2019 data…</p>';
+  }
+  initMH();const d=MH.ps.filter(p=>p.seats),al={Mahayuti:0,MVA:0,Others:0};d.forEach(p=>al[mal(p.c)]+=p.seats);
+  return`${bc([['Home',''],['Maharashtra Assembly 2024']])}
+  <div class="card" style="padding:10px 14px;margin-bottom:12px">
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+      <span class="yr-label">📅 Select Year:</span>
+      <button class="yr-btn on" onclick="go('mh')">2024</button>
+      <button class="yr-btn" onclick="go('mh/2019')">2019</button>
+      <button class="yr-btn" onclick="go('mh/2014')">2014</button>
+      <button class="yr-btn" onclick="go('mh/2009')">2009</button>
+      <button class="yr-btn" onclick="go('mh/2004')">2004</button>
+    </div>
+  </div>
+  <h1>Maharashtra Assembly Election 2024</h1><div class="f"><button class="btn on">Results</button><button class="btn" onclick="go('mhmap')">🗺️ Map</button><button class="btn" onclick="go('mhs')">All 288 constituencies</button></div>
+  ${stats([[288,'Total Seats'],[288,'Results Declared'],[(MH.el/1e7).toFixed(2)+' Cr','Total Electors'],[(MH.tot/1e7).toFixed(2)+' Cr','Votes Polled'],[pc(MH.tot,MH.el)+'%','Turnout'],[d.length,'Parties winning seats']])}
+  <div class="g g2"><div class="card"><h2>Seats Won by Party</h2>${hemi(d.map(p=>({c:p.c,seats:p.seats})),288)}</div><div class="card"><h2>Party-wise Results</h2>${tbl(['Party','Seats','Votes','Vote share'],MH.ps.slice(0,16).map(p=>`<tr class="r"><td>${dot2(p.c)}${shc(p.c,18)} ${esc(lc(p.c))}</td><td>${p.seats}</td><td>${f(p.votes)}</td><td>${pc(p.votes,MH.tot)}%</td></tr>`))}</div></div>
+  <div class="card"><h2>Alliance tally</h2>${Object.entries(al).map(([k,n])=>`<div style="margin:6px 0">${k}: <b>${n}</b><br><span class="bar" style="width:${n/288*100}%;background:${{Mahayuti:'#ff7a00',MVA:'#1d6fe8',Others:'#8a8f98'}[k]}"></span></div>`).join('')}<p class="note">Majority mark: 145. Mahayuti = BJP+SHS+NCP; MVA = INC+SHS(UBT)+NCP(SP). Source: ECI detailed results.</p></div>`
+},
+'mhac':(yr,no)=>{
+  no=+no;
+  setTimeout(()=>{
+    const el=$('app');if(!el)return;
+    fetch(`data/elections/maharashtra_assembly_${yr}.json`).then(r=>r.json()).then(data=>{
+      const c=(data.constituencies||[]).find(x=>x.ac_no===no);
+      if(!c){el.innerHTML='<p class="note">Constituency not found.</p>';return}
+      const cands=(data.candidates_by_ac&&data.candidates_by_ac[no])||c.candidates||[];
+      
+      const non_nota=cands.filter(x=>!x.is_nota).sort((a,b)=>b.total_votes-a.total_votes);
+      const w=non_nota[0], r=non_nota[1];
+      const tv=c.votes_polled||cands.reduce((sum,cd)=>sum+(cd.total_votes||0),0);
+      const mx=w?w.total_votes:1;
+      
+      const box=(x,k,cls)=>{if(!x)return'';return`<div class="pb ${cls}"><div class="av" style="font-size:22px">${shc(x.party,44)||av(x.name)}</div><div><small>${k}</small><br><b style="font-size:16px">${esc(x.name)}</b><br>${dot2(x.party)} ${esc(lc(x.party))}<br><b>${f(x.total_votes)} (${pc(x.total_votes,tv)}%)</b></div></div>`};
+
+      el.innerHTML=`
+        ${bc([['Home',''],[`Maharashtra Assembly ${yr}`,`mh/${yr}`],[c.name]])}
+        <h1 style="color:var(--g)">${esc(c.name)}</h1>
+        <span class="bc">Assembly Constituency · AC ${c.ac_no} · Category: <b>${c.category}</b></span>
+        
+        <div class="g g2" style="margin-top:12px">${box(w,'Winner','win')}${box(r,'Runner-up','run')}</div>
+        
+        ${stats([[c.margin?f(c.margin):'–','Winning Margin'],[f(c.electors),'Electors'],[c.votes_polled?f(c.votes_polled):'–','Votes Polled'],[c.turnout_pct?c.turnout_pct.toFixed(1)+'%':'–','Turnout'],[cands.length,'Candidates'],[f(c.nota_votes||0)+' ('+pc(c.nota_votes,tv)+'%)','NOTA']])}
+        
+        <div class="card">
+          <h2>Vote share</h2>
+          ${cands.slice(0,6).map(x=>{
+            return `<div style="margin:6px 0">${dot2(x.party)}${esc(x.name)} (${esc(lc(x.party))}) · ${pc(x.total_votes,tv)}%<br><span class="bar" style="width:${x.total_votes/mx*100}%;background:${colC(x.party)}"></span></div>`;
+          }).join('')}
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>All Candidates &amp; Votes Polled</h2>
+          ${tbl(['#','Candidate Name','Party','Gender','Age','EVM Votes','Postal','Total Votes','Vote %'],
+            cands.map((cd,idx)=>`<tr class="r"${idx===0&&!cd.is_nota?' style="background:rgba(10,125,59,0.1);font-weight:600"':''}>
+              <td>${idx+1}</td>
+              <td><b>${esc(cd.name)}</b>${idx===0&&!cd.is_nota?' 🏆':''}</td>
+              <td>${dot2(cd.party)}${shc(cd.party,16)} ${esc(lc(cd.party))}</td>
+              <td>${cd.gender||'–'}</td>
+              <td>${cd.age||'–'}</td>
+              <td>${f(cd.evm_votes||0)}</td>
+              <td>${f(cd.postal_votes||0)}</td>
+              <td><b>${f(cd.total_votes||0)}</b></td>
+              <td>${cd.vote_pct?cd.vote_pct.toFixed(2)+'%':pc(cd.total_votes,tv)+'%'}</td>
+            </tr>`)
+          )}
+        </div>
+        <p><button class="btn" onclick="go('mh/${yr}')">← Back to All 288 Constituencies</button></p>
+      `;
+      tr(el);
+    });
+  },10);
+  return'<p>Loading constituency data…</p>';
+},
+'mhs':a=>{initMH();const [q0,d0,p0]=decodeURIComponent(a||'').split('|'),ds=[...new Set(MH.ac.map(c=>c.dist))].sort(),ps=MH.ps.filter(p=>p.seats);return`${bc([['Home',''],['Maharashtra Assembly 2024','mh'],['Constituencies']])}<h1>Maharashtra – All 288 Constituencies</h1><div class="card"><div class="f"><input id="mq" aria-label="Search" placeholder="Search constituency / winner" value="${esc(q0||'')}" oninput="mfl()"><select id="md" aria-label="District" onchange="mfl()"><option value="">All districts</option>${ds.map(x=>`<option ${d0===x?'selected':''}>${esc(x)}</option>`)}</select><select id="mpp" aria-label="Party" onchange="mfl()"><option value="">All winning parties</option>${ps.map(p=>`<option value="${p.c}" ${p0===p.c?'selected':''}>${esc(lc(p.c))}</option>`)}</select></div><div id="mr"></div></div>`},
+'ac':no=>{initMH();const c=MH.idx[+no];if(!c)return pages.mh();const tv=c.po,box=(x,k,cls)=>{if(!x)return'';const p=MH.MP[x[3]];return`<div class="pb ${cls}"><div class="av" style="font-size:22px">${shc(p,44)||av(x[0])}</div><div><small>${k}</small><br><b style="font-size:16px">${esc(x[0])}</b><br>${dot2(p)} ${esc(lc(p))}<br><b>${f(x[6])} (${pc(x[6],tv)}%)</b></div></div>`},mx=c.cs[0][6];
+return`${bc([['Home',''],['Maharashtra Assembly 2024','mh'],['Constituencies','mhs'],[esc(c.n)]])}<h1 style="color:var(--g)">${esc(c.n)}</h1><span class="bc">Assembly Constituency · AC ${c.no} · ${esc(c.dist)} · ${c.cat}</span>
+<div class="g g2" style="margin-top:12px">${box(c.w,'Winner','win')}${box(c.r,'Runner-up','run')}</div>
+${stats([[f(c.m),'Winning margin'],[f(c.el),'Electors'],[f(c.po),'Votes polled'],[c.t.toFixed(1)+'%','Turnout'],[c.cs.length-1,'Candidates'],[f(c.nota)+' ('+pc(c.nota,tv)+'%)','NOTA']])}
+<div class="card"><h2>Vote share</h2>${c.cs.slice(0,6).map(x=>{const p=MH.MP[x[3]];return`<div style="margin:6px 0">${dot2(p)}${esc(x[0])} (${esc(lc(p))}) · ${pc(x[6],tv)}%<br><span class="bar" style="width:${x[6]/mx*100}%;background:${colC(p)}"></span></div>`}).join('')}</div>
+<div class="card"><h2>All candidates</h2>${tbl(['#','Candidate','Party','Gender','Age','Votes','Postal','Total votes','% valid'],c.cs.map((x,i)=>{const p=MH.MP[x[3]];return`<tr class="r"><td>${i+1}</td><td>${esc(x[0])}</td><td>${shc(p,16)} ${esc(lc(p))}</td><td>${x[1]}</td><td>${x[2]??'–'}</td><td>${f(x[4])}</td><td>${f(x[5])}</td><td>${f(x[6])}</td><td>${pc(x[6],tv)}%</td></tr>`}))}</div><p class="note">Source: ECI detailed results, Maharashtra 2024. % of valid votes + NOTA.</p>`},
+'mhmap':(yr)=>{
+  if(!yr || yr==='2024') {
+    initMH();const mc=c=>{const p=MH.MP[c.w[3]];return MM=='party'?colC(p):{Mahayuti:'#ff7a00',MVA:'#1d6fe8',Others:'#8a8f98'}[mal(p)]};
+    const paths=MGEO.f.map(([no,d])=>{const c=MH.idx[no];return`<path data-n="${no}" d="${d}" fill="${mc(c)}" fill-rule="evenodd" stroke="var(--c)" stroke-width=".6" vector-effect="non-scaling-stroke" role="link" tabindex="0" aria-label="${esc(c.n)}" onclick="mpick(${no})" onkeydown="if(event.key==='Enter')mpick(${no})" onmousemove="mtip(event,${no})" onmouseleave="tip()"/>`}).join('');
+    const cnt={};MH.ac.forEach(c=>{const p=MH.MP[c.w[3]],k=MM=='party'?p:mal(p);cnt[k]=(cnt[k]||0)+1});
+    const leg=Object.entries(cnt).sort((x,y)=>y[1]-x[1]).map(([k,n])=>`<div style="margin:6px 0"><span class="dot" style="background:${MM=='party'?colC(k):{Mahayuti:'#ff7a00',MVA:'#1d6fe8',Others:'#8a8f98'}[k]}"></span>${MM=='party'?shc(k,18)+' '+esc(lc(k)):k} <b>${n}</b></div>`).join('');
+    return`${bc([['Home',''],['Maharashtra Assembly 2024','mh'],['Map']])}<h1>Maharashtra Assembly – Constituency Map</h1><div class="f"><button class="btn ${MM=='party'?'on':''}" onclick="MM='party';render()">By party</button><button class="btn ${MM!='party'?'on':''}" onclick="MM='alliance';render()">By alliance</button><button class="btn" onclick="go('mhs')">All 288 constituencies</button></div><p class="note">Tap a constituency to preview the winner. Use + / − or pinch to zoom.</p>
+<div class="g mg"><div><div class="card" style="position:relative;margin-top:0"><div class="zc"><button class="btn" onclick="zb(1.5)" aria-label="Zoom in">+</button><button class="btn" onclick="zb(1/1.5)" aria-label="Zoom out">−</button><button class="btn" onclick="zr()" aria-label="Reset zoom">⟲</button></div><svg id="mp" viewBox="-5 -5 ${MGEO.w+10} ${MGEO.h+10}" style="width:100%;height:min(68vh,640px);touch-action:none;display:block" role="img" aria-label="Constituency map">${paths}</svg><div id="tp" style="position:fixed;display:none;background:#000c;color:#fff;padding:5px 8px;border-radius:5px;font-size:12px;pointer-events:none;z-index:9"></div></div><div class="card" id="mc" aria-live="polite"><span class="note">Select a constituency on the map.</span></div></div>
+<div class="card" style="margin-top:0"><h2>Winning party (seats)</h2>${leg}</div></div><p class="note">Boundaries: DataMeet (2008 delimitation, simplified). Results: ECI 2024.</p>`;
+  } else {
+    setTimeout(()=>{
+      const el=$('app');if(!el)return;
+      fetch(`data/elections/maharashtra_assembly_${yr}.json`).then(r=>r.json()).then(data=>{
+        const lookup={};const cnt={};
+        data.constituencies.forEach(c=>{
+          const wp=c.winner_party||'IND';
+          lookup[c.ac_no]={...c,wp};
+          const k=MM=='party'?wp:mal(wp);
+          cnt[k]=(cnt[k]||0)+1;
+        });
+        window.mpick=function(no){
+          if(MOVED)return;const c=lookup[no];if(!c)return;
+          document.querySelectorAll('#mp path.sel').forEach(x=>x.classList.remove('sel'));
+          const pel=document.querySelector('#mp path[data-n="'+no+'"]');if(pel)pel.classList.add('sel');
+          $('mc').innerHTML=`<b style="font-size:16px">${esc(c.name)}</b><br><small>AC ${no} · ${c.category}</small><br><br><b>Winner</b><br>${dot2(c.wp)} ${esc(c.winner_name||'–')}<br>${esc(lc(c.wp))} · Margin: ${c.margin?f(c.margin):'–'}<br><br><a class="btn" onclick="go('mhac/${yr}/${no}')">View full results ›</a>`;
+        };
+        window.mtip=function(e,no){
+          const c=lookup[no];if(!c)return;
+          const t=$('tp');if(!t)return;t.style.display='block';t.style.left=e.clientX+12+'px';t.style.top=e.clientY+12+'px';
+          t.innerHTML=`<b>${esc(c.name)}</b><br>${esc(c.winner_name||'–')}<br>${esc(lc(c.wp))} · Margin ${c.margin?f(c.margin):'–'}`;
+        };
+        const mc=c=>{return MM=='party'?colC(c.wp):{Mahayuti:'#ff7a00',MVA:'#1d6fe8',Others:'#8a8f98'}[mal(c.wp)]};
+        const paths=MGEO.f.map(([no,d])=>{const c=lookup[no];if(!c)return'';return`<path data-n="${no}" d="${d}" fill="${mc(c)}" fill-rule="evenodd" stroke="var(--c)" stroke-width=".6" vector-effect="non-scaling-stroke" role="link" tabindex="0" aria-label="${esc(c.name)}" onclick="mpick(${no})" onkeydown="if(event.key==='Enter')mpick(${no})" onmousemove="mtip(event,${no})" onmouseleave="tip()"/>`}).join('');
+        const leg=Object.entries(cnt).sort((x,y)=>y[1]-x[1]).map(([k,n])=>`<div style="margin:6px 0"><span class="dot" style="background:${MM=='party'?colC(k):{Mahayuti:'#ff7a00',MVA:'#1d6fe8',Others:'#8a8f98'}[k]}"></span>${MM=='party'?shc(k,18)+' '+esc(lc(k)):k} <b>${n}</b></div>`).join('');
+        el.innerHTML=`${bc([['Home',''],[`Maharashtra Assembly ${yr}`,`mh/${yr}`],['Map']])}
+<h1>Maharashtra Assembly ${yr} – Constituency Map</h1>
+<div class="f"><button class="btn ${MM=='party'?'on':''}" onclick="MM='party';go('mhmap/${yr}')">By party</button><button class="btn ${MM!='party'?'on':''}" onclick="MM='alliance';go('mhmap/${yr}')">By alliance</button><button class="btn" onclick="go('mh/${yr}')">All 288 constituencies</button></div>
+<p class="note">Tap a constituency to preview the winner. Use + / − or pinch to zoom.</p>
+<div class="g mg"><div><div class="card" style="position:relative;margin-top:0"><div class="zc"><button class="btn" onclick="zb(1.5)" aria-label="Zoom in">+</button><button class="btn" onclick="zb(1/1.5)" aria-label="Zoom out">−</button><button class="btn" onclick="zr()" aria-label="Reset zoom">⟲</button></div><svg id="mp" viewBox="-5 -5 ${MGEO.w+10} ${MGEO.h+10}" style="width:100%;height:min(68vh,640px);touch-action:none;display:block" role="img" aria-label="Constituency map">${paths}</svg><div id="tp" style="position:fixed;display:none;background:#000c;color:#fff;padding:5px 8px;border-radius:5px;font-size:12px;pointer-events:none;z-index:9"></div></div><div class="card" id="mc" aria-live="polite"><span class="note">Select a constituency on the map.</span></div></div>
+<div class="card" style="margin-top:0"><h2>Winning party (seats)</h2>${leg}</div></div><p class="note">Boundaries: DataMeet (2008 delimitation, simplified). Results: ECI ${yr}.</p>`;
+        tr(el);
+      });
+    },10);
+    return'<p>Loading map data…</p>';
+  }
+},
+
+/* ── Andhra Pradesh Assembly 2024 ─────────────────────────────────────────── */
+'ap':()=>{
+  initAP();const d=AP.ps.filter(p=>p.seats),al={TDP:0,YSRCP:0,Others:0};
+  d.forEach(p=>{if(p.c==='TDP'||p.c==='JSP'||p.c==='JnP'||p.c==='BJP')al['TDP']+=p.seats;else if(p.c==='YSRCP')al['YSRCP']+=p.seats;else al['Others']+=p.seats});
+  const womenCands=AP.ac.reduce((s,c)=>s+c.cs.filter(x=>x[1]==='F'&&AP.MP[x[3]]!=='NOTA').length,0);
+  const womenWon=AP.ac.filter(c=>c.w&&c.cs.find(x=>x===c.w&&x[1]==='F')).length;
+  const yrBar=AP_YEARS.map(yr=>`<button class="yr-btn${yr===2024?' on':''}" onclick="go('aph/${yr}')">${yr}</button>`).join('');
+  return`${bc([['Home',''],['Andhra Pradesh']])}<h1>🏛️ Andhra Pradesh Assembly Elections</h1>
+<div class="card" style="padding:14px">
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px">
+    <span class="yr-label">📅 Select Year:</span>${yrBar}
+  </div>
+  <p class="note" style="margin:4px 0 0">Viewing: <b>2024</b> · ${AP_YEAR_META[2024].note} · <a onclick="go('cmp')">Compare two years side by side →</a></p>
+</div>
+<div class="f" style="margin-top:12px">
+  <button class="btn on">2024 Results</button>
+  <button class="btn" onclick="go('apmap')">🗺️ Interactive Map</button>
+  <button class="btn" onclick="go('aps')">All 175 Constituencies</button>
+  <button class="btn" onclick="document.getElementById('ap-prev-years').scrollIntoView({behavior:'smooth'})">📅 Previous Years (1955–2019)</button>
+</div>
+<div class="card" onclick="go('apmap')" role="button" tabindex="0" style="cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;margin:12px 0;background:linear-gradient(90deg,rgba(242,194,0,0.12),transparent);border:1px solid var(--b);border-radius:10px">
+  <div><b>🗺️ Andhra Pradesh 2024 Interactive Map</b><br><span class="note">Explore regional map and all 175 assembly seats colored by winning party / alliance</span></div>
+  <button class="btn on">Open Interactive Map →</button>
+</div>
+${stats([[175,'Total Seats'],[175,'Results Declared'],[(AP.el/1e7).toFixed(2)+' Cr','Total Electors'],[(AP.tot/1e7).toFixed(2)+' Cr','Votes Polled'],[pc(AP.tot,AP.el)+'%','Turnout'],[d.length,'Parties winning seats']])}
+<div class="g g2"><div class="card"><h2>Seats Won by Party</h2>${hemi(d.map(p=>({c:p.c,seats:p.seats})),175)}</div><div class="card"><h2>Party-wise Results</h2>${tbl(['Party','Seats','Votes','Vote share'],d.slice(0,16).map(p=>`<tr class="r"><td>${dot2(p.c)}${shc(p.c,18)} ${esc(lc(p.c))}</td><td>${p.seats}</td><td>${f(p.votes)}</td><td>${pc(p.votes,AP.tot)}%</td></tr>`))}</div></div>
+<div class="card"><h2>Alliance Tally</h2>${[['NDA (TDP+JSP+BJP)',al['TDP'],'#f2c200'],['YSRCP',al['YSRCP'],'#2e86de'],['Others',al['Others'],'#8a8f98']].map(a=>`<div style="margin:6px 0">${a[0]}: <b>${a[1]}</b><br><span class="bar" style="width:${a[1]/175*100}%;background:${a[2]}"></span></div>`).join('')}<p class="note">Majority mark: 88. NDA = TDP+JSP+BJP alliance. Source: ECI detailed results.</p></div>
+<div class="women-banner"><h2>👩 Women in 2024 AP Assembly</h2><div class="sub">Representation statistics</div><div class="women-stats"><div class="wstat"><b>${womenCands}</b><small>Women Contested</small></div><div class="wstat"><b>${womenWon}</b><small>Women Won</small></div><div class="wstat"><b>${womenCands?pc(womenWon,womenCands)+'%':'–'}</b><small>Win Rate</small></div><div class="wstat"><b>${womenWon?pc(womenWon,175)+'%':'0%'}</b><small>% of House</small></div></div></div>
+
+<!-- Previous Years section right inside Andhra Pradesh -->
+<div id="ap-prev-years" class="card" style="margin-top:20px">
+  <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+    <h2 style="margin:0;font-size:18px">📅 Previous Andhra Pradesh Assembly Elections (1955–2019)</h2>
+    <button class="btn" onclick="go('cmp')">⚖️ Compare Two Years →</button>
+  </div>
+  <p class="note">Explore complete results, interactive maps, candidate statistics, and full constituency data for all previous elections:</p>
+  <div class="g g3" style="margin-top:12px">
+    ${AP_YEARS.filter(y=>y!==2024).reverse().map(yr=>{
+      const m=AP_YEAR_META[yr]||{};
+      const winP=m.winner||'INC';
+      return`<div class="card" style="margin-top:0;padding:12px;cursor:pointer;border-left:4px solid ${colC(winP)}" onclick="go('aph/${yr}')">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start">
+          <div><b style="font-size:16px">${yr} Assembly</b><br><small class="note">${m.note||''}</small></div>
+          <span class="tag" style="background:${colC(winP)};color:#fff;font-weight:700">${dot2(winP)}${shc(winP,14)} ${winP}</span>
+        </div>
+        <div style="margin-top:8px;font-size:12px;color:var(--m)">${m.seats||175} seats · full constituency results</div>
+        <div style="display:flex;gap:6px;margin-top:10px">
+          <button class="btn" style="padding:3px 8px;font-size:11px" onclick="event.stopPropagation();go('aph/${yr}')">📊 Results</button>
+          <button class="btn" style="padding:3px 8px;font-size:11px" onclick="event.stopPropagation();go('aphmap/${yr}')">🗺️ Map</button>
+          <button class="btn" style="padding:3px 8px;font-size:11px" onclick="event.stopPropagation();go('aph/${yr}');setTimeout(()=>setAPHTab('seats'),300)">🏛️ Seats</button>
+        </div>
+      </div>`;
+    }).join('')}
+  </div>
+</div>`
+},
+
+/* ── Andhra Pradesh Assembly 2024 Map ─────────────────────────────────────── */
+'apmap':()=>{
+  initAP();
+  const d=AP.ps.filter(p=>p.seats);
+  const alMap={TDP:'NDA',JSP:'NDA',JnP:'NDA',BJP:'NDA',YSRCP:'YSRCP'};
+  const alCol={NDA:'#f2c200',YSRCP:'#2e86de',Others:'#8a8f98'};
+  
+  // Seat grid html
+  const tiles=AP.ac.map(c=>{
+    const p=AP.MP[c.w?c.w[3]:0]||'';
+    const al=alMap[p]||'Others';
+    const bg=MM==='party'?colC(p):(alCol[al]||'#8a8f98');
+    return`<div class="seat-tile" data-party="${esc(p)}" data-al="${esc(al)}" data-no="${c.no}" data-name="${esc(c.n)}" style="background:${bg}" onclick="pickAPSeat(${c.no})" onmousemove="tipAPSeat(event,${c.no})" onmouseleave="tipAC()"><span style="font-size:11px">${c.no}</span><small>${esc(c.n)}</small></div>`;
+  }).join('');
+
+  // Regional SVG map paths
+  let svgPaths='';
+  if(window.AP_GEO&&AP_GEO.ap){
+    svgPaths=AP_GEO.ap.map(([no,name,path])=>{
+      const startAC=no*7+1, endAC=(no+1)*7;
+      const regACs=AP.ac.filter(c=>c.no>=startAC&&c.no<=endAC);
+      const cnt={};
+      regACs.forEach(c=>{const p=AP.MP[c.w?c.w[3]:0];if(p)cnt[p]=(cnt[p]||0)+1});
+      const topP=Object.entries(cnt).sort((a,b)=>b[1]-a[1])[0];
+      const winP=topP?topP[0]:'TDP';
+      const al=alMap[winP]||'Others';
+      const fill=MM==='party'?colC(winP):(alCol[al]||'#8a8f98');
+      return`<path d="${path}" fill="${fill}" stroke="var(--c)" stroke-width=".8" vector-effect="non-scaling-stroke" role="button" tabindex="0" aria-label="${esc(name)}" onclick="filterAPRegion(${startAC},${endAC},'${esc(name)}')" onmousemove="tipAPReg(event,'${esc(name)}',${regACs.length},'${esc(winP)}')" onmouseleave="tipAC()"/>`;
+    }).join('');
+  }
+
+  // Legend
+  const leg=d.map(p=>`<span class="map-legend-item" onclick="filterAPParty('${p.c}')">${dot2(p.c)}${esc(lc(p.c))} <b>${p.seats}</b></span>`).join('');
+  const alLeg=Object.entries({NDA:164,YSRCP:11}).map(([k,n])=>`<span class="map-legend-item" onclick="filterAPAlliance('${k}')"><span class="dot" style="background:${alCol[k]}"></span>${k} <b>${n}</b></span>`).join('');
+
+  return`${bc([['Home',''],['Andhra Pradesh','ap'],['Map']])}<h1>🏛️ Andhra Pradesh 2024 – Assembly Map</h1>
+<div class="f">
+  <button class="btn ${MM=='party'?'on':''}" onclick="MM='party';render()">By party</button>
+  <button class="btn ${MM!='party'?'on':''}" onclick="MM='alliance';render()">By alliance</button>
+  <button class="btn" onclick="go('aps')">All 175 constituencies</button>
+  <button class="btn" onclick="go('aph')">Previous Elections</button>
+</div>
+<p class="note">Tap any constituency or region to view details and winning candidates.</p>
+<div class="map-legend-bar">
+  <b>Filter by:</b> ${MM==='party'?leg:alLeg}
+  <button class="btn" style="padding:2px 8px;font-size:11px;margin-left:auto" onclick="filterAPParty('')">Show All</button>
+</div>
+<div class="g g2">
+  <div>
+    <div class="card" style="position:relative;margin-top:0">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <b>🗺️ Regional Map (25 Regions)</b>
+        <span class="note">Tap region to filter seats</span>
+      </div>
+      <svg id="mp" viewBox="${window.AP_GEO?AP_GEO.ap_vb:'265 600 270 240'}" style="width:100%;height:min(50vh,380px);display:block;background:var(--bg);border-radius:8px" role="img" aria-label="AP Map">${svgPaths}</svg>
+    </div>
+    <div class="card" id="ap-seat-card" style="margin-top:10px">
+      <span class="note">Click any seat tile to inspect the full candidate results and margin.</span>
+    </div>
+  </div>
+  <div>
+    <div class="card" style="margin-top:0">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <b>🏛️ All 175 Assembly Seats (Cartogram)</b>
+        <input id="ap-search-seat" placeholder="Search constituency…" style="width:160px;font-size:12px;padding:3px 8px" oninput="filterAPSearch(this.value)">
+      </div>
+      <div class="seat-map-grid" id="ap-seats-grid">${tiles}</div>
+    </div>
+  </div>
+</div>
+<div id="tp-ac" style="position:fixed;display:none;background:#000c;color:#fff;padding:6px 10px;border-radius:6px;font-size:12px;pointer-events:none;z-index:99;box-shadow:0 4px 14px rgba(0,0,0,.4)"></div>`
+},
+
+/* ── Andhra Pradesh Historical – overview page ─────────────────────────────── */
+'aph':(year)=>{
+  if(year){
+    const yr=+year;
+    const m=AP_YEAR_META[yr]||{};
+    if(yr===2024){go('ap');return''}
+    const divId='aph-container';
+    setTimeout(()=>{
+      const el=document.getElementById(divId);
+      if(!el)return;
+      el.innerHTML='<p>Loading '+yr+' data…</p>';
+      loadAPYear(yr,data=>{
+        if(!data){el.innerHTML='<div class="card"><p class="note">Data for '+yr+' is not yet available.</p><a onclick="go(\'aph\')" class="btn">← Back to previous elections</a></div>';return}
+        const d=data.ps.filter(p=>p.seats);
+        const yrBar=AP_YEARS.map(y=>`<button class="yr-btn${y===yr?' on':''}" onclick="go('aph/${y}')">${y}</button>`).join('');
+        
+        // Seat grid for historical year
+        const seatTiles=data.ac.map(c=>{
+          const p=c.wp||(data.MP[c.w?c.w[3]:0])||'';
+          return`<div class="seat-tile" data-party="${esc(p)}" data-no="${c.no}" data-name="${esc(c.n)}" style="background:${colC(p)}" onclick="pickAPHistSeat(${c.no})" onmousemove="tipAPHistSeat(event,${c.no})" onmouseleave="tipAC()"><span style="font-size:11px">${c.no}</span><small>${esc(c.n)}</small></div>`;
+        }).join('');
+
+        // Regional SVG map for historical year
+        let histSvg='';
+        if(window.AP_GEO&&AP_GEO.ap){
+          const isFullAP = yr<=2014;
+          const feats = isFullAP && AP_GEO.tg ? AP_GEO.ap.concat(AP_GEO.tg) : AP_GEO.ap;
+          const vb = isFullAP ? AP_GEO.all_vb : AP_GEO.ap_vb;
+          histSvg = `<svg viewBox="${vb}" style="width:100%;height:min(44vh,340px);display:block;background:var(--bg);border-radius:8px">${feats.map(([no,name,path],idx)=>{
+            const startAC=idx*7+1, endAC=(idx+1)*7;
+            const regACs=data.ac.filter(c=>c.no>=startAC&&c.no<=endAC);
+            const cnt={};
+            regACs.forEach(c=>{const p=c.wp||(data.MP[c.w?c.w[3]:0]);if(p)cnt[p]=(cnt[p]||0)+1});
+            const topP=Object.entries(cnt).sort((a,b)=>b[1]-a[1])[0];
+            const winP=topP?topP[0]:(d[0]?d[0].c:'INC');
+            return`<path d="${path}" fill="${colC(winP)}" stroke="var(--c)" stroke-width=".8" vector-effect="non-scaling-stroke" role="button" tabindex="0" aria-label="${esc(name)}" onclick="filterAPHistRegion(${startAC},${endAC},'${esc(name)}')" onmousemove="tipAPReg(event,'${esc(name)}',${regACs.length},'${esc(winP)}')" onmouseleave="tipAC()"/>`;
+          }).join('')}</svg>`;
+        }
+
+        const partyFilters=d.map(p=>`<span class="map-legend-item" onclick="filterAPHistParty('${p.c}')">${dot2(p.c)}${esc(lc(p.c))} <b>${p.seats}</b></span>`).join('');
+
+        el.innerHTML=`
+          <div class="card" style="padding:14px">
+            <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px">
+              <span class="yr-label">📅 Select Year:</span>${yrBar}
+            </div>
+            <p class="note" style="margin:4px 0 0">Viewing: <b>${yr}</b> · ${m.note||''} · Andhra Pradesh · <a onclick="go('aph')">Compare years side by side →</a></p>
+          </div>
+          <h1 style="margin-top:14px">🏛️ Andhra Pradesh Assembly ${yr}</h1>
+          <div class="tab-pills">
+            <button class="tab-pill on" id="aphtab-res" onclick="setAPHTab('res')">📊 Results &amp; Stats</button>
+            <button class="tab-pill" id="aphtab-map" onclick="setAPHTab('map')">🗺️ Interactive Map</button>
+            <button class="tab-pill" id="aphtab-seats" onclick="setAPHTab('seats')">🏛️ All Constituencies (${data.ac.length})</button>
+          </div>
+          ${stats([[m.seats||data.ac.length,'Total Seats'],[data.ac.length,'Constituencies'],[(data.el/1e7).toFixed(2)+' Cr','Electors'],[(data.tot/1e7).toFixed(2)+' Cr','Votes Polled'],[pc(data.tot,data.el)+'%','Turnout'],[d.length,'Parties winning']])}
+
+          <!-- View 1: Results & Tallies -->
+          <div id="aph-view-res">
+            <div class="card" onclick="setAPHTab('map')" role="button" tabindex="0" style="cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;margin:12px 0;background:linear-gradient(90deg,rgba(11,61,145,0.08),transparent);border:1px solid var(--b);border-radius:10px">
+              <div><b>🗺️ View ${yr} Interactive Constituency Map</b><br><span class="note">See winning party footprint across all ${data.ac.length} constituencies</span></div>
+              <button class="btn on">Open ${yr} Map →</button>
+            </div>
+            <div class="g g2">
+              <div class="card"><h2>Seats Won by Party</h2>${hemi(d.map(p=>({c:p.c,seats:p.seats})),m.seats||data.ac.length)}</div>
+              <div class="card"><h2>Party-wise Results</h2>${tbl(['Party','Seats','Votes','Vote share'],d.slice(0,16).map(p=>`<tr class="r"><td>${dot2(p.c)} ${esc(lc(p.c))}</td><td>${p.seats}</td><td>${f(p.votes)}</td><td>${pc(p.votes,data.tot)}%</td></tr>`))}</div>
+            </div>
+          </div>
+
+          <!-- View 2: Interactive Map -->
+          <div id="aph-view-map" style="display:none">
+            <div class="map-legend-bar">
+              <b>Filter party:</b> ${partyFilters}
+              <button class="btn" style="padding:2px 8px;font-size:11px;margin-left:auto" onclick="filterAPHistParty('')">Show All</button>
+            </div>
+            <div class="g g2">
+              <div>
+                <div class="card" style="margin-top:0">
+                  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+                    <b>🗺️ Regional Footprint</b>
+                    <span class="note">Tap region to filter</span>
+                  </div>
+                  ${histSvg}
+                </div>
+                <div class="card" id="aph-seat-card" style="margin-top:10px">
+                  <span class="note">Click any seat tile to inspect the full candidate results and margin.</span>
+                </div>
+              </div>
+              <div>
+                <div class="card" style="margin-top:0">
+                  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+                    <b>🏛️ All ${data.ac.length} Constituency Seats</b>
+                    <input id="aph-search-seat" placeholder="Search constituency…" style="width:160px;font-size:12px;padding:3px 8px" oninput="filterAPHistSearch(this.value)">
+                  </div>
+                  <div class="seat-map-grid" id="aph-seats-grid">${seatTiles}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- View 3: All Constituencies -->
+          <div id="aph-view-seats" style="display:none">
+            <div class="card">
+              <h2>All ${data.ac.length} Constituencies</h2>
+              <div class="f">
+                <input id="aphq" placeholder="Search constituency / winner candidate…" oninput="aphHfl(this,'aphfl')" aria-label="Search">
+                <select id="aphpp" onchange="aphHfl(document.getElementById('aphq'),'aphfl')" aria-label="Party">
+                  <option value="">All winning parties</option>${d.map(p=>`<option value="${p.c}">${esc(lc(p.c))}</option>`).join('')}
+                </select>
+                <select id="aphcat" onchange="aphHfl(document.getElementById('aphq'),'aphfl')" aria-label="Category">
+                  <option value="">All categories</option><option value="GEN">GEN</option><option value="SC">SC</option><option value="ST">ST</option>
+                </select>
+              </div>
+              <div id="aphfl"></div>
+            </div>
+          </div>
+          <div id="tp-ac" style="position:fixed;display:none;background:#000c;color:#fff;padding:6px 10px;border-radius:6px;font-size:12px;pointer-events:none;z-index:99;box-shadow:0 4px 14px rgba(0,0,0,.4)"></div>
+        `;
+        window._aphData=data;
+        aphHfl(document.getElementById('aphq'),'aphfl');
+      });
+    },0);
+    return `${bc([['Home',''],['Previous Elections','aph'],['AP '+year]])}<div id="${divId}"><p>Loading…</p></div>`;
+  }
+  // Overview – all years timeline
+  const cards=AP_YEARS.slice().reverse().map(yr=>{
+    const m=AP_YEAR_META[yr]||{};
+    return`<div class="hist-card" onclick="go('aph/${yr}')">
+      <div class="hist-yr">${yr}</div>
+      <div class="hist-state">Andhra Pradesh</div>
+      <div class="hist-winner">🏆 ${m.winner||'–'} wins</div>
+      <div class="hist-party">${m.seats||'?'} seats</div>
+      ${m.note?`<div class="hist-badge" title="${esc(m.note)}">ℹ</div>`:''}
+    </div>`;
+  }).join('');
+  return`${bc([['Home',''],['Previous Elections']])}<h1>📅 Andhra Pradesh – Previous Elections (1955–2024)</h1>
+  <p class="note">Click any year to view full results, constituency details, and interactive map. 16 elections spanning 70 years.</p>
+  <div class="hist-grid">${cards}</div>
+  <div class="card" style="margin-top:20px">
+    <h2>⚖️ Compare Two Election Years</h2>
+    <p class="note">Select two election years to compare results, vote shares, turnout, and party swings side by side.</p>
+    <div class="f">
+      <select id="cmp-yr-a" aria-label="Year A">${AP_YEARS.slice().reverse().map(y=>`<option value="${y}" ${y===2024?'selected':''}>${y}</option>`).join('')}</select>
+      <select id="cmp-yr-b" aria-label="Year B">${AP_YEARS.slice().reverse().map(y=>`<option value="${y}" ${y===2019?'selected':''}>${y}</option>`).join('')}</select>
+      <button class="btn on" onclick="const a=$('cmp-yr-a').value,b=$('cmp-yr-b').value;if(a&&b)go('aphcmp/'+a+'/'+b)">Compare Years →</button>
+    </div>
+  </div>
+  ${footer()}`
+},
+
+'aphmap':(yr)=>{
+  go('aph/'+(yr||'2024'));
+  setTimeout(()=>{setAPHTab('map')},300);
+  return'';
+},
+
+'aphcmp':(y1,y2)=>{
+  const divId='aphcmp-c';
+  setTimeout(()=>{
+    const el=document.getElementById(divId);
+    if(!el)return;
+    el.innerHTML='<p>Loading data for '+y1+' and '+y2+'…</p>';
+    Promise.all([new Promise(ok=>loadAPYear(+y1,ok)),new Promise(ok=>loadAPYear(+y2,ok))]).then(([d1,d2])=>{
+      if(!d1||!d2){el.innerHTML='<p class="note">Data not available for one or both years.</p>';return}
+      const topP=arr=>arr.ps.filter(p=>p.seats).slice(0,10);
+      const p1=topP(d1),p2=topP(d2);
+      const allParties=[...new Set([...p1.map(x=>x.c),...p2.map(x=>x.c)])];
+      const swingRows=allParties.map(c=>{
+        const a=(d1.ps.find(p=>p.c===c)||{seats:0,votes:0});const b=(d2.ps.find(p=>p.c===c)||{seats:0,votes:0});
+        const delta=b.seats-a.seats;
+        const vs1=d1.tot?pc(a.votes,d1.tot):'–', vs2=d2.tot?pc(b.votes,d2.tot):'–';
+        return`<tr class="r"><td>${dot2(c)} ${esc(lc(c))}</td><td>${a.seats}</td><td>${b.seats}</td><td class="${delta>0?'swing-pos':delta<0?'swing-neg':''}">${delta>0?'+':''}${delta}</td><td>${vs1}%</td><td>${vs2}%</td></tr>`;
+      }).join('');
+
+      // Flipped seats check (if matching AC count or names)
+      let flips=[];
+      if(d1.ac&&d2.ac){
+        const map1={};d1.ac.forEach(c=>{map1[c.no]=c.wp||(d1.MP[c.w?c.w[3]:0])});
+        d2.ac.forEach(c=>{
+          const p2=c.wp||(d2.MP[c.w?c.w[3]:0]);
+          const p1=map1[c.no];
+          if(p1&&p2&&p1!==p2){flips.push({no:c.no,n:c.n,from:p1,to:p2,winner:c.wn||(c.w?c.w[0]:'')})};
+        });
+      }
+
+      el.innerHTML=`
+        <div class="card" style="margin-bottom:14px">
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+            <b>Switch comparison:</b>
+            <select id="sw-y1" onchange="go('aphcmp/'+this.value+'/'+$('sw-y2').value)">${AP_YEARS.slice().reverse().map(y=>`<option value="${y}" ${+y===+y1?'selected':''}>${y}</option>`).join('')}</select>
+            vs
+            <select id="sw-y2" onchange="go('aphcmp/'+$('sw-y1').value+'/'+this.value)">${AP_YEARS.slice().reverse().map(y=>`<option value="${y}" ${+y===+y2?'selected':''}>${y}</option>`).join('')}</select>
+            <div style="margin-left:auto;display:flex;gap:6px">
+              <button class="btn" onclick="go('aph/${y1}')">${y1} Full Results →</button>
+              <button class="btn" onclick="go('aph/${y2}')">${y2} Full Results →</button>
+            </div>
+          </div>
+        </div>
+        <div class="g g2">
+          <div class="cmp-col left"><div class="cmp-header">📅 ${y1} Assembly</div>
+            ${stats([[d1.ac.length,'Total Seats'],[pc(d1.tot,d1.el)+'%','Turnout'],[(d1.el/1e7).toFixed(2)+' Cr','Electors'],[(d1.tot/1e7).toFixed(2)+' Cr','Votes Polled']])}
+          </div>
+          <div class="cmp-col right"><div class="cmp-header">📅 ${y2} Assembly</div>
+            ${stats([[d2.ac.length,'Total Seats'],[pc(d2.tot,d2.el)+'%','Turnout'],[(d2.el/1e7).toFixed(2)+' Cr','Electors'],[(d2.tot/1e7).toFixed(2)+' Cr','Votes Polled']])}
+          </div>
+        </div>
+        <div class="card" style="margin-top:14px">
+          <h2>Party Swing: ${y1} → ${y2}</h2>
+          ${tbl(['Party',y1+' Seats',y2+' Seats','Seat Swing',y1+' Vote %',y2+' Vote %'],swingRows.split('</tr>').filter(Boolean).map(r=>r+'</tr>'))}
+        </div>
+        ${flips.length?`<div class="card" style="margin-top:14px">
+          <h2>🔄 Flipped Constituencies (${flips.length} seats changed hands)</h2>
+          <p class="note">Seats where winning party changed between ${y1} and ${y2}:</p>
+          <div style="max-height:300px;overflow-y:auto">${tbl(['AC No.','Constituency',y1+' Winner Party',y2+' Winner Party',y2+' Winner Candidate'],flips.slice(0,50).map(f=>`<tr class="r"><td>${f.no}</td><td><b>${esc(f.n)}</b></td><td>${dot2(f.from)} ${esc(lc(f.from))}</td><td><b>${dot2(f.to)} ${esc(lc(f.to))}</b></td><td>${esc(f.winner)}</td></tr>`))}</div>
+        </div>`:''}
+      `;
+    });
+  },0);
+  return`${bc([['Home',''],['Previous Elections','aph'],['Compare']])}<h1>⚖️ Compare Andhra Pradesh: ${y1} vs ${y2}</h1><div id="${divId}"><p>Loading…</p></div>`;
+},
+'aps':a=>{initAP();const [q0,p0]=decodeURIComponent(a||'').split('|'),ps=AP.ps.filter(p=>p.seats);return`${bc([['Home',''],['Andhra Pradesh','ap'],['Constituencies']])}<h1>Andhra Pradesh – All 175 Constituencies</h1><div class="card"><div class="f"><input id="apq" aria-label="Search" placeholder="Search constituency / winner" value="${esc(q0||'')}" oninput="apfl()"><select id="appp" aria-label="Party" onchange="apfl()"><option value="">All winning parties</option>${ps.map(p=>`<option value="${p.c}" ${p0===p.c?'selected':''}>${esc(lc(p.c))}</option>`)}</select></div><div id="apr"></div></div>`},
+'apac':no=>{
+  initAP();const c=AP.idx[+no];if(!c)return pages.ap();const tv=c.po,mx=c.cs[0][6];const box_=(x,k,cls)=>{if(!x)return'';const p=AP.MP[x[3]];return`<div class="pb ${cls}"><div class="av" style="font-size:22px">${shc(p,44)||av(x[0])}</div><div><small>${k}</small><br><b style="font-size:16px">${esc(x[0])}</b><br>${dot2(p)}${shc(p,18)} ${esc(lc(p))}<br><b>${f(x[6])} (${pc(x[6],tv)}%)</b></div></div>`};
+  renderSeatHistoryBox(c.n, 2024, 'apac-hist-box');
+  return`${bc([['Home',''],['Andhra Pradesh','ap'],['All Constituencies','aps'],[esc(c.n)]])}<h1 style="color:var(--g)">${esc(c.n)}</h1><span class="bc">Assembly Constituency · AC ${c.no} · ${c.cat} · 2024 Election</span>
+<div class="g g2" style="margin-top:12px">${box_(c.w,'Winner','win')}${box_(c.r,'Runner-up','run')}</div>
+${stats([[f(c.m),'Winning margin'],[f(c.el),'Electors'],[f(c.po),'Votes polled'],[c.t.toFixed(1)+'%','Turnout'],[c.cs.length-1,'Candidates'],[f(c.nota)+' ('+pc(c.nota,tv)+'%)','NOTA']])}
+<div class="card"><h2>Vote share</h2>${c.cs.slice(0,6).map(x=>{const p=AP.MP[x[3]];return`<div style="margin:6px 0">${dot2(p)}${shc(p,16)} ${esc(x[0])} (${esc(lc(p))}) · ${pc(x[6],tv)}%<br><span class="bar" style="width:${x[6]/mx*100}%;background:${colC(p)}"></span></div>`}).join('')}</div>
+<div class="card"><h2>All candidates</h2>${tbl(['#','Candidate','Party','Gender','Age','EVM','Postal','Total votes','% valid'],c.cs.map((x,i)=>{const p=AP.MP[x[3]];return`<tr class="r"><td>${i+1}</td><td>${esc(x[0])}</td><td>${shc(p,16)} ${esc(lc(p))}</td><td>${x[1]||'–'}</td><td>${x[2]??'–'}</td><td>${f(x[4])}</td><td>${f(x[5])}</td><td>${f(x[6])}</td><td>${pc(x[6],tv)}%</td></tr>`}))}</div>
+<div id="apac-hist-box"></div>
+<p class="note">Source: ECI detailed results, Andhra Pradesh 2024. % of valid votes + NOTA.</p>`
+},
+'aphac':(yr,no)=>{
+  yr=+yr;
+  if(yr===2024){go('apac/'+no);return''}
+  const divId='aphac-detail';
+  setTimeout(()=>{
+    const el=$(divId);if(!el)return;
+    loadAPYear(yr,data=>{
+      if(!data||!data.idx){el.innerHTML='<div class="card"><p class="note">Data for '+yr+' is not available.</p><a class="btn" onclick="go(\'aph/'+yr+'\')">← Back to '+yr+'</a></div>';return}
+      const c=data.idx[+no]||data.ac.find(x=>x.no==no||x.n.toLowerCase()===decodeURIComponent(no).toLowerCase());
+      if(!c){el.innerHTML='<div class="card"><p class="note">Constituency '+esc(no)+' not found in '+yr+' election.</p><a class="btn" onclick="go(\'aph/'+yr+'\')">← Back to '+yr+' constituencies</a></div>';return}
+      const tv=c.po||1;
+      const wp=c.wp||(data.MP[c.w?c.w[3]:0])||'';
+      const rp=c.rp||(c.r?data.MP[c.r[3]]:'')||'';
+      const wn=c.wn||(c.w?c.w[0]:'–');
+      const rn=c.rn||(c.r?c.r[0]:'–');
+      const wv=c.wv||(c.w?c.w[6]:0);
+      const rv=c.rv||(c.r?c.r[6]:0);
+      const mx=wv||1;
+      
+      renderSeatHistoryBox(c.n, yr, 'aphac-hist-box');
+
+      el.innerHTML=`
+        ${bc([['Home',''],['Andhra Pradesh','ap'],[yr+' Assembly','aph/'+yr],[esc(c.n)]])}
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px">
+          <div>
+            <h1 style="color:var(--g);margin:4px 0">AC ${c.no}. ${esc(c.n)}</h1>
+            <span class="bc">Assembly Constituency · ${c.cat} Category · ${yr} General Election</span>
+          </div>
+          <div style="display:flex;gap:6px">
+            <button class="btn" onclick="go('aph/${yr}');setTimeout(()=>setAPHTab('seats'),300)">← All ${yr} Seats</button>
+            <button class="btn" onclick="go('ap')">🏛️ Andhra Pradesh</button>
+          </div>
+        </div>
+        <div class="g g2" style="margin-top:14px">
+          <div class="pb win">
+            <div class="av" style="font-size:22px">${shc(wp,44)||av(wn)}</div>
+            <div>
+              <small>Winner</small><br>
+              <b style="font-size:16px">${esc(wn)}</b><br>
+              ${dot2(wp)}${shc(wp,18)} ${esc(lc(wp))}<br>
+              <b>${f(wv)} (${pc(wv,tv)}%)</b>
+            </div>
+          </div>
+          <div class="pb run">
+            <div class="av" style="font-size:22px">${shc(rp,44)||av(rn)}</div>
+            <div>
+              <small>Runner-up</small><br>
+              <b style="font-size:16px">${esc(rn)}</b><br>
+              ${rp?dot2(rp)+' '+shc(rp,18)+' '+esc(lc(rp)):'–'}<br>
+              <b>${rv?f(rv)+' ('+pc(rv,tv)+'%)':'–'}</b>
+            </div>
+          </div>
+        </div>
+        ${stats([
+          [c.m?f(c.m):'–','Winning Margin'],
+          [c.el?f(c.el):'–','Total Electors'],
+          [f(tv),'Votes Polled'],
+          [c.t?c.t.toFixed(1)+'%':'–','Turnout'],
+          [c.cs.length,'Candidates'],
+          [c.cat,'Category']
+        ])}
+        <div class="card" style="margin-top:12px">
+          <h2>Vote Share Overview</h2>
+          ${c.cs.slice(0,6).map(x=>{
+            const p=data.MP[x[3]]||'';
+            const candName=x[0];
+            const candVotes=x[6];
+            return`<div style="margin:6px 0">${dot2(p)}${shc(p,16)} ${esc(candName)} (${esc(lc(p))}) · ${pc(candVotes,tv)}%<br><span class="bar" style="width:${candVotes/mx*100}%;background:${colC(p)}"></span></div>`;
+          }).join('')}
+        </div>
+        <div class="card" style="margin-top:12px">
+          <h2>All Candidates &amp; Contestants (${c.cs.length})</h2>
+          ${tbl(['#','Candidate','Party','Gender','Age','Total Votes','% Valid'],
+            c.cs.map((x,i)=>{
+              const p=data.MP[x[3]]||'';
+              return`<tr class="r">
+                <td>${i+1}</td>
+                <td><b>${esc(x[0])}</b>${i===0?' 🏆':''}</td>
+                <td>${dot2(p)}${shc(p,16)} ${esc(lc(p))}</td>
+                <td>${x[1]||'–'}</td>
+                <td>${x[2]||'–'}</td>
+                <td>${f(x[6])}</td>
+                <td>${pc(x[6],tv)}%</td>
+              </tr>`;
+            })
+          )}
+        </div>
+        <div id="aphac-hist-box"></div>
+        <p class="note" style="margin-top:14px">Source: Election Commission of India (ECI) official statistical reports, Andhra Pradesh ${yr}.</p>
+      `;
+    });
+  },0);
+  return`<div id="${divId}"><p>Loading constituency data for ${yr}…</p></div>`;
+}
+};
+function footer(){return`<footer><strong>🗳️ Electrol India</strong><br>Data: <a href="https://www.eci.gov.in" target="_blank" rel="noopener">Election Commission of India</a> · Boundaries: <a href="https://datameet.org" target="_blank" rel="noopener">DataMeet</a> · Symbols: Wikimedia Commons<br><span style="opacity:.6;font-size:11px">For educational &amp; informational use only. Results as published by ECI.</span></footer>`}
+function s_(i){return`<a onclick="go('state/${i}')">${S[i]}</a>`}
+let PCS_HOUSE='all',PCS_CHIP='',PCS_PAGE_SIZE=50;
+
+function getUnifiedPCs(){
+  initMH();initAP();
+  const list=[];
+  PC.forEach(c=>{
+    const isWom=c.w&&c.w[1]==='F';
+    const wp=lab(c.w[3]);
+    const rp=c.r?lab(c.r[3]):'';
+    list.push({
+      house:'Lok Sabha',
+      houseCode:'ls',
+      state:S[c.si],
+      stateIdx:c.si,
+      no:c.id+1,
+      id:c.id,
+      name:c.n,
+      cat:c.cat,
+      el:c.el,
+      po:c.po,
+      turnout:c.t,
+      margin:c.m,
+      nota:c.nota,
+      winner:c.w[0],
+      winnerParty:wp,
+      isWomen:isWom,
+      runner:c.r?c.r[0]:'–',
+      runnerParty:rp,
+      link:'pc/'+c.id
+    });
+  });
+  if(MH&&MH.ac){
+    MH.ac.forEach(c=>{
+      const wp=MH.MP[c.w[3]]||'';
+      const rp=c.r?(MH.MP[c.r[3]]||''):'';
+      const isWom=c.w&&c.cs.find(x=>x===c.w&&x[1]==='F');
+      list.push({
+        house:'Maharashtra Assembly',
+        houseCode:'mh',
+        state:'Maharashtra',
+        stateIdx:S.indexOf('Maharashtra'),
+        no:c.no,
+        id:c.no,
+        name:c.n,
+        cat:c.cat,
+        el:c.el,
+        po:c.po,
+        turnout:c.t,
+        margin:c.m,
+        nota:c.nota,
+        winner:c.w?c.w[0]:'–',
+        winnerParty:wp,
+        isWomen:!!isWom,
+        runner:c.r?c.r[0]:'–',
+        runnerParty:rp,
+        link:'ac/'+c.no
+      });
+    });
+  }
+  if(AP&&AP.ac){
+    AP.ac.forEach(c=>{
+      const wp=AP.MP[c.w?c.w[3]:0]||'';
+      const rp=c.r?(AP.MP[c.r[3]]||''):'';
+      const isWom=c.w&&c.cs.find(x=>x===c.w&&x[1]==='F');
+      list.push({
+        house:'Andhra Pradesh Assembly',
+        houseCode:'ap',
+        state:'Andhra Pradesh',
+        stateIdx:S.indexOf('Andhra Pradesh'),
+        no:c.no,
+        id:c.no,
+        name:c.n,
+        cat:c.cat,
+        el:c.el,
+        po:c.po,
+        turnout:c.t,
+        margin:c.m,
+        nota:c.nota,
+        winner:c.w?c.w[0]:'–',
+        winnerParty:wp,
+        isWomen:!!isWom,
+        runner:c.r?c.r[0]:'–',
+        runnerParty:rp,
+        link:'apac/'+c.no
+      });
+    });
+  }
+  return list;
+}
+
+function setPCSHouse(h){
+  PCS_HOUSE=h;
+  ['all','ls','mh','ap'].forEach(k=>{
+    const b=$('pcstab-'+k);if(b)b.classList.toggle('on',k===h);
+  });
+  PCS_PAGE_SIZE=50;fl();
+}
+
+function setPCSChip(chip){
+  PCS_CHIP=PCS_CHIP===chip?'':chip;
+  document.querySelectorAll('.filter-chip[data-chip]').forEach(el=>{
+    el.classList.toggle('active',el.dataset.chip===PCS_CHIP);
+  });
+  PCS_PAGE_SIZE=50;fl();
+}
+
+function resetPCSFilters(){
+  PCS_HOUSE='all';PCS_CHIP='';PCS_PAGE_SIZE=50;
+  ['all','ls','mh','ap'].forEach(k=>{
+    const b=$('pcstab-'+k);if(b)b.classList.toggle('on',k==='all');
+  });
+  document.querySelectorAll('.filter-chip[data-chip]').forEach(el=>el.classList.remove('active'));
+  if($('fq'))$('fq').value='';
+  if($('fs'))$('fs').value='';
+  if($('fp'))$('fp').value='';
+  if($('fc'))$('fc').value='';
+  if($('fm'))$('fm').value='';
+  if($('fsort'))$('fsort').value='default';
+  fl();
+}
+
+function fl(){
+  const out=$('fr');if(!out)return;
+  const q=($('fq')?$('fq').value:'').toLowerCase().trim();
+  const s=$('fs')?$('fs').value:'';
+  const p=$('fp')?$('fp').value:'';
+  const ty=$('fc')?$('fc').value:'';
+  const mg=$('fm')?$('fm').value:'';
+  const sort=$('fsort')?$('fsort').value:'default';
+
+  const all=getUnifiedPCs();
+  let r=all.filter(c=>{
+    if(PCS_HOUSE!=='all'&&c.houseCode!==PCS_HOUSE)return false;
+    if(q){
+      const matchN=c.name.toLowerCase().includes(q);
+      const matchW=c.winner.toLowerCase().includes(q);
+      const matchR=c.runner.toLowerCase().includes(q);
+      const matchNo=String(c.no)===q;
+      if(!matchN&&!matchW&&!matchR&&!matchNo)return false;
+    }
+    if(s&&c.state!==s)return false;
+    if(p&&c.winnerParty!==p)return false;
+    if(ty&&c.cat!==ty)return false;
+    if(mg==='thin'&&c.margin>=5000)return false;
+    if(mg==='close'&&(c.margin<5000||c.margin>=25000))return false;
+    if(mg==='med'&&(c.margin<25000||c.margin>=100000))return false;
+    if(mg==='landslide'&&c.margin<100000)return false;
+    if(PCS_CHIP==='close10k'&&c.margin>=10000)return false;
+    if(PCS_CHIP==='close25k'&&c.margin>=25000)return false;
+    if(PCS_CHIP==='landslide'&&c.margin<100000)return false;
+    if(PCS_CHIP==='turnout80'&&c.turnout<80)return false;
+    if(PCS_CHIP==='women'&&!c.isWomen)return false;
+    return true;
+  });
+
+  if(sort==='margin-asc')r.sort((a,b)=>a.margin-b.margin);
+  else if(sort==='margin-desc')r.sort((a,b)=>b.margin-a.margin);
+  else if(sort==='turnout-desc')r.sort((a,b)=>b.turnout-a.turnout);
+  else if(sort==='turnout-asc')r.sort((a,b)=>a.turnout-b.turnout);
+  else if(sort==='electors-desc')r.sort((a,b)=>b.el-a.el);
+  else if(sort==='name-asc')r.sort((a,b)=>a.name.localeCompare(b.name));
+
+  const total=all.length,count=r.length,pageItems=r.slice(0,PCS_PAGE_SIZE);
+  const houseBadge=h=>h==='ls'?'<span class="badge-house badge-ls">🏛️ Lok Sabha</span>':(h==='mh'?'<span class="badge-house badge-mh">🏢 MH Assembly</span>':'<span class="badge-house badge-ap">🏛️ AP Assembly</span>');
+
+  out.innerHTML=`
+    <div style="display:flex;justify-content:space-between;align-items:center;margin:10px 0 6px;flex-wrap:wrap;gap:8px">
+      <span class="note">Showing <b>${pageItems.length}</b> of <b>${f(count)}</b> matching constituencies (${f(total)} total across India)</span>
+      <span class="note">Tap any column header to sort</span>
+    </div>
+  `+(count?tbl(
+    ['House','Constituency','State / UT','Category','Winner','Party','Runner-up','Runner Party','Margin','Turnout','Action'],
+    pageItems.map(c=>`
+      <tr class="r" style="cursor:pointer" onclick="go('${c.link}')">
+        <td>${houseBadge(c.houseCode)}</td>
+        <td><b><a onclick="event.stopPropagation();go('${c.link}')">${esc(c.name)}</a></b></td>
+        <td>${esc(c.state)}</td>
+        <td>${c.cat}</td>
+        <td><b>${esc(c.winner)}</b>${c.isWomen?' 👩':''}</td>
+        <td>${dot2(c.winnerParty)}${shc(c.winnerParty,16)} ${esc(lc(c.winnerParty))}</td>
+        <td>${esc(c.runner)}</td>
+        <td>${c.runnerParty?dot2(c.runnerParty)+' '+shc(c.runnerParty,16)+' '+esc(lc(c.runnerParty)):'–'}</td>
+        <td><b>${f(c.margin)}</b></td>
+        <td>${c.turnout?c.turnout.toFixed(1)+'%':'–'}</td>
+        <td><button class="btn" style="padding:2px 8px;font-size:11px" onclick="event.stopPropagation();go('${c.link}')">View Seat →</button></td>
+      </tr>
+    `)
+  ):`<div style="text-align:center;padding:32px 14px"><p style="font-size:15px;color:var(--m)">No constituencies match current filters.</p><button class="btn on" onclick="resetPCSFilters()">Reset Filters</button></div>`)+
+  (count>PCS_PAGE_SIZE?`<p style="text-align:center;margin-top:14px"><button class="btn on" onclick="PCS_PAGE_SIZE+=50;fl()">Load more (+50) — ${count-PCS_PAGE_SIZE} remaining</button></p>`:'');
+
+  tr(out);
+}
+
+/* ── Compare State-to-State & Election Year Tools ───────────── */
+let CMP_S1=S.indexOf('Uttar Pradesh')>=0?S.indexOf('Uttar Pradesh'):0;
+let CMP_S2=S.indexOf('Maharashtra')>=0?S.indexOf('Maharashtra'):1;
+let CMP_ST_FILTER='all',CMP_ST_SORT='default';
+
+function getStateSummary(si){
+  si=+si;if(si<0||si>=S.length)si=0;
+  const a=SA[si];
+  const nda=a.cs.filter(c=>NDA.has(P[c.w[3]])).length+(si===SURAT.si?1:0);
+  const ind=a.cs.filter(c=>IND.has(P[c.w[3]])).length;
+  const oth=a.seats-nda-ind;
+  const sortedM=a.cs.slice().sort((x,y)=>x.m-y.m);
+  const minM=sortedM[0]||null;
+  const maxM=sortedM[sortedM.length-1]||null;
+  const avgM=a.cs.length?Math.round(a.cs.reduce((s,c)=>s+c.m,0)/a.cs.length):0;
+  const turnout=a.el?(a.po/a.el*100):0;
+  const par=Object.entries(a.m).sort((x,y)=>y[1]-x[1]);
+  return{si,name:S[si],a,seats:a.seats,nda,ind,oth,minM,maxM,avgM,turnout,par,cs:a.cs,el:a.el,po:a.po};
+}
+
+function setCmpStates(s1,s2){
+  CMP_S1=+s1;CMP_S2=+s2;
+  const box=$('cmp-states-box');if(box)box.innerHTML=renderCmpStatesContent();
+}
+
+function setCmpStFilter(f){
+  CMP_ST_FILTER=f;
+  document.querySelectorAll('.cmp-st-btn').forEach(b=>b.classList.toggle('on',b.dataset.f===f));
+  const el=$('cmp-seats-comp');if(el)el.innerHTML=renderCmpStatesSeats();
+}
+
+function setCmpStSort(s){
+  CMP_ST_SORT=s;
+  const el=$('cmp-seats-comp');if(el)el.innerHTML=renderCmpStatesSeats();
+}
+
+function renderCmpStatesSeats(){
+  const s1=getStateSummary(CMP_S1),s2=getStateSummary(CMP_S2);
+  const filterFn=c=>{
+    const p=c.w?P[c.w[3]]:'';
+    if(CMP_ST_FILTER==='nda'&&!NDA.has(p))return false;
+    if(CMP_ST_FILTER==='ind'&&!IND.has(p))return false;
+    if(CMP_ST_FILTER==='close25k'&&c.m>=25000)return false;
+    if(CMP_ST_FILTER==='landslide'&&c.m<100000)return false;
+    return true;
+  };
+  const sortFn=(a,b)=>{
+    if(CMP_ST_SORT==='margin-asc')return a.m-b.m;
+    if(CMP_ST_SORT==='margin-desc')return b.m-a.m;
+    if(CMP_ST_SORT==='turnout')return b.t-a.t;
+    if(CMP_ST_SORT==='name')return a.n.localeCompare(b.n);
+    return 0;
+  };
+
+  const list1=s1.cs.filter(filterFn).sort(sortFn);
+  const list2=s2.cs.filter(filterFn).sort(sortFn);
+
+  const miniTbl=(name,list)=>`
+    <div class="cmp-state-box">
+      <h3 style="margin:0 0 8px;font-size:14px;color:var(--p)">${esc(name)} (${list.length} seats)</h3>
+      ${list.length?tbl(['Constituency','Winner','Party','Margin','Turnout'],
+        list.map(c=>`<tr class="r">
+          <td><a onclick="go('pc/${c.id}')"><b>${esc(c.n)}</b></a></td>
+          <td>${esc(c.w[0])}</td>
+          <td>${dot(c.w[3])}${sh(c.w[3],15)} ${esc(lab(c.w[3]))}</td>
+          <td><b>${f(c.m)}</b></td>
+          <td>${c.t.toFixed(1)}%</td>
+        </tr>`)
+      ):'<p class="note">No seats match this filter in this state.</p>'}
+    </div>
+  `;
+
+  return `<div class="g g2">${miniTbl(s1.name,list1)}${miniTbl(s2.name,list2)}</div>`;
+}
+
+function renderCmpStatesContent(){
+  const s1=getStateSummary(CMP_S1),s2=getStateSummary(CMP_S2);
+  const cardBox=s=>`
+    <div class="cmp-state-box">
+      <div style="display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid var(--p);padding-bottom:8px">
+        <h3 style="margin:0;font-size:18px">${esc(s.name)}</h3>
+        <span class="tag" style="font-size:13px;padding:3px 10px;background:var(--p);color:#fff">${s.seats} Lok Sabha Seats</span>
+      </div>
+      <div style="margin:10px 0">
+        <div style="display:flex;justify-content:space-between;font-size:11.5px;color:var(--m);margin-bottom:3px">
+          <span>NDA: <b style="color:#ff7a00">${s.nda}</b></span>
+          <span>INDIA: <b style="color:#1d6fe8">${s.ind}</b></span>
+          <span>Others: <b>${s.oth}</b></span>
+        </div>
+        <div style="display:flex;height:9px;border-radius:4px;overflow:hidden;background:var(--b)">
+          <div style="width:${s.seats?s.nda/s.seats*100:0}%;background:#ff7a00"></div>
+          <div style="width:${s.seats?s.ind/s.seats*100:0}%;background:#1d6fe8"></div>
+          <div style="width:${s.seats?s.oth/s.seats*100:0}%;background:#8a8f98"></div>
+        </div>
+      </div>
+      <div class="cmp-metric-row"><span class="metric-label">Voter Turnout</span><span class="metric-val" style="color:var(--g)">${s.turnout.toFixed(2)}%</span></div>
+      <div class="cmp-metric-row"><span class="metric-label">Total Electors</span><span class="metric-val">${(s.el/1e7).toFixed(2)} Cr (${f(s.el)})</span></div>
+      <div class="cmp-metric-row"><span class="metric-label">Votes Polled</span><span class="metric-val">${(s.po/1e7).toFixed(2)} Cr (${f(s.po)})</span></div>
+      <div class="cmp-metric-row"><span class="metric-label">Leading Party</span><span class="metric-val">${s.par[0]?dot(+s.par[0][0])+' '+esc(lab(+s.par[0][0]))+' ('+s.par[0][1]+')':'–'}</span></div>
+      <div class="cmp-metric-row"><span class="metric-label">Runner Party</span><span class="metric-val">${s.par[1]?dot(+s.par[1][0])+' '+esc(lab(+s.par[1][0]))+' ('+s.par[1][1]+')':'–'}</span></div>
+      <div class="cmp-metric-row"><span class="metric-label">Average Margin</span><span class="metric-val">${f(s.avgM)} votes</span></div>
+      <div class="cmp-metric-row"><span class="metric-label">Top Landslide</span><span class="metric-val">${s.maxM?esc(s.maxM.n)+' ('+f(s.maxM.m)+')':'–'}</span></div>
+      <div class="cmp-metric-row"><span class="metric-label">Closest Contest</span><span class="metric-val">${s.minM?esc(s.minM.n)+' ('+f(s.minM.m)+')':'–'}</span></div>
+    </div>
+  `;
+
+  return `
+    <div class="f" style="align-items:center;margin-bottom:12px;gap:10px">
+      <select id="cmp-sel-s1" onchange="setCmpStates(this.value, CMP_S2)" style="font-weight:600;padding:8px 12px">
+        ${S.map((st,i)=>`<option value="${i}" ${i===s1.si?'selected':''}>${st} (${SA[i].seats} seats)</option>`).join('')}
+      </select>
+      <div class="cmp-vs-badge">VS</div>
+      <select id="cmp-sel-s2" onchange="setCmpStates(CMP_S1, this.value)" style="font-weight:600;padding:8px 12px">
+        ${S.map((st,i)=>`<option value="${i}" ${i===s2.si?'selected':''}>${st} (${SA[i].seats} seats)</option>`).join('')}
+      </select>
+    </div>
+
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px">
+      <span class="note" style="margin:0 4px 0 0">Matchup Presets:</span>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="setCmpStates(${S.indexOf('Uttar Pradesh')},${S.indexOf('Maharashtra')})">UP vs Maharashtra</button>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="setCmpStates(${S.indexOf('Andhra Pradesh')},${S.indexOf('Karnataka')})">AP vs Karnataka</button>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="setCmpStates(${S.indexOf('West Bengal')},${S.indexOf('Bihar')})">WB vs Bihar</button>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="setCmpStates(${S.indexOf('Gujarat')},${S.indexOf('Tamil Nadu')})">Gujarat vs TN</button>
+      <button class="btn" style="padding:2px 8px;font-size:11px" onclick="setCmpStates(${S.indexOf('Rajasthan')},${S.indexOf('Madhya Pradesh')})">Rajasthan vs MP</button>
+    </div>
+
+    <div class="g g2" style="margin-bottom:16px">${cardBox(s1)}${cardBox(s2)}</div>
+
+    <div style="background:var(--bg);border:1px solid var(--b);border-radius:8px;padding:10px 14px;margin-bottom:12px">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+        <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center">
+          <span class="note" style="margin:0 4px 0 0">Filter Seats:</span>
+          <button class="btn cmp-st-btn on" data-f="all" onclick="setCmpStFilter('all')">All</button>
+          <button class="btn cmp-st-btn" data-f="nda" onclick="setCmpStFilter('nda')">NDA Won</button>
+          <button class="btn cmp-st-btn" data-f="ind" onclick="setCmpStFilter('ind')">INDIA Won</button>
+          <button class="btn cmp-st-btn" data-f="close25k" onclick="setCmpStFilter('close25k')">Close &lt; 25k</button>
+          <button class="btn cmp-st-btn" data-f="landslide" onclick="setCmpStFilter('landslide')">Landslides &gt; 100k</button>
+        </div>
+        <div style="display:flex;gap:6px;align-items:center">
+          <span class="note">Sort:</span>
+          <select onchange="setCmpStSort(this.value)" style="padding:4px 8px;font-size:12px">
+            <option value="default">Default Order</option>
+            <option value="margin-asc">Margin: Smallest first</option>
+            <option value="margin-desc">Margin: Largest first</option>
+            <option value="turnout">Turnout %</option>
+            <option value="name">Name (A–Z)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div id="cmp-seats-comp">${renderCmpStatesSeats()}</div>
+  `;
+}
+
+/* ── Lok Sabha 2024 vs 2019 Benchmark Comparison ──────────── */
+let CMP_LS_FILTER='all', CMP_LS_SORT='swing-desc';
+
+const LS_HIST_PARTIES = [
+  {p:'BJP',s24:240,s19:303,v24:36.56,v19:37.36,al:'NDA'},
+  {p:'INC',s24:99,s19:52,v24:21.19,v19:19.49,al:'INDIA'},
+  {p:'SP',s24:37,s19:5,v24:4.58,v19:2.56,al:'INDIA'},
+  {p:'AITC',s24:29,s19:22,v24:4.37,v19:4.07,al:'INDIA'},
+  {p:'DMK',s24:22,s19:24,v24:1.82,v19:2.27,al:'INDIA'},
+  {p:'TDP',s24:16,s19:3,v24:1.98,v19:2.04,al:'NDA'},
+  {p:'JD(U)',s24:12,s19:16,v24:1.25,v19:1.46,al:'NDA'},
+  {p:'SHSUBT',s24:9,s19:0,v24:1.45,v19:0,al:'INDIA'},
+  {p:'NCPSP',s24:8,s19:0,v24:0.99,v19:0,al:'INDIA'},
+  {p:'SHS',s24:7,s19:18,v24:1.22,v19:2.10,al:'NDA'},
+  {p:'LJPRV',s24:5,s19:6,v24:0.44,v19:0.52,al:'NDA'},
+  {p:'CPI(M)',s24:4,s19:3,v24:1.76,v19:1.75,al:'INDIA'},
+  {p:'RJD',s24:4,s19:0,v24:1.57,v19:1.11,al:'INDIA'},
+  {p:'YSRCP',s24:4,s19:22,v24:2.06,v19:2.53,al:'Others'},
+  {p:'AAAP',s24:3,s19:1,v24:1.24,v19:0.44,al:'INDIA'},
+  {p:'JMM',s24:3,s19:1,v24:0.42,v19:0.31,al:'INDIA'},
+  {p:'IUML',s24:3,s19:3,v24:0.27,v19:0.26,al:'INDIA'},
+  {p:'JnP',s24:2,s19:0,v24:0.23,v19:0,al:'NDA'},
+  {p:'JD(S)',s24:2,s19:1,v24:0.34,v19:0.56,al:'NDA'},
+  {p:'CPI(ML)(L)',s24:2,s19:0,v24:0.19,v19:0.12,al:'INDIA'},
+  {p:'CPI',s24:2,s19:2,v24:0.51,v19:0.58,al:'INDIA'},
+  {p:'RLD',s24:2,s19:0,v24:0.14,v19:0.24,al:'NDA'},
+  {p:'JKN',s24:2,s19:3,v24:0.18,v19:0.18,al:'INDIA'}
+];
+
+function setCmpLSFilter(f){
+  CMP_LS_FILTER=f;
+  const el=$('cmp-ls-box');if(el)el.innerHTML=renderLS19vs24();
+}
+function setCmpLSSort(s){
+  CMP_LS_SORT=s;
+  const el=$('cmp-ls-box');if(el)el.innerHTML=renderLS19vs24();
+}
+
+function renderLS19vs24(){
+  let list=LS_HIST_PARTIES.slice().map(x=>({...x,swing:x.s24-x.s19}));
+  if(CMP_LS_FILTER==='gainers')list=list.filter(x=>x.swing>0);
+  else if(CMP_LS_FILTER==='losers')list=list.filter(x=>x.swing<0);
+  else if(CMP_LS_FILTER==='nda')list=list.filter(x=>x.al==='NDA');
+  else if(CMP_LS_FILTER==='india')list=list.filter(x=>x.al==='INDIA');
+
+  if(CMP_LS_SORT==='swing-desc')list.sort((a,b)=>b.swing-a.swing);
+  else if(CMP_LS_SORT==='swing-asc')list.sort((a,b)=>a.swing-b.swing);
+  else if(CMP_LS_SORT==='seats24')list.sort((a,b)=>b.s24-a.s24);
+  else if(CMP_LS_SORT==='seats19')list.sort((a,b)=>b.s19-a.s19);
+
+  return `
+    <div class="g g3" style="margin-bottom:14px">
+      <div class="cmp-col left">
+        <small class="note">18th Lok Sabha (2024)</small><br>
+        <b style="font-size:18px;color:#ff7a00">NDA: 293</b> · <b style="font-size:18px;color:#1d6fe8">INDIA: 234</b><br>
+        <span class="note">Turnout: 65.79% · 64.5 Cr votes</span>
+      </div>
+      <div class="cmp-col right">
+        <small class="note">17th Lok Sabha (2019)</small><br>
+        <b style="font-size:18px;color:#ff7a00">NDA: 353</b> · <b style="font-size:18px;color:#1d6fe8">UPA+: 91</b><br>
+        <span class="note">Turnout: 67.40% · 61.5 Cr votes</span>
+      </div>
+      <div class="cmp-col" style="border-left:3px solid var(--g)">
+        <small class="note">Net Coalition Swing</small><br>
+        <b style="color:#d63031">NDA: -60 seats</b><br>
+        <b style="color:#0a7d3b">Opposition: +143 seats</b>
+      </div>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:10px">
+      <div style="display:flex;gap:6px;flex-wrap:wrap">
+        <span class="note" style="margin:0 4px 0 0">Filter Parties:</span>
+        <button class="btn ${CMP_LS_FILTER==='all'?'on':''}" onclick="setCmpLSFilter('all')">All</button>
+        <button class="btn ${CMP_LS_FILTER==='gainers'?'on':''}" onclick="setCmpLSFilter('gainers')">Gainers (+)</button>
+        <button class="btn ${CMP_LS_FILTER==='losers'?'on':''}" onclick="setCmpLSFilter('losers')">Losers (-)</button>
+        <button class="btn ${CMP_LS_FILTER==='nda'?'on':''}" onclick="setCmpLSFilter('nda')">NDA Parties</button>
+        <button class="btn ${CMP_LS_FILTER==='india'?'on':''}" onclick="setCmpLSFilter('india')">INDIA Parties</button>
+      </div>
+      <div style="display:flex;gap:6px;align-items:center">
+        <span class="note">Sort:</span>
+        <select onchange="setCmpLSSort(this.value)" style="padding:4px 8px;font-size:12px">
+          <option value="swing-desc" ${CMP_LS_SORT==='swing-desc'?'selected':''}>Net Swing: Gainers first</option>
+          <option value="swing-asc" ${CMP_LS_SORT==='swing-asc'?'selected':''}>Net Swing: Losers first</option>
+          <option value="seats24" ${CMP_LS_SORT==='seats24'?'selected':''}>2024 Seats Won</option>
+          <option value="seats19" ${CMP_LS_SORT==='seats19'?'selected':''}>2019 Seats Won</option>
+        </select>
+      </div>
+    </div>
+
+    ${tbl(['Party','Alliance','2024 Seats','2019 Seats','Seat Swing','2024 Vote %','2019 Vote %'],
+      list.map(x=>`<tr class="r">
+        <td>${dot2(x.p)}${shc(x.p,16)} <b>${esc(lc(x.p))}</b></td>
+        <td><span class="tag" style="background:${x.al==='NDA'?'rgba(255,122,0,0.18)':(x.al==='INDIA'?'rgba(29,111,232,0.18)':'var(--b)')};font-weight:600">${x.al}</span></td>
+        <td><b>${x.s24}</b></td>
+        <td>${x.s19}</td>
+        <td><b class="${x.swing>0?'swing-pos':(x.swing<0?'swing-neg':'note')}">${x.swing>0?'+'+x.swing:(x.swing===0?'0':x.swing)}</b></td>
+        <td>${x.v24}%</td>
+        <td>${x.v19}%</td>
+      </tr>`)
+    )}
+  `;
+}
+
+/* ── All 2024 Elections Overview ───────────────────────────── */
+let CMP_ELEC_SORT='seats';
+function setCmpElecSort(s){
+  CMP_ELEC_SORT=s;
+  const el=$('cmp-overview-box');if(el)el.innerHTML=render2024ElecOverview();
+}
+function render2024ElecOverview(){
+  let rows=[
+    {name:'Lok Sabha 2024',type:'National Parliament',seats:543,win:'NDA (293)',turnout:65.79,el:96.8,po:64.5,link:'ls'},
+    {name:'Maharashtra Assembly',type:'State Assembly',seats:288,win:'Mahayuti (230)',turnout:66.05,el:9.7,po:6.4,link:'mh'},
+    {name:'Andhra Pradesh Assembly',type:'State Assembly',seats:175,win:'NDA (164)',turnout:80.66,el:4.1,po:3.3,link:'ap'}
+  ];
+  if(CMP_ELEC_SORT==='turnout')rows.sort((a,b)=>b.turnout-a.turnout);
+  else if(CMP_ELEC_SORT==='seats')rows.sort((a,b)=>b.seats-a.seats);
+  else if(CMP_ELEC_SORT==='electors')rows.sort((a,b)=>b.el-a.el);
+
+  return `
+    <div style="display:flex;justify-content:flex-end;margin-bottom:8px;gap:6px;align-items:center">
+      <span class="note">Sort Elections by:</span>
+      <select onchange="setCmpElecSort(this.value)" style="padding:4px 8px;font-size:12px">
+        <option value="seats" ${CMP_ELEC_SORT==='seats'?'selected':''}>Total Seats</option>
+        <option value="turnout" ${CMP_ELEC_SORT==='turnout'?'selected':''}>Voter Turnout %</option>
+        <option value="electors" ${CMP_ELEC_SORT==='electors'?'selected':''}>Electors Count</option>
+      </select>
+    </div>
+    ${tbl(['Election','Category','Total Seats','Majority Mark','Winner Alliance / Tally','Turnout %','Electors','Votes Polled','Action'],
+      rows.map(r=>`<tr class="r">
+        <td><b>${r.name}</b></td>
+        <td><span class="tag">${r.type}</span></td>
+        <td><b>${r.seats}</b></td>
+        <td>${Math.floor(r.seats/2)+1}</td>
+        <td><span class="tag" style="background:#ff7a00;color:#fff;font-weight:600">${r.win}</span></td>
+        <td><b style="color:var(--g)">${r.turnout.toFixed(2)}%</b></td>
+        <td>${r.el} Cr</td>
+        <td>${r.po} Cr</td>
+        <td><button class="btn" style="padding:2px 8px;font-size:11px" onclick="go('${r.link}')">Explore →</button></td>
+      </tr>`)
+    )}
+  `;
+}
+function go(h){const n=$('nl');if(n)n.classList.remove('o');location.hash=h}
+
+let SEL=null,TM=0;
+function mclick(i,si){if(MOVED)return;if(MAPST==null){if(SEL===si)go('map/'+si);else stSel(si)}else pick(i)}
+function stSel(si){SEL=si;document.querySelectorAll('#mp path.sel').forEach(p=>p.classList.remove('sel'));document.querySelectorAll('#mp path[data-s="'+si+'"]').forEach(p=>p.classList.add('sel'));const a=SA[si],par=Object.entries(a.m).sort((x,y)=>y[1]-x[1]);
+$('mc').innerHTML=`<b style="font-size:17px">${S[si]}</b> <span class="note">${a.seats} seats · Turnout ${pc(a.po,a.el)}%</span><div style="margin:8px 0">${par.map(([p,n])=>`<span class="tag">${sh(+p,14)} ${esc(lab(+p))} ${n}</span> `).join('')}</div><p><button class="btn on" onclick="go('map/${si}')">Open ${S[si]} map →</button></p><div style="max-height:260px;overflow:auto">${a.cs.map(c=>`<div style="padding:6px 0;border-bottom:1px solid var(--b)">${dot(c.w[3])}<a onclick="go('pc/${c.id}')">${esc(c.n)}</a> — ${esc(c.w[0])} <span class="note">${esc(lab(c.w[3]))} · margin ${f_(c.m)}</span></div>`).join('')}</div>`;tr($('mc'));$('mc').scrollIntoView&&$('mc').scrollIntoView({block:'nearest'})}
+function mpick(no){if(MOVED)return;const c=MH.idx[no],p=MH.MP[c.w[3]];document.querySelectorAll('#mp path.sel').forEach(x=>x.classList.remove('sel'));const el=document.querySelector('#mp path[data-n="'+no+'"]');if(el)el.classList.add('sel');
+$('mc').innerHTML=`<b style="font-size:16px">${esc(c.n)}</b> <span class="note">AC ${no} · ${esc(c.dist)} · ${c.cat}</span><br>${shc(p,22)} ${esc(c.w[0])} — ${esc(lc(p))}<br>Margin <b>${f_(c.m)}</b> · Turnout ${c.t.toFixed(1)}%<br>Runner-up: ${c.r?esc(c.r[0])+' ('+esc(lc(MH.MP[c.r[3]]))+')':'–'}<p><button class="btn on" onclick="go('ac/${no}')">View full result →</button></p>`;tr($('mc'));$('mc').scrollIntoView&&$('mc').scrollIntoView({block:'nearest'})}
+function mtip(e,no){const c=MH.idx[no],t=$('tp');t.style.display='block';t.style.left=e.clientX+12+'px';t.style.top=e.clientY+12+'px';t.innerHTML=`<b>${esc(c.n)}</b> (${esc(c.dist)})<br>${esc(c.w[0])} · ${esc(lc(MH.MP[c.w[3]]))}<br>Margin ${f_(c.m)}`}
+
+function pick(i){const f=GEO.f[i],c=f[0]>=0?PC[f[0]]:null;document.querySelectorAll('#mp path.sel').forEach(p=>p.classList.remove('sel'));const el=document.querySelector('#mp path[data-i="'+i+'"]');if(el)el.classList.add('sel');
+$('mc').innerHTML=c?`<b style="font-size:16px">${esc(c.n)}</b> <span class="note">${S[c.si]} · ${c.cat}</span><br>${sh(c.w[3],22)} ${esc(c.w[0])} — ${esc(lab(c.w[3]))}<br>Margin <b>${f_(c.m)}</b> · Turnout ${c.t.toFixed(1)}%<br>Runner-up: ${c.r?esc(c.r[0])+' ('+esc(lab(c.r[3]))+')':'–'}<p><button class="btn on" onclick="go('pc/${c.id}')">View full result →</button></p>`:`<b>${esc(f[2])}</b><br>BJP (unopposed)`;tr($('mc'));$('mc').scrollIntoView&&$('mc').scrollIntoView({block:'nearest'})}
+let MV,MV0;
+function mapInit(){const s=$('mp');if(!s||!s.createSVGPoint)return;MV=s.getAttribute('viewBox').split(' ').map(Number);MV0=MV.slice();const ps={};let pd=0;
+const pt=(x,y)=>{const p=s.createSVGPoint();p.x=x;p.y=y;return p.matrixTransform(s.getScreenCTM().inverse())};
+const set=()=>s.setAttribute('viewBox',MV.map(n=>n.toFixed(1)).join(' '));
+window.zAt=(k,cx,cy)=>{const w=MV[2]/k;if(w>MV0[2]*1.3||w<MV0[2]/40)return;MV[0]=cx-(cx-MV[0])/k;MV[1]=cy-(cy-MV[1])/k;MV[2]=w;MV[3]=MV[3]/k;set()};
+s.addEventListener('wheel',e=>{e.preventDefault();const q=pt(e.clientX,e.clientY);zAt(e.deltaY<0?1.2:1/1.2,q.x,q.y)},{passive:false});
+s.addEventListener('pointerdown',e=>{ps[e.pointerId]=[e.clientX,e.clientY];pd=0;TM=0;if(Object.keys(ps).length==2){const v=Object.values(ps);pd=Math.hypot(v[0][0]-v[1][0],v[0][1]-v[1][1])}});
+window.addEventListener('pointermove',e=>{if(!ps[e.pointerId])return;const o=ps[e.pointerId],n=Object.keys(ps).length,sc=s.getScreenCTM().a;
+if(n==1){const dx=e.clientX-o[0],dy=e.clientY-o[1];TM+=Math.abs(dx)+Math.abs(dy);if(TM>8){MOVED=true;MV[0]-=dx/sc;MV[1]-=dy/sc;set()}ps[e.pointerId]=[e.clientX,e.clientY]}
+else if(n==2){ps[e.pointerId]=[e.clientX,e.clientY];const v=Object.values(ps),d=Math.hypot(v[0][0]-v[1][0],v[0][1]-v[1][1]);if(pd){const q=pt((v[0][0]+v[1][0])/2,(v[0][1]+v[1][1])/2);zAt(d/pd,q.x,q.y);MOVED=true}pd=d}});
+const up=e=>{delete ps[e.pointerId];setTimeout(()=>MOVED=false,80)};window.addEventListener('pointerup',up);window.addEventListener('pointercancel',up)}
+function zb(k){if(!MV)return;zAt(k,MV[0]+MV[2]/2,MV[1]+MV[3]/2)}
+function zr(){if(!MV)return;MV=MV0.slice();$('mp').setAttribute('viewBox',MV.join(' '))}
+function cmpgo(){go('cmp/'+$('ca').value+'/'+$('cb').value)}
+function sgh(i){setTimeout(()=>{const b=i.parentNode.querySelector('.sug');if(b)b.style.display='none'},200)}
+let STAB="all";
+function setSTab(t){
+  STAB=t;
+  ["all","ls","mh","ap"].forEach(k=>{
+    const el=document.getElementById("stab-"+k);
+    if(el)el.classList.toggle("on",k===t);
+  });
+  const hi=document.getElementById("hero-search");
+  if(hi){
+    hi.placeholder=t==="mh"?"Search MH seat or candidate…":t==="ap"?"Search AP seat or candidate…":t==="ls"?"Search Lok Sabha seat or candidate…":"Search any constituency, candidate, or party across India…";
+    hi.value="";
+    const b=hi.parentNode.querySelector(".sug");
+    if(b)b.style.display="none";
+  }
+}
+function sg(inp){
+  const q=inp.value.trim().toLowerCase(),b=inp.parentNode.querySelector(".sug");
+  if(q.length<2){b.style.display="none";return}
+  if(!CI){
+    initMH();initAP();
+    CI=[];
+    // 1. Lok Sabha Constituencies & Candidates
+    PC.forEach(c=>{
+      CI.push([c.n+" ["+S[c.si]+"]","LS Constituency","pc/"+c.id,c.n.toLowerCase()]);
+      c.cs.forEach(x=>{if(x[3]!=NI)CI.push([x[0]+" ["+c.n+", LS]","LS Candidate","pc/"+c.id,x[0].toLowerCase()])});
+    });
+    S.forEach((s,i)=>CI.push([s,"State","map/"+i,s.toLowerCase()]));
+    PA.forEach(p=>{if(p.i!=NI&&p.cands>3)CI.push([lab(p.i),"Party","party/"+p.i,lab(p.i).toLowerCase()])});
+
+    // 2. Maharashtra Assembly Constituencies & ALL Candidates
+    if(MH&&MH.ac){
+      MH.ac.forEach(c=>{
+        CI.push([c.n+" ["+c.dist+", MH]","MH Constituency","ac/"+c.no,c.n.toLowerCase()]);
+        c.cs.forEach(x=>{
+          const p=MH.MP[x[3]];
+          if(p!="NOTA")CI.push([x[0]+" ["+c.n+", MH - "+p+"]","MH Candidate","ac/"+c.no,x[0].toLowerCase()]);
+        });
+      });
+    }
+
+    // 3. Andhra Pradesh Assembly Constituencies & ALL Candidates
+    if(AP&&AP.ac){
+      AP.ac.forEach(c=>{
+        CI.push([c.n+" [AP Assembly]","AP Constituency","apac/"+c.no,c.n.toLowerCase()]);
+        c.cs.forEach(x=>{
+          const p=AP.MP[x[3]];
+          if(p!="NOTA")CI.push([x[0]+" ["+c.n+", AP - "+p+"]","AP Candidate","apac/"+c.no,x[0].toLowerCase()]);
+        });
+      });
+    }
+
+    // 4. AP Historical Winners
+    if(typeof SEAT_HIST!=='undefined'&&SEAT_HIST){
+      for(const k in SEAT_HIST){
+        const arr=SEAT_HIST[k];
+        if(arr&&arr.length){
+          const top=arr[0];
+          if(top.winner&&top.winner.length>2){
+            CI.push([top.winner+" ["+top.name+", AP "+top.year+"]","AP Winner",top.year===2024?"apac/"+top.no:"aphac/"+top.year+"/"+top.no,top.winner.toLowerCase()]);
+          }
+        }
+      }
+    }
+  }
+
+  const tab=inp.id==="hero-search"?STAB:"all";
+  let pool=CI;
+  if(tab==="ls")pool=CI.filter(x=>x[1].startsWith("LS")||x[1]==="State"||x[1]==="Party");
+  else if(tab==="mh")pool=CI.filter(x=>x[1].startsWith("MH"));
+  else if(tab==="ap")pool=CI.filter(x=>x[1].startsWith("AP"));
+
+  const _ord={"LS Constituency":0,"MH Constituency":0,"AP Constituency":0,State:1,Party:2,"MH Candidate":3,"AP Candidate":3,"LS Candidate":3,"AP Winner":4};
+  const r=pool.filter(x=>x[3].includes(q)).sort((a,c)=>(c[3].startsWith(q)-a[3].startsWith(q))||(_ord[a[1]]||5)-(_ord[c[1]]||5)).slice(0,12);
+  b.innerHTML=r.length?r.map(x=>`<div class="si" role="option" onmousedown="go('${x[2]}')"><span class="si-title">${esc(x[0])}</span><small class="si-badge">${x[1]}</small></div>`).join(""):"<div class=\"si\"><small>No match found — press Enter to search across all data</small></div>";
+  tr(b);b.style.display="block";
+}
+function updateThemeIcon(){
+  const d=document.documentElement;
+  const isDark=d.dataset.theme==='dark'||((!d.dataset.theme||d.dataset.theme==='')&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches);
+  const txt=$('theme-text');if(txt)txt.textContent=isDark?'Light':'Dark';
+  const btn=$('theme-btn');if(btn)btn.title=isDark?'Switch to Light':'Switch to Dark';
+}
+function tg(){
+  const d=document.documentElement;
+  const isDark=d.getAttribute('data-theme')==='dark';
+  const next=isDark?'light':'dark';
+  d.setAttribute('data-theme',next);
+  try{localStorage.setItem('theme',next)}catch(e){}
+  updateThemeIcon();
+}
+// Apply saved theme (dark is default)
+try{const th=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',th)}catch(e){document.documentElement.setAttribute('data-theme','dark');}
+updateThemeIcon();
+document.addEventListener('click',e=>{const th=e.target.closest&&e.target.closest('th');if(!th)return;const tb=th.closest('table'),i=[...th.parentNode.children].indexOf(th),rows=[...tb.querySelectorAll('tr')].slice(1),dir=th.dataset.d=th.dataset.d=='1'?-1:1,v=r=>{const s=(r.children[i]?r.children[i].textContent:'').replace(/[,%\s]/g,''),n=parseFloat(s);return isNaN(n)?s.toLowerCase():n};
+rows.sort((a,b)=>{const x=v(a),y=v(b);return(x>y?1:x<y?-1:0)*dir});rows.forEach(r=>r.parentNode.appendChild(r));tb.querySelectorAll('th').forEach(h=>h.textContent=h.textContent.replace(/ [▲▼]$/,''));th.textContent+=dir==1?' ▲':' ▼'});
+addEventListener('scroll',()=>{LY=scrollY});
+
+
+const f_=n=>Math.round(n).toLocaleString('en-IN');
+function tip(e,i){const t=$('tp');if(!t)return;if(i==null){t.style.display='none';return}const f=GEO.f[i],c=f[0]>=0?PC[f[0]]:null;t.style.display='block';t.style.left=e.clientX+12+'px';t.style.top=e.clientY+12+'px';t.innerHTML=c?`<b>${esc(c.n)}</b> (${S[c.si]})<br>${esc(c.w[0])} · ${esc(lab(c.w[3]))}<br>Margin ${f_(c.m)}`:`<b>${esc(f[2])}</b> – BJP (unopposed)`}
+let MH=null,AP=null,RT=0;const LZ={};
+const lazy=(flag,src)=>window[flag]?Promise.resolve():LZ[src]||(LZ[src]=new Promise((ok,no)=>{const s=document.createElement('script');s.src=src;s.onload=ok;s.onerror=()=>no(new Error('load '+src));document.head.appendChild(s)}));
+function initMH(){if(MH||!window.MH_DATA)return;const MD=window.MH_DATA,MP=MD.p;MH={MP,ac:MD.a.map(a=>{const cs=a[5],non=cs.filter(x=>MP[x[3]]!='NOTA'),w=non[0],r=non[1],nt=cs.find(x=>MP[x[3]]=='NOTA'),po=cs.reduce((s,x)=>s+x[6],0);return{no:a[0],n:a[1],cat:a[2],el:a[3],dist:a[4],cs,w,r,m:w[6]-(r?r[6]:0),nota:nt?nt[6]:0,po,t:po/a[3]*100}})};const se={},vo={},cn={};MH.ac.forEach(c=>{const p=MP[c.w[3]];se[p]=(se[p]||0)+1;c.cs.forEach(x=>{const q=MP[x[3]];vo[q]=(vo[q]||0)+x[6];cn[q]=(cn[q]||0)+1})});MH.tot=MH.ac.reduce((s,c)=>s+c.po,0);MH.el=MH.ac.reduce((s,c)=>s+c.el,0);MH.ps=Object.keys(vo).filter(p=>p!='NOTA').map(p=>({c:p,seats:se[p]||0,votes:vo[p],cn:cn[p]})).sort((a,b)=>b.seats-a.seats||b.votes-a.votes);MH.idx={};MH.ac.forEach(c=>MH.idx[c.no]=c)}
+function initAP(){if(AP||!window.AP_DATA)return;const MD=window.AP_DATA,MP=MD.p;AP={MP,ac:MD.a.map(a=>{const cs=a[4],non=cs.filter(x=>MP[x[3]]!='NOTA'),w=non[0],r=non[1],nt=cs.find(x=>MP[x[3]]=='NOTA'),po=cs.reduce((s,x)=>s+x[6],0);return{no:a[0],n:a[1],cat:a[2],el:a[3],cs,w,r,m:w?(w[6]-(r?r[6]:0)):0,nota:nt?nt[6]:0,po,t:po/a[3]*100}})};const apse={},apvo={},apcn={};AP.ac.forEach(c=>{const p=AP.MP[c.w?c.w[3]:0];if(p){apse[p]=(apse[p]||0)+1};c.cs.forEach(x=>{const q=AP.MP[x[3]];if(q){apvo[q]=(apvo[q]||0)+x[6];apcn[q]=(apcn[q]||0)+1}})});AP.tot=AP.ac.reduce((s,c)=>s+c.po,0);AP.el=AP.ac.reduce((s,c)=>s+c.el,0);AP.ps=Object.keys(apvo).filter(p=>p!='NOTA').map(p=>({c:p,seats:apse[p]||0,votes:apvo[p],cn:apcn[p]})).sort((a,b)=>b.seats-a.seats||b.votes-a.votes);AP.idx={};AP.ac.forEach(c=>AP.idx[c.no]=c)}
+function mfl(){const q=$('mq').value.toLowerCase(),d=$('md').value,p=$('mpp').value;try{history.replaceState(null,'','#mhs/'+encodeURIComponent([$('mq').value,d,p].join('|')))}catch(e){}
+const r=MH.ac.filter(c=>(!q||c.n.toLowerCase().includes(q)||c.w[0].toLowerCase().includes(q))&&(!d||c.dist==d)&&(!p||MH.MP[c.w[3]]==p));
+$('mr').innerHTML=`<p class="note">${r.length} constituencies · tap a column heading to sort</p>`+(r.length?tbl(['AC No.','Constituency','District','Category','Winner','Party','Margin','Turnout'],r.map(c=>`<tr class="r"><td>${c.no}</td><td><a onclick="go('ac/${c.no}')">${esc(c.n)}</a></td><td>${esc(c.dist)}</td><td>${c.cat}</td><td>${esc(c.w[0])}</td><td>${shc(MH.MP[c.w[3]],16)} ${esc(lc(MH.MP[c.w[3]]))}</td><td>${f(c.m)}</td><td>${c.t.toFixed(1)}%</td></tr>`)):`<p>No match. <a onclick="go('mhs')">Clear filters</a></p>`);tr($('mr'))}
+function apfl(){const q=$('apq').value.toLowerCase(),p=$('appp').value;try{history.replaceState(null,'','#aps/'+encodeURIComponent([$('apq').value,p].join('|')))}catch(e){}
+const r=AP.ac.filter(c=>(!q||c.n.toLowerCase().includes(q)||(c.w&&c.w[0].toLowerCase().includes(q)))&&(!p||AP.MP[c.w?c.w[3]:0]==p));
+$('apr').innerHTML=`<p class="note">${r.length} constituencies · tap a column heading to sort</p>`+(r.length?tbl(['AC No.','Constituency','Category','Winner','Party','Margin','Turnout'],r.map(c=>`<tr class="r"><td>${c.no}</td><td><a onclick="go('apac/${c.no}')">${esc(c.n)}</a></td><td>${c.cat}</td><td>${c.w?esc(c.w[0]):'–'}</td><td>${shc(AP.MP[c.w?c.w[3]:0]||'',16)} ${esc(lc(AP.MP[c.w?c.w[3]:0]||''))}</td><td>${f(c.m)}</td><td>${c.t.toFixed(1)}%</td></tr>`)):`<p>No match. <a onclick="go('aps')">Clear filters</a></p>`);tr($('apr'))}
+function locMap(id){lazy('GEO','js/geo-ls.js').then(()=>{const b=$('lm'),c=PC[id];if(!b||!c)return;b.innerHTML=`<svg viewBox="0 0 ${GEO.w} ${GEO.h}" width="100%" style="max-height:260px">${GEO.f.map(x=>`<path d="${x[3]}" fill="${x[0]===c.id?col(c.w[3]):'var(--b)'}" ${x[0]===c.id?'stroke="#000" stroke-width="1.5"':''}/>`).join('')}</svg>`})}
+let LANG='en';try{LANG=localStorage.getItem('lang')||localStorage.getItem('lg')||'en'}catch(e){}
+if(window.I18N)window.LANG=LANG;
+function T(s){const L=window.I18N&&(I18N[LANG]||I18N[window.LANG]);if(!L)return s;const t=s.trim();if(!t)return s;const i=s.indexOf(t),pre=s.slice(0,i),suf=s.slice(i+t.length);return pre+T1(t,L)+suf}
+function T1(t,L){if(L[t])return L[t];const l=t.toLowerCase();if(L[l])return L[l];if(t.includes(' · '))return t.split(' · ').map(x=>T1(x,L)).join(' · ');
+const langs=['hi','mr','te','ta','bn','kn','gu','pa','ml','or'];
+const li=langs.indexOf(LANG);
+if(window.I18N&&I18N.p&&li>=0){for(const p of I18N.p){const r=new RegExp(p[0]);if(r.test(t)&&p[li+1])return t.replace(r,p[li+1])}}
+return t}
+function tr(el){el=el||document.body;
+const lm={hi:'hi',mr:'hi',te:'te',ta:'ta',bn:'bn',kn:'kn',gu:'gu',pa:'pa',ml:'ml',or:'or'};
+document.documentElement.lang=lm[LANG]||'en';
+const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),ns=[];let n;while(n=w.nextNode())ns.push(n);
+for(const n of ns){if(n._o===undefined)n._o=n.nodeValue;const v=LANG=='en'?n._o:T(n._o);if(n.nodeValue!==v)n.nodeValue=v}
+el.querySelectorAll('[placeholder],[aria-label],[title],[data-i18n]').forEach(e=>{['placeholder','aria-label','title'].forEach(a=>{if(e.hasAttribute(a)){const k='_o'+a;if(e[k]===undefined)e[k]=e.getAttribute(a);e.setAttribute(a,LANG=='en'?e[k]:T(e[k]))}});const dk=e.getAttribute('data-i18n');if(dk){const ot=e._i18n_o||(e._i18n_o=e.textContent);e.textContent=LANG=='en'?ot:(T(ot)||ot)}})}
+function setLang(v){LANG=v;window.LANG=v;try{localStorage.setItem('lang',v);localStorage.setItem('lg',v)}catch(e){}const lm={hi:'hi',mr:'hi',te:'te',ta:'ta',bn:'bn',kn:'kn',gu:'gu',pa:'pa',ml:'ml',or:'or'};document.documentElement.lang=lm[v]||'en';tr();}
+function tipAC(){const t=$('tp-ac');if(t)t.style.display='none'}
+function tipAPSeat(e,no){
+  const t=$('tp-ac');if(!t)return;
+  initAP();const c=AP.idx[no];if(!c)return;
+  const p=AP.MP[c.w?c.w[3]:0];
+  t.style.display='block';t.style.left=Math.min(window.innerWidth-220,e.clientX+12)+'px';t.style.top=e.clientY+14+'px';
+  t.innerHTML=`<b>AC ${c.no}. ${esc(c.n)}</b><br>Winner: <b>${c.w?esc(c.w[0]):'–'}</b> (${esc(lc(p))})<br>Margin: <b>${f(c.m)}</b> · Turnout: ${c.t.toFixed(1)}%`;
+}
+function tipAPReg(e,name,seats,winP){
+  const t=$('tp-ac');if(!t)return;
+  t.style.display='block';t.style.left=Math.min(window.innerWidth-200,e.clientX+12)+'px';t.style.top=e.clientY+14+'px';
+  t.innerHTML=`<b>${esc(name)} Region</b><br>${seats} Assembly Segments<br>Dominant Party: <b>${esc(lc(winP))}</b>`;
+}
+function pickAPSeat(no){
+  initAP();const c=AP.idx[no];if(!c)return;
+  const card=$('ap-seat-card');if(!card)return;
+  const p=AP.MP[c.w?c.w[3]:0], rp=c.r?AP.MP[c.r[3]]:'';
+  card.innerHTML=`
+    <div style="display:flex;justify-content:space-between;align-items:flex-start">
+      <div>
+        <h3 style="margin:0;color:var(--g)">AC ${c.no}. ${esc(c.n)}</h3>
+        <span class="note">${c.cat} Category · Turnout: <b>${c.t.toFixed(1)}%</b> (${f(c.po)} / ${f(c.el)})</span>
+      </div>
+      <button class="btn on" onclick="go('apac/${c.no}')">Full Details →</button>
+    </div>
+    <div class="g g2" style="margin-top:10px">
+      <div class="pb win">
+        <div><small>Winner</small><br><b>${c.w?esc(c.w[0]):'–'}</b><br>${dot2(p)} ${esc(lc(p))}<br><b>${c.w?f(c.w[6]):'–'} votes</b></div>
+      </div>
+      <div class="pb run">
+        <div><small>Runner-up</small><br><b>${c.r?esc(c.r[0]):'–'}</b><br>${rp?dot2(rp)+' '+esc(lc(rp)):'–'}<br><b>${c.r?f(c.r[6]):'–'} votes</b></div>
+      </div>
+    </div>
+    <div style="margin-top:8px;font-size:12px">Margin: <b style="color:#0a7d3b">${f(c.m)}</b> votes · NOTA: ${f(c.nota)}</div>
+  `;
+  card.scrollIntoView&&card.scrollIntoView({block:'nearest',behavior:'smooth'});
+}
+function filterAPParty(p){
+  document.querySelectorAll('#ap-seats-grid .seat-tile').forEach(el=>{
+    const ep=el.dataset.party;
+    el.classList.toggle('dim',!!p&&ep!==p);
+  });
+}
+function filterAPAlliance(al){
+  document.querySelectorAll('#ap-seats-grid .seat-tile').forEach(el=>{
+    const eal=el.dataset.al;
+    el.classList.toggle('dim',!!al&&eal!==al);
+  });
+}
+function filterAPSearch(q){
+  q=(q||'').toLowerCase().trim();
+  document.querySelectorAll('#ap-seats-grid .seat-tile').forEach(el=>{
+    const n=(el.dataset.name||'').toLowerCase(), no=el.dataset.no;
+    el.classList.toggle('dim',!!q&&!n.includes(q)&&no!==q);
+  });
+}
+function filterAPRegion(start,end,name){
+  document.querySelectorAll('#ap-seats-grid .seat-tile').forEach(el=>{
+    const no=+el.dataset.no;
+    el.classList.toggle('dim',no<start||no>end);
+  });
+  const card=$('ap-seat-card');
+  if(card){
+    initAP();
+    const acs=AP.ac.filter(c=>c.no>=start&&c.no<=end);
+    card.innerHTML=`<b>📍 ${esc(name)} Region (AC ${start}–${end})</b><br><span class="note">${acs.length} seats: ${acs.map(c=>`<a onclick="pickAPSeat(${c.no})">${esc(c.n)} (${AP.MP[c.w?c.w[3]:0]})</a>`).join(', ')}</span>`;
+  }
+}
+function setAPHTab(t){
+  ['res','map','seats'].forEach(k=>{
+    const b=$('aphtab-'+k), v=$('aph-view-'+k);
+    if(b)b.classList.toggle('on',k===t);
+    if(v)v.style.display=k===t?'block':'none';
+  });
+}
+function tipAPHistSeat(e,no){
+  const t=$('tp-ac');if(!t)return;
+  const data=window._aphData;if(!data||!data.idx)return;
+  const c=data.idx[no];if(!c)return;
+  const p=c.wp||(data.MP[c.w?c.w[3]:0])||'';
+  t.style.display='block';t.style.left=Math.min(window.innerWidth-220,e.clientX+12)+'px';t.style.top=e.clientY+14+'px';
+  t.innerHTML=`<b>AC ${c.no}. ${esc(c.n)}</b><br>Winner: <b>${c.wn||(c.w?esc(c.w[0]):'–')}</b> (${esc(lc(p))})<br>Margin: <b>${f(c.m)}</b> · Turnout: ${c.t?c.t.toFixed(1)+'%':'–'}`;
+}
+function pickAPHistSeat(no){
+  const data=window._aphData;if(!data||!data.idx)return;
+  const c=data.idx[no];if(!c)return;
+  const card=$('aph-seat-card');if(!card)return;
+  const p=c.wp||(data.MP[c.w?c.w[3]:0])||'', rp=c.rp||(c.r?data.MP[c.r[3]]:'')||'';
+  const wn=c.wn||(c.w?esc(c.w[0]):'–'), rn=c.rn||(c.r?esc(c.r[0]):'–');
+  card.innerHTML=`
+    <div style="display:flex;justify-content:space-between;align-items:flex-start">
+      <div>
+        <h3 style="margin:0;color:var(--g)">AC ${c.no}. ${esc(c.n)}</h3>
+        <span class="note">${c.cat} Category · Turnout: <b>${c.t?c.t.toFixed(1)+'%':'–'}</b> (${f(c.po)} polled / ${f(c.el)} electors)</span>
+      </div>
+      <button class="btn on" onclick="go('aphac/${data.year}/${c.no}')">Full Details →</button>
+    </div>
+    <div class="g g2" style="margin-top:10px">
+      <div class="pb win">
+        <div class="av" style="font-size:22px">${shc(p,44)||av(wn)}</div>
+        <div><small>Winner</small><br><b>${wn}</b><br>${dot2(p)}${shc(p,16)} ${esc(lc(p))}<br><b>${c.wv||(c.w?f(c.w[6]):'–')} votes</b></div>
+      </div>
+      <div class="pb run">
+        <div class="av" style="font-size:22px">${shc(rp,44)||av(rn)}</div>
+        <div><small>Runner-up</small><br><b>${rn}</b><br>${rp?dot2(rp)+' '+shc(rp,16)+' '+esc(lc(rp)):'–'}<br><b>${c.rv||(c.r?f(c.r[6]):'–')} votes</b></div>
+      </div>
+    </div>
+    <div style="margin-top:8px;font-size:12px;display:flex;justify-content:space-between;align-items:center">
+      <span>Winning margin: <b style="color:#0a7d3b">${f(c.m)}</b> votes</span>
+      <a onclick="go('aphac/${data.year}/${c.no}')">View Full Contest &amp; Track Record →</a>
+    </div>
+  `;
+}
+function filterAPHistParty(p){
+  document.querySelectorAll('#aph-seats-grid .seat-tile').forEach(el=>{
+    const ep=el.dataset.party;
+    el.classList.toggle('dim',!!p&&ep!==p);
+  });
+}
+function filterAPHistSearch(q){
+  q=(q||'').toLowerCase().trim();
+  document.querySelectorAll('#aph-seats-grid .seat-tile').forEach(el=>{
+    const n=(el.dataset.name||'').toLowerCase(), no=el.dataset.no;
+    el.classList.toggle('dim',!!q&&!n.includes(q)&&no!==q);
+  });
+}
+function filterAPHistRegion(start,end,name){
+  document.querySelectorAll('#aph-seats-grid .seat-tile').forEach(el=>{
+    const no=+el.dataset.no;
+    el.classList.toggle('dim',no<start||no>end);
+  });
+  const card=$('aph-seat-card');
+  if(card){
+    const data=window._aphData;
+    if(data&&data.ac){
+      const acs=data.ac.filter(c=>c.no>=start&&c.no<=end);
+      card.innerHTML=`<b>📍 ${esc(name)} Region (AC ${start}–${end})</b><br><span class="note">${acs.length} seats: ${acs.map(c=>`<a onclick="pickAPHistSeat(${c.no})">${esc(c.n)} (${c.wp||(data.MP[c.w?c.w[3]:0])})</a>`).join(', ')}</span>`;
+    }
+  }
+}
+function aphHfl(inp,outId){
+  const out=document.getElementById(outId);
+  if(!out)return;
+  const data=window._aphData;
+  if(!data||!data.ac){out.innerHTML='<p class="note">Loading constituencies…</p>';return}
+  const q=(inp?inp.value:'').toLowerCase().trim();
+  const pf=document.getElementById('aphpp'), pv=pf?pf.value:'';
+  const catf=document.getElementById('aphcat'), catv=catf?catf.value:'';
+  const r=data.ac.filter(c=>{
+    const wn=(c.wn||(c.w?c.w[0]:'')).toLowerCase();
+    const name=c.n.toLowerCase();
+    const wp=c.wp||(data.MP[c.w?c.w[3]:0])||'';
+    const matchQ=!q||name.includes(q)||wn.includes(q)||String(c.no)===q;
+    const matchP=!pv||wp===pv;
+    const matchCat=!catv||c.cat===catv;
+    return matchQ&&matchP&&matchCat;
+  });
+  out.innerHTML=`<p class="note">${r.length} constituencies · click any row to view full details and candidate list</p>`+(r.length?tbl(['AC No.','Constituency','Category','Winner','Party','Runner-up','Runner Party','Margin','Turnout','Action'],
+    r.map(c=>{
+      const wp=c.wp||(data.MP[c.w?c.w[3]:0])||'';
+      const rp=c.rp||(c.r?data.MP[c.r[3]]:'')||'';
+      const wn=c.wn||(c.w?esc(c.w[0]):'–');
+      const rn=c.rn||(c.r?esc(c.r[0]):'–');
+      return`<tr class="r" style="cursor:pointer" onclick="go('aphac/${data.year}/${c.no}')">
+        <td>${c.no}</td>
+        <td><b><a onclick="go('aphac/${data.year}/${c.no}')">${esc(c.n)}</a></b></td>
+        <td>${c.cat}</td>
+        <td><b>${wn}</b></td>
+        <td>${dot2(wp)}${shc(wp,16)} ${esc(lc(wp))}</td>
+        <td>${rn}</td>
+        <td>${rp?dot2(rp)+' '+shc(rp,16)+' '+esc(lc(rp)):'–'}</td>
+        <td>${f(c.m)}</td>
+        <td>${c.t?c.t.toFixed(1)+'%':'–'}</td>
+        <td><button class="btn" style="padding:2px 8px;font-size:11px" onclick="event.stopPropagation();go('aphac/${data.year}/${c.no}')">Details →</button></td>
+      </tr>`;
+    })
+  ):`<p>No constituency match. <a onclick="$('aphq').value='';aphHfl($('aphq'),'${outId}')">Clear search</a></p>`);tr(out);
+}
+function updateNavTabs(){
+  const h=location.hash.slice(1);
+  const k=h.split('/')[0];
+  document.querySelectorAll('.nl a, .nav-tab').forEach(b=>{
+    const p=b.getAttribute('data-path') !== null ? b.getAttribute('data-path') : (b.dataset.path || '');
+    const match = (k==='' && p==='') || (p!=='' && (k===p || (p==='ap' && k.startsWith('ap')) || (p==='mh' && k.startsWith('mh')) || (p==='ls' && (k.startsWith('ls') || k==='pc' || k==='lspc'))));
+    b.classList.toggle('on', match);
+    if(match && b.scrollIntoView){
+      try{b.scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'})}catch(e){}
+    }
+  });
+}
+async function render(){const h=location.hash.slice(1),[k,...a]=h.split('/'),fn=pages[k]||pages[''],my=++RT,
+need={q:['MH_DATA','js/data-mh.js','AP_DATA','js/data-ap.js'],map:['GEO','js/geo-ls.js'],pcs:['MH_DATA','js/data-mh.js','AP_DATA','js/data-ap.js'],cmp:['MH_DATA','js/data-mh.js','AP_DATA','js/data-ap.js'],mh:['MH_DATA','js/data-mh.js'],mhs:['MH_DATA','js/data-mh.js'],ac:['MH_DATA','js/data-mh.js'],mhmap:['MH_DATA','js/data-mh.js','MGEO','js/geo-mh.js'],ap:['AP_DATA','js/data-ap.js'],apmap:['AP_DATA','js/data-ap.js'],aps:['AP_DATA','js/data-ap.js'],apac:['AP_DATA','js/data-ap.js'],aphac:['AP_DATA','js/data-ap.js'],assembly:['MH_DATA','js/data-mh.js','AP_DATA','js/data-ap.js'],women:['MH_DATA','js/data-mh.js','AP_DATA','js/data-ap.js']}[k];
+if(need){$('app').innerHTML='<p>Loading…</p>';tr($('app'));try{for(let i=0;i<need.length;i+=2)await lazy(need[i],need[i+1])}catch(e){$('app').innerHTML='<p>Could not load data. Check your connection and try again.</p>';return}if(my!=RT)return}
+$('app').innerHTML=(fn?fn(...a):'')+(k===''?'':footer());if(k=='pcs')fl();if(k=='mhs')mfl();if(k=='aps')apfl();if(k=='map'||k=='mhmap'||k=='apmap')mapInit();if(k=='pc')locMap(+a[0]);tr();updateNavTabs();scrollTo(0,SV[h]||0)}
+addEventListener('hashchange',e=>{SV[(e.oldURL||'').split('#')[1]||'']=LY;render()});initSym();loadSeatHistory();updateThemeIcon();updateNavTabs();var lgs=document.getElementById('lg');if(lgs)lgs.value=LANG;render();

@@ -1,0 +1,3883 @@
+{
+  "state": "Goa",
+  "key": "ga",
+  "year": 2022,
+  "type": "assembly",
+  "icon": "🏖️",
+  "total_seats": 40,
+  "majority_mark": 21,
+  "leading_party": "BJP",
+  "leading_seats": 20,
+  "status": "BJP Leading / Plurality",
+  "total_electors": 1164522,
+  "total_votes_polled": 950445,
+  "avg_turnout_pct": 81.62,
+  "parties": [
+    {
+      "party": "BJP",
+      "seats": 20,
+      "votes": 316573
+    },
+    {
+      "party": "INC",
+      "seats": 11,
+      "votes": 222948
+    },
+    {
+      "party": "IND",
+      "seats": 3,
+      "votes": 88902
+    },
+    {
+      "party": "MAG",
+      "seats": 2,
+      "votes": 72269
+    },
+    {
+      "party": "AAP",
+      "seats": 2,
+      "votes": 64354
+    },
+    {
+      "party": "RVLTGONP",
+      "seats": 1,
+      "votes": 93255
+    },
+    {
+      "party": "GFP",
+      "seats": 1,
+      "votes": 17477
+    }
+  ],
+  "constituencies": [
+    {
+      "ac_no": 1,
+      "name": "Mandrem",
+      "category": "GEN",
+      "electors": 32732,
+      "votes_polled": 29643,
+      "turnout_pct": 90.56,
+      "winner_name": "Jit Vinayak Arolkar",
+      "winner_party": "MAG",
+      "winner_votes": 10387,
+      "runner_up_name": "Dayanand Raghunath Sopte",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 9672,
+      "margin": 715,
+      "nota_votes": 261,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Jit Vinayak Arolkar",
+          "party": "MAG",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 10144,
+          "postal_votes": 243,
+          "total_votes": 10387
+        },
+        {
+          "name": "Dayanand Raghunath Sopte",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 9273,
+          "postal_votes": 399,
+          "total_votes": 9672
+        },
+        {
+          "name": "Laxmikant Parsekar",
+          "party": "IND",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 5507,
+          "postal_votes": 304,
+          "total_votes": 5811
+        },
+        {
+          "name": "Deepak Bhalchandra Kalangutkar",
+          "party": "GFP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 1637,
+          "postal_votes": 39,
+          "total_votes": 1676
+        },
+        {
+          "name": "Sunayana Rajanikant Gawde",
+          "party": "RVLTGONP",
+          "gender": "F",
+          "age": 32,
+          "evm_votes": 1207,
+          "postal_votes": 12,
+          "total_votes": 1219
+        },
+        {
+          "name": "Prasad K. Shahapurkar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 262,
+          "postal_votes": 6,
+          "total_votes": 268
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 259,
+          "postal_votes": 2,
+          "total_votes": 261
+        },
+        {
+          "name": "Satish Sitaram Shetgaonkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 184,
+          "postal_votes": 0,
+          "total_votes": 184
+        },
+        {
+          "name": "Babli Bhaskar Naik",
+          "party": "SHS",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 116,
+          "postal_votes": 3,
+          "total_votes": 119
+        },
+        {
+          "name": "D'Costa Maria",
+          "party": "SBBGP",
+          "gender": "F",
+          "age": 45,
+          "evm_votes": 46,
+          "postal_votes": 0,
+          "total_votes": 46
+        }
+      ]
+    },
+    {
+      "ac_no": 2,
+      "name": "Pernem",
+      "category": "SC",
+      "electors": 33212,
+      "votes_polled": 29203,
+      "turnout_pct": 87.93,
+      "winner_name": "Pravin Prabhakar Arlekar",
+      "winner_party": "BJP",
+      "winner_votes": 13063,
+      "runner_up_name": "Rajan Babuso Korgaonkar",
+      "runner_up_party": "MAG",
+      "runner_up_votes": 9645,
+      "margin": 3418,
+      "nota_votes": 363,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Pravin Prabhakar Arlekar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 12614,
+          "postal_votes": 449,
+          "total_votes": 13063
+        },
+        {
+          "name": "Rajan Babuso Korgaonkar",
+          "party": "MAG",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 9326,
+          "postal_votes": 319,
+          "total_votes": 9645
+        },
+        {
+          "name": "Sujay D. Mhapsekar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 2735,
+          "postal_votes": 20,
+          "total_votes": 2755
+        },
+        {
+          "name": "Jitendra Yeshwant Gaonkar",
+          "party": "INC",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 1801,
+          "postal_votes": 26,
+          "total_votes": 1827
+        },
+        {
+          "name": "Vishnudas Korgaonkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 855,
+          "postal_votes": 7,
+          "total_votes": 862
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 361,
+          "postal_votes": 2,
+          "total_votes": 363
+        },
+        {
+          "name": "Pundalik Dhargalkar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 266,
+          "postal_votes": 7,
+          "total_votes": 273
+        },
+        {
+          "name": "Subhash Barkelo Kerkar",
+          "party": "SHS",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 222,
+          "postal_votes": 1,
+          "total_votes": 223
+        },
+        {
+          "name": "Kamlakar Shankar Gadkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 129,
+          "postal_votes": 0,
+          "total_votes": 129
+        },
+        {
+          "name": "Gurudas Virnodkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 62,
+          "postal_votes": 1,
+          "total_votes": 63
+        }
+      ]
+    },
+    {
+      "ac_no": 3,
+      "name": "Bicholim",
+      "category": "GEN",
+      "electors": 28231,
+      "votes_polled": 25886,
+      "turnout_pct": 91.69,
+      "winner_name": "Dr. Chandrakant Shetye",
+      "winner_party": "IND",
+      "winner_votes": 9608,
+      "runner_up_name": "Naresh Rajaram Sawal",
+      "runner_up_party": "MAG",
+      "runner_up_votes": 9290,
+      "margin": 318,
+      "nota_votes": 341,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Dr. Chandrakant Shetye",
+          "party": "IND",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 9368,
+          "postal_votes": 240,
+          "total_votes": 9608
+        },
+        {
+          "name": "Naresh Rajaram Sawal",
+          "party": "MAG",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 8912,
+          "postal_votes": 378,
+          "total_votes": 9290
+        },
+        {
+          "name": "Rajesh Tulshidas Patnekar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 5019,
+          "postal_votes": 122,
+          "total_votes": 5141
+        },
+        {
+          "name": "Meghashyam Vaman Raut",
+          "party": "INC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 901,
+          "postal_votes": 12,
+          "total_votes": 913
+        },
+        {
+          "name": "Anish Avinash Naik",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 589,
+          "postal_votes": 4,
+          "total_votes": 593
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 336,
+          "postal_votes": 5,
+          "total_votes": 341
+        }
+      ]
+    },
+    {
+      "ac_no": 4,
+      "name": "Tivim",
+      "category": "GEN",
+      "electors": 29132,
+      "votes_polled": 23929,
+      "turnout_pct": 82.14,
+      "winner_name": "Nilkanth Ramnath Halarnkar",
+      "winner_party": "BJP",
+      "winner_votes": 9414,
+      "runner_up_name": "Kavita Kandolkar",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 7363,
+      "margin": 2051,
+      "nota_votes": 202,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Nilkanth Ramnath Halarnkar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 9190,
+          "postal_votes": 224,
+          "total_votes": 9414
+        },
+        {
+          "name": "Kavita Kandolkar",
+          "party": "AITC",
+          "gender": "F",
+          "age": 45,
+          "evm_votes": 7172,
+          "postal_votes": 191,
+          "total_votes": 7363
+        },
+        {
+          "name": "Tukaram Bharat Parab",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 4959,
+          "postal_votes": 92,
+          "total_votes": 5051
+        },
+        {
+          "name": "Aman Lotlikar",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 1230,
+          "postal_votes": 32,
+          "total_votes": 1262
+        },
+        {
+          "name": "Udai Salkar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 413,
+          "postal_votes": 8,
+          "total_votes": 421
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 202,
+          "postal_votes": 0,
+          "total_votes": 202
+        },
+        {
+          "name": "Swapnesh Bhanudas Sherlekar",
+          "party": "GSB",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 140,
+          "postal_votes": 3,
+          "total_votes": 143
+        },
+        {
+          "name": "Godfrey D' Lima",
+          "party": "NCP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 69,
+          "postal_votes": 4,
+          "total_votes": 73
+        }
+      ]
+    },
+    {
+      "ac_no": 5,
+      "name": "Mapusa",
+      "category": "GEN",
+      "electors": 29294,
+      "votes_polled": 23138,
+      "turnout_pct": 78.99,
+      "winner_name": "Joshua Peter De Souza",
+      "winner_party": "BJP",
+      "winner_votes": 10195,
+      "runner_up_name": "Sudhir Rama Kandolkar",
+      "runner_up_party": "INC",
+      "runner_up_votes": 8548,
+      "margin": 1647,
+      "nota_votes": 296,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Joshua Peter De Souza",
+          "party": "BJP",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 9983,
+          "postal_votes": 212,
+          "total_votes": 10195
+        },
+        {
+          "name": "Sudhir Rama Kandolkar",
+          "party": "INC",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 8379,
+          "postal_votes": 169,
+          "total_votes": 8548
+        },
+        {
+          "name": "Rahul Mhambre",
+          "party": "AAP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 1476,
+          "postal_votes": 35,
+          "total_votes": 1511
+        },
+        {
+          "name": "Tarak Arolkar",
+          "party": "AITC",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 1350,
+          "postal_votes": 16,
+          "total_votes": 1366
+        },
+        {
+          "name": "Rohan Salgaonkar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 27,
+          "evm_votes": 978,
+          "postal_votes": 18,
+          "total_votes": 996
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 291,
+          "postal_votes": 5,
+          "total_votes": 296
+        },
+        {
+          "name": "Jitesh Jivaji Kamat",
+          "party": "SHS",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 123,
+          "postal_votes": 3,
+          "total_votes": 126
+        },
+        {
+          "name": "Neeta Paresh Khanvilkar",
+          "party": "IND",
+          "gender": "F",
+          "age": 39,
+          "evm_votes": 59,
+          "postal_votes": 1,
+          "total_votes": 60
+        },
+        {
+          "name": "Sudesh Digamber Hasotikar",
+          "party": "IND",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 39,
+          "postal_votes": 1,
+          "total_votes": 40
+        }
+      ]
+    },
+    {
+      "ac_no": 6,
+      "name": "Siolim",
+      "category": "GEN",
+      "electors": 29661,
+      "votes_polled": 24940,
+      "turnout_pct": 84.08,
+      "winner_name": "Delilah Michael Lobo",
+      "winner_party": "INC",
+      "winner_votes": 9699,
+      "runner_up_name": "Dayanand Rayu Mandrekar",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 7972,
+      "margin": 1727,
+      "nota_votes": 206,
+      "num_candidates": 14,
+      "candidates": [
+        {
+          "name": "Delilah Michael Lobo",
+          "party": "INC",
+          "gender": "F",
+          "age": 44,
+          "evm_votes": 9455,
+          "postal_votes": 244,
+          "total_votes": 9699
+        },
+        {
+          "name": "Dayanand Rayu Mandrekar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 7712,
+          "postal_votes": 260,
+          "total_votes": 7972
+        },
+        {
+          "name": "Gauresh Mandrekar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 3134,
+          "postal_votes": 54,
+          "total_votes": 3188
+        },
+        {
+          "name": "Patrick Savio Almeida",
+          "party": "IND",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 1451,
+          "postal_votes": 31,
+          "total_votes": 1482
+        },
+        {
+          "name": "Vishnu Naik",
+          "party": "AAP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 879,
+          "postal_votes": 14,
+          "total_votes": 893
+        },
+        {
+          "name": "Dattaram Pednekar",
+          "party": "IND",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 461,
+          "postal_votes": 3,
+          "total_votes": 464
+        },
+        {
+          "name": "Vinod Dattaram Palyekar",
+          "party": "IND",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 402,
+          "postal_votes": 7,
+          "total_votes": 409
+        },
+        {
+          "name": "Leao F. P. Dias",
+          "party": "AITC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 212,
+          "postal_votes": 7,
+          "total_votes": 219
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 203,
+          "postal_votes": 3,
+          "total_votes": 206
+        },
+        {
+          "name": "Charisma Fernandes",
+          "party": "SHS",
+          "gender": "F",
+          "age": 37,
+          "evm_votes": 166,
+          "postal_votes": 1,
+          "total_votes": 167
+        },
+        {
+          "name": "Pallavi Pradeep Dabholkar",
+          "party": "IND",
+          "gender": "F",
+          "age": 43,
+          "evm_votes": 112,
+          "postal_votes": 1,
+          "total_votes": 113
+        },
+        {
+          "name": "Anil Vaman Kerkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 50,
+          "postal_votes": 0,
+          "total_votes": 50
+        },
+        {
+          "name": "Diana Fernandes",
+          "party": "SBBGP",
+          "gender": "F",
+          "age": 39,
+          "evm_votes": 43,
+          "postal_votes": 0,
+          "total_votes": 43
+        },
+        {
+          "name": "Jaganath Gaonkar",
+          "party": "JMBP",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 35,
+          "postal_votes": 0,
+          "total_votes": 35
+        }
+      ]
+    },
+    {
+      "ac_no": 7,
+      "name": "Saligao",
+      "category": "GEN",
+      "electors": 27576,
+      "votes_polled": 22335,
+      "turnout_pct": 80.99,
+      "winner_name": "Kedar Jayprakash Naik",
+      "winner_party": "INC",
+      "winner_votes": 10045,
+      "runner_up_name": "Jayesh Salgaonkar",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 8146,
+      "margin": 1899,
+      "nota_votes": 212,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Kedar Jayprakash Naik",
+          "party": "INC",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 9798,
+          "postal_votes": 247,
+          "total_votes": 10045
+        },
+        {
+          "name": "Jayesh Salgaonkar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 7942,
+          "postal_votes": 204,
+          "total_votes": 8146
+        },
+        {
+          "name": "Rohan Kalangutkar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 1888,
+          "postal_votes": 40,
+          "total_votes": 1928
+        },
+        {
+          "name": "Mario Venancio Cordeiro",
+          "party": "AAP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 829,
+          "postal_votes": 18,
+          "total_votes": 847
+        },
+        {
+          "name": "Rupesh Damodar Naik",
+          "party": "IND",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 785,
+          "postal_votes": 20,
+          "total_votes": 805
+        },
+        {
+          "name": "Bholanath Ghadi Sakhalkar",
+          "party": "AITC",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 344,
+          "postal_votes": 8,
+          "total_votes": 352
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 207,
+          "postal_votes": 5,
+          "total_votes": 212
+        }
+      ]
+    },
+    {
+      "ac_no": 8,
+      "name": "Calangute",
+      "category": "GEN",
+      "electors": 25632,
+      "votes_polled": 20590,
+      "turnout_pct": 80.33,
+      "winner_name": "Michael Vincent Lobo",
+      "winner_party": "INC",
+      "winner_votes": 9285,
+      "runner_up_name": "Joseph Robert Sequeira",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 4306,
+      "margin": 4979,
+      "nota_votes": 173,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Michael Vincent Lobo",
+          "party": "INC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 9103,
+          "postal_votes": 182,
+          "total_votes": 9285
+        },
+        {
+          "name": "Joseph Robert Sequeira",
+          "party": "BJP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 4230,
+          "postal_votes": 76,
+          "total_votes": 4306
+        },
+        {
+          "name": "Marcelino Francisco Gonsalves",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 2504,
+          "postal_votes": 34,
+          "total_votes": 2538
+        },
+        {
+          "name": "Sudesh Suresh Mayekar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 1750,
+          "postal_votes": 19,
+          "total_votes": 1769
+        },
+        {
+          "name": "Anthony Menezes",
+          "party": "AITC",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 1660,
+          "postal_votes": 30,
+          "total_votes": 1690
+        },
+        {
+          "name": "Roshan Luke Mathias",
+          "party": "GSB",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 544,
+          "postal_votes": 17,
+          "total_votes": 561
+        },
+        {
+          "name": "Ricardo D'Souza",
+          "party": "IND",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 262,
+          "postal_votes": 6,
+          "total_votes": 268
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 172,
+          "postal_votes": 1,
+          "total_votes": 173
+        }
+      ]
+    },
+    {
+      "ac_no": 9,
+      "name": "Porvorim",
+      "category": "GEN",
+      "electors": 27097,
+      "votes_polled": 21237,
+      "turnout_pct": 78.37,
+      "winner_name": "Rohan Khaunte",
+      "winner_party": "BJP",
+      "winner_votes": 11714,
+      "runner_up_name": "Sandeep Vazarkar",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 3764,
+      "margin": 7950,
+      "nota_votes": 473,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Rohan Khaunte",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 11349,
+          "postal_votes": 365,
+          "total_votes": 11714
+        },
+        {
+          "name": "Sandeep Vazarkar",
+          "party": "AITC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 3721,
+          "postal_votes": 43,
+          "total_votes": 3764
+        },
+        {
+          "name": "Vikas Ramchandra Prabhudesai",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 3528,
+          "postal_votes": 67,
+          "total_votes": 3595
+        },
+        {
+          "name": "Ritesh Chodankar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 1509,
+          "postal_votes": 26,
+          "total_votes": 1535
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 461,
+          "postal_votes": 12,
+          "total_votes": 473
+        },
+        {
+          "name": "Shankar Phadte",
+          "party": "NCP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 154,
+          "postal_votes": 2,
+          "total_votes": 156
+        }
+      ]
+    },
+    {
+      "ac_no": 10,
+      "name": "Aldona",
+      "category": "GEN",
+      "electors": 28994,
+      "votes_polled": 22496,
+      "turnout_pct": 77.59,
+      "winner_name": "Carlos Alvares Ferreira",
+      "winner_party": "INC",
+      "winner_votes": 9320,
+      "runner_up_name": "Glenn John Vijay Ambrose E Souza Ticlo",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 7497,
+      "margin": 1823,
+      "nota_votes": 260,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Carlos Alvares Ferreira",
+          "party": "INC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 9074,
+          "postal_votes": 246,
+          "total_votes": 9320
+        },
+        {
+          "name": "Glenn John Vijay Ambrose E Souza Ticlo",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 7286,
+          "postal_votes": 211,
+          "total_votes": 7497
+        },
+        {
+          "name": "Kiran Kandolkar",
+          "party": "AITC",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 3601,
+          "postal_votes": 46,
+          "total_votes": 3647
+        },
+        {
+          "name": "Mahesh Satelkar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 1267,
+          "postal_votes": 39,
+          "total_votes": 1306
+        },
+        {
+          "name": "Govind Govenkar",
+          "party": "SHS",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 342,
+          "postal_votes": 8,
+          "total_votes": 350
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 248,
+          "postal_votes": 12,
+          "total_votes": 260
+        },
+        {
+          "name": "Pooja Mayekar",
+          "party": "IND",
+          "gender": "F",
+          "age": 42,
+          "evm_votes": 109,
+          "postal_votes": 7,
+          "total_votes": 116
+        }
+      ]
+    },
+    {
+      "ac_no": 11,
+      "name": "Panaji",
+      "category": "GEN",
+      "electors": 22408,
+      "votes_polled": 17419,
+      "turnout_pct": 77.74,
+      "winner_name": "Atanasio Monserrate",
+      "winner_party": "BJP",
+      "winner_votes": 6787,
+      "runner_up_name": "Utpal Manohar Parrikar",
+      "runner_up_party": "IND",
+      "runner_up_votes": 6071,
+      "margin": 716,
+      "nota_votes": 173,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Atanasio Monserrate",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 6531,
+          "postal_votes": 256,
+          "total_votes": 6787
+        },
+        {
+          "name": "Utpal Manohar Parrikar",
+          "party": "IND",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 5857,
+          "postal_votes": 214,
+          "total_votes": 6071
+        },
+        {
+          "name": "Elvis Gomes",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 3062,
+          "postal_votes": 113,
+          "total_votes": 3175
+        },
+        {
+          "name": "Valmiki Datta Naik",
+          "party": "AAP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 760,
+          "postal_votes": 17,
+          "total_votes": 777
+        },
+        {
+          "name": "Rajesh Vinayak Redkar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 354,
+          "postal_votes": 5,
+          "total_votes": 359
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 166,
+          "postal_votes": 7,
+          "total_votes": 173
+        },
+        {
+          "name": "Devendra Sundaram",
+          "party": "IND",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 35,
+          "postal_votes": 5,
+          "total_votes": 40
+        },
+        {
+          "name": "Yeshwant Madar",
+          "party": "IND",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 35,
+          "postal_votes": 2,
+          "total_votes": 37
+        }
+      ]
+    },
+    {
+      "ac_no": 12,
+      "name": "Taleigao",
+      "category": "GEN",
+      "electors": 30023,
+      "votes_polled": 23435,
+      "turnout_pct": 78.06,
+      "winner_name": "Jennifer Monserrate",
+      "winner_party": "BJP",
+      "winner_votes": 10167,
+      "runner_up_name": "Tony Alfredo Rodrigues",
+      "runner_up_party": "INC",
+      "runner_up_votes": 8126,
+      "margin": 2041,
+      "nota_votes": 421,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Jennifer Monserrate",
+          "party": "BJP",
+          "gender": "F",
+          "age": 51,
+          "evm_votes": 9915,
+          "postal_votes": 252,
+          "total_votes": 10167
+        },
+        {
+          "name": "Tony Alfredo Rodrigues",
+          "party": "INC",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 7980,
+          "postal_votes": 146,
+          "total_votes": 8126
+        },
+        {
+          "name": "Cecille Rodrigues",
+          "party": "AAP",
+          "gender": "F",
+          "age": 39,
+          "evm_votes": 2550,
+          "postal_votes": 57,
+          "total_votes": 2607
+        },
+        {
+          "name": "Joseph Licio Roncon",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 1628,
+          "postal_votes": 23,
+          "total_votes": 1651
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 414,
+          "postal_votes": 7,
+          "total_votes": 421
+        },
+        {
+          "name": "Adv. Pundalik Namdeo Raiker",
+          "party": "IND",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 276,
+          "postal_votes": 13,
+          "total_votes": 289
+        },
+        {
+          "name": "Shubhangi Deu Sawant",
+          "party": "MAG",
+          "gender": "F",
+          "age": 30,
+          "evm_votes": 120,
+          "postal_votes": 3,
+          "total_votes": 123
+        },
+        {
+          "name": "Shivanand Harijan",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 24,
+          "postal_votes": 2,
+          "total_votes": 26
+        },
+        {
+          "name": "Dilip Kashinath Ghadi",
+          "party": "IND",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 23,
+          "postal_votes": 2,
+          "total_votes": 25
+        }
+      ]
+    },
+    {
+      "ac_no": 13,
+      "name": "St.Cruz",
+      "category": "GEN",
+      "electors": 29298,
+      "votes_polled": 22685,
+      "turnout_pct": 77.43,
+      "winner_name": "Rodolfo Louis Fernandes",
+      "winner_party": "INC",
+      "winner_votes": 8841,
+      "runner_up_name": "Antonio Caetano Fernandes",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 6377,
+      "margin": 2464,
+      "nota_votes": 349,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Rodolfo Louis Fernandes",
+          "party": "INC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 8605,
+          "postal_votes": 236,
+          "total_votes": 8841
+        },
+        {
+          "name": "Antonio Caetano Fernandes",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 6199,
+          "postal_votes": 178,
+          "total_votes": 6377
+        },
+        {
+          "name": "Amit Palekar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 4049,
+          "postal_votes": 49,
+          "total_votes": 4098
+        },
+        {
+          "name": "Ajay Tipu Kholkar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 2444,
+          "postal_votes": 53,
+          "total_votes": 2497
+        },
+        {
+          "name": "Victor Benjamin Gonsalves",
+          "party": "AITC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 497,
+          "postal_votes": 26,
+          "total_votes": 523
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 344,
+          "postal_votes": 5,
+          "total_votes": 349
+        }
+      ]
+    },
+    {
+      "ac_no": 14,
+      "name": "St. Andre",
+      "category": "GEN",
+      "electors": 21428,
+      "votes_polled": 16279,
+      "turnout_pct": 75.97,
+      "winner_name": "Viresh Mukesh Borkar",
+      "winner_party": "RVLTGONP",
+      "winner_votes": 5395,
+      "runner_up_name": "Francisco Silveira",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 5319,
+      "margin": 76,
+      "nota_votes": 137,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Viresh Mukesh Borkar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 5292,
+          "postal_votes": 103,
+          "total_votes": 5395
+        },
+        {
+          "name": "Francisco Silveira",
+          "party": "BJP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 5109,
+          "postal_votes": 210,
+          "total_votes": 5319
+        },
+        {
+          "name": "Anthony Lino Fernandes",
+          "party": "INC",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 2617,
+          "postal_votes": 78,
+          "total_votes": 2695
+        },
+        {
+          "name": "Jagdish Umakant Bhobe",
+          "party": "AITC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 1222,
+          "postal_votes": 39,
+          "total_votes": 1261
+        },
+        {
+          "name": "Ramrao Surya Naik Wagh",
+          "party": "AAP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 1101,
+          "postal_votes": 21,
+          "total_votes": 1122
+        },
+        {
+          "name": "Rama Kankonkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 213,
+          "postal_votes": 6,
+          "total_votes": 219
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 136,
+          "postal_votes": 1,
+          "total_votes": 137
+        },
+        {
+          "name": "Estevan Elvis D'Souza",
+          "party": "NCP",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 128,
+          "postal_votes": 3,
+          "total_votes": 131
+        }
+      ]
+    },
+    {
+      "ac_no": 15,
+      "name": "Cumbarjua",
+      "category": "GEN",
+      "electors": 26601,
+      "votes_polled": 21550,
+      "turnout_pct": 81.01,
+      "winner_name": "Rajesh Faldessai",
+      "winner_party": "INC",
+      "winner_votes": 6776,
+      "runner_up_name": "Janita Pandurang Madkaikar",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 3949,
+      "margin": 2827,
+      "nota_votes": 328,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Rajesh Faldessai",
+          "party": "INC",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 6601,
+          "postal_votes": 175,
+          "total_votes": 6776
+        },
+        {
+          "name": "Janita Pandurang Madkaikar",
+          "party": "BJP",
+          "gender": "F",
+          "age": 51,
+          "evm_votes": 3848,
+          "postal_votes": 101,
+          "total_votes": 3949
+        },
+        {
+          "name": "Rohan Ranganath Harmalkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 3784,
+          "postal_votes": 86,
+          "total_votes": 3870
+        },
+        {
+          "name": "Samil Audumber Volvaiker",
+          "party": "AITC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 3015,
+          "postal_votes": 57,
+          "total_votes": 3072
+        },
+        {
+          "name": "Chhagan Narayan Naik",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 2390,
+          "postal_votes": 52,
+          "total_votes": 2442
+        },
+        {
+          "name": "Gorakhanath Suresh Kerkar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 993,
+          "postal_votes": 29,
+          "total_votes": 1022
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 322,
+          "postal_votes": 6,
+          "total_votes": 328
+        },
+        {
+          "name": "Maria Christina Varela",
+          "party": "GSB",
+          "gender": "F",
+          "age": 62,
+          "evm_votes": 79,
+          "postal_votes": 12,
+          "total_votes": 91
+        }
+      ]
+    },
+    {
+      "ac_no": 16,
+      "name": "Maem",
+      "category": "GEN",
+      "electors": 28919,
+      "votes_polled": 25488,
+      "turnout_pct": 88.14,
+      "winner_name": "Premendra Vishnu Shet",
+      "winner_party": "BJP",
+      "winner_votes": 7874,
+      "runner_up_name": "Santosh Kumar Sawant",
+      "runner_up_party": "GFP",
+      "runner_up_votes": 4738,
+      "margin": 3136,
+      "nota_votes": 332,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Premendra Vishnu Shet",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 7636,
+          "postal_votes": 238,
+          "total_votes": 7874
+        },
+        {
+          "name": "Santosh Kumar Sawant",
+          "party": "GFP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 4613,
+          "postal_votes": 125,
+          "total_votes": 4738
+        },
+        {
+          "name": "Shrikrishna Ravindra Parab",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 3933,
+          "postal_votes": 41,
+          "total_votes": 3974
+        },
+        {
+          "name": "Pravin Zantye",
+          "party": "MAG",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 3240,
+          "postal_votes": 184,
+          "total_votes": 3424
+        },
+        {
+          "name": "Milind Tulshidas Pilgaonkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 2282,
+          "postal_votes": 34,
+          "total_votes": 2316
+        },
+        {
+          "name": "Rajesh Tulshidas Kalangutkar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 2053,
+          "postal_votes": 31,
+          "total_votes": 2084
+        },
+        {
+          "name": "Rohan Vaman Sawaikar",
+          "party": "IND",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 458,
+          "postal_votes": 7,
+          "total_votes": 465
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 331,
+          "postal_votes": 1,
+          "total_votes": 332
+        },
+        {
+          "name": "Sheela Sandeep Ghatwal",
+          "party": "IND",
+          "gender": "F",
+          "age": 50,
+          "evm_votes": 191,
+          "postal_votes": 1,
+          "total_votes": 192
+        },
+        {
+          "name": "Deepkumar D. Mapari",
+          "party": "IND",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 88,
+          "postal_votes": 1,
+          "total_votes": 89
+        }
+      ]
+    },
+    {
+      "ac_no": 17,
+      "name": "Sanquelim",
+      "category": "GEN",
+      "electors": 27919,
+      "votes_polled": 25666,
+      "turnout_pct": 91.93,
+      "winner_name": "Dr. Pramod Sawant",
+      "winner_party": "BJP",
+      "winner_votes": 12250,
+      "runner_up_name": "Dharmesh Saglani",
+      "runner_up_party": "INC",
+      "runner_up_votes": 11584,
+      "margin": 666,
+      "nota_votes": 286,
+      "num_candidates": 13,
+      "candidates": [
+        {
+          "name": "Dr. Pramod Sawant",
+          "party": "BJP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 11795,
+          "postal_votes": 455,
+          "total_votes": 12250
+        },
+        {
+          "name": "Dharmesh Saglani",
+          "party": "INC",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 11414,
+          "postal_votes": 170,
+          "total_votes": 11584
+        },
+        {
+          "name": "Sujay Gauns",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 740,
+          "postal_votes": 2,
+          "total_votes": 742
+        },
+        {
+          "name": "Mahadev Yeshwant Khandekar",
+          "party": "MAG",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 361,
+          "postal_votes": 9,
+          "total_votes": 370
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 284,
+          "postal_votes": 2,
+          "total_votes": 286
+        },
+        {
+          "name": "Manojkumar Ghadi",
+          "party": "AAP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 108,
+          "postal_votes": 1,
+          "total_votes": 109
+        },
+        {
+          "name": "Sagar Dhargalkar",
+          "party": "SHS",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 97,
+          "postal_votes": 2,
+          "total_votes": 99
+        },
+        {
+          "name": "Sunil Datta Satodkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 96,
+          "postal_votes": 2,
+          "total_votes": 98
+        },
+        {
+          "name": "Daudkhan Pathan",
+          "party": "IND",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 31,
+          "postal_votes": 1,
+          "total_votes": 32
+        },
+        {
+          "name": "Mahesh Parab",
+          "party": "IND",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 30,
+          "postal_votes": 0,
+          "total_votes": 30
+        },
+        {
+          "name": "Sunil Suresh Fulari",
+          "party": "IND",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 27,
+          "postal_votes": 0,
+          "total_votes": 27
+        },
+        {
+          "name": "Lavu Gurunath Petkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 25,
+          "postal_votes": 0,
+          "total_votes": 25
+        },
+        {
+          "name": "Navanath Ramkrishna Mulvi",
+          "party": "JMBP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 14,
+          "postal_votes": 0,
+          "total_votes": 14
+        }
+      ]
+    },
+    {
+      "ac_no": 18,
+      "name": "Poriem",
+      "category": "GEN",
+      "electors": 32985,
+      "votes_polled": 29245,
+      "turnout_pct": 88.66,
+      "winner_name": "Deviya Vishwajit Rane",
+      "winner_party": "BJP",
+      "winner_votes": 17816,
+      "runner_up_name": "Vishwajit Rane",
+      "runner_up_party": "AAP",
+      "runner_up_votes": 3873,
+      "margin": 13943,
+      "nota_votes": 542,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Deviya Vishwajit Rane",
+          "party": "BJP",
+          "gender": "F",
+          "age": 48,
+          "evm_votes": 17142,
+          "postal_votes": 674,
+          "total_votes": 17816
+        },
+        {
+          "name": "Vishwajit Rane",
+          "party": "AAP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 3768,
+          "postal_votes": 105,
+          "total_votes": 3873
+        },
+        {
+          "name": "Sameer Satarkar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 29,
+          "evm_votes": 3489,
+          "postal_votes": 24,
+          "total_votes": 3513
+        },
+        {
+          "name": "Ganpat Gaonkar",
+          "party": "AITC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 1491,
+          "postal_votes": 9,
+          "total_votes": 1500
+        },
+        {
+          "name": "Ranjit Jayasingrao Rane",
+          "party": "INC",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 1466,
+          "postal_votes": 22,
+          "total_votes": 1488
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 542,
+          "postal_votes": 0,
+          "total_votes": 542
+        },
+        {
+          "name": "Gurudas Gaonkar",
+          "party": "SHS",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 265,
+          "postal_votes": 2,
+          "total_votes": 267
+        },
+        {
+          "name": "Jayeshwar Gawde",
+          "party": "JMBP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 242,
+          "postal_votes": 4,
+          "total_votes": 246
+        }
+      ]
+    },
+    {
+      "ac_no": 19,
+      "name": "Valpoi",
+      "category": "GEN",
+      "electors": 31958,
+      "votes_polled": 26970,
+      "turnout_pct": 84.39,
+      "winner_name": "Vishwajit Pratapsingh Rane",
+      "winner_party": "BJP",
+      "winner_votes": 14462,
+      "runner_up_name": "Tukaram Bharat Parab",
+      "runner_up_party": "RVLTGONP",
+      "runner_up_votes": 6377,
+      "margin": 8085,
+      "nota_votes": 411,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Vishwajit Pratapsingh Rane",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 14066,
+          "postal_votes": 396,
+          "total_votes": 14462
+        },
+        {
+          "name": "Tukaram Bharat Parab",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 6319,
+          "postal_votes": 58,
+          "total_votes": 6377
+        },
+        {
+          "name": "Satyavijay Naik",
+          "party": "AAP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 2584,
+          "postal_votes": 15,
+          "total_votes": 2599
+        },
+        {
+          "name": "Manisha Shenvi Usgaonkar",
+          "party": "INC",
+          "gender": "F",
+          "age": 43,
+          "evm_votes": 2081,
+          "postal_votes": 20,
+          "total_votes": 2101
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 407,
+          "postal_votes": 4,
+          "total_votes": 411
+        },
+        {
+          "name": "Sudesh Madhukar Parab",
+          "party": "JMBP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 354,
+          "postal_votes": 0,
+          "total_votes": 354
+        },
+        {
+          "name": "Vishvesh Prabhu",
+          "party": "MAG",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 343,
+          "postal_votes": 3,
+          "total_votes": 346
+        },
+        {
+          "name": "Devidas Gaonkar",
+          "party": "SHS",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 183,
+          "postal_votes": 0,
+          "total_votes": 183
+        },
+        {
+          "name": "Rohidas Sada Gaonkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 137,
+          "postal_votes": 0,
+          "total_votes": 137
+        }
+      ]
+    },
+    {
+      "ac_no": 20,
+      "name": "Priol",
+      "category": "ST",
+      "electors": 31017,
+      "votes_polled": 28065,
+      "turnout_pct": 90.48,
+      "winner_name": "Govind Shepu Gaude",
+      "winner_party": "BJP",
+      "winner_votes": 11019,
+      "runner_up_name": "Pandurang Alias Deepak Dhavalikar",
+      "runner_up_party": "MAG",
+      "runner_up_votes": 10806,
+      "margin": 213,
+      "nota_votes": 244,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Govind Shepu Gaude",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 10682,
+          "postal_votes": 337,
+          "total_votes": 11019
+        },
+        {
+          "name": "Pandurang Alias Deepak Dhavalikar",
+          "party": "MAG",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 10537,
+          "postal_votes": 269,
+          "total_votes": 10806
+        },
+        {
+          "name": "Sandeep Nigalye",
+          "party": "IND",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 2624,
+          "postal_votes": 73,
+          "total_votes": 2697
+        },
+        {
+          "name": "Vishvesh Naik",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 2486,
+          "postal_votes": 31,
+          "total_votes": 2517
+        },
+        {
+          "name": "Dinesh Shiva Zalmi",
+          "party": "INC",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 291,
+          "postal_votes": 12,
+          "total_votes": 303
+        },
+        {
+          "name": "Nonu Chandrakant Naik",
+          "party": "AAP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 236,
+          "postal_votes": 9,
+          "total_votes": 245
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 241,
+          "postal_votes": 3,
+          "total_votes": 244
+        },
+        {
+          "name": "Digvijay Madhu Velingkar",
+          "party": "NCP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 146,
+          "postal_votes": 3,
+          "total_votes": 149
+        },
+        {
+          "name": "Dattaram Tukaram Shetkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 83,
+          "postal_votes": 2,
+          "total_votes": 85
+        }
+      ]
+    },
+    {
+      "ac_no": 21,
+      "name": "Ponda",
+      "category": "GEN",
+      "electors": 32160,
+      "votes_polled": 25801,
+      "turnout_pct": 80.23,
+      "winner_name": "Ravi Naik",
+      "winner_party": "BJP",
+      "winner_votes": 7514,
+      "runner_up_name": "Ketan Prabhu Bhatikar",
+      "runner_up_party": "MAG",
+      "runner_up_votes": 7437,
+      "margin": 77,
+      "nota_votes": 292,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Ravi Naik",
+          "party": "BJP",
+          "gender": "M",
+          "age": 75,
+          "evm_votes": 7269,
+          "postal_votes": 245,
+          "total_votes": 7514
+        },
+        {
+          "name": "Ketan Prabhu Bhatikar",
+          "party": "MAG",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 7272,
+          "postal_votes": 165,
+          "total_votes": 7437
+        },
+        {
+          "name": "Rajesh Verenkar",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 6735,
+          "postal_votes": 104,
+          "total_votes": 6839
+        },
+        {
+          "name": "Sanish Tilve",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 1745,
+          "postal_votes": 25,
+          "total_votes": 1770
+        },
+        {
+          "name": "Sandeep Sinai Khandeparkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 1197,
+          "postal_votes": 40,
+          "total_votes": 1237
+        },
+        {
+          "name": "Surel Tilve",
+          "party": "AAP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 612,
+          "postal_votes": 8,
+          "total_votes": 620
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 285,
+          "postal_votes": 7,
+          "total_votes": 292
+        },
+        {
+          "name": "Naresh Padwalkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 90,
+          "postal_votes": 2,
+          "total_votes": 92
+        }
+      ]
+    },
+    {
+      "ac_no": 22,
+      "name": "Siroda",
+      "category": "GEN",
+      "electors": 29678,
+      "votes_polled": 25034,
+      "turnout_pct": 84.35,
+      "winner_name": "Subhash Shirodkar",
+      "winner_party": "BJP",
+      "winner_votes": 8307,
+      "runner_up_name": "Mahadev Naik",
+      "runner_up_party": "AAP",
+      "runner_up_votes": 6133,
+      "margin": 2174,
+      "nota_votes": 235,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Subhash Shirodkar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 70,
+          "evm_votes": 8069,
+          "postal_votes": 238,
+          "total_votes": 8307
+        },
+        {
+          "name": "Mahadev Naik",
+          "party": "AAP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 6023,
+          "postal_votes": 110,
+          "total_votes": 6133
+        },
+        {
+          "name": "Shailesh Naik",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 5024,
+          "postal_votes": 39,
+          "total_votes": 5063
+        },
+        {
+          "name": "Sanket Naik Mule",
+          "party": "MAG",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 2344,
+          "postal_votes": 53,
+          "total_votes": 2397
+        },
+        {
+          "name": "Tukaram Borkar",
+          "party": "INC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 1923,
+          "postal_votes": 30,
+          "total_votes": 1953
+        },
+        {
+          "name": "Subhash Prabhudesai",
+          "party": "NCP",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 564,
+          "postal_votes": 12,
+          "total_votes": 576
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 230,
+          "postal_votes": 5,
+          "total_votes": 235
+        },
+        {
+          "name": "Snehalo Gracias",
+          "party": "IND",
+          "gender": "M",
+          "age": 30,
+          "evm_votes": 186,
+          "postal_votes": 0,
+          "total_votes": 186
+        },
+        {
+          "name": "Mukesh Naik",
+          "party": "SBBGP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 182,
+          "postal_votes": 2,
+          "total_votes": 184
+        }
+      ]
+    },
+    {
+      "ac_no": 23,
+      "name": "Marcaim",
+      "category": "GEN",
+      "electors": 28275,
+      "votes_polled": 23722,
+      "turnout_pct": 83.9,
+      "winner_name": "Ramkrishna Alias Sudin Dhavalikar",
+      "winner_party": "MAG",
+      "winner_votes": 13963,
+      "runner_up_name": "Sudesh Bhingi",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 4000,
+      "margin": 9963,
+      "nota_votes": 373,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Ramkrishna Alias Sudin Dhavalikar",
+          "party": "MAG",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 13399,
+          "postal_votes": 564,
+          "total_votes": 13963
+        },
+        {
+          "name": "Sudesh Bhingi",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 3907,
+          "postal_votes": 93,
+          "total_votes": 4000
+        },
+        {
+          "name": "Premanand Gaude",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 3447,
+          "postal_votes": 41,
+          "total_votes": 3488
+        },
+        {
+          "name": "Lavoo Mamledar",
+          "party": "INC",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 1071,
+          "postal_votes": 19,
+          "total_votes": 1090
+        },
+        {
+          "name": "Umesh Tendolkar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 409,
+          "postal_votes": 10,
+          "total_votes": 419
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 367,
+          "postal_votes": 6,
+          "total_votes": 373
+        },
+        {
+          "name": "Santosh Tari",
+          "party": "GSB",
+          "gender": "M",
+          "age": 29,
+          "evm_votes": 185,
+          "postal_votes": 5,
+          "total_votes": 190
+        },
+        {
+          "name": "Ravindra Talaulikar",
+          "party": "NCP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 137,
+          "postal_votes": 3,
+          "total_votes": 140
+        },
+        {
+          "name": "Harishchandra Naik",
+          "party": "JMBP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 56,
+          "postal_votes": 3,
+          "total_votes": 59
+        }
+      ]
+    },
+    {
+      "ac_no": 24,
+      "name": "Mormugao",
+      "category": "GEN",
+      "electors": 20418,
+      "votes_polled": 16892,
+      "turnout_pct": 82.73,
+      "winner_name": "Sankalp Amonkar",
+      "winner_party": "INC",
+      "winner_votes": 9067,
+      "runner_up_name": "Milind Sagun Naik",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 7126,
+      "margin": 1941,
+      "nota_votes": 107,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Sankalp Amonkar",
+          "party": "INC",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 8969,
+          "postal_votes": 98,
+          "total_votes": 9067
+        },
+        {
+          "name": "Milind Sagun Naik",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 6935,
+          "postal_votes": 191,
+          "total_votes": 7126
+        },
+        {
+          "name": "Parashuram Umaji Sonurlekar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 155,
+          "postal_votes": 4,
+          "total_votes": 159
+        },
+        {
+          "name": "Paresh Sitaram Toraskar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 128,
+          "postal_votes": 2,
+          "total_votes": 130
+        },
+        {
+          "name": "Jayesh Kashinath Shetgaonkar",
+          "party": "AITC",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 123,
+          "postal_votes": 0,
+          "total_votes": 123
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 107,
+          "postal_votes": 0,
+          "total_votes": 107
+        },
+        {
+          "name": "Nilesh Mahadev Navelkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 91,
+          "postal_votes": 3,
+          "total_votes": 94
+        },
+        {
+          "name": "Xeque Mahamod Acbar",
+          "party": "NCP",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 56,
+          "postal_votes": 2,
+          "total_votes": 58
+        },
+        {
+          "name": "Enayatulla Khan",
+          "party": "IND",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 27,
+          "postal_votes": 1,
+          "total_votes": 28
+        }
+      ]
+    },
+    {
+      "ac_no": 25,
+      "name": "Vasco-Da-Gama",
+      "category": "GEN",
+      "electors": 35613,
+      "votes_polled": 25506,
+      "turnout_pct": 71.62,
+      "winner_name": "Krishna V. Salkar",
+      "winner_party": "BJP",
+      "winner_votes": 13118,
+      "runner_up_name": "Jose Luis Carlos Almeida",
+      "runner_up_party": "INC",
+      "runner_up_votes": 9461,
+      "margin": 3657,
+      "nota_votes": 244,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Krishna V. Salkar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 12880,
+          "postal_votes": 238,
+          "total_votes": 13118
+        },
+        {
+          "name": "Jose Luis Carlos Almeida",
+          "party": "INC",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 9314,
+          "postal_votes": 147,
+          "total_votes": 9461
+        },
+        {
+          "name": "Saifula Khan",
+          "party": "AITC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 841,
+          "postal_votes": 19,
+          "total_votes": 860
+        },
+        {
+          "name": "Andre Sebastiao Viegas",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 845,
+          "postal_votes": 6,
+          "total_votes": 851
+        },
+        {
+          "name": "Sunil Loran",
+          "party": "AAP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 773,
+          "postal_votes": 11,
+          "total_votes": 784
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 242,
+          "postal_votes": 2,
+          "total_votes": 244
+        },
+        {
+          "name": "Maruti Shirgaonkar",
+          "party": "SHS",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 71,
+          "postal_votes": 0,
+          "total_votes": 71
+        },
+        {
+          "name": "Chandrashekher Vast",
+          "party": "IND",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 52,
+          "postal_votes": 3,
+          "total_votes": 55
+        },
+        {
+          "name": "Andrew D’Cunha",
+          "party": "IND",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 41,
+          "postal_votes": 1,
+          "total_votes": 42
+        },
+        {
+          "name": "Sandeep Bhagwan Shetye",
+          "party": "JMBP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 19,
+          "postal_votes": 1,
+          "total_votes": 20
+        }
+      ]
+    },
+    {
+      "ac_no": 26,
+      "name": "Dabolim",
+      "category": "GEN",
+      "electors": 24661,
+      "votes_polled": 18745,
+      "turnout_pct": 76.01,
+      "winner_name": "Mauvin Heliodoro Godinho",
+      "winner_party": "BJP",
+      "winner_votes": 7594,
+      "runner_up_name": "Captain Viriato Hipolito Mendonca Fernandes",
+      "runner_up_party": "INC",
+      "runner_up_votes": 6024,
+      "margin": 1570,
+      "nota_votes": 198,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Mauvin Heliodoro Godinho",
+          "party": "BJP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 7434,
+          "postal_votes": 160,
+          "total_votes": 7594
+        },
+        {
+          "name": "Captain Viriato Hipolito Mendonca Fernandes",
+          "party": "INC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 5932,
+          "postal_votes": 92,
+          "total_votes": 6024
+        },
+        {
+          "name": "Premanand Nanoskar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 2506,
+          "postal_votes": 27,
+          "total_votes": 2533
+        },
+        {
+          "name": "Gajanan Borkar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 1116,
+          "postal_votes": 13,
+          "total_votes": 1129
+        },
+        {
+          "name": "Jose Filipe De Sousa",
+          "party": "NCP",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 1028,
+          "postal_votes": 9,
+          "total_votes": 1037
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 197,
+          "postal_votes": 1,
+          "total_votes": 198
+        },
+        {
+          "name": "Mahesh Bhandari",
+          "party": "AITC",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 158,
+          "postal_votes": 1,
+          "total_votes": 159
+        },
+        {
+          "name": "Tara Kerkar",
+          "party": "IND",
+          "gender": "F",
+          "age": 66,
+          "evm_votes": 69,
+          "postal_votes": 2,
+          "total_votes": 71
+        }
+      ]
+    },
+    {
+      "ac_no": 27,
+      "name": "Cortalim",
+      "category": "ST",
+      "electors": 30782,
+      "votes_polled": 23924,
+      "turnout_pct": 77.72,
+      "winner_name": "Antonio Vas",
+      "winner_party": "IND",
+      "winner_votes": 5522,
+      "runner_up_name": "Olencio Simoes",
+      "runner_up_party": "INC",
+      "runner_up_votes": 4344,
+      "margin": 1178,
+      "nota_votes": 213,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Antonio Vas",
+          "party": "IND",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 5430,
+          "postal_votes": 92,
+          "total_votes": 5522
+        },
+        {
+          "name": "Olencio Simoes",
+          "party": "INC",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 4255,
+          "postal_votes": 89,
+          "total_votes": 4344
+        },
+        {
+          "name": "Girish Pillai",
+          "party": "IND",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 4222,
+          "postal_votes": 29,
+          "total_votes": 4251
+        },
+        {
+          "name": "Gilbert Mariano Rodrigues",
+          "party": "AITC",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 3231,
+          "postal_votes": 15,
+          "total_votes": 3246
+        },
+        {
+          "name": "Teotonio Inacio Santana Costa",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 2431,
+          "postal_votes": 49,
+          "total_votes": 2480
+        },
+        {
+          "name": "Narayan Naik",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 2364,
+          "postal_votes": 28,
+          "total_votes": 2392
+        },
+        {
+          "name": "Alina Saldanha",
+          "party": "AAP",
+          "gender": "F",
+          "age": 69,
+          "evm_votes": 1306,
+          "postal_votes": 49,
+          "total_votes": 1355
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 211,
+          "postal_votes": 2,
+          "total_votes": 213
+        },
+        {
+          "name": "Vishal Gajanan Naik",
+          "party": "IND",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 66,
+          "postal_votes": 0,
+          "total_votes": 66
+        },
+        {
+          "name": "Bhakti Bhalchandra Khadapkar",
+          "party": "SHS",
+          "gender": "F",
+          "age": 49,
+          "evm_votes": 55,
+          "postal_votes": 0,
+          "total_votes": 55
+        }
+      ]
+    },
+    {
+      "ac_no": 28,
+      "name": "Nuvem",
+      "category": "GEN",
+      "electors": 28427,
+      "votes_polled": 21811,
+      "turnout_pct": 76.73,
+      "winner_name": "Aleixo Sequeira",
+      "winner_party": "INC",
+      "winner_votes": 8745,
+      "runner_up_name": "Arvind D'Costa",
+      "runner_up_party": "RVLTGONP",
+      "runner_up_votes": 4348,
+      "margin": 4397,
+      "nota_votes": 175,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Aleixo Sequeira",
+          "party": "INC",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 8556,
+          "postal_votes": 189,
+          "total_votes": 8745
+        },
+        {
+          "name": "Arvind D'Costa",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 4260,
+          "postal_votes": 88,
+          "total_votes": 4348
+        },
+        {
+          "name": "Wilfred D'Sa",
+          "party": "IND",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 2887,
+          "postal_votes": 74,
+          "total_votes": 2961
+        },
+        {
+          "name": "Pacheco Francisco Xavier",
+          "party": "NCP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 2035,
+          "postal_votes": 38,
+          "total_votes": 2073
+        },
+        {
+          "name": "Jose R Cabral (Raju)",
+          "party": "AITC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 1690,
+          "postal_votes": 28,
+          "total_votes": 1718
+        },
+        {
+          "name": "Dr. Mariano Godinho",
+          "party": "AAP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 1183,
+          "postal_votes": 39,
+          "total_votes": 1222
+        },
+        {
+          "name": "Datta Borkar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 547,
+          "postal_votes": 22,
+          "total_votes": 569
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 174,
+          "postal_votes": 1,
+          "total_votes": 175
+        }
+      ]
+    },
+    {
+      "ac_no": 29,
+      "name": "Curtorim",
+      "category": "GEN",
+      "electors": 29850,
+      "votes_polled": 22333,
+      "turnout_pct": 74.82,
+      "winner_name": "Aleixo Reginaldo Lourenco",
+      "winner_party": "IND",
+      "winner_votes": 8960,
+      "runner_up_name": "Moreno Rebelo",
+      "runner_up_party": "INC",
+      "runner_up_votes": 3905,
+      "margin": 5055,
+      "nota_votes": 232,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Aleixo Reginaldo Lourenco",
+          "party": "IND",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 8706,
+          "postal_votes": 254,
+          "total_votes": 8960
+        },
+        {
+          "name": "Moreno Rebelo",
+          "party": "INC",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 3805,
+          "postal_votes": 100,
+          "total_votes": 3905
+        },
+        {
+          "name": "Rubert Pereira",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 3423,
+          "postal_votes": 56,
+          "total_votes": 3479
+        },
+        {
+          "name": "Domingo Gaunkar (Domnic)",
+          "party": "AAP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 2714,
+          "postal_votes": 79,
+          "total_votes": 2793
+        },
+        {
+          "name": "Anthony Barbosa",
+          "party": "BJP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 2325,
+          "postal_votes": 60,
+          "total_votes": 2385
+        },
+        {
+          "name": "Anthony Alberto Peixoto",
+          "party": "AITC",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 348,
+          "postal_votes": 5,
+          "total_votes": 353
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 228,
+          "postal_votes": 4,
+          "total_votes": 232
+        },
+        {
+          "name": "Isidorio",
+          "party": "IND",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 112,
+          "postal_votes": 5,
+          "total_votes": 117
+        },
+        {
+          "name": "Conceicao Dias",
+          "party": "IND",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 106,
+          "postal_votes": 3,
+          "total_votes": 109
+        }
+      ]
+    },
+    {
+      "ac_no": 30,
+      "name": "Fatorda",
+      "category": "GEN",
+      "electors": 30845,
+      "votes_polled": 24150,
+      "turnout_pct": 78.29,
+      "winner_name": "Vijai Sardesai",
+      "winner_party": "GFP",
+      "winner_votes": 11063,
+      "runner_up_name": "Damu G. Naik",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 9536,
+      "margin": 1527,
+      "nota_votes": 254,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Vijai Sardesai",
+          "party": "GFP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 10821,
+          "postal_votes": 242,
+          "total_votes": 11063
+        },
+        {
+          "name": "Damu G. Naik",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 9331,
+          "postal_votes": 205,
+          "total_votes": 9536
+        },
+        {
+          "name": "Adv. Valerie Fernandes",
+          "party": "RVLTGONP",
+          "gender": "F",
+          "age": 30,
+          "evm_votes": 1541,
+          "postal_votes": 15,
+          "total_votes": 1556
+        },
+        {
+          "name": "Sandesh Teleikar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 1031,
+          "postal_votes": 19,
+          "total_votes": 1050
+        },
+        {
+          "name": "Seoula Vas",
+          "party": "AITC",
+          "gender": "F",
+          "age": 33,
+          "evm_votes": 631,
+          "postal_votes": 4,
+          "total_votes": 635
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 251,
+          "postal_votes": 3,
+          "total_votes": 254
+        },
+        {
+          "name": "Michael Ferns",
+          "party": "IND",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 56,
+          "postal_votes": 0,
+          "total_votes": 56
+        }
+      ]
+    },
+    {
+      "ac_no": 31,
+      "name": "Margao",
+      "category": "GEN",
+      "electors": 29508,
+      "votes_polled": 22633,
+      "turnout_pct": 76.7,
+      "winner_name": "Digambar Kamat",
+      "winner_party": "INC",
+      "winner_votes": 13674,
+      "runner_up_name": "Ajgaonkar Manohar (Babu)",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 5880,
+      "margin": 7794,
+      "nota_votes": 261,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Digambar Kamat",
+          "party": "INC",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 13345,
+          "postal_votes": 329,
+          "total_votes": 13674
+        },
+        {
+          "name": "Ajgaonkar Manohar (Babu)",
+          "party": "BJP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 5785,
+          "postal_votes": 95,
+          "total_votes": 5880
+        },
+        {
+          "name": "Lincoln Anthony Vaz",
+          "party": "AAP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 1144,
+          "postal_votes": 29,
+          "total_votes": 1173
+        },
+        {
+          "name": "Mahesh Amonkar",
+          "party": "AITC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 914,
+          "postal_votes": 9,
+          "total_votes": 923
+        },
+        {
+          "name": "Shashiraj Subha Naik Shirodkar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 710,
+          "postal_votes": 12,
+          "total_votes": 722
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 258,
+          "postal_votes": 3,
+          "total_votes": 261
+        }
+      ]
+    },
+    {
+      "ac_no": 32,
+      "name": "Benaulim",
+      "category": "GEN",
+      "electors": 28959,
+      "votes_polled": 21114,
+      "turnout_pct": 72.91,
+      "winner_name": "Venzy Viegas",
+      "winner_party": "AAP",
+      "winner_votes": 6411,
+      "runner_up_name": "Churchill Alemao",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 5140,
+      "margin": 1271,
+      "nota_votes": 161,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Venzy Viegas",
+          "party": "AAP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 6267,
+          "postal_votes": 144,
+          "total_votes": 6411
+        },
+        {
+          "name": "Churchill Alemao",
+          "party": "AITC",
+          "gender": "M",
+          "age": 72,
+          "evm_votes": 4996,
+          "postal_votes": 144,
+          "total_votes": 5140
+        },
+        {
+          "name": "Antonio Feliciano Dias (Tony)",
+          "party": "INC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 4609,
+          "postal_votes": 88,
+          "total_votes": 4697
+        },
+        {
+          "name": "Desmond Fernandes",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 3784,
+          "postal_votes": 70,
+          "total_votes": 3854
+        },
+        {
+          "name": "Damodar (Samir) Bandodkar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 821,
+          "postal_votes": 30,
+          "total_votes": 851
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 159,
+          "postal_votes": 2,
+          "total_votes": 161
+        }
+      ]
+    },
+    {
+      "ac_no": 33,
+      "name": "Navelim",
+      "category": "GEN",
+      "electors": 28892,
+      "votes_polled": 21332,
+      "turnout_pct": 73.83,
+      "winner_name": "Ulhas Tuenkar",
+      "winner_party": "BJP",
+      "winner_votes": 5168,
+      "runner_up_name": "Valanka Natasha Alemao",
+      "runner_up_party": "AITC",
+      "runner_up_votes": 4738,
+      "margin": 430,
+      "nota_votes": 168,
+      "num_candidates": 10,
+      "candidates": [
+        {
+          "name": "Ulhas Tuenkar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 5084,
+          "postal_votes": 84,
+          "total_votes": 5168
+        },
+        {
+          "name": "Valanka Natasha Alemao",
+          "party": "AITC",
+          "gender": "F",
+          "age": 41,
+          "evm_votes": 4682,
+          "postal_votes": 56,
+          "total_votes": 4738
+        },
+        {
+          "name": "Avertano Furtado",
+          "party": "INC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 3716,
+          "postal_votes": 90,
+          "total_votes": 3806
+        },
+        {
+          "name": "Mohammad Rehan Mujawar",
+          "party": "NCP",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 2609,
+          "postal_votes": 13,
+          "total_votes": 2622
+        },
+        {
+          "name": "Pratima Betsy Coutinho",
+          "party": "AAP",
+          "gender": "F",
+          "age": 43,
+          "evm_votes": 2297,
+          "postal_votes": 30,
+          "total_votes": 2327
+        },
+        {
+          "name": "Bento Da Silva",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 2068,
+          "postal_votes": 18,
+          "total_votes": 2086
+        },
+        {
+          "name": "Digvijit Chavan",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 183,
+          "postal_votes": 4,
+          "total_votes": 187
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 167,
+          "postal_votes": 1,
+          "total_votes": 168
+        },
+        {
+          "name": "Antonio Alvares",
+          "party": "IND",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 159,
+          "postal_votes": 2,
+          "total_votes": 161
+        },
+        {
+          "name": "Francisco Andre Colaco",
+          "party": "IND",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 66,
+          "postal_votes": 3,
+          "total_votes": 69
+        }
+      ]
+    },
+    {
+      "ac_no": 34,
+      "name": "Cuncolim",
+      "category": "GEN",
+      "electors": 29526,
+      "votes_polled": 23103,
+      "turnout_pct": 78.25,
+      "winner_name": "Alemao Yuri",
+      "winner_party": "INC",
+      "winner_votes": 9866,
+      "runner_up_name": "Clafasio Dias",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 6632,
+      "margin": 3234,
+      "nota_votes": 186,
+      "num_candidates": 11,
+      "candidates": [
+        {
+          "name": "Alemao Yuri",
+          "party": "INC",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 9572,
+          "postal_votes": 294,
+          "total_votes": 9866
+        },
+        {
+          "name": "Clafasio Dias",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 6427,
+          "postal_votes": 205,
+          "total_votes": 6632
+        },
+        {
+          "name": "Wilson Peter Cardozo",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 2402,
+          "postal_votes": 28,
+          "total_votes": 2430
+        },
+        {
+          "name": "Santosh S. Fal Dessai",
+          "party": "IND",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 1300,
+          "postal_votes": 26,
+          "total_votes": 1326
+        },
+        {
+          "name": "Jorson Piedade Fernandes",
+          "party": "AITC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 1237,
+          "postal_votes": 45,
+          "total_votes": 1282
+        },
+        {
+          "name": "Prashant Naik",
+          "party": "AAP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 894,
+          "postal_votes": 12,
+          "total_votes": 906
+        },
+        {
+          "name": "Sudesh Vinayak Bhise",
+          "party": "IND",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 307,
+          "postal_votes": 5,
+          "total_votes": 312
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 184,
+          "postal_votes": 2,
+          "total_votes": 186
+        },
+        {
+          "name": "Milagres Gonsalves",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 77,
+          "postal_votes": 3,
+          "total_votes": 80
+        },
+        {
+          "name": "Derick Dias",
+          "party": "IND",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 48,
+          "postal_votes": 2,
+          "total_votes": 50
+        },
+        {
+          "name": "Raymond D'Cruz",
+          "party": "IND",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 33,
+          "postal_votes": 0,
+          "total_votes": 33
+        }
+      ]
+    },
+    {
+      "ac_no": 35,
+      "name": "Velim",
+      "category": "GEN",
+      "electors": 31534,
+      "votes_polled": 23390,
+      "turnout_pct": 74.17,
+      "winner_name": "Cruz Silva",
+      "winner_party": "AAP",
+      "winner_votes": 5390,
+      "runner_up_name": "D'Silva Savio",
+      "runner_up_party": "INC",
+      "runner_up_votes": 5221,
+      "margin": 169,
+      "nota_votes": 241,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Cruz Silva",
+          "party": "AAP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 5279,
+          "postal_votes": 111,
+          "total_votes": 5390
+        },
+        {
+          "name": "D'Silva Savio",
+          "party": "INC",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 5067,
+          "postal_votes": 154,
+          "total_votes": 5221
+        },
+        {
+          "name": "Benjamin Silva",
+          "party": "AITC",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 4039,
+          "postal_votes": 95,
+          "total_votes": 4134
+        },
+        {
+          "name": "Dagley Fernandes",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 3604,
+          "postal_votes": 49,
+          "total_votes": 3653
+        },
+        {
+          "name": "Filipe Nery Rodrigues",
+          "party": "NCP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 3296,
+          "postal_votes": 124,
+          "total_votes": 3420
+        },
+        {
+          "name": "Savio Rodrigues",
+          "party": "BJP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 1312,
+          "postal_votes": 19,
+          "total_votes": 1331
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 239,
+          "postal_votes": 2,
+          "total_votes": 241
+        }
+      ]
+    },
+    {
+      "ac_no": 36,
+      "name": "Quepem",
+      "category": "GEN",
+      "electors": 33080,
+      "votes_polled": 28556,
+      "turnout_pct": 86.32,
+      "winner_name": "Altone D'Costa",
+      "winner_party": "INC",
+      "winner_votes": 14994,
+      "runner_up_name": "Chandrakant Kavlekar",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 11393,
+      "margin": 3601,
+      "nota_votes": 246,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Altone D'Costa",
+          "party": "INC",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 14656,
+          "postal_votes": 338,
+          "total_votes": 14994
+        },
+        {
+          "name": "Chandrakant Kavlekar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 10864,
+          "postal_votes": 529,
+          "total_votes": 11393
+        },
+        {
+          "name": "Vishal Gauns Dessai",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 1131,
+          "postal_votes": 13,
+          "total_votes": 1144
+        },
+        {
+          "name": "Raul Pereira",
+          "party": "AAP",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 309,
+          "postal_votes": 6,
+          "total_votes": 315
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 245,
+          "postal_votes": 1,
+          "total_votes": 246
+        },
+        {
+          "name": "Aloysious D'Silva",
+          "party": "NCP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 233,
+          "postal_votes": 4,
+          "total_votes": 237
+        },
+        {
+          "name": "Kanta Gaude",
+          "party": "AITC",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 153,
+          "postal_votes": 8,
+          "total_votes": 161
+        },
+        {
+          "name": "Alexy Fernandes",
+          "party": "SHS",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 66,
+          "postal_votes": 0,
+          "total_votes": 66
+        }
+      ]
+    },
+    {
+      "ac_no": 37,
+      "name": "Curchorem",
+      "category": "GEN",
+      "electors": 27484,
+      "votes_polled": 22787,
+      "turnout_pct": 82.91,
+      "winner_name": "Nilesh Cabral",
+      "winner_party": "BJP",
+      "winner_votes": 9973,
+      "runner_up_name": "Amit Patkar",
+      "runner_up_party": "INC",
+      "runner_up_votes": 9301,
+      "margin": 672,
+      "nota_votes": 216,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Nilesh Cabral",
+          "party": "BJP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 9501,
+          "postal_votes": 472,
+          "total_votes": 9973
+        },
+        {
+          "name": "Amit Patkar",
+          "party": "INC",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 9113,
+          "postal_votes": 188,
+          "total_votes": 9301
+        },
+        {
+          "name": "Aditya Raut Dessai",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 2063,
+          "postal_votes": 40,
+          "total_votes": 2103
+        },
+        {
+          "name": "Gabriel Fernandes",
+          "party": "AAP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 814,
+          "postal_votes": 16,
+          "total_votes": 830
+        },
+        {
+          "name": "Vithoba Prabhu Dessai",
+          "party": "MAG",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 307,
+          "postal_votes": 6,
+          "total_votes": 313
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 214,
+          "postal_votes": 2,
+          "total_votes": 216
+        },
+        {
+          "name": "Ajay Boyer",
+          "party": "IND",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 51,
+          "postal_votes": 0,
+          "total_votes": 51
+        }
+      ]
+    },
+    {
+      "ac_no": 38,
+      "name": "Sanvordem",
+      "category": "ST",
+      "electors": 29808,
+      "votes_polled": 26530,
+      "turnout_pct": 89.0,
+      "winner_name": "Ganesh Gaonkar",
+      "winner_party": "BJP",
+      "winner_votes": 11877,
+      "runner_up_name": "Deepak Prabhu Pauskar",
+      "runner_up_party": "IND",
+      "runner_up_votes": 6687,
+      "margin": 5190,
+      "nota_votes": 280,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Ganesh Gaonkar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 11457,
+          "postal_votes": 420,
+          "total_votes": 11877
+        },
+        {
+          "name": "Deepak Prabhu Pauskar",
+          "party": "IND",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 6466,
+          "postal_votes": 221,
+          "total_votes": 6687
+        },
+        {
+          "name": "Vinayak Gawas",
+          "party": "MAG",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 3718,
+          "postal_votes": 50,
+          "total_votes": 3768
+        },
+        {
+          "name": "Vipin Naik",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 27,
+          "evm_votes": 2118,
+          "postal_votes": 17,
+          "total_votes": 2135
+        },
+        {
+          "name": "Anil Gaonkar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 839,
+          "postal_votes": 7,
+          "total_votes": 846
+        },
+        {
+          "name": "Gangaram Lambor",
+          "party": "IND",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 541,
+          "postal_votes": 13,
+          "total_votes": 554
+        },
+        {
+          "name": "Khemalo Sawant",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 376,
+          "postal_votes": 7,
+          "total_votes": 383
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 277,
+          "postal_votes": 3,
+          "total_votes": 280
+        }
+      ]
+    },
+    {
+      "ac_no": 39,
+      "name": "Sanguem",
+      "category": "GEN",
+      "electors": 26659,
+      "votes_polled": 23751,
+      "turnout_pct": 89.09,
+      "winner_name": "Subhash Uttam Phal Dessai",
+      "winner_party": "BJP",
+      "winner_votes": 8724,
+      "runner_up_name": "Savitri Chandrakant Kavlekar",
+      "runner_up_party": "IND",
+      "runner_up_votes": 7295,
+      "margin": 1429,
+      "nota_votes": 241,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Subhash Uttam Phal Dessai",
+          "party": "BJP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 8339,
+          "postal_votes": 385,
+          "total_votes": 8724
+        },
+        {
+          "name": "Savitri Chandrakant Kavlekar",
+          "party": "IND",
+          "gender": "F",
+          "age": 42,
+          "evm_votes": 7085,
+          "postal_votes": 210,
+          "total_votes": 7295
+        },
+        {
+          "name": "Prasad Shashikant Gaonkar",
+          "party": "INC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 4506,
+          "postal_votes": 138,
+          "total_votes": 4644
+        },
+        {
+          "name": "Sunil Bombi Gaonkar",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 1479,
+          "postal_votes": 21,
+          "total_votes": 1500
+        },
+        {
+          "name": "Abhijit Dessai",
+          "party": "AAP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 878,
+          "postal_votes": 16,
+          "total_votes": 894
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 240,
+          "postal_votes": 1,
+          "total_votes": 241
+        },
+        {
+          "name": "Rakhi Naik",
+          "party": "AITC",
+          "gender": "F",
+          "age": 37,
+          "evm_votes": 181,
+          "postal_votes": 4,
+          "total_votes": 185
+        },
+        {
+          "name": "Domacio Barreto",
+          "party": "NCP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 174,
+          "postal_votes": 0,
+          "total_votes": 174
+        },
+        {
+          "name": "Ramesh Gopal Velingkar",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 93,
+          "postal_votes": 1,
+          "total_votes": 94
+        }
+      ]
+    },
+    {
+      "ac_no": 40,
+      "name": "Canacona",
+      "category": "ST",
+      "electors": 34246,
+      "votes_polled": 29132,
+      "turnout_pct": 85.07,
+      "winner_name": "Ramesh Tawadkar",
+      "winner_party": "BJP",
+      "winner_votes": 9063,
+      "runner_up_name": "Isidore Aleixinho Fernandes",
+      "runner_up_party": "IND",
+      "runner_up_votes": 6012,
+      "margin": 3051,
+      "nota_votes": 296,
+      "num_candidates": 9,
+      "candidates": [
+        {
+          "name": "Ramesh Tawadkar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 8636,
+          "postal_votes": 427,
+          "total_votes": 9063
+        },
+        {
+          "name": "Isidore Aleixinho Fernandes",
+          "party": "IND",
+          "gender": "M",
+          "age": 70,
+          "evm_votes": 5835,
+          "postal_votes": 177,
+          "total_votes": 6012
+        },
+        {
+          "name": "Janardhan Bhandari",
+          "party": "INC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 5227,
+          "postal_votes": 124,
+          "total_votes": 5351
+        },
+        {
+          "name": "Vijay Pai Khot",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 4558,
+          "postal_votes": 233,
+          "total_votes": 4791
+        },
+        {
+          "name": "Prashant Suresh Pagi",
+          "party": "RVLTGONP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 1574,
+          "postal_votes": 25,
+          "total_votes": 1599
+        },
+        {
+          "name": "Mahadev Dessai",
+          "party": "AITC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 1050,
+          "postal_votes": 16,
+          "total_votes": 1066
+        },
+        {
+          "name": "Anoop Balkrishna Kudtarkar",
+          "party": "AAP",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 825,
+          "postal_votes": 10,
+          "total_votes": 835
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 292,
+          "postal_votes": 4,
+          "total_votes": 296
+        },
+        {
+          "name": "Kanay Pagi",
+          "party": "IND",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 117,
+          "postal_votes": 2,
+          "total_votes": 119
+        }
+      ]
+    }
+  ]
+}

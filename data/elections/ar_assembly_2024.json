@@ -1,0 +1,2646 @@
+{
+  "state": "Arunachal Pradesh",
+  "key": "ar",
+  "year": 2024,
+  "type": "assembly",
+  "icon": "🏔️",
+  "total_seats": 50,
+  "majority_mark": 26,
+  "leading_party": "BJP",
+  "leading_seats": 36,
+  "status": "BJP Majority (36/50)",
+  "total_electors": 709697,
+  "total_votes_polled": 609820,
+  "avg_turnout_pct": 85.93,
+  "parties": [
+    {
+      "party": "BJP",
+      "seats": 36,
+      "votes": 332773
+    },
+    {
+      "party": "NPEP",
+      "seats": 5,
+      "votes": 98254
+    },
+    {
+      "party": "NCP",
+      "seats": 3,
+      "votes": 63630
+    },
+    {
+      "party": "IND",
+      "seats": 3,
+      "votes": 28225
+    },
+    {
+      "party": "PPA",
+      "seats": 2,
+      "votes": 44176
+    },
+    {
+      "party": "INC",
+      "seats": 1,
+      "votes": 33877
+    }
+  ],
+  "constituencies": [
+    {
+      "ac_no": 1,
+      "name": "Lumla (ST)",
+      "category": "ST",
+      "electors": 9961,
+      "votes_polled": 8614,
+      "turnout_pct": 86.48,
+      "winner_name": "Tsering Lhamu",
+      "winner_party": "BJP",
+      "winner_votes": 5040,
+      "runner_up_name": "Jampa Thirnly Kunkhap",
+      "runner_up_party": "INC",
+      "runner_up_votes": 3509,
+      "margin": 1531,
+      "nota_votes": 65,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Tsering Lhamu",
+          "party": "BJP",
+          "gender": "F",
+          "age": 50,
+          "evm_votes": 4788,
+          "postal_votes": 252,
+          "total_votes": 5040
+        },
+        {
+          "name": "Jampa Thirnly Kunkhap",
+          "party": "INC",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 3473,
+          "postal_votes": 36,
+          "total_votes": 3509
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 65,
+          "postal_votes": 0,
+          "total_votes": 65
+        }
+      ]
+    },
+    {
+      "ac_no": 2,
+      "name": "Tawang (ST)",
+      "category": "ST",
+      "electors": 10777,
+      "votes_polled": 8394,
+      "turnout_pct": 77.89,
+      "winner_name": "Namgey Tsering",
+      "winner_party": "NPEP",
+      "winner_votes": 4667,
+      "runner_up_name": "Tsering Dorjee",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 3671,
+      "margin": 996,
+      "nota_votes": 56,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Namgey Tsering",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 4450,
+          "postal_votes": 217,
+          "total_votes": 4667
+        },
+        {
+          "name": "Tsering Dorjee",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 3421,
+          "postal_votes": 250,
+          "total_votes": 3671
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 55,
+          "postal_votes": 1,
+          "total_votes": 56
+        }
+      ]
+    },
+    {
+      "ac_no": 4,
+      "name": "Dirang (ST)",
+      "category": "ST",
+      "electors": 15544,
+      "votes_polled": 13739,
+      "turnout_pct": 88.39,
+      "winner_name": "Phurpa Tsering",
+      "winner_party": "BJP",
+      "winner_votes": 7430,
+      "runner_up_name": "Yeshi Tsewang",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 6228,
+      "margin": 1202,
+      "nota_votes": 81,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Phurpa Tsering",
+          "party": "BJP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 6946,
+          "postal_votes": 484,
+          "total_votes": 7430
+        },
+        {
+          "name": "Yeshi Tsewang",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 5913,
+          "postal_votes": 315,
+          "total_votes": 6228
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 80,
+          "postal_votes": 1,
+          "total_votes": 81
+        }
+      ]
+    },
+    {
+      "ac_no": 5,
+      "name": "Kalaktang (ST)",
+      "category": "ST",
+      "electors": 11097,
+      "votes_polled": 9273,
+      "turnout_pct": 83.56,
+      "winner_name": "Tseten Chombay Kee",
+      "winner_party": "BJP",
+      "winner_votes": 6030,
+      "runner_up_name": "Wangdi Dorjee Khrimey",
+      "runner_up_party": "NCP",
+      "runner_up_votes": 3161,
+      "margin": 2869,
+      "nota_votes": 82,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Tseten Chombay Kee",
+          "party": "BJP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 5590,
+          "postal_votes": 440,
+          "total_votes": 6030
+        },
+        {
+          "name": "Wangdi Dorjee Khrimey",
+          "party": "NCP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 2979,
+          "postal_votes": 182,
+          "total_votes": 3161
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 78,
+          "postal_votes": 4,
+          "total_votes": 82
+        }
+      ]
+    },
+    {
+      "ac_no": 6,
+      "name": "Thrizino-Buragaon (ST)",
+      "category": "ST",
+      "electors": 14762,
+      "votes_polled": 10890,
+      "turnout_pct": 73.77,
+      "winner_name": "Tenzin Nyima Glow",
+      "winner_party": "IND",
+      "winner_votes": 5593,
+      "runner_up_name": "Kumsi Sidisow",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 5193,
+      "margin": 400,
+      "nota_votes": 104,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Tenzin Nyima Glow",
+          "party": "IND",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 5463,
+          "postal_votes": 130,
+          "total_votes": 5593
+        },
+        {
+          "name": "Kumsi Sidisow",
+          "party": "BJP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 5047,
+          "postal_votes": 146,
+          "total_votes": 5193
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 104,
+          "postal_votes": 0,
+          "total_votes": 104
+        }
+      ]
+    },
+    {
+      "ac_no": 8,
+      "name": "Bameng (ST)",
+      "category": "ST",
+      "electors": 13979,
+      "votes_polled": 12518,
+      "turnout_pct": 89.55,
+      "winner_name": "Kumar Waii",
+      "winner_party": "INC",
+      "winner_votes": 6554,
+      "runner_up_name": "Doba Lamnio",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 5919,
+      "margin": 635,
+      "nota_votes": 45,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Kumar Waii",
+          "party": "INC",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 6264,
+          "postal_votes": 290,
+          "total_votes": 6554
+        },
+        {
+          "name": "Doba Lamnio",
+          "party": "BJP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 5681,
+          "postal_votes": 238,
+          "total_votes": 5919
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 45,
+          "postal_votes": 0,
+          "total_votes": 45
+        }
+      ]
+    },
+    {
+      "ac_no": 9,
+      "name": "Chayangtajo (ST)",
+      "category": "ST",
+      "electors": 13899,
+      "votes_polled": 10963,
+      "turnout_pct": 78.88,
+      "winner_name": "Hayeng Mangfi",
+      "winner_party": "BJP",
+      "winner_votes": 8809,
+      "runner_up_name": "Kompu Dolo",
+      "runner_up_party": "INC",
+      "runner_up_votes": 2124,
+      "margin": 6685,
+      "nota_votes": 30,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Hayeng Mangfi",
+          "party": "BJP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 8465,
+          "postal_votes": 344,
+          "total_votes": 8809
+        },
+        {
+          "name": "Kompu Dolo",
+          "party": "INC",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 1987,
+          "postal_votes": 137,
+          "total_votes": 2124
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 27,
+          "postal_votes": 3,
+          "total_votes": 30
+        }
+      ]
+    },
+    {
+      "ac_no": 10,
+      "name": "Seppa East (ST)",
+      "category": "ST",
+      "electors": 12508,
+      "votes_polled": 9271,
+      "turnout_pct": 74.12,
+      "winner_name": "Ealing Tallang",
+      "winner_party": "BJP",
+      "winner_votes": 7412,
+      "runner_up_name": "Tame Gyadi",
+      "runner_up_party": "INC",
+      "runner_up_votes": 1812,
+      "margin": 5600,
+      "nota_votes": 47,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Ealing Tallang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 6936,
+          "postal_votes": 476,
+          "total_votes": 7412
+        },
+        {
+          "name": "Tame Gyadi",
+          "party": "INC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 1666,
+          "postal_votes": 146,
+          "total_votes": 1812
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 44,
+          "postal_votes": 3,
+          "total_votes": 47
+        }
+      ]
+    },
+    {
+      "ac_no": 11,
+      "name": "Seppa West (ST)",
+      "category": "ST",
+      "electors": 8447,
+      "votes_polled": 7620,
+      "turnout_pct": 90.21,
+      "winner_name": "Mama Natung",
+      "winner_party": "BJP",
+      "winner_votes": 4430,
+      "runner_up_name": "Tani Loffa",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 3181,
+      "margin": 1249,
+      "nota_votes": 9,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Mama Natung",
+          "party": "BJP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 4309,
+          "postal_votes": 121,
+          "total_votes": 4430
+        },
+        {
+          "name": "Tani Loffa",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 3092,
+          "postal_votes": 89,
+          "total_votes": 3181
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 8,
+          "postal_votes": 1,
+          "total_votes": 9
+        }
+      ]
+    },
+    {
+      "ac_no": 12,
+      "name": "Pakke-Kasang (ST)",
+      "category": "ST",
+      "electors": 9324,
+      "votes_polled": 8284,
+      "turnout_pct": 88.85,
+      "winner_name": "Biyuram Wahge",
+      "winner_party": "BJP",
+      "winner_votes": 3933,
+      "runner_up_name": "Techi Hemu",
+      "runner_up_party": "NCP",
+      "runner_up_votes": 3120,
+      "margin": 813,
+      "nota_votes": 68,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Biyuram Wahge",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 3750,
+          "postal_votes": 183,
+          "total_votes": 3933
+        },
+        {
+          "name": "Techi Hemu",
+          "party": "NCP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 2995,
+          "postal_votes": 125,
+          "total_votes": 3120
+        },
+        {
+          "name": "Dongli Gollo",
+          "party": "LJPRV",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 969,
+          "postal_votes": 28,
+          "total_votes": 997
+        },
+        {
+          "name": "Gollo Yapung Tana",
+          "party": "INC",
+          "gender": "F",
+          "age": 45,
+          "evm_votes": 162,
+          "postal_votes": 4,
+          "total_votes": 166
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 68,
+          "postal_votes": 0,
+          "total_votes": 68
+        }
+      ]
+    },
+    {
+      "ac_no": 14,
+      "name": "Doimukh (ST)",
+      "category": "ST",
+      "electors": 25441,
+      "votes_polled": 20941,
+      "turnout_pct": 82.31,
+      "winner_name": "Nabam Vivek",
+      "winner_party": "PPA",
+      "winner_votes": 11409,
+      "runner_up_name": "Tana Hali Tara",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 8879,
+      "margin": 2530,
+      "nota_votes": 105,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Nabam Vivek",
+          "party": "PPA",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 11096,
+          "postal_votes": 313,
+          "total_votes": 11409
+        },
+        {
+          "name": "Tana Hali Tara",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 8600,
+          "postal_votes": 279,
+          "total_votes": 8879
+        },
+        {
+          "name": "Nabam Tado",
+          "party": "INC",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 537,
+          "postal_votes": 11,
+          "total_votes": 548
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 101,
+          "postal_votes": 4,
+          "total_votes": 105
+        }
+      ]
+    },
+    {
+      "ac_no": 16,
+      "name": "Yachuli (ST)",
+      "category": "ST",
+      "electors": 17576,
+      "votes_polled": 16324,
+      "turnout_pct": 92.88,
+      "winner_name": "Toko Tatung",
+      "winner_party": "NCP",
+      "winner_votes": 8255,
+      "runner_up_name": "Taba Tedir",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 8027,
+      "margin": 228,
+      "nota_votes": 42,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Toko Tatung",
+          "party": "NCP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 7968,
+          "postal_votes": 287,
+          "total_votes": 8255
+        },
+        {
+          "name": "Taba Tedir",
+          "party": "BJP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 7728,
+          "postal_votes": 299,
+          "total_votes": 8027
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 41,
+          "postal_votes": 1,
+          "total_votes": 42
+        }
+      ]
+    },
+    {
+      "ac_no": 18,
+      "name": "Palin (ST)",
+      "category": "ST",
+      "electors": 17376,
+      "votes_polled": 15384,
+      "turnout_pct": 88.54,
+      "winner_name": "Balo Raja",
+      "winner_party": "BJP",
+      "winner_votes": 10029,
+      "runner_up_name": "Mayu Taring",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 4989,
+      "margin": 5040,
+      "nota_votes": 71,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Balo Raja",
+          "party": "BJP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 9505,
+          "postal_votes": 524,
+          "total_votes": 10029
+        },
+        {
+          "name": "Mayu Taring",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 4791,
+          "postal_votes": 198,
+          "total_votes": 4989
+        },
+        {
+          "name": "Tarh Johny",
+          "party": "INC",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 285,
+          "postal_votes": 10,
+          "total_votes": 295
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 71,
+          "postal_votes": 0,
+          "total_votes": 71
+        }
+      ]
+    },
+    {
+      "ac_no": 19,
+      "name": "Nyapin (ST)",
+      "category": "ST",
+      "electors": 16474,
+      "votes_polled": 14620,
+      "turnout_pct": 88.75,
+      "winner_name": "Tai Nikio",
+      "winner_party": "BJP",
+      "winner_votes": 7896,
+      "runner_up_name": "Tadar Mangku",
+      "runner_up_party": "PPA",
+      "runner_up_votes": 6714,
+      "margin": 1182,
+      "nota_votes": 10,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Tai Nikio",
+          "party": "BJP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 7578,
+          "postal_votes": 318,
+          "total_votes": 7896
+        },
+        {
+          "name": "Tadar Mangku",
+          "party": "PPA",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 6457,
+          "postal_votes": 257,
+          "total_votes": 6714
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 10,
+          "postal_votes": 0,
+          "total_votes": 10
+        }
+      ]
+    },
+    {
+      "ac_no": 21,
+      "name": "Koloriang (ST)",
+      "category": "ST",
+      "electors": 14561,
+      "votes_polled": 12807,
+      "turnout_pct": 87.95,
+      "winner_name": "Pani Taram",
+      "winner_party": "BJP",
+      "winner_votes": 11594,
+      "runner_up_name": "Kahfa Bengia",
+      "runner_up_party": "PPA",
+      "runner_up_votes": 1044,
+      "margin": 10550,
+      "nota_votes": 169,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Pani Taram",
+          "party": "BJP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 11182,
+          "postal_votes": 412,
+          "total_votes": 11594
+        },
+        {
+          "name": "Kahfa Bengia",
+          "party": "PPA",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 996,
+          "postal_votes": 48,
+          "total_votes": 1044
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 168,
+          "postal_votes": 1,
+          "total_votes": 169
+        }
+      ]
+    },
+    {
+      "ac_no": 22,
+      "name": "Nacho (ST)",
+      "category": "ST",
+      "electors": 12454,
+      "votes_polled": 9486,
+      "turnout_pct": 76.17,
+      "winner_name": "Nakap Nalo",
+      "winner_party": "BJP",
+      "winner_votes": 5415,
+      "runner_up_name": "Tanga Byaling",
+      "runner_up_party": "INC",
+      "runner_up_votes": 4042,
+      "margin": 1373,
+      "nota_votes": 29,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Nakap Nalo",
+          "party": "BJP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 5020,
+          "postal_votes": 395,
+          "total_votes": 5415
+        },
+        {
+          "name": "Tanga Byaling",
+          "party": "INC",
+          "gender": "M",
+          "age": 76,
+          "evm_votes": 3790,
+          "postal_votes": 252,
+          "total_votes": 4042
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 28,
+          "postal_votes": 1,
+          "total_votes": 29
+        }
+      ]
+    },
+    {
+      "ac_no": 24,
+      "name": "Daporijo (ST)",
+      "category": "ST",
+      "electors": 17107,
+      "votes_polled": 13422,
+      "turnout_pct": 78.46,
+      "winner_name": "Taniya Soki",
+      "winner_party": "BJP",
+      "winner_votes": 6671,
+      "runner_up_name": "Dikto Yekar",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 6443,
+      "margin": 228,
+      "nota_votes": 41,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Taniya Soki",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 6082,
+          "postal_votes": 589,
+          "total_votes": 6671
+        },
+        {
+          "name": "Dikto Yekar",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 5994,
+          "postal_votes": 449,
+          "total_votes": 6443
+        },
+        {
+          "name": "Reri Kirbe Dulom",
+          "party": "INC",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 261,
+          "postal_votes": 6,
+          "total_votes": 267
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 40,
+          "postal_votes": 1,
+          "total_votes": 41
+        }
+      ]
+    },
+    {
+      "ac_no": 25,
+      "name": "Raga (ST)",
+      "category": "ST",
+      "electors": 16978,
+      "votes_polled": 14674,
+      "turnout_pct": 86.43,
+      "winner_name": "Rotom Tebin",
+      "winner_party": "BJP",
+      "winner_votes": 8791,
+      "runner_up_name": "Ajay Murtem",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 5857,
+      "margin": 2934,
+      "nota_votes": 26,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Rotom Tebin",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 8330,
+          "postal_votes": 461,
+          "total_votes": 8791
+        },
+        {
+          "name": "Ajay Murtem",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 5577,
+          "postal_votes": 280,
+          "total_votes": 5857
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 26,
+          "postal_votes": 0,
+          "total_votes": 26
+        }
+      ]
+    },
+    {
+      "ac_no": 26,
+      "name": "Damporijo (ST)",
+      "category": "ST",
+      "electors": 12929,
+      "votes_polled": 11226,
+      "turnout_pct": 86.83,
+      "winner_name": "Rode Bui",
+      "winner_party": "BJP",
+      "winner_votes": 6400,
+      "runner_up_name": "Tabe Doni",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 4809,
+      "margin": 1591,
+      "nota_votes": 17,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Rode Bui",
+          "party": "BJP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 5831,
+          "postal_votes": 569,
+          "total_votes": 6400
+        },
+        {
+          "name": "Tabe Doni",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 4388,
+          "postal_votes": 421,
+          "total_votes": 4809
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 16,
+          "postal_votes": 1,
+          "total_votes": 17
+        }
+      ]
+    },
+    {
+      "ac_no": 27,
+      "name": "Liromoba (ST)",
+      "category": "ST",
+      "electors": 14061,
+      "votes_polled": 12743,
+      "turnout_pct": 90.63,
+      "winner_name": "Pesi Jilen",
+      "winner_party": "NPEP",
+      "winner_votes": 7206,
+      "runner_up_name": "Nyamar Karbak",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 5508,
+      "margin": 1698,
+      "nota_votes": 29,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Pesi Jilen",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 6609,
+          "postal_votes": 597,
+          "total_votes": 7206
+        },
+        {
+          "name": "Nyamar Karbak",
+          "party": "BJP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 5098,
+          "postal_votes": 410,
+          "total_votes": 5508
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 28,
+          "postal_votes": 1,
+          "total_votes": 29
+        }
+      ]
+    },
+    {
+      "ac_no": 28,
+      "name": "Likabali (ST)",
+      "category": "ST",
+      "electors": 12536,
+      "votes_polled": 10657,
+      "turnout_pct": 85.01,
+      "winner_name": "Kardo Nyigyor",
+      "winner_party": "BJP",
+      "winner_votes": 6607,
+      "runner_up_name": "Moli Riba",
+      "runner_up_party": "IND",
+      "runner_up_votes": 4002,
+      "margin": 2605,
+      "nota_votes": 48,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Kardo Nyigyor",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 5959,
+          "postal_votes": 648,
+          "total_votes": 6607
+        },
+        {
+          "name": "Moli Riba",
+          "party": "IND",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 3744,
+          "postal_votes": 258,
+          "total_votes": 4002
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 45,
+          "postal_votes": 3,
+          "total_votes": 48
+        }
+      ]
+    },
+    {
+      "ac_no": 29,
+      "name": "Basar (ST)",
+      "category": "ST",
+      "electors": 19424,
+      "votes_polled": 16601,
+      "turnout_pct": 85.47,
+      "winner_name": "Nyabi Jini Dirchi",
+      "winner_party": "BJP",
+      "winner_votes": 9174,
+      "runner_up_name": "Gokar Basar",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 7383,
+      "margin": 1791,
+      "nota_votes": 44,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Nyabi Jini Dirchi",
+          "party": "BJP",
+          "gender": "F",
+          "age": 47,
+          "evm_votes": 8379,
+          "postal_votes": 795,
+          "total_votes": 9174
+        },
+        {
+          "name": "Gokar Basar",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 6817,
+          "postal_votes": 566,
+          "total_votes": 7383
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 44,
+          "postal_votes": 0,
+          "total_votes": 44
+        }
+      ]
+    },
+    {
+      "ac_no": 30,
+      "name": "Along West (ST)",
+      "category": "ST",
+      "electors": 14965,
+      "votes_polled": 13361,
+      "turnout_pct": 89.28,
+      "winner_name": "Topin Ete",
+      "winner_party": "BJP",
+      "winner_votes": 7629,
+      "runner_up_name": "Nyamo Ete",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 5678,
+      "margin": 1951,
+      "nota_votes": 54,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Topin Ete",
+          "party": "BJP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 6911,
+          "postal_votes": 718,
+          "total_votes": 7629
+        },
+        {
+          "name": "Nyamo Ete",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 5319,
+          "postal_votes": 359,
+          "total_votes": 5678
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 47,
+          "postal_votes": 7,
+          "total_votes": 54
+        }
+      ]
+    },
+    {
+      "ac_no": 31,
+      "name": "Along East (ST)",
+      "category": "ST",
+      "electors": 14596,
+      "votes_polled": 11642,
+      "turnout_pct": 79.76,
+      "winner_name": "Kento Jini",
+      "winner_party": "BJP",
+      "winner_votes": 7380,
+      "runner_up_name": "Jarkar Gamlin",
+      "runner_up_party": "PPA",
+      "runner_up_votes": 4222,
+      "margin": 3158,
+      "nota_votes": 40,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Kento Jini",
+          "party": "BJP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 6807,
+          "postal_votes": 573,
+          "total_votes": 7380
+        },
+        {
+          "name": "Jarkar Gamlin",
+          "party": "PPA",
+          "gender": "M",
+          "age": 69,
+          "evm_votes": 3952,
+          "postal_votes": 270,
+          "total_votes": 4222
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 40,
+          "postal_votes": 0,
+          "total_votes": 40
+        }
+      ]
+    },
+    {
+      "ac_no": 32,
+      "name": "Rumgong (ST)",
+      "category": "ST",
+      "electors": 12778,
+      "votes_polled": 11171,
+      "turnout_pct": 87.42,
+      "winner_name": "Talem Taboh",
+      "winner_party": "BJP",
+      "winner_votes": 5862,
+      "runner_up_name": "Taja Bonung",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 4680,
+      "margin": 1182,
+      "nota_votes": 38,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Talem Taboh",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 5548,
+          "postal_votes": 314,
+          "total_votes": 5862
+        },
+        {
+          "name": "Taja Bonung",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 4452,
+          "postal_votes": 228,
+          "total_votes": 4680
+        },
+        {
+          "name": "Tahan Mibang",
+          "party": "NCP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 488,
+          "postal_votes": 52,
+          "total_votes": 540
+        },
+        {
+          "name": "Taling Yaying",
+          "party": "INC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 47,
+          "postal_votes": 4,
+          "total_votes": 51
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 36,
+          "postal_votes": 2,
+          "total_votes": 38
+        }
+      ]
+    },
+    {
+      "ac_no": 33,
+      "name": "Mechuka (ST)",
+      "category": "ST",
+      "electors": 11190,
+      "votes_polled": 10125,
+      "turnout_pct": 90.48,
+      "winner_name": "Pasang Dorjee Sona",
+      "winner_party": "BJP",
+      "winner_votes": 6320,
+      "runner_up_name": "Aju Chije",
+      "runner_up_party": "NCP",
+      "runner_up_votes": 3762,
+      "margin": 2558,
+      "nota_votes": 43,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Pasang Dorjee Sona",
+          "party": "BJP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 5887,
+          "postal_votes": 433,
+          "total_votes": 6320
+        },
+        {
+          "name": "Aju Chije",
+          "party": "NCP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 3609,
+          "postal_votes": 153,
+          "total_votes": 3762
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 43,
+          "postal_votes": 0,
+          "total_votes": 43
+        }
+      ]
+    },
+    {
+      "ac_no": 34,
+      "name": "Tuting-Yingkiong (ST)",
+      "category": "ST",
+      "electors": 13194,
+      "votes_polled": 11338,
+      "turnout_pct": 85.93,
+      "winner_name": "Alo Libang",
+      "winner_party": "BJP",
+      "winner_votes": 6095,
+      "runner_up_name": "Nobeng Burang",
+      "runner_up_party": "PPA",
+      "runner_up_votes": 5180,
+      "margin": 915,
+      "nota_votes": 63,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Alo Libang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 5790,
+          "postal_votes": 305,
+          "total_votes": 6095
+        },
+        {
+          "name": "Nobeng Burang",
+          "party": "PPA",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 4982,
+          "postal_votes": 198,
+          "total_votes": 5180
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 60,
+          "postal_votes": 3,
+          "total_votes": 63
+        }
+      ]
+    },
+    {
+      "ac_no": 35,
+      "name": "Pangin (ST)",
+      "category": "ST",
+      "electors": 14320,
+      "votes_polled": 12857,
+      "turnout_pct": 89.78,
+      "winner_name": "Ojing Tasing",
+      "winner_party": "BJP",
+      "winner_votes": 7500,
+      "runner_up_name": "Tapang Taloh",
+      "runner_up_party": "NCP",
+      "runner_up_votes": 4906,
+      "margin": 2594,
+      "nota_votes": 22,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Ojing Tasing",
+          "party": "BJP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 7112,
+          "postal_votes": 388,
+          "total_votes": 7500
+        },
+        {
+          "name": "Tapang Taloh",
+          "party": "NCP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 4774,
+          "postal_votes": 132,
+          "total_votes": 4906
+        },
+        {
+          "name": "Takku Jerang",
+          "party": "INC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 349,
+          "postal_votes": 12,
+          "total_votes": 361
+        },
+        {
+          "name": "Tamo Taggu",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 57,
+          "postal_votes": 11,
+          "total_votes": 68
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 22,
+          "postal_votes": 0,
+          "total_votes": 22
+        }
+      ]
+    },
+    {
+      "ac_no": 36,
+      "name": "Nari-Koyu (ST)",
+      "category": "ST",
+      "electors": 8259,
+      "votes_polled": 7501,
+      "turnout_pct": 90.82,
+      "winner_name": "Tojir Kadu",
+      "winner_party": "BJP",
+      "winner_votes": 4545,
+      "runner_up_name": "Gegong Apang",
+      "runner_up_party": "ANCHDMCP",
+      "runner_up_votes": 2896,
+      "margin": 1649,
+      "nota_votes": 60,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Tojir Kadu",
+          "party": "BJP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 4143,
+          "postal_votes": 402,
+          "total_votes": 4545
+        },
+        {
+          "name": "Gegong Apang",
+          "party": "ANCHDMCP",
+          "gender": "M",
+          "age": 77,
+          "evm_votes": 2773,
+          "postal_votes": 123,
+          "total_votes": 2896
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 58,
+          "postal_votes": 2,
+          "total_votes": 60
+        }
+      ]
+    },
+    {
+      "ac_no": 37,
+      "name": "Pasighat West (ST)",
+      "category": "ST",
+      "electors": 14742,
+      "votes_polled": 13527,
+      "turnout_pct": 91.76,
+      "winner_name": "Ninong Ering",
+      "winner_party": "BJP",
+      "winner_votes": 8049,
+      "runner_up_name": "Tapyam Pada",
+      "runner_up_party": "NCP",
+      "runner_up_votes": 5178,
+      "margin": 2871,
+      "nota_votes": 56,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Ninong Ering",
+          "party": "BJP",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 7662,
+          "postal_votes": 387,
+          "total_votes": 8049
+        },
+        {
+          "name": "Tapyam Pada",
+          "party": "NCP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 5001,
+          "postal_votes": 177,
+          "total_votes": 5178
+        },
+        {
+          "name": "Kalen Taying",
+          "party": "ANCHDMCP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 142,
+          "postal_votes": 11,
+          "total_votes": 153
+        },
+        {
+          "name": "Taka Muang",
+          "party": "IND",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 90,
+          "postal_votes": 1,
+          "total_votes": 91
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 55,
+          "postal_votes": 1,
+          "total_votes": 56
+        }
+      ]
+    },
+    {
+      "ac_no": 38,
+      "name": "Pasighat East (ST)",
+      "category": "ST",
+      "electors": 21923,
+      "votes_polled": 17995,
+      "turnout_pct": 82.08,
+      "winner_name": "Tapi Darang",
+      "winner_party": "NPEP",
+      "winner_votes": 9070,
+      "runner_up_name": "Kaling Moyong",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 8749,
+      "margin": 321,
+      "nota_votes": 176,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Tapi Darang",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 8714,
+          "postal_votes": 356,
+          "total_votes": 9070
+        },
+        {
+          "name": "Kaling Moyong",
+          "party": "BJP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 8321,
+          "postal_votes": 428,
+          "total_votes": 8749
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 172,
+          "postal_votes": 4,
+          "total_votes": 176
+        }
+      ]
+    },
+    {
+      "ac_no": 39,
+      "name": "Mebo (ST)",
+      "category": "ST",
+      "electors": 12436,
+      "votes_polled": 11693,
+      "turnout_pct": 94.03,
+      "winner_name": "Oken Tayeng",
+      "winner_party": "PPA",
+      "winner_votes": 6287,
+      "runner_up_name": "Lombo Tayeng",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 5270,
+      "margin": 1017,
+      "nota_votes": 31,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Oken Tayeng",
+          "party": "PPA",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 6057,
+          "postal_votes": 230,
+          "total_votes": 6287
+        },
+        {
+          "name": "Lombo Tayeng",
+          "party": "BJP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 5064,
+          "postal_votes": 206,
+          "total_votes": 5270
+        },
+        {
+          "name": "Shoney Pertin",
+          "party": "IND",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 105,
+          "postal_votes": 0,
+          "total_votes": 105
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 29,
+          "postal_votes": 2,
+          "total_votes": 31
+        }
+      ]
+    },
+    {
+      "ac_no": 40,
+      "name": "Mariyang-Geku (ST)",
+      "category": "ST",
+      "electors": 12249,
+      "votes_polled": 11585,
+      "turnout_pct": 94.58,
+      "winner_name": "Oni Panyang",
+      "winner_party": "NPEP",
+      "winner_votes": 6115,
+      "runner_up_name": "Olom Panyang",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 5442,
+      "margin": 673,
+      "nota_votes": 28,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Oni Panyang",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 5817,
+          "postal_votes": 298,
+          "total_votes": 6115
+        },
+        {
+          "name": "Olom Panyang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 5195,
+          "postal_votes": 247,
+          "total_votes": 5442
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 27,
+          "postal_votes": 1,
+          "total_votes": 28
+        }
+      ]
+    },
+    {
+      "ac_no": 41,
+      "name": "Anini (ST)",
+      "category": "ST",
+      "electors": 4757,
+      "votes_polled": 4261,
+      "turnout_pct": 89.57,
+      "winner_name": "Mopi Mihu",
+      "winner_party": "BJP",
+      "winner_votes": 2711,
+      "runner_up_name": "Eri Tayu",
+      "runner_up_party": "IND",
+      "runner_up_votes": 1538,
+      "margin": 1173,
+      "nota_votes": 12,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Mopi Mihu",
+          "party": "BJP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 2398,
+          "postal_votes": 313,
+          "total_votes": 2711
+        },
+        {
+          "name": "Eri Tayu",
+          "party": "IND",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 1425,
+          "postal_votes": 113,
+          "total_votes": 1538
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 12,
+          "postal_votes": 0,
+          "total_votes": 12
+        }
+      ]
+    },
+    {
+      "ac_no": 42,
+      "name": "Dambuk (ST)",
+      "category": "ST",
+      "electors": 13081,
+      "votes_polled": 12221,
+      "turnout_pct": 93.43,
+      "winner_name": "Puinnyo Apum",
+      "winner_party": "BJP",
+      "winner_votes": 6009,
+      "runner_up_name": "Raju Tayeng",
+      "runner_up_party": "PPA",
+      "runner_up_votes": 5787,
+      "margin": 222,
+      "nota_votes": 42,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Puinnyo Apum",
+          "party": "BJP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 5727,
+          "postal_votes": 282,
+          "total_votes": 6009
+        },
+        {
+          "name": "Raju Tayeng",
+          "party": "PPA",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 5522,
+          "postal_votes": 265,
+          "total_votes": 5787
+        },
+        {
+          "name": "Tobing Lego",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 256,
+          "postal_votes": 6,
+          "total_votes": 262
+        },
+        {
+          "name": "Vijay Pertin",
+          "party": "IND",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 117,
+          "postal_votes": 4,
+          "total_votes": 121
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 42,
+          "postal_votes": 0,
+          "total_votes": 42
+        }
+      ]
+    },
+    {
+      "ac_no": 44,
+      "name": "Tezu (ST)",
+      "category": "ST",
+      "electors": 21029,
+      "votes_polled": 16509,
+      "turnout_pct": 78.51,
+      "winner_name": "Dr. Mohesh Chai",
+      "winner_party": "BJP",
+      "winner_votes": 8535,
+      "runner_up_name": "Karikho Kri",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 5730,
+      "margin": 2805,
+      "nota_votes": 180,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Dr. Mohesh Chai",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 8144,
+          "postal_votes": 391,
+          "total_votes": 8535
+        },
+        {
+          "name": "Karikho Kri",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 5447,
+          "postal_votes": 283,
+          "total_votes": 5730
+        },
+        {
+          "name": "Badang Tayang",
+          "party": "IND",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 1588,
+          "postal_votes": 128,
+          "total_votes": 1716
+        },
+        {
+          "name": "Jeremai Krong",
+          "party": "INC",
+          "gender": "F",
+          "age": 38,
+          "evm_votes": 323,
+          "postal_votes": 25,
+          "total_votes": 348
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 178,
+          "postal_votes": 2,
+          "total_votes": 180
+        }
+      ]
+    },
+    {
+      "ac_no": 47,
+      "name": "Namsai (ST)",
+      "category": "ST",
+      "electors": 24624,
+      "votes_polled": 21108,
+      "turnout_pct": 85.72,
+      "winner_name": "Chau Zingnu Namchoom",
+      "winner_party": "BJP",
+      "winner_votes": 14540,
+      "runner_up_name": "Likha Saaya",
+      "runner_up_party": "NCP",
+      "runner_up_votes": 5984,
+      "margin": 8556,
+      "nota_votes": 584,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Chau Zingnu Namchoom",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 13992,
+          "postal_votes": 548,
+          "total_votes": 14540
+        },
+        {
+          "name": "Likha Saaya",
+          "party": "NCP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 5905,
+          "postal_votes": 79,
+          "total_votes": 5984
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 577,
+          "postal_votes": 7,
+          "total_votes": 584
+        }
+      ]
+    },
+    {
+      "ac_no": 48,
+      "name": "Lekang (ST)",
+      "category": "ST",
+      "electors": 21218,
+      "votes_polled": 17235,
+      "turnout_pct": 81.23,
+      "winner_name": "Likha Soni",
+      "winner_party": "NCP",
+      "winner_votes": 7804,
+      "runner_up_name": "Chow Sujana Namchoom",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 7150,
+      "margin": 654,
+      "nota_votes": 289,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Likha Soni",
+          "party": "NCP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 7713,
+          "postal_votes": 91,
+          "total_votes": 7804
+        },
+        {
+          "name": "Chow Sujana Namchoom",
+          "party": "BJP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 6882,
+          "postal_votes": 268,
+          "total_votes": 7150
+        },
+        {
+          "name": "Tana Tamar Tara",
+          "party": "INC",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 1081,
+          "postal_votes": 41,
+          "total_votes": 1122
+        },
+        {
+          "name": "Haren Tali",
+          "party": "ANCHDMCP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 680,
+          "postal_votes": 10,
+          "total_votes": 690
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 288,
+          "postal_votes": 1,
+          "total_votes": 289
+        },
+        {
+          "name": "Moneswar Danggen",
+          "party": "IND",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 177,
+          "postal_votes": 3,
+          "total_votes": 180
+        }
+      ]
+    },
+    {
+      "ac_no": 49,
+      "name": "Bordumsa-Diyun",
+      "category": "ST",
+      "electors": 23110,
+      "votes_polled": 20567,
+      "turnout_pct": 89.0,
+      "winner_name": "Nikh Kamin",
+      "winner_party": "NCP",
+      "winner_votes": 10497,
+      "runner_up_name": "Somlung Mossang",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 9145,
+      "margin": 1352,
+      "nota_votes": 200,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Nikh Kamin",
+          "party": "NCP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 10271,
+          "postal_votes": 226,
+          "total_votes": 10497
+        },
+        {
+          "name": "Somlung Mossang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 8810,
+          "postal_votes": 335,
+          "total_votes": 9145
+        },
+        {
+          "name": "Biri Joy",
+          "party": "PPA",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 358,
+          "postal_votes": 6,
+          "total_votes": 364
+        },
+        {
+          "name": "Upen Chandra Deori",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 217,
+          "postal_votes": 5,
+          "total_votes": 222
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 195,
+          "postal_votes": 5,
+          "total_votes": 200
+        },
+        {
+          "name": "Madan Tanti",
+          "party": "ANCHDMCP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 138,
+          "postal_votes": 1,
+          "total_votes": 139
+        }
+      ]
+    },
+    {
+      "ac_no": 50,
+      "name": "Miao (ST)",
+      "category": "ST",
+      "electors": 22687,
+      "votes_polled": 19126,
+      "turnout_pct": 84.3,
+      "winner_name": "Kamlung Mosang",
+      "winner_party": "BJP",
+      "winner_votes": 11021,
+      "runner_up_name": "Chatu Longri",
+      "runner_up_party": "INC",
+      "runner_up_votes": 7894,
+      "margin": 3127,
+      "nota_votes": 211,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Kamlung Mosang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 10427,
+          "postal_votes": 594,
+          "total_votes": 11021
+        },
+        {
+          "name": "Chatu Longri",
+          "party": "INC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 7601,
+          "postal_votes": 293,
+          "total_votes": 7894
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 208,
+          "postal_votes": 3,
+          "total_votes": 211
+        }
+      ]
+    },
+    {
+      "ac_no": 51,
+      "name": "Nampong (ST)",
+      "category": "ST",
+      "electors": 9823,
+      "votes_polled": 8819,
+      "turnout_pct": 89.78,
+      "winner_name": "Laisam Simai",
+      "winner_party": "IND",
+      "winner_votes": 3180,
+      "runner_up_name": "Izmir Tikhak",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 3112,
+      "margin": 68,
+      "nota_votes": 69,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Laisam Simai",
+          "party": "IND",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 3032,
+          "postal_votes": 148,
+          "total_votes": 3180
+        },
+        {
+          "name": "Izmir Tikhak",
+          "party": "BJP",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 2893,
+          "postal_votes": 219,
+          "total_votes": 3112
+        },
+        {
+          "name": "Khimshom Mossang",
+          "party": "INC",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 2367,
+          "postal_votes": 91,
+          "total_votes": 2458
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 69,
+          "postal_votes": 0,
+          "total_votes": 69
+        }
+      ]
+    },
+    {
+      "ac_no": 52,
+      "name": "Changlang South (ST)",
+      "category": "ST",
+      "electors": 6404,
+      "votes_polled": 5909,
+      "turnout_pct": 92.27,
+      "winner_name": "Hamjong Tangha",
+      "winner_party": "BJP",
+      "winner_votes": 3654,
+      "runner_up_name": "Timpu Ngemu",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 2172,
+      "margin": 1482,
+      "nota_votes": 28,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Hamjong Tangha",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 3438,
+          "postal_votes": 216,
+          "total_votes": 3654
+        },
+        {
+          "name": "Timpu Ngemu",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 2077,
+          "postal_votes": 95,
+          "total_votes": 2172
+        },
+        {
+          "name": "Salman Salnang Mungrey",
+          "party": "NCP",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 47,
+          "postal_votes": 8,
+          "total_votes": 55
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 28,
+          "postal_votes": 0,
+          "total_votes": 28
+        }
+      ]
+    },
+    {
+      "ac_no": 53,
+      "name": "Changlang North (ST)",
+      "category": "ST",
+      "electors": 10410,
+      "votes_polled": 8732,
+      "turnout_pct": 83.88,
+      "winner_name": "Tesam Pongte",
+      "winner_party": "BJP",
+      "winner_votes": 4524,
+      "runner_up_name": "Dihom Kitnya",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 2522,
+      "margin": 2002,
+      "nota_votes": 64,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Tesam Pongte",
+          "party": "BJP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 4180,
+          "postal_votes": 344,
+          "total_votes": 4524
+        },
+        {
+          "name": "Dihom Kitnya",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 2406,
+          "postal_votes": 116,
+          "total_votes": 2522
+        },
+        {
+          "name": "Marina Kenglang",
+          "party": "INC",
+          "gender": "F",
+          "age": 51,
+          "evm_votes": 1452,
+          "postal_votes": 95,
+          "total_votes": 1547
+        },
+        {
+          "name": "Nyasam Jongsam",
+          "party": "NCP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 73,
+          "postal_votes": 2,
+          "total_votes": 75
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 64,
+          "postal_votes": 0,
+          "total_votes": 64
+        }
+      ]
+    },
+    {
+      "ac_no": 54,
+      "name": "Namsang (ST)",
+      "category": "ST",
+      "electors": 9589,
+      "votes_polled": 7615,
+      "turnout_pct": 79.41,
+      "winner_name": "Wangki Lowang",
+      "winner_party": "BJP",
+      "winner_votes": 3781,
+      "runner_up_name": "Ngonglin Boi",
+      "runner_up_party": "NCP",
+      "runner_up_votes": 3725,
+      "margin": 56,
+      "nota_votes": 109,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Wangki Lowang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 3579,
+          "postal_votes": 202,
+          "total_votes": 3781
+        },
+        {
+          "name": "Ngonglin Boi",
+          "party": "NCP",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 3577,
+          "postal_votes": 148,
+          "total_votes": 3725
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 107,
+          "postal_votes": 2,
+          "total_votes": 109
+        }
+      ]
+    },
+    {
+      "ac_no": 55,
+      "name": "Khonsa East (ST)",
+      "category": "ST",
+      "electors": 10231,
+      "votes_polled": 8141,
+      "turnout_pct": 79.57,
+      "winner_name": "Wanglam Sawin",
+      "winner_party": "IND",
+      "winner_votes": 4544,
+      "runner_up_name": "Kamrang Tesia",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 2328,
+      "margin": 2216,
+      "nota_votes": 40,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Wanglam Sawin",
+          "party": "IND",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 4327,
+          "postal_votes": 217,
+          "total_votes": 4544
+        },
+        {
+          "name": "Kamrang Tesia",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 2182,
+          "postal_votes": 146,
+          "total_votes": 2328
+        },
+        {
+          "name": "Nokju Wanghop",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 1163,
+          "postal_votes": 66,
+          "total_votes": 1229
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 38,
+          "postal_votes": 2,
+          "total_votes": 40
+        }
+      ]
+    },
+    {
+      "ac_no": 56,
+      "name": "Khonsa West (ST)",
+      "category": "ST",
+      "electors": 11882,
+      "votes_polled": 10213,
+      "turnout_pct": 85.95,
+      "winner_name": "Chakat Aboh",
+      "winner_party": "BJP",
+      "winner_votes": 4093,
+      "runner_up_name": "Yang Sen Matey",
+      "runner_up_party": "NCP",
+      "runner_up_votes": 3289,
+      "margin": 804,
+      "nota_votes": 77,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Chakat Aboh",
+          "party": "BJP",
+          "gender": "F",
+          "age": 46,
+          "evm_votes": 3861,
+          "postal_votes": 232,
+          "total_votes": 4093
+        },
+        {
+          "name": "Yang Sen Matey",
+          "party": "NCP",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 3196,
+          "postal_votes": 93,
+          "total_votes": 3289
+        },
+        {
+          "name": "Azet Homtok",
+          "party": "IND",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 1900,
+          "postal_votes": 72,
+          "total_votes": 1972
+        },
+        {
+          "name": "Gawang Hakhun",
+          "party": "PPA",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 447,
+          "postal_votes": 19,
+          "total_votes": 466
+        },
+        {
+          "name": "Tangse Tekwa",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 266,
+          "postal_votes": 50,
+          "total_votes": 316
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 77,
+          "postal_votes": 0,
+          "total_votes": 77
+        }
+      ]
+    },
+    {
+      "ac_no": 57,
+      "name": "Borduria-Bogapani (ST)",
+      "category": "ST",
+      "electors": 9197,
+      "votes_polled": 8273,
+      "turnout_pct": 89.95,
+      "winner_name": "Wanglin Lowangdong",
+      "winner_party": "BJP",
+      "winner_votes": 4731,
+      "runner_up_name": "Jowang Hosai",
+      "runner_up_party": "NCP",
+      "runner_up_votes": 3279,
+      "margin": 1452,
+      "nota_votes": 68,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Wanglin Lowangdong",
+          "party": "BJP",
+          "gender": "M",
+          "age": 68,
+          "evm_votes": 4428,
+          "postal_votes": 303,
+          "total_votes": 4731
+        },
+        {
+          "name": "Jowang Hosai",
+          "party": "NCP",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 3091,
+          "postal_votes": 188,
+          "total_votes": 3279
+        },
+        {
+          "name": "Honting Wangpan",
+          "party": "PPA",
+          "gender": "M",
+          "age": 33,
+          "evm_votes": 192,
+          "postal_votes": 3,
+          "total_votes": 195
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 65,
+          "postal_votes": 3,
+          "total_votes": 68
+        }
+      ]
+    },
+    {
+      "ac_no": 58,
+      "name": "Kanubari (ST)",
+      "category": "ST",
+      "electors": 12646,
+      "votes_polled": 11855,
+      "turnout_pct": 93.75,
+      "winner_name": "Gabriel Denwang Wangsu",
+      "winner_party": "BJP",
+      "winner_votes": 5584,
+      "runner_up_name": "Panjam Wangsa",
+      "runner_up_party": "NPEP",
+      "runner_up_votes": 3525,
+      "margin": 2059,
+      "nota_votes": 37,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Gabriel Denwang Wangsu",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 5366,
+          "postal_votes": 218,
+          "total_votes": 5584
+        },
+        {
+          "name": "Panjam Wangsa",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 3409,
+          "postal_votes": 116,
+          "total_votes": 3525
+        },
+        {
+          "name": "Nokchai Boham",
+          "party": "PPA",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 2408,
+          "postal_votes": 100,
+          "total_votes": 2508
+        },
+        {
+          "name": "Sompha Wangsa",
+          "party": "INC",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 189,
+          "postal_votes": 12,
+          "total_votes": 201
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 37,
+          "postal_votes": 0,
+          "total_votes": 37
+        }
+      ]
+    },
+    {
+      "ac_no": 59,
+      "name": "Longding-Pumao (ST)",
+      "category": "ST",
+      "electors": 14933,
+      "votes_polled": 13284,
+      "turnout_pct": 88.96,
+      "winner_name": "Thangwang Wangham",
+      "winner_party": "NPEP",
+      "winner_votes": 6702,
+      "runner_up_name": "Tanpho Wangnaw",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 6533,
+      "margin": 169,
+      "nota_votes": 49,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Thangwang Wangham",
+          "party": "NPEP",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 6445,
+          "postal_votes": 257,
+          "total_votes": 6702
+        },
+        {
+          "name": "Tanpho Wangnaw",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 6315,
+          "postal_votes": 218,
+          "total_votes": 6533
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 47,
+          "postal_votes": 2,
+          "total_votes": 49
+        }
+      ]
+    },
+    {
+      "ac_no": 60,
+      "name": "Pongchao-Wakka (ST)",
+      "category": "ST",
+      "electors": 16209,
+      "votes_polled": 14706,
+      "turnout_pct": 90.73,
+      "winner_name": "Honchun Ngandam",
+      "winner_party": "BJP",
+      "winner_votes": 9623,
+      "runner_up_name": "Holai Wangsa",
+      "runner_up_party": "IND",
+      "runner_up_votes": 4961,
+      "margin": 4662,
+      "nota_votes": 122,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Honchun Ngandam",
+          "party": "BJP",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 9442,
+          "postal_votes": 181,
+          "total_votes": 9623
+        },
+        {
+          "name": "Holai Wangsa",
+          "party": "IND",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 4818,
+          "postal_votes": 143,
+          "total_votes": 4961
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 121,
+          "postal_votes": 1,
+          "total_votes": 122
+        }
+      ]
+    }
+  ]
+}

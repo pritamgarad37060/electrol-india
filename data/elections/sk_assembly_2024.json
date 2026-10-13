@@ -1,0 +1,2239 @@
+{
+  "state": "Sikkim",
+  "key": "sk",
+  "year": 2024,
+  "type": "assembly",
+  "icon": "🏔️",
+  "total_seats": 32,
+  "majority_mark": 17,
+  "leading_party": "SKM",
+  "leading_seats": 31,
+  "status": "SKM Majority (31/32)",
+  "total_electors": 466643,
+  "total_votes_polled": 385507,
+  "avg_turnout_pct": 82.61,
+  "parties": [
+    {
+      "party": "SKM",
+      "seats": 31,
+      "votes": 225068
+    },
+    {
+      "party": "SDF",
+      "seats": 1,
+      "votes": 105503
+    }
+  ],
+  "constituencies": [
+    {
+      "ac_no": 1,
+      "name": "Yuksom-Tashiding (Bl)",
+      "category": "GEN",
+      "electors": 15524,
+      "votes_polled": 13604,
+      "turnout_pct": 87.63,
+      "winner_name": "Tshering Thendup Bhutia",
+      "winner_party": "SKM",
+      "winner_votes": 8271,
+      "runner_up_name": "Meewang Gyatso Bhutia",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 3459,
+      "margin": 4812,
+      "nota_votes": 159,
+      "num_candidates": 8,
+      "candidates": [
+        {
+          "name": "Tshering Thendup Bhutia",
+          "party": "SKM",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 7944,
+          "postal_votes": 327,
+          "total_votes": 8271
+        },
+        {
+          "name": "Meewang Gyatso Bhutia",
+          "party": "SDF",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 3407,
+          "postal_votes": 52,
+          "total_votes": 3459
+        },
+        {
+          "name": "Jigmey Bhutia",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 1015,
+          "postal_votes": 9,
+          "total_votes": 1024
+        },
+        {
+          "name": "Kunzang Sherab Bhutia",
+          "party": "BJP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 315,
+          "postal_votes": 3,
+          "total_votes": 318
+        },
+        {
+          "name": "Kamal Lepcha",
+          "party": "INC",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 170,
+          "postal_votes": 0,
+          "total_votes": 170
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 158,
+          "postal_votes": 1,
+          "total_votes": 159
+        },
+        {
+          "name": "Palden Lepcha",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 109,
+          "postal_votes": 0,
+          "total_votes": 109
+        },
+        {
+          "name": "Sonam Palzor Bhutia",
+          "party": "IND",
+          "gender": "M",
+          "age": 75,
+          "evm_votes": 94,
+          "postal_votes": 0,
+          "total_votes": 94
+        }
+      ]
+    },
+    {
+      "ac_no": 2,
+      "name": "Yangthang",
+      "category": "ST",
+      "electors": 14121,
+      "votes_polled": 12124,
+      "turnout_pct": 85.86,
+      "winner_name": "Bhim Hang Limboo",
+      "winner_party": "SKM",
+      "winner_votes": 6621,
+      "runner_up_name": "Kesham Limboo",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 4065,
+      "margin": 2556,
+      "nota_votes": 85,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Bhim Hang Limboo",
+          "party": "SKM",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 6211,
+          "postal_votes": 410,
+          "total_votes": 6621
+        },
+        {
+          "name": "Kesham Limboo",
+          "party": "SDF",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 3924,
+          "postal_votes": 141,
+          "total_votes": 4065
+        },
+        {
+          "name": "Phip Dhoj Limboo",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 546,
+          "postal_votes": 5,
+          "total_votes": 551
+        },
+        {
+          "name": "Pravin Sharma",
+          "party": "IND",
+          "gender": "M",
+          "age": 26,
+          "evm_votes": 521,
+          "postal_votes": 15,
+          "total_votes": 536
+        },
+        {
+          "name": "Sancha Man Limboo",
+          "party": "BJP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 182,
+          "postal_votes": 3,
+          "total_votes": 185
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 85,
+          "postal_votes": 0,
+          "total_votes": 85
+        },
+        {
+          "name": "Mangal Subba (limboo)",
+          "party": "INC",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 77,
+          "postal_votes": 4,
+          "total_votes": 81
+        }
+      ]
+    },
+    {
+      "ac_no": 3,
+      "name": "Maneybung-Dentam",
+      "category": "GEN",
+      "electors": 16403,
+      "votes_polled": 14216,
+      "turnout_pct": 86.67,
+      "winner_name": "Sudesh Kumar Subba",
+      "winner_party": "SKM",
+      "winner_votes": 8553,
+      "runner_up_name": "Tika Ram Chettri",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 2514,
+      "margin": 6039,
+      "nota_votes": 145,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Sudesh Kumar Subba",
+          "party": "SKM",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 8077,
+          "postal_votes": 476,
+          "total_votes": 8553
+        },
+        {
+          "name": "Tika Ram Chettri",
+          "party": "SDF",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 2444,
+          "postal_votes": 70,
+          "total_votes": 2514
+        },
+        {
+          "name": "Narendra Kumar Subba",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 1880,
+          "postal_votes": 44,
+          "total_votes": 1924
+        },
+        {
+          "name": "Prakash Sharma",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 831,
+          "postal_votes": 9,
+          "total_votes": 840
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 144,
+          "postal_votes": 1,
+          "total_votes": 145
+        },
+        {
+          "name": "Dipendra Gurung",
+          "party": "IND",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 119,
+          "postal_votes": 3,
+          "total_votes": 122
+        },
+        {
+          "name": "Nar Bahadur Gurung",
+          "party": "INC",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 117,
+          "postal_votes": 1,
+          "total_votes": 118
+        }
+      ]
+    },
+    {
+      "ac_no": 4,
+      "name": "Gyalshing-Barnyak",
+      "category": "GEN",
+      "electors": 13683,
+      "votes_polled": 11667,
+      "turnout_pct": 85.27,
+      "winner_name": "Lok Nath Sharma",
+      "winner_party": "SKM",
+      "winner_votes": 5612,
+      "runner_up_name": "Khusandra Prasad Sharma",
+      "runner_up_party": "IND",
+      "runner_up_votes": 4649,
+      "margin": 963,
+      "nota_votes": 105,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Lok Nath Sharma",
+          "party": "SKM",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 5297,
+          "postal_votes": 315,
+          "total_votes": 5612
+        },
+        {
+          "name": "Khusandra Prasad Sharma",
+          "party": "IND",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 4477,
+          "postal_votes": 172,
+          "total_votes": 4649
+        },
+        {
+          "name": "Tika Prasad Sharma",
+          "party": "SDF",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 807,
+          "postal_votes": 22,
+          "total_votes": 829
+        },
+        {
+          "name": "Pujan Kharka",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 315,
+          "postal_votes": 2,
+          "total_votes": 317
+        },
+        {
+          "name": "Bharat Kumar Sharma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 152,
+          "postal_votes": 3,
+          "total_votes": 155
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 104,
+          "postal_votes": 1,
+          "total_votes": 105
+        }
+      ]
+    },
+    {
+      "ac_no": 5,
+      "name": "Rinchenpong (Bl)",
+      "category": "GEN",
+      "electors": 16024,
+      "votes_polled": 13967,
+      "turnout_pct": 87.16,
+      "winner_name": "Erung Tenzing Lepcha",
+      "winner_party": "SKM",
+      "winner_votes": 9624,
+      "runner_up_name": "Norden Bhutia",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 3224,
+      "margin": 6400,
+      "nota_votes": 239,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Erung Tenzing Lepcha",
+          "party": "SKM",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 9122,
+          "postal_votes": 502,
+          "total_votes": 9624
+        },
+        {
+          "name": "Norden Bhutia",
+          "party": "SDF",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 3162,
+          "postal_votes": 62,
+          "total_votes": 3224
+        },
+        {
+          "name": "Dawa Ongdi Lepcha",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 550,
+          "postal_votes": 2,
+          "total_votes": 552
+        },
+        {
+          "name": "Sancho Lepcha",
+          "party": "BJP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 325,
+          "postal_votes": 3,
+          "total_votes": 328
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 239,
+          "postal_votes": 0,
+          "total_votes": 239
+        }
+      ]
+    },
+    {
+      "ac_no": 6,
+      "name": "Daramdin (Bl)",
+      "category": "GEN",
+      "electors": 16404,
+      "votes_polled": 13880,
+      "turnout_pct": 84.61,
+      "winner_name": "Mingma Norbu Sherpa",
+      "winner_party": "SKM",
+      "winner_votes": 9404,
+      "runner_up_name": "Pem Norbu Sherpa",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 3429,
+      "margin": 5975,
+      "nota_votes": 224,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Mingma Norbu Sherpa",
+          "party": "SKM",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 8716,
+          "postal_votes": 688,
+          "total_votes": 9404
+        },
+        {
+          "name": "Pem Norbu Sherpa",
+          "party": "SDF",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 3336,
+          "postal_votes": 93,
+          "total_votes": 3429
+        },
+        {
+          "name": "Pem Dorjee Sherpa",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 468,
+          "postal_votes": 4,
+          "total_votes": 472
+        },
+        {
+          "name": "Phurba Dorjee Sherpa",
+          "party": "BJP",
+          "gender": "M",
+          "age": 68,
+          "evm_votes": 343,
+          "postal_votes": 8,
+          "total_votes": 351
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 218,
+          "postal_votes": 6,
+          "total_votes": 224
+        }
+      ]
+    },
+    {
+      "ac_no": 7,
+      "name": "Soreng-Chakung",
+      "category": "GEN",
+      "electors": 16740,
+      "votes_polled": 14520,
+      "turnout_pct": 86.74,
+      "winner_name": "P S Tamang",
+      "winner_party": "SKM",
+      "winner_votes": 10480,
+      "runner_up_name": "Dr. A D Subba",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 3084,
+      "margin": 7396,
+      "nota_votes": 128,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "P S Tamang",
+          "party": "SKM",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 9790,
+          "postal_votes": 690,
+          "total_votes": 10480
+        },
+        {
+          "name": "Dr. A D Subba",
+          "party": "SDF",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 3007,
+          "postal_votes": 77,
+          "total_votes": 3084
+        },
+        {
+          "name": "Pobin Hang Subba",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 497,
+          "postal_votes": 1,
+          "total_votes": 498
+        },
+        {
+          "name": "Purna Singh Subba",
+          "party": "BJP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 327,
+          "postal_votes": 3,
+          "total_votes": 330
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 124,
+          "postal_votes": 4,
+          "total_votes": 128
+        }
+      ]
+    },
+    {
+      "ac_no": 8,
+      "name": "Salghari-Zoom (Sc)",
+      "category": "SC",
+      "electors": 11694,
+      "votes_polled": 9674,
+      "turnout_pct": 82.73,
+      "winner_name": "Madan Cintury",
+      "winner_party": "SKM",
+      "winner_votes": 5678,
+      "runner_up_name": "Janga Bir Darnal",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 2966,
+      "margin": 2712,
+      "nota_votes": 75,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Madan Cintury",
+          "party": "SKM",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 5473,
+          "postal_votes": 205,
+          "total_votes": 5678
+        },
+        {
+          "name": "Janga Bir Darnal",
+          "party": "SDF",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 2904,
+          "postal_votes": 62,
+          "total_votes": 2966
+        },
+        {
+          "name": "Pahal Man Kami",
+          "party": "BJP",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 552,
+          "postal_votes": 3,
+          "total_votes": 555
+        },
+        {
+          "name": "Kaushal Lohagan",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 394,
+          "postal_votes": 6,
+          "total_votes": 400
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 73,
+          "postal_votes": 2,
+          "total_votes": 75
+        }
+      ]
+    },
+    {
+      "ac_no": 9,
+      "name": "Barfung (Bl)",
+      "category": "GEN",
+      "electors": 15980,
+      "votes_polled": 13512,
+      "turnout_pct": 84.56,
+      "winner_name": "Rikshal Dorjee Bhutia",
+      "winner_party": "SKM",
+      "winner_votes": 8358,
+      "runner_up_name": "Bhaichung Bhutia",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 4012,
+      "margin": 4346,
+      "nota_votes": 188,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Rikshal Dorjee Bhutia",
+          "party": "SKM",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 8048,
+          "postal_votes": 310,
+          "total_votes": 8358
+        },
+        {
+          "name": "Bhaichung Bhutia",
+          "party": "SDF",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 3924,
+          "postal_votes": 88,
+          "total_votes": 4012
+        },
+        {
+          "name": "Dadul Lepcha",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 653,
+          "postal_votes": 3,
+          "total_votes": 656
+        },
+        {
+          "name": "Tashi Dadul Bhutia",
+          "party": "BJP",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 293,
+          "postal_votes": 5,
+          "total_votes": 298
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 185,
+          "postal_votes": 3,
+          "total_votes": 188
+        }
+      ]
+    },
+    {
+      "ac_no": 10,
+      "name": "Poklok-Kamrang",
+      "category": "GEN",
+      "electors": 16870,
+      "votes_polled": 14616,
+      "turnout_pct": 86.64,
+      "winner_name": "Bhoj Raj Rai",
+      "winner_party": "SKM",
+      "winner_votes": 8037,
+      "runner_up_name": "Pawan Kumar Chamling",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 4974,
+      "margin": 3063,
+      "nota_votes": 175,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Bhoj Raj Rai",
+          "party": "SKM",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 7569,
+          "postal_votes": 468,
+          "total_votes": 8037
+        },
+        {
+          "name": "Pawan Kumar Chamling",
+          "party": "SDF",
+          "gender": "M",
+          "age": 73,
+          "evm_votes": 4841,
+          "postal_votes": 133,
+          "total_votes": 4974
+        },
+        {
+          "name": "Arjun Rai",
+          "party": "BJP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 727,
+          "postal_votes": 12,
+          "total_votes": 739
+        },
+        {
+          "name": "Sanju Rai",
+          "party": "CAPS",
+          "gender": "F",
+          "age": 50,
+          "evm_votes": 682,
+          "postal_votes": 9,
+          "total_votes": 691
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 172,
+          "postal_votes": 3,
+          "total_votes": 175
+        }
+      ]
+    },
+    {
+      "ac_no": 11,
+      "name": "Namchi-Singhithang",
+      "category": "GEN",
+      "electors": 13251,
+      "votes_polled": 11043,
+      "turnout_pct": 83.34,
+      "winner_name": "Krishna Kumari Rai",
+      "winner_party": "SKM",
+      "winner_votes": 7907,
+      "runner_up_name": "Bimal Rai",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 2605,
+      "margin": 5302,
+      "nota_votes": 62,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Krishna Kumari Rai",
+          "party": "SKM",
+          "gender": "F",
+          "age": 47,
+          "evm_votes": 7395,
+          "postal_votes": 512,
+          "total_votes": 7907
+        },
+        {
+          "name": "Bimal Rai",
+          "party": "SDF",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 2481,
+          "postal_votes": 124,
+          "total_votes": 2605
+        },
+        {
+          "name": "Mahesh Rai",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 29,
+          "evm_votes": 234,
+          "postal_votes": 2,
+          "total_votes": 236
+        },
+        {
+          "name": "Aruna Manger",
+          "party": "BJP",
+          "gender": "F",
+          "age": 48,
+          "evm_votes": 231,
+          "postal_votes": 2,
+          "total_votes": 233
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 57,
+          "postal_votes": 5,
+          "total_votes": 62
+        }
+      ]
+    },
+    {
+      "ac_no": 12,
+      "name": "Melli",
+      "category": "GEN",
+      "electors": 16029,
+      "votes_polled": 13636,
+      "turnout_pct": 85.07,
+      "winner_name": "Nar Bahadur Pradhan",
+      "winner_party": "SKM",
+      "winner_votes": 7904,
+      "runner_up_name": "Ganesh Kumar Rai",
+      "runner_up_party": "CAPS",
+      "runner_up_votes": 3621,
+      "margin": 4283,
+      "nota_votes": 99,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Nar Bahadur Pradhan",
+          "party": "SKM",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 7433,
+          "postal_votes": 471,
+          "total_votes": 7904
+        },
+        {
+          "name": "Ganesh Kumar Rai",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 3532,
+          "postal_votes": 89,
+          "total_votes": 3621
+        },
+        {
+          "name": "Nirmal Kumar Pradhan",
+          "party": "SDF",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 1287,
+          "postal_votes": 34,
+          "total_votes": 1321
+        },
+        {
+          "name": "Yogen Rai",
+          "party": "BJP",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 575,
+          "postal_votes": 7,
+          "total_votes": 582
+        },
+        {
+          "name": "Rupen Karki",
+          "party": "IND",
+          "gender": "M",
+          "age": 28,
+          "evm_votes": 104,
+          "postal_votes": 5,
+          "total_votes": 109
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 97,
+          "postal_votes": 2,
+          "total_votes": 99
+        }
+      ]
+    },
+    {
+      "ac_no": 13,
+      "name": "Namthang-Rateypani",
+      "category": "GEN",
+      "electors": 16455,
+      "votes_polled": 14101,
+      "turnout_pct": 85.69,
+      "winner_name": "Sanjeet Kharel",
+      "winner_party": "SKM",
+      "winner_votes": 8949,
+      "runner_up_name": "Suman Pradhan",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 3344,
+      "margin": 5605,
+      "nota_votes": 164,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Sanjeet Kharel",
+          "party": "SKM",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 8468,
+          "postal_votes": 481,
+          "total_votes": 8949
+        },
+        {
+          "name": "Suman Pradhan",
+          "party": "SDF",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 3281,
+          "postal_votes": 63,
+          "total_votes": 3344
+        },
+        {
+          "name": "Hari Chandra Chettri",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 1282,
+          "postal_votes": 18,
+          "total_votes": 1300
+        },
+        {
+          "name": "Janak Kumar Gurung",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 337,
+          "postal_votes": 7,
+          "total_votes": 344
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 162,
+          "postal_votes": 2,
+          "total_votes": 164
+        }
+      ]
+    },
+    {
+      "ac_no": 14,
+      "name": "Temi-Namphing",
+      "category": "GEN",
+      "electors": 15465,
+      "votes_polled": 13038,
+      "turnout_pct": 84.31,
+      "winner_name": "Bedu Singh Panth",
+      "winner_party": "SKM",
+      "winner_votes": 6759,
+      "runner_up_name": "Suman Kumar Tewari",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 3201,
+      "margin": 3558,
+      "nota_votes": 159,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Bedu Singh Panth",
+          "party": "SKM",
+          "gender": "M",
+          "age": 71,
+          "evm_votes": 6350,
+          "postal_votes": 409,
+          "total_votes": 6759
+        },
+        {
+          "name": "Suman Kumar Tewari",
+          "party": "SDF",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 3138,
+          "postal_votes": 63,
+          "total_votes": 3201
+        },
+        {
+          "name": "Bikash Sharma",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 2570,
+          "postal_votes": 46,
+          "total_votes": 2616
+        },
+        {
+          "name": "Bhupendra Giri",
+          "party": "BJP",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 298,
+          "postal_votes": 5,
+          "total_votes": 303
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 156,
+          "postal_votes": 3,
+          "total_votes": 159
+        }
+      ]
+    },
+    {
+      "ac_no": 15,
+      "name": "Rangang-Yangang",
+      "category": "GEN",
+      "electors": 15261,
+      "votes_polled": 12839,
+      "turnout_pct": 84.13,
+      "winner_name": "Raj Kumari Thapa",
+      "winner_party": "SKM",
+      "winner_votes": 6514,
+      "runner_up_name": "Mani Kumar Subba",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 5313,
+      "margin": 1201,
+      "nota_votes": 94,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Raj Kumari Thapa",
+          "party": "SKM",
+          "gender": "F",
+          "age": 43,
+          "evm_votes": 6244,
+          "postal_votes": 270,
+          "total_votes": 6514
+        },
+        {
+          "name": "Mani Kumar Subba",
+          "party": "SDF",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 5187,
+          "postal_votes": 126,
+          "total_votes": 5313
+        },
+        {
+          "name": "Anil Kumar Nepal",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 660,
+          "postal_votes": 2,
+          "total_votes": 662
+        },
+        {
+          "name": "Gopi Das Sharma (pokhrel)",
+          "party": "BJP",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 251,
+          "postal_votes": 5,
+          "total_votes": 256
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 92,
+          "postal_votes": 2,
+          "total_votes": 94
+        }
+      ]
+    },
+    {
+      "ac_no": 16,
+      "name": "Tumen-Lingi (Bl)",
+      "category": "GEN",
+      "electors": 16767,
+      "votes_polled": 14232,
+      "turnout_pct": 84.88,
+      "winner_name": "Samdup Tshering Bhutia",
+      "winner_party": "SKM",
+      "winner_votes": 8265,
+      "runner_up_name": "Norzong Lepcha",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 4177,
+      "margin": 4088,
+      "nota_votes": 115,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Samdup Tshering Bhutia",
+          "party": "SKM",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 7814,
+          "postal_votes": 451,
+          "total_votes": 8265
+        },
+        {
+          "name": "Norzong Lepcha",
+          "party": "SDF",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 4120,
+          "postal_votes": 57,
+          "total_votes": 4177
+        },
+        {
+          "name": "Pema Gyalpu Bhutia",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 884,
+          "postal_votes": 1,
+          "total_votes": 885
+        },
+        {
+          "name": "Passang Gyali Sherpa",
+          "party": "BJP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 584,
+          "postal_votes": 9,
+          "total_votes": 593
+        },
+        {
+          "name": "Samdup Lepcha",
+          "party": "INC",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 190,
+          "postal_votes": 7,
+          "total_votes": 197
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 114,
+          "postal_votes": 1,
+          "total_votes": 115
+        }
+      ]
+    },
+    {
+      "ac_no": 17,
+      "name": "Khamdong-Singtam",
+      "category": "GEN",
+      "electors": 14428,
+      "votes_polled": 11126,
+      "turnout_pct": 77.11,
+      "winner_name": "Nar Bahadur Dahal",
+      "winner_party": "SKM",
+      "winner_votes": 5882,
+      "runner_up_name": "Mani Kumar Sharma",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 4143,
+      "margin": 1739,
+      "nota_votes": 75,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Nar Bahadur Dahal",
+          "party": "SKM",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 5637,
+          "postal_votes": 245,
+          "total_votes": 5882
+        },
+        {
+          "name": "Mani Kumar Sharma",
+          "party": "SDF",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 4045,
+          "postal_votes": 98,
+          "total_votes": 4143
+        },
+        {
+          "name": "Chetan Sapkota",
+          "party": "BJP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 504,
+          "postal_votes": 2,
+          "total_votes": 506
+        },
+        {
+          "name": "Sumati Chettri",
+          "party": "CAPS",
+          "gender": "F",
+          "age": 55,
+          "evm_votes": 449,
+          "postal_votes": 1,
+          "total_votes": 450
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 75,
+          "postal_votes": 0,
+          "total_votes": 75
+        },
+        {
+          "name": "Tanka Nath Adhikari",
+          "party": "INC",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 69,
+          "postal_votes": 1,
+          "total_votes": 70
+        }
+      ]
+    },
+    {
+      "ac_no": 18,
+      "name": "West Pendam (Sc)",
+      "category": "SC",
+      "electors": 15880,
+      "votes_polled": 12918,
+      "turnout_pct": 81.35,
+      "winner_name": "Lall Bahadur Das",
+      "winner_party": "SKM",
+      "winner_votes": 6237,
+      "runner_up_name": "Anup Thatal",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 4285,
+      "margin": 1952,
+      "nota_votes": 126,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Lall Bahadur Das",
+          "party": "SKM",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 6048,
+          "postal_votes": 189,
+          "total_votes": 6237
+        },
+        {
+          "name": "Anup Thatal",
+          "party": "SDF",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 4238,
+          "postal_votes": 47,
+          "total_votes": 4285
+        },
+        {
+          "name": "Bhupal Baraily",
+          "party": "BJP",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 953,
+          "postal_votes": 6,
+          "total_votes": 959
+        },
+        {
+          "name": "Jagdish Cintury",
+          "party": "IND",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 725,
+          "postal_votes": 6,
+          "total_votes": 731
+        },
+        {
+          "name": "Madan Kumar Shiva Shanker",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 577,
+          "postal_votes": 3,
+          "total_votes": 580
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 123,
+          "postal_votes": 3,
+          "total_votes": 126
+        }
+      ]
+    },
+    {
+      "ac_no": 19,
+      "name": "Rhenock",
+      "category": "GEN",
+      "electors": 18356,
+      "votes_polled": 15640,
+      "turnout_pct": 85.2,
+      "winner_name": "P S Tamang",
+      "winner_party": "SKM",
+      "winner_votes": 10094,
+      "runner_up_name": "Som Nath Poudyal",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 3050,
+      "margin": 7044,
+      "nota_votes": 162,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "P S Tamang",
+          "party": "SKM",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 9425,
+          "postal_votes": 669,
+          "total_votes": 10094
+        },
+        {
+          "name": "Som Nath Poudyal",
+          "party": "SDF",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 2982,
+          "postal_votes": 68,
+          "total_votes": 3050
+        },
+        {
+          "name": "Tika Ram Sharma",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 1153,
+          "postal_votes": 18,
+          "total_votes": 1171
+        },
+        {
+          "name": "Prem Chhetri",
+          "party": "BJP",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 843,
+          "postal_votes": 9,
+          "total_votes": 852
+        },
+        {
+          "name": "Laxmi Sharma",
+          "party": "SRPP",
+          "gender": "F",
+          "age": 32,
+          "evm_votes": 170,
+          "postal_votes": 0,
+          "total_votes": 170
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 154,
+          "postal_votes": 8,
+          "total_votes": 162
+        },
+        {
+          "name": "Kapil Prasad Sapkota",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 140,
+          "postal_votes": 1,
+          "total_votes": 141
+        }
+      ]
+    },
+    {
+      "ac_no": 20,
+      "name": "Chujachen",
+      "category": "GEN",
+      "electors": 18749,
+      "votes_polled": 14731,
+      "turnout_pct": 78.57,
+      "winner_name": "Puran Kr. Gurung",
+      "winner_party": "SKM",
+      "winner_votes": 8199,
+      "runner_up_name": "Mani Kumar Gurung",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 4865,
+      "margin": 3334,
+      "nota_votes": 126,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Puran Kr. Gurung",
+          "party": "SKM",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 7549,
+          "postal_votes": 650,
+          "total_votes": 8199
+        },
+        {
+          "name": "Mani Kumar Gurung",
+          "party": "SDF",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 4687,
+          "postal_votes": 178,
+          "total_votes": 4865
+        },
+        {
+          "name": "Ganesh Kumar Rai",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 1065,
+          "postal_votes": 12,
+          "total_votes": 1077
+        },
+        {
+          "name": "Duk Nath Nepal",
+          "party": "BJP",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 456,
+          "postal_votes": 8,
+          "total_votes": 464
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 122,
+          "postal_votes": 4,
+          "total_votes": 126
+        }
+      ]
+    },
+    {
+      "ac_no": 21,
+      "name": "Gnathang-Machong (Bl)",
+      "category": "GEN",
+      "electors": 12965,
+      "votes_polled": 10841,
+      "turnout_pct": 83.62,
+      "winner_name": "Pamin Lepcha",
+      "winner_party": "SKM",
+      "winner_votes": 6676,
+      "runner_up_name": "Tshering Wangdi Lepcha",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 2869,
+      "margin": 3807,
+      "nota_votes": 94,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Pamin Lepcha",
+          "party": "SKM",
+          "gender": "F",
+          "age": 39,
+          "evm_votes": 6019,
+          "postal_votes": 657,
+          "total_votes": 6676
+        },
+        {
+          "name": "Tshering Wangdi Lepcha",
+          "party": "SDF",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 2768,
+          "postal_votes": 101,
+          "total_votes": 2869
+        },
+        {
+          "name": "Sangay Gyatso Bhutia",
+          "party": "BJP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 588,
+          "postal_votes": 14,
+          "total_votes": 602
+        },
+        {
+          "name": "Phuri Sherpa",
+          "party": "CAPS",
+          "gender": "F",
+          "age": 49,
+          "evm_votes": 525,
+          "postal_votes": 6,
+          "total_votes": 531
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 92,
+          "postal_votes": 2,
+          "total_votes": 94
+        },
+        {
+          "name": "Tshering Pema Bhutia",
+          "party": "INC",
+          "gender": "F",
+          "age": 37,
+          "evm_votes": 67,
+          "postal_votes": 2,
+          "total_votes": 69
+        }
+      ]
+    },
+    {
+      "ac_no": 22,
+      "name": "Namcheybung",
+      "category": "GEN",
+      "electors": 16397,
+      "votes_polled": 13469,
+      "turnout_pct": 82.14,
+      "winner_name": "Raju Basnet",
+      "winner_party": "SKM",
+      "winner_votes": 7195,
+      "runner_up_name": "Pawan Kumar Chamling",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 4939,
+      "margin": 2256,
+      "nota_votes": 147,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Raju Basnet",
+          "party": "SKM",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 6746,
+          "postal_votes": 449,
+          "total_votes": 7195
+        },
+        {
+          "name": "Pawan Kumar Chamling",
+          "party": "SDF",
+          "gender": "M",
+          "age": 73,
+          "evm_votes": 4811,
+          "postal_votes": 128,
+          "total_votes": 4939
+        },
+        {
+          "name": "Severine Rai",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 805,
+          "postal_votes": 9,
+          "total_votes": 814
+        },
+        {
+          "name": "Pooja Sharma",
+          "party": "BJP",
+          "gender": "F",
+          "age": 38,
+          "evm_votes": 370,
+          "postal_votes": 4,
+          "total_votes": 374
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 143,
+          "postal_votes": 4,
+          "total_votes": 147
+        }
+      ]
+    },
+    {
+      "ac_no": 23,
+      "name": "Shyari (Bl)",
+      "category": "GEN",
+      "electors": 16196,
+      "votes_polled": 12796,
+      "turnout_pct": 79.01,
+      "winner_name": "Tenzing Norbu Lamtha",
+      "winner_party": "SDF",
+      "winner_votes": 6633,
+      "runner_up_name": "Kunga Nima Lepcha",
+      "runner_up_party": "SKM",
+      "runner_up_votes": 5319,
+      "margin": 1314,
+      "nota_votes": 93,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Tenzing Norbu Lamtha",
+          "party": "SDF",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 6493,
+          "postal_votes": 140,
+          "total_votes": 6633
+        },
+        {
+          "name": "Kunga Nima Lepcha",
+          "party": "SKM",
+          "gender": "M",
+          "age": 77,
+          "evm_votes": 5017,
+          "postal_votes": 302,
+          "total_votes": 5319
+        },
+        {
+          "name": "Pempo Dorjee Lepcha",
+          "party": "BJP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 398,
+          "postal_votes": 5,
+          "total_votes": 403
+        },
+        {
+          "name": "Sonam Tshering Lepcha",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 266,
+          "postal_votes": 2,
+          "total_votes": 268
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 92,
+          "postal_votes": 1,
+          "total_votes": 93
+        },
+        {
+          "name": "Karma Tashi Bhutia",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 78,
+          "postal_votes": 2,
+          "total_votes": 80
+        }
+      ]
+    },
+    {
+      "ac_no": 24,
+      "name": "Martam-Rumtek (Bl)",
+      "category": "GEN",
+      "electors": 17844,
+      "votes_polled": 14941,
+      "turnout_pct": 83.73,
+      "winner_name": "Sonam Tsh. Venchungpa",
+      "winner_party": "SKM",
+      "winner_votes": 8070,
+      "runner_up_name": "Mechung Bhutia",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 5308,
+      "margin": 2762,
+      "nota_votes": 132,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Sonam Tsh. Venchungpa",
+          "party": "SKM",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 7635,
+          "postal_votes": 435,
+          "total_votes": 8070
+        },
+        {
+          "name": "Mechung Bhutia",
+          "party": "SDF",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 5162,
+          "postal_votes": 146,
+          "total_votes": 5308
+        },
+        {
+          "name": "Chewang Dadul Bhutia",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 699,
+          "postal_votes": 6,
+          "total_votes": 705
+        },
+        {
+          "name": "Karma Tshering Bhutia",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 634,
+          "postal_votes": 3,
+          "total_votes": 637
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 128,
+          "postal_votes": 4,
+          "total_votes": 132
+        },
+        {
+          "name": "Ganga Lepcha",
+          "party": "INC",
+          "gender": "F",
+          "age": 40,
+          "evm_votes": 87,
+          "postal_votes": 2,
+          "total_votes": 89
+        }
+      ]
+    },
+    {
+      "ac_no": 25,
+      "name": "Upper Tadong",
+      "category": "GEN",
+      "electors": 12228,
+      "votes_polled": 9069,
+      "turnout_pct": 74.17,
+      "winner_name": "G.t. Dhungel",
+      "winner_party": "SKM",
+      "winner_votes": 6209,
+      "runner_up_name": "Dr. Chandra Bahadur Chettri",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 2120,
+      "margin": 4089,
+      "nota_votes": 57,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "G.t. Dhungel",
+          "party": "SKM",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 5959,
+          "postal_votes": 250,
+          "total_votes": 6209
+        },
+        {
+          "name": "Dr. Chandra Bahadur Chettri",
+          "party": "SDF",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 2073,
+          "postal_votes": 47,
+          "total_votes": 2120
+        },
+        {
+          "name": "Niren Bhandari",
+          "party": "BJP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 274,
+          "postal_votes": 6,
+          "total_votes": 280
+        },
+        {
+          "name": "Ravi Gurung",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 245,
+          "postal_votes": 0,
+          "total_votes": 245
+        },
+        {
+          "name": "Kailash Chandra Pradhan",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 155,
+          "postal_votes": 3,
+          "total_votes": 158
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 55,
+          "postal_votes": 2,
+          "total_votes": 57
+        }
+      ]
+    },
+    {
+      "ac_no": 26,
+      "name": "Arithang",
+      "category": "GEN",
+      "electors": 12602,
+      "votes_polled": 8712,
+      "turnout_pct": 69.13,
+      "winner_name": "Arun Kumar Upreti",
+      "winner_party": "SKM",
+      "winner_votes": 5356,
+      "runner_up_name": "Ashis Rai",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 2627,
+      "margin": 2729,
+      "nota_votes": 49,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Arun Kumar Upreti",
+          "party": "SKM",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 5187,
+          "postal_votes": 169,
+          "total_votes": 5356
+        },
+        {
+          "name": "Ashis Rai",
+          "party": "SDF",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 2594,
+          "postal_votes": 33,
+          "total_votes": 2627
+        },
+        {
+          "name": "Udai Gurung",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 541,
+          "postal_votes": 0,
+          "total_votes": 541
+        },
+        {
+          "name": "Rikesh Pradhan",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 93,
+          "postal_votes": 0,
+          "total_votes": 93
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 48,
+          "postal_votes": 1,
+          "total_votes": 49
+        },
+        {
+          "name": "Sumitra Rai",
+          "party": "INC",
+          "gender": "F",
+          "age": 53,
+          "evm_votes": 46,
+          "postal_votes": 0,
+          "total_votes": 46
+        }
+      ]
+    },
+    {
+      "ac_no": 27,
+      "name": "Gangtok (Bl)",
+      "category": "GEN",
+      "electors": 11881,
+      "votes_polled": 7730,
+      "turnout_pct": 65.06,
+      "winner_name": "Delay Namgyal Barfungpa",
+      "winner_party": "SKM",
+      "winner_votes": 4440,
+      "runner_up_name": "Pintso Chopel Lepcha",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 1748,
+      "margin": 2692,
+      "nota_votes": 62,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Delay Namgyal Barfungpa",
+          "party": "SKM",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 4310,
+          "postal_votes": 130,
+          "total_votes": 4440
+        },
+        {
+          "name": "Pintso Chopel Lepcha",
+          "party": "SDF",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 1714,
+          "postal_votes": 34,
+          "total_votes": 1748
+        },
+        {
+          "name": "Pema Wangyal Rinzing",
+          "party": "BJP",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 1218,
+          "postal_votes": 12,
+          "total_votes": 1230
+        },
+        {
+          "name": "Dawcho Lepcha",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 203,
+          "postal_votes": 3,
+          "total_votes": 206
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 60,
+          "postal_votes": 2,
+          "total_votes": 62
+        },
+        {
+          "name": "Snumit Targain",
+          "party": "INC",
+          "gender": "F",
+          "age": 62,
+          "evm_votes": 44,
+          "postal_votes": 0,
+          "total_votes": 44
+        }
+      ]
+    },
+    {
+      "ac_no": 28,
+      "name": "Upper Burtuk",
+      "category": "GEN",
+      "electors": 16236,
+      "votes_polled": 12512,
+      "turnout_pct": 77.06,
+      "winner_name": "Kala Rai",
+      "winner_party": "SKM",
+      "winner_votes": 6323,
+      "runner_up_name": "Dilli Ram Thapa",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 3755,
+      "margin": 2568,
+      "nota_votes": 107,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Kala Rai",
+          "party": "SKM",
+          "gender": "F",
+          "age": 49,
+          "evm_votes": 5968,
+          "postal_votes": 355,
+          "total_votes": 6323
+        },
+        {
+          "name": "Dilli Ram Thapa",
+          "party": "BJP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 3656,
+          "postal_votes": 99,
+          "total_votes": 3755
+        },
+        {
+          "name": "Dil Bahadur Thapa",
+          "party": "SDF",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 1581,
+          "postal_votes": 42,
+          "total_votes": 1623
+        },
+        {
+          "name": "Bhim Kumar Tamang",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 577,
+          "postal_votes": 4,
+          "total_votes": 581
+        },
+        {
+          "name": "Aita Tamang",
+          "party": "INC",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 121,
+          "postal_votes": 2,
+          "total_votes": 123
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 102,
+          "postal_votes": 5,
+          "total_votes": 107
+        }
+      ]
+    },
+    {
+      "ac_no": 29,
+      "name": "Kabi Lungchuk (Bl)",
+      "category": "GEN",
+      "electors": 13209,
+      "votes_polled": 10856,
+      "turnout_pct": 82.19,
+      "winner_name": "Thenlay Tshering Bhutia",
+      "winner_party": "SKM",
+      "winner_votes": 5882,
+      "runner_up_name": "Gnawo Chopel Lepcha",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 4189,
+      "margin": 1693,
+      "nota_votes": 196,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Thenlay Tshering Bhutia",
+          "party": "SKM",
+          "gender": "M",
+          "age": 71,
+          "evm_votes": 5444,
+          "postal_votes": 438,
+          "total_votes": 5882
+        },
+        {
+          "name": "Gnawo Chopel Lepcha",
+          "party": "SDF",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 4055,
+          "postal_votes": 134,
+          "total_votes": 4189
+        },
+        {
+          "name": "Ugen Nedup Bhutia",
+          "party": "BJP",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 582,
+          "postal_votes": 7,
+          "total_votes": 589
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 194,
+          "postal_votes": 2,
+          "total_votes": 196
+        }
+      ]
+    },
+    {
+      "ac_no": 30,
+      "name": "Djongu (Bl)",
+      "category": "GEN",
+      "electors": 10523,
+      "votes_polled": 9203,
+      "turnout_pct": 87.46,
+      "winner_name": "Pintso Namgyal Lepcha",
+      "winner_party": "SKM",
+      "winner_votes": 6402,
+      "runner_up_name": "Sonam Gyatso Lepcha",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 1395,
+      "margin": 5007,
+      "nota_votes": 68,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Pintso Namgyal Lepcha",
+          "party": "SKM",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 5996,
+          "postal_votes": 406,
+          "total_votes": 6402
+        },
+        {
+          "name": "Sonam Gyatso Lepcha",
+          "party": "SDF",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 1346,
+          "postal_votes": 49,
+          "total_votes": 1395
+        },
+        {
+          "name": "Jorbu Tshering Lepcha",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 1149,
+          "postal_votes": 41,
+          "total_votes": 1190
+        },
+        {
+          "name": "Penzong Lepcha",
+          "party": "BJP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 144,
+          "postal_votes": 4,
+          "total_votes": 148
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 67,
+          "postal_votes": 1,
+          "total_votes": 68
+        }
+      ]
+    },
+    {
+      "ac_no": 31,
+      "name": "Lachen Mangan (Bl)",
+      "category": "GEN",
+      "electors": 8404,
+      "votes_polled": 7096,
+      "turnout_pct": 84.44,
+      "winner_name": "Samdup Lepcha",
+      "winner_party": "SKM",
+      "winner_votes": 3929,
+      "runner_up_name": "Hishey Lachungpa",
+      "runner_up_party": "SDF",
+      "runner_up_votes": 3078,
+      "margin": 851,
+      "nota_votes": 89,
+      "num_candidates": 3,
+      "candidates": [
+        {
+          "name": "Samdup Lepcha",
+          "party": "SKM",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 3703,
+          "postal_votes": 226,
+          "total_votes": 3929
+        },
+        {
+          "name": "Hishey Lachungpa",
+          "party": "SDF",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 2947,
+          "postal_votes": 131,
+          "total_votes": 3078
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 89,
+          "postal_votes": 0,
+          "total_votes": 89
+        }
+      ]
+    },
+    {
+      "ac_no": 32,
+      "name": "Sangha",
+      "category": "GEN",
+      "electors": 4074,
+      "votes_polled": 3198,
+      "turnout_pct": 78.5,
+      "winner_name": "Sonam Lama",
+      "winner_party": "SKM",
+      "winner_votes": 1919,
+      "runner_up_name": "Tseten Tashi Bhutia",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 1054,
+      "margin": 865,
+      "nota_votes": 14,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Sonam Lama",
+          "party": "SKM",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 1856,
+          "postal_votes": 63,
+          "total_votes": 1919
+        },
+        {
+          "name": "Tseten Tashi Bhutia",
+          "party": "BJP",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 1037,
+          "postal_votes": 17,
+          "total_votes": 1054
+        },
+        {
+          "name": "Tshering Lama",
+          "party": "SDF",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 113,
+          "postal_votes": 1,
+          "total_votes": 114
+        },
+        {
+          "name": "Norcho Lepcha",
+          "party": "CAPS",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 97,
+          "postal_votes": 0,
+          "total_votes": 97
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 14,
+          "postal_votes": 0,
+          "total_votes": 14
+        }
+      ]
+    }
+  ]
+}

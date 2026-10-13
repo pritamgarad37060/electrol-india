@@ -1,0 +1,2725 @@
+{
+  "state": "Mizoram",
+  "key": "mz",
+  "year": 2023,
+  "type": "assembly",
+  "icon": "🌿",
+  "total_seats": 40,
+  "majority_mark": 21,
+  "leading_party": "ZPM",
+  "leading_seats": 27,
+  "status": "ZPM Majority (27/40)",
+  "total_electors": 857063,
+  "total_votes_polled": 702646,
+  "avg_turnout_pct": 81.98,
+  "parties": [
+    {
+      "party": "ZPM",
+      "seats": 27,
+      "votes": 266127
+    },
+    {
+      "party": "MNF",
+      "seats": 10,
+      "votes": 246676
+    },
+    {
+      "party": "BJP",
+      "seats": 2,
+      "votes": 35524
+    },
+    {
+      "party": "INC",
+      "seats": 1,
+      "votes": 146172
+    }
+  ],
+  "constituencies": [
+    {
+      "ac_no": 1,
+      "name": "Hachhek (ST)",
+      "category": "ST",
+      "electors": 21160,
+      "votes_polled": 17598,
+      "turnout_pct": 83.17,
+      "winner_name": "Robert Romawia Royte",
+      "winner_party": "MNF",
+      "winner_votes": 5705,
+      "runner_up_name": "K J Lalbiakngheta",
+      "runner_up_party": "ZPM",
+      "runner_up_votes": 5399,
+      "margin": 306,
+      "nota_votes": 130,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Robert Romawia Royte",
+          "party": "MNF",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 5626,
+          "postal_votes": 79,
+          "total_votes": 5705
+        },
+        {
+          "name": "K J Lalbiakngheta",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 5292,
+          "postal_votes": 107,
+          "total_votes": 5399
+        },
+        {
+          "name": "Lalrindika Ralte",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 5059,
+          "postal_votes": 46,
+          "total_votes": 5105
+        },
+        {
+          "name": "Malsawmtluanga",
+          "party": "BJP",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 1257,
+          "postal_votes": 2,
+          "total_votes": 1259
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 130,
+          "postal_votes": 0,
+          "total_votes": 130
+        }
+      ]
+    },
+    {
+      "ac_no": 2,
+      "name": "Dampa (ST)",
+      "category": "ST",
+      "electors": 20090,
+      "votes_polled": 17443,
+      "turnout_pct": 86.82,
+      "winner_name": "Lalrintluanga Sailo",
+      "winner_party": "MNF",
+      "winner_votes": 6218,
+      "runner_up_name": "Vanlalsailova",
+      "runner_up_party": "ZPM",
+      "runner_up_votes": 5926,
+      "margin": 292,
+      "nota_votes": 42,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Lalrintluanga Sailo",
+          "party": "MNF",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 6150,
+          "postal_votes": 68,
+          "total_votes": 6218
+        },
+        {
+          "name": "Vanlalsailova",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 5819,
+          "postal_votes": 107,
+          "total_votes": 5926
+        },
+        {
+          "name": "Lalhmingthanga",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 3107,
+          "postal_votes": 39,
+          "total_votes": 3146
+        },
+        {
+          "name": "Vanlalhmuaka",
+          "party": "BJP",
+          "gender": "M",
+          "age": 52,
+          "evm_votes": 2050,
+          "postal_votes": 10,
+          "total_votes": 2060
+        },
+        {
+          "name": "Lalramdingngheti",
+          "party": "IND",
+          "gender": "F",
+          "age": 41,
+          "evm_votes": 51,
+          "postal_votes": 0,
+          "total_votes": 51
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 40,
+          "postal_votes": 2,
+          "total_votes": 42
+        }
+      ]
+    },
+    {
+      "ac_no": 3,
+      "name": "Mamit (ST)",
+      "category": "ST",
+      "electors": 23932,
+      "votes_polled": 20537,
+      "turnout_pct": 85.81,
+      "winner_name": "H. Lalzirliana",
+      "winner_party": "MNF",
+      "winner_votes": 7167,
+      "runner_up_name": "K. Lalthanzama",
+      "runner_up_party": "INC",
+      "runner_up_votes": 5375,
+      "margin": 1792,
+      "nota_votes": 95,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "H. Lalzirliana",
+          "party": "MNF",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 7038,
+          "postal_votes": 129,
+          "total_votes": 7167
+        },
+        {
+          "name": "K. Lalthanzama",
+          "party": "INC",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 5305,
+          "postal_votes": 70,
+          "total_votes": 5375
+        },
+        {
+          "name": "H. Zorempuia",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 5172,
+          "postal_votes": 187,
+          "total_votes": 5359
+        },
+        {
+          "name": "Lalrinliana Sailo",
+          "party": "BJP",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 2433,
+          "postal_votes": 21,
+          "total_votes": 2454
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 94,
+          "postal_votes": 1,
+          "total_votes": 95
+        },
+        {
+          "name": "Lalramdingngheti",
+          "party": "IND",
+          "gender": "F",
+          "age": 41,
+          "evm_votes": 85,
+          "postal_votes": 2,
+          "total_votes": 87
+        }
+      ]
+    },
+    {
+      "ac_no": 4,
+      "name": "Tuirial (ST)",
+      "category": "ST",
+      "electors": 18498,
+      "votes_polled": 15855,
+      "turnout_pct": 85.71,
+      "winner_name": "K. Laldawngliana",
+      "winner_party": "MNF",
+      "winner_votes": 6610,
+      "runner_up_name": "Laltlanmawia",
+      "runner_up_party": "ZPM",
+      "runner_up_votes": 6597,
+      "margin": 13,
+      "nota_votes": 72,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "K. Laldawngliana",
+          "party": "MNF",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 6477,
+          "postal_votes": 133,
+          "total_votes": 6610
+        },
+        {
+          "name": "Laltlanmawia",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 6402,
+          "postal_votes": 195,
+          "total_votes": 6597
+        },
+        {
+          "name": "Henry Zodinliana Pachuau",
+          "party": "INC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 2472,
+          "postal_votes": 31,
+          "total_votes": 2503
+        },
+        {
+          "name": "F. Vanhmingthanga",
+          "party": "BJP",
+          "gender": "M",
+          "age": 31,
+          "evm_votes": 70,
+          "postal_votes": 3,
+          "total_votes": 73
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 72,
+          "postal_votes": 0,
+          "total_votes": 72
+        }
+      ]
+    },
+    {
+      "ac_no": 5,
+      "name": "Kolasib (ST)",
+      "category": "ST",
+      "electors": 24096,
+      "votes_polled": 19693,
+      "turnout_pct": 81.73,
+      "winner_name": "Lalfamkima",
+      "winner_party": "ZPM",
+      "winner_votes": 8657,
+      "runner_up_name": "K.lalrinliana",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 7488,
+      "margin": 1169,
+      "nota_votes": 112,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Lalfamkima",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 8401,
+          "postal_votes": 256,
+          "total_votes": 8657
+        },
+        {
+          "name": "K.lalrinliana",
+          "party": "MNF",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 7284,
+          "postal_votes": 204,
+          "total_votes": 7488
+        },
+        {
+          "name": "S.lalrinawma",
+          "party": "INC",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 3212,
+          "postal_votes": 56,
+          "total_votes": 3268
+        },
+        {
+          "name": "R.lalthangliana",
+          "party": "BJP",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 157,
+          "postal_votes": 11,
+          "total_votes": 168
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 107,
+          "postal_votes": 5,
+          "total_votes": 112
+        }
+      ]
+    },
+    {
+      "ac_no": 6,
+      "name": "Serlui (ST)",
+      "category": "ST",
+      "electors": 21265,
+      "votes_polled": 18224,
+      "turnout_pct": 85.7,
+      "winner_name": "Lalrinsanga Ralte",
+      "winner_party": "MNF",
+      "winner_votes": 7242,
+      "runner_up_name": "Lalhmachhuana",
+      "runner_up_party": "INC",
+      "runner_up_votes": 6336,
+      "margin": 906,
+      "nota_votes": 52,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Lalrinsanga Ralte",
+          "party": "MNF",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 7128,
+          "postal_votes": 114,
+          "total_votes": 7242
+        },
+        {
+          "name": "Lalhmachhuana",
+          "party": "INC",
+          "gender": "M",
+          "age": 39,
+          "evm_votes": 6264,
+          "postal_votes": 72,
+          "total_votes": 6336
+        },
+        {
+          "name": "C Lalthanfela",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 4325,
+          "postal_votes": 50,
+          "total_votes": 4375
+        },
+        {
+          "name": "Robinson Malsawmtluanga Hmar",
+          "party": "BJP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 154,
+          "postal_votes": 3,
+          "total_votes": 157
+        },
+        {
+          "name": "Vl Nghaka",
+          "party": "IND",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 61,
+          "postal_votes": 1,
+          "total_votes": 62
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 51,
+          "postal_votes": 1,
+          "total_votes": 52
+        }
+      ]
+    },
+    {
+      "ac_no": 7,
+      "name": "Tuivawl (ST)",
+      "category": "ST",
+      "electors": 17997,
+      "votes_polled": 14716,
+      "turnout_pct": 81.77,
+      "winner_name": "Lalchhandama Ralte",
+      "winner_party": "MNF",
+      "winner_votes": 6501,
+      "runner_up_name": "Jms Dawngliana",
+      "runner_up_party": "ZPM",
+      "runner_up_votes": 4482,
+      "margin": 2019,
+      "nota_votes": 61,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Lalchhandama Ralte",
+          "party": "MNF",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 6421,
+          "postal_votes": 80,
+          "total_votes": 6501
+        },
+        {
+          "name": "Jms Dawngliana",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 4408,
+          "postal_votes": 74,
+          "total_votes": 4482
+        },
+        {
+          "name": "R. L. Pianmawia",
+          "party": "INC",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 3549,
+          "postal_votes": 41,
+          "total_votes": 3590
+        },
+        {
+          "name": "K Changliana",
+          "party": "BJP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 79,
+          "postal_votes": 3,
+          "total_votes": 82
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 61,
+          "postal_votes": 0,
+          "total_votes": 61
+        }
+      ]
+    },
+    {
+      "ac_no": 8,
+      "name": "Chalfilh (ST)",
+      "category": "ST",
+      "electors": 20133,
+      "votes_polled": 15341,
+      "turnout_pct": 76.2,
+      "winner_name": "Lalbiakzama",
+      "winner_party": "ZPM",
+      "winner_votes": 6637,
+      "runner_up_name": "K. Lalhmangaiha",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 4804,
+      "margin": 1833,
+      "nota_votes": 72,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Lalbiakzama",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 6493,
+          "postal_votes": 144,
+          "total_votes": 6637
+        },
+        {
+          "name": "K. Lalhmangaiha",
+          "party": "MNF",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 4742,
+          "postal_votes": 62,
+          "total_votes": 4804
+        },
+        {
+          "name": "Vanneihthanga",
+          "party": "INC",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 3683,
+          "postal_votes": 48,
+          "total_votes": 3731
+        },
+        {
+          "name": "Dr. Zonuntluanga",
+          "party": "BJP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 95,
+          "postal_votes": 2,
+          "total_votes": 97
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 72,
+          "postal_votes": 0,
+          "total_votes": 72
+        }
+      ]
+    },
+    {
+      "ac_no": 9,
+      "name": "Tawi (ST)",
+      "category": "ST",
+      "electors": 17300,
+      "votes_polled": 14734,
+      "turnout_pct": 85.17,
+      "winner_name": "Prof. Lalnilawma",
+      "winner_party": "ZPM",
+      "winner_votes": 6991,
+      "runner_up_name": "Lalrinenga Sailo",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 5439,
+      "margin": 1552,
+      "nota_votes": 64,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Prof. Lalnilawma",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 6745,
+          "postal_votes": 246,
+          "total_votes": 6991
+        },
+        {
+          "name": "Lalrinenga Sailo",
+          "party": "MNF",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 5298,
+          "postal_votes": 141,
+          "total_votes": 5439
+        },
+        {
+          "name": "Lalringliana Khiangte",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 2182,
+          "postal_votes": 58,
+          "total_votes": 2240
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 63,
+          "postal_votes": 1,
+          "total_votes": 64
+        }
+      ]
+    },
+    {
+      "ac_no": 10,
+      "name": "Aizawl North-I (ST)",
+      "category": "ST",
+      "electors": 27009,
+      "votes_polled": 21011,
+      "turnout_pct": 77.79,
+      "winner_name": "Vanlalhlana",
+      "winner_party": "ZPM",
+      "winner_votes": 10772,
+      "runner_up_name": "R.lalzirliana",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 5287,
+      "margin": 5485,
+      "nota_votes": 52,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Vanlalhlana",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 10430,
+          "postal_votes": 342,
+          "total_votes": 10772
+        },
+        {
+          "name": "R.lalzirliana",
+          "party": "MNF",
+          "gender": "M",
+          "age": 74,
+          "evm_votes": 5157,
+          "postal_votes": 130,
+          "total_votes": 5287
+        },
+        {
+          "name": "Lalnunmawia Chuaungo",
+          "party": "INC",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 4305,
+          "postal_votes": 118,
+          "total_votes": 4423
+        },
+        {
+          "name": "Lalruatfeli Hlawndo",
+          "party": "IND",
+          "gender": "F",
+          "age": 31,
+          "evm_votes": 453,
+          "postal_votes": 24,
+          "total_votes": 477
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 50,
+          "postal_votes": 2,
+          "total_votes": 52
+        }
+      ]
+    },
+    {
+      "ac_no": 11,
+      "name": "Aizawl North-II (ST)",
+      "category": "ST",
+      "electors": 24625,
+      "votes_polled": 19735,
+      "turnout_pct": 80.14,
+      "winner_name": "Dr. Vanlalthlana",
+      "winner_party": "ZPM",
+      "winner_votes": 11040,
+      "runner_up_name": "Vanlalsawma",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 4533,
+      "margin": 6507,
+      "nota_votes": 39,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Dr. Vanlalthlana",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 10650,
+          "postal_votes": 390,
+          "total_votes": 11040
+        },
+        {
+          "name": "Vanlalsawma",
+          "party": "MNF",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 4403,
+          "postal_votes": 130,
+          "total_votes": 4533
+        },
+        {
+          "name": "R. Lalrinmawia",
+          "party": "INC",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 3914,
+          "postal_votes": 114,
+          "total_votes": 4028
+        },
+        {
+          "name": "Lalrinpuii",
+          "party": "IND",
+          "gender": "F",
+          "age": 62,
+          "evm_votes": 90,
+          "postal_votes": 5,
+          "total_votes": 95
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 39,
+          "postal_votes": 0,
+          "total_votes": 39
+        }
+      ]
+    },
+    {
+      "ac_no": 12,
+      "name": "Aizawl North-III (ST)",
+      "category": "ST",
+      "electors": 20569,
+      "votes_polled": 16110,
+      "turnout_pct": 78.32,
+      "winner_name": "K. Sapdanga",
+      "winner_party": "ZPM",
+      "winner_votes": 6783,
+      "runner_up_name": "C. Lalmuanpuia",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 4913,
+      "margin": 1870,
+      "nota_votes": 43,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "K. Sapdanga",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 6572,
+          "postal_votes": 211,
+          "total_votes": 6783
+        },
+        {
+          "name": "C. Lalmuanpuia",
+          "party": "MNF",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 4770,
+          "postal_votes": 143,
+          "total_votes": 4913
+        },
+        {
+          "name": "Lal Thanzara",
+          "party": "INC",
+          "gender": "M",
+          "age": 74,
+          "evm_votes": 3919,
+          "postal_votes": 113,
+          "total_votes": 4032
+        },
+        {
+          "name": "Andrew Lalremkima Pachuau",
+          "party": "AAP",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 202,
+          "postal_votes": 15,
+          "total_votes": 217
+        },
+        {
+          "name": "Vanlalvena",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 67,
+          "postal_votes": 0,
+          "total_votes": 67
+        },
+        {
+          "name": "Chawnghmingthanga",
+          "party": "BJP",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 50,
+          "postal_votes": 5,
+          "total_votes": 55
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 42,
+          "postal_votes": 1,
+          "total_votes": 43
+        }
+      ]
+    },
+    {
+      "ac_no": 13,
+      "name": "Aizawl East-I",
+      "category": "ST",
+      "electors": 29044,
+      "votes_polled": 22404,
+      "turnout_pct": 77.14,
+      "winner_name": "Lalthansanga",
+      "winner_party": "ZPM",
+      "winner_votes": 10727,
+      "runner_up_name": "Zoramthanga",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 8626,
+      "margin": 2101,
+      "nota_votes": 90,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Lalthansanga",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 10490,
+          "postal_votes": 237,
+          "total_votes": 10727
+        },
+        {
+          "name": "Zoramthanga",
+          "party": "MNF",
+          "gender": "M",
+          "age": 79,
+          "evm_votes": 8472,
+          "postal_votes": 154,
+          "total_votes": 8626
+        },
+        {
+          "name": "Lalsanglura Ralte",
+          "party": "INC",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 2483,
+          "postal_votes": 37,
+          "total_votes": 2520
+        },
+        {
+          "name": "Lalruatfeli Hlawndo",
+          "party": "IND",
+          "gender": "F",
+          "age": 31,
+          "evm_votes": 434,
+          "postal_votes": 7,
+          "total_votes": 441
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 85,
+          "postal_votes": 5,
+          "total_votes": 90
+        }
+      ]
+    },
+    {
+      "ac_no": 14,
+      "name": "Aizawl East-II (ST)",
+      "category": "ST",
+      "electors": 19166,
+      "votes_polled": 15057,
+      "turnout_pct": 78.56,
+      "winner_name": "B. Lalchhanzova",
+      "winner_party": "ZPM",
+      "winner_votes": 7289,
+      "runner_up_name": "B. Lalawmpuii",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 4533,
+      "margin": 2756,
+      "nota_votes": 54,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "B. Lalchhanzova",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 6924,
+          "postal_votes": 365,
+          "total_votes": 7289
+        },
+        {
+          "name": "B. Lalawmpuii",
+          "party": "MNF",
+          "gender": "F",
+          "age": 47,
+          "evm_votes": 4316,
+          "postal_votes": 217,
+          "total_votes": 4533
+        },
+        {
+          "name": "P.c Lalhmingthanga",
+          "party": "INC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 2826,
+          "postal_votes": 97,
+          "total_votes": 2923
+        },
+        {
+          "name": "Lalhmachhuani",
+          "party": "IND",
+          "gender": "F",
+          "age": 47,
+          "evm_votes": 212,
+          "postal_votes": 4,
+          "total_votes": 216
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 54,
+          "postal_votes": 0,
+          "total_votes": 54
+        },
+        {
+          "name": "Rothuama",
+          "party": "IND",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 39,
+          "postal_votes": 3,
+          "total_votes": 42
+        }
+      ]
+    },
+    {
+      "ac_no": 15,
+      "name": "Aizawl West-I (ST)",
+      "category": "ST",
+      "electors": 29932,
+      "votes_polled": 23898,
+      "turnout_pct": 79.84,
+      "winner_name": "Tbc Lalvenchhunga",
+      "winner_party": "ZPM",
+      "winner_votes": 11872,
+      "runner_up_name": "Zothantluanga",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 7205,
+      "margin": 4667,
+      "nota_votes": 68,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Tbc Lalvenchhunga",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 11553,
+          "postal_votes": 319,
+          "total_votes": 11872
+        },
+        {
+          "name": "Zothantluanga",
+          "party": "MNF",
+          "gender": "M",
+          "age": 69,
+          "evm_votes": 7032,
+          "postal_votes": 173,
+          "total_votes": 7205
+        },
+        {
+          "name": "R. Lalbiakthanga",
+          "party": "INC",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 4458,
+          "postal_votes": 88,
+          "total_votes": 4546
+        },
+        {
+          "name": "Vanlalvena",
+          "party": "IND",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 128,
+          "postal_votes": 4,
+          "total_votes": 132
+        },
+        {
+          "name": "Vanlalmawia Vanchhawng",
+          "party": "AAP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 74,
+          "postal_votes": 1,
+          "total_votes": 75
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 64,
+          "postal_votes": 4,
+          "total_votes": 68
+        }
+      ]
+    },
+    {
+      "ac_no": 16,
+      "name": "Aizawl West-II (ST)",
+      "category": "ST",
+      "electors": 22900,
+      "votes_polled": 18414,
+      "turnout_pct": 80.41,
+      "winner_name": "Lalnghinglova Hmar",
+      "winner_party": "ZPM",
+      "winner_votes": 10770,
+      "runner_up_name": "Lalruatkima",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 5917,
+      "margin": 4853,
+      "nota_votes": 37,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Lalnghinglova Hmar",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 10418,
+          "postal_votes": 352,
+          "total_votes": 10770
+        },
+        {
+          "name": "Lalruatkima",
+          "party": "MNF",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 5702,
+          "postal_votes": 215,
+          "total_votes": 5917
+        },
+        {
+          "name": "Dr. Ngurdingliana",
+          "party": "INC",
+          "gender": "M",
+          "age": 57,
+          "evm_votes": 1537,
+          "postal_votes": 50,
+          "total_votes": 1587
+        },
+        {
+          "name": "K. Laldingliana",
+          "party": "IND",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 102,
+          "postal_votes": 1,
+          "total_votes": 103
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 35,
+          "postal_votes": 2,
+          "total_votes": 37
+        }
+      ]
+    },
+    {
+      "ac_no": 17,
+      "name": "Aizawl West-III (ST)",
+      "category": "ST",
+      "electors": 23677,
+      "votes_polled": 18605,
+      "turnout_pct": 78.58,
+      "winner_name": "V. L. Zaithanzama",
+      "winner_party": "ZPM",
+      "winner_votes": 9202,
+      "runner_up_name": "K. Lalsawmvela",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 4620,
+      "margin": 4582,
+      "nota_votes": 43,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "V. L. Zaithanzama",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 8872,
+          "postal_votes": 330,
+          "total_votes": 9202
+        },
+        {
+          "name": "K. Lalsawmvela",
+          "party": "MNF",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 4485,
+          "postal_votes": 135,
+          "total_votes": 4620
+        },
+        {
+          "name": "Lalsawta",
+          "party": "INC",
+          "gender": "M",
+          "age": 77,
+          "evm_votes": 4201,
+          "postal_votes": 168,
+          "total_votes": 4369
+        },
+        {
+          "name": "Joseph Biakthianghlima",
+          "party": "AAP",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 213,
+          "postal_votes": 7,
+          "total_votes": 220
+        },
+        {
+          "name": "Lalhrilzeli Hlawndo",
+          "party": "IND",
+          "gender": "F",
+          "age": 33,
+          "evm_votes": 144,
+          "postal_votes": 7,
+          "total_votes": 151
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 41,
+          "postal_votes": 2,
+          "total_votes": 43
+        }
+      ]
+    },
+    {
+      "ac_no": 18,
+      "name": "Aizawl South-I (ST)",
+      "category": "ST",
+      "electors": 23066,
+      "votes_polled": 18222,
+      "turnout_pct": 79.0,
+      "winner_name": "C. Lalsawivunga",
+      "winner_party": "ZPM",
+      "winner_votes": 9124,
+      "runner_up_name": "K. Vanlalvena",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 5499,
+      "margin": 3625,
+      "nota_votes": 54,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "C. Lalsawivunga",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 8804,
+          "postal_votes": 320,
+          "total_votes": 9124
+        },
+        {
+          "name": "K. Vanlalvena",
+          "party": "MNF",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 5329,
+          "postal_votes": 170,
+          "total_votes": 5499
+        },
+        {
+          "name": "Vanlalawmpuii Chawngthu",
+          "party": "INC",
+          "gender": "F",
+          "age": 44,
+          "evm_votes": 3022,
+          "postal_votes": 102,
+          "total_votes": 3124
+        },
+        {
+          "name": "F.lalremsangi",
+          "party": "BJP",
+          "gender": "F",
+          "age": 45,
+          "evm_votes": 227,
+          "postal_votes": 7,
+          "total_votes": 234
+        },
+        {
+          "name": "Lalngaihawma Pachuau",
+          "party": "AAP",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 101,
+          "postal_votes": 2,
+          "total_votes": 103
+        },
+        {
+          "name": "Zosangliana",
+          "party": "IND",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 82,
+          "postal_votes": 2,
+          "total_votes": 84
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 53,
+          "postal_votes": 1,
+          "total_votes": 54
+        }
+      ]
+    },
+    {
+      "ac_no": 19,
+      "name": "Aizawl South-II (ST)",
+      "category": "ST",
+      "electors": 27933,
+      "votes_polled": 22129,
+      "turnout_pct": 79.22,
+      "winner_name": "Lalchhuanthanga",
+      "winner_party": "ZPM",
+      "winner_votes": 9117,
+      "runner_up_name": "Dr. Lalmalsawma Nghaka",
+      "runner_up_party": "INC",
+      "runner_up_votes": 7478,
+      "margin": 1639,
+      "nota_votes": 51,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Lalchhuanthanga",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 8727,
+          "postal_votes": 390,
+          "total_votes": 9117
+        },
+        {
+          "name": "Dr. Lalmalsawma Nghaka",
+          "party": "INC",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 7216,
+          "postal_votes": 262,
+          "total_votes": 7478
+        },
+        {
+          "name": "Denghmingthanga",
+          "party": "MNF",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 5188,
+          "postal_votes": 164,
+          "total_votes": 5352
+        },
+        {
+          "name": "H. Biaklawma",
+          "party": "IND",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 127,
+          "postal_votes": 4,
+          "total_votes": 131
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 50,
+          "postal_votes": 1,
+          "total_votes": 51
+        }
+      ]
+    },
+    {
+      "ac_no": 20,
+      "name": "Aizawl South-III (ST)",
+      "category": "ST",
+      "electors": 22631,
+      "votes_polled": 19656,
+      "turnout_pct": 86.85,
+      "winner_name": "Baryl Vanneihsangi",
+      "winner_party": "ZPM",
+      "winner_votes": 9370,
+      "runner_up_name": "F. Lalnunmawia",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 7956,
+      "margin": 1414,
+      "nota_votes": 56,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Baryl Vanneihsangi",
+          "party": "ZPM",
+          "gender": "F",
+          "age": 32,
+          "evm_votes": 9184,
+          "postal_votes": 186,
+          "total_votes": 9370
+        },
+        {
+          "name": "F. Lalnunmawia",
+          "party": "MNF",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 7808,
+          "postal_votes": 148,
+          "total_votes": 7956
+        },
+        {
+          "name": "Rosiamngheta",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 2033,
+          "postal_votes": 33,
+          "total_votes": 2066
+        },
+        {
+          "name": "Rev. Dr. Zaichhawna Hlawndo",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 205,
+          "postal_votes": 3,
+          "total_votes": 208
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 55,
+          "postal_votes": 1,
+          "total_votes": 56
+        }
+      ]
+    },
+    {
+      "ac_no": 21,
+      "name": "Lengteng (ST)",
+      "category": "ST",
+      "electors": 18767,
+      "votes_polled": 14877,
+      "turnout_pct": 79.27,
+      "winner_name": "F.rodingliana",
+      "winner_party": "ZPM",
+      "winner_votes": 6171,
+      "runner_up_name": "Dr. L. Thangmawia",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 6124,
+      "margin": 47,
+      "nota_votes": 86,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "F.rodingliana",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 6056,
+          "postal_votes": 115,
+          "total_votes": 6171
+        },
+        {
+          "name": "Dr. L. Thangmawia",
+          "party": "MNF",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 6020,
+          "postal_votes": 104,
+          "total_votes": 6124
+        },
+        {
+          "name": "Lalhmingthanga Pachuau",
+          "party": "INC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 2402,
+          "postal_votes": 40,
+          "total_votes": 2442
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 85,
+          "postal_votes": 1,
+          "total_votes": 86
+        },
+        {
+          "name": "B.suanzalang",
+          "party": "BJP",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 51,
+          "postal_votes": 3,
+          "total_votes": 54
+        }
+      ]
+    },
+    {
+      "ac_no": 22,
+      "name": "Tuichang (ST)",
+      "category": "ST",
+      "electors": 17605,
+      "votes_polled": 14858,
+      "turnout_pct": 84.4,
+      "winner_name": "W Chhuanawma",
+      "winner_party": "ZPM",
+      "winner_votes": 6988,
+      "runner_up_name": "Tawnluia",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 6079,
+      "margin": 909,
+      "nota_votes": 50,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "W Chhuanawma",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 6773,
+          "postal_votes": 215,
+          "total_votes": 6988
+        },
+        {
+          "name": "Tawnluia",
+          "party": "MNF",
+          "gender": "M",
+          "age": 80,
+          "evm_votes": 5902,
+          "postal_votes": 177,
+          "total_votes": 6079
+        },
+        {
+          "name": "C. Lalhriatpuia",
+          "party": "INC",
+          "gender": "M",
+          "age": 40,
+          "evm_votes": 1637,
+          "postal_votes": 37,
+          "total_votes": 1674
+        },
+        {
+          "name": "Lalhmunsiami",
+          "party": "IND",
+          "gender": "F",
+          "age": 46,
+          "evm_votes": 66,
+          "postal_votes": 1,
+          "total_votes": 67
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 48,
+          "postal_votes": 2,
+          "total_votes": 50
+        }
+      ]
+    },
+    {
+      "ac_no": 23,
+      "name": "Champhai North (ST)",
+      "category": "ST",
+      "electors": 20220,
+      "votes_polled": 16353,
+      "turnout_pct": 80.88,
+      "winner_name": "H. Ginzalala",
+      "winner_party": "ZPM",
+      "winner_votes": 7134,
+      "runner_up_name": "Dr. Zr Thiamsanga",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 6424,
+      "margin": 710,
+      "nota_votes": 75,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "H. Ginzalala",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 6939,
+          "postal_votes": 195,
+          "total_votes": 7134
+        },
+        {
+          "name": "Dr. Zr Thiamsanga",
+          "party": "MNF",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 6280,
+          "postal_votes": 144,
+          "total_votes": 6424
+        },
+        {
+          "name": "K. Lalnunmawia",
+          "party": "INC",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 2425,
+          "postal_votes": 52,
+          "total_votes": 2477
+        },
+        {
+          "name": "P.s Zatluanga",
+          "party": "BJP",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 241,
+          "postal_votes": 2,
+          "total_votes": 243
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 73,
+          "postal_votes": 2,
+          "total_votes": 75
+        }
+      ]
+    },
+    {
+      "ac_no": 24,
+      "name": "Champhai South (ST)",
+      "category": "ST",
+      "electors": 21531,
+      "votes_polled": 17369,
+      "turnout_pct": 80.67,
+      "winner_name": "Lt Col. Clement Lalhmingthanga",
+      "winner_party": "ZPM",
+      "winner_votes": 7323,
+      "runner_up_name": "T.j Lalnuntluanga",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 6994,
+      "margin": 329,
+      "nota_votes": 96,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Lt Col. Clement Lalhmingthanga",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 7175,
+          "postal_votes": 148,
+          "total_votes": 7323
+        },
+        {
+          "name": "T.j Lalnuntluanga",
+          "party": "MNF",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 6855,
+          "postal_votes": 139,
+          "total_votes": 6994
+        },
+        {
+          "name": "Dr. Lallianchhunga",
+          "party": "INC",
+          "gender": "M",
+          "age": 47,
+          "evm_votes": 2913,
+          "postal_votes": 43,
+          "total_votes": 2956
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 94,
+          "postal_votes": 2,
+          "total_votes": 96
+        }
+      ]
+    },
+    {
+      "ac_no": 25,
+      "name": "East Tuipui (ST)",
+      "category": "ST",
+      "electors": 15910,
+      "votes_polled": 12895,
+      "turnout_pct": 81.05,
+      "winner_name": "Ramthanmawia",
+      "winner_party": "MNF",
+      "winner_votes": 6075,
+      "runner_up_name": "Dr.c.lalrammawia",
+      "runner_up_party": "ZPM",
+      "runner_up_votes": 5915,
+      "margin": 160,
+      "nota_votes": 36,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Ramthanmawia",
+          "party": "MNF",
+          "gender": "M",
+          "age": 66,
+          "evm_votes": 5998,
+          "postal_votes": 77,
+          "total_votes": 6075
+        },
+        {
+          "name": "Dr.c.lalrammawia",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 5834,
+          "postal_votes": 81,
+          "total_votes": 5915
+        },
+        {
+          "name": "C.lalnunthanga",
+          "party": "INC",
+          "gender": "M",
+          "age": 44,
+          "evm_votes": 858,
+          "postal_votes": 11,
+          "total_votes": 869
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 36,
+          "postal_votes": 0,
+          "total_votes": 36
+        }
+      ]
+    },
+    {
+      "ac_no": 26,
+      "name": "Serchhip (ST)",
+      "category": "ST",
+      "electors": 20844,
+      "votes_polled": 18128,
+      "turnout_pct": 86.97,
+      "winner_name": "Lalduhoma",
+      "winner_party": "ZPM",
+      "winner_votes": 8314,
+      "runner_up_name": "J. Malsawmzuala Vanchhawng",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 5332,
+      "margin": 2982,
+      "nota_votes": 54,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "Lalduhoma",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 73,
+          "evm_votes": 7938,
+          "postal_votes": 376,
+          "total_votes": 8314
+        },
+        {
+          "name": "J. Malsawmzuala Vanchhawng",
+          "party": "MNF",
+          "gender": "M",
+          "age": 43,
+          "evm_votes": 5153,
+          "postal_votes": 179,
+          "total_votes": 5332
+        },
+        {
+          "name": "R Vanlaltluanga",
+          "party": "INC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 4139,
+          "postal_votes": 102,
+          "total_votes": 4241
+        },
+        {
+          "name": "K Vanlalruati",
+          "party": "BJP",
+          "gender": "F",
+          "age": 45,
+          "evm_votes": 80,
+          "postal_votes": 17,
+          "total_votes": 97
+        },
+        {
+          "name": "Lalawmpuia Renthlei",
+          "party": "IND",
+          "gender": "M",
+          "age": 41,
+          "evm_votes": 66,
+          "postal_votes": 3,
+          "total_votes": 69
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 51,
+          "postal_votes": 3,
+          "total_votes": 54
+        },
+        {
+          "name": "Ramhlun-edena",
+          "party": "IND",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 20,
+          "postal_votes": 1,
+          "total_votes": 21
+        }
+      ]
+    },
+    {
+      "ac_no": 27,
+      "name": "Tuikum (ST)",
+      "category": "ST",
+      "electors": 17055,
+      "votes_polled": 14997,
+      "turnout_pct": 87.93,
+      "winner_name": "P.c. Vanlalruata",
+      "winner_party": "ZPM",
+      "winner_votes": 7136,
+      "runner_up_name": "Er. Lalrinawma",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 4975,
+      "margin": 2161,
+      "nota_votes": 42,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "P.c. Vanlalruata",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 7020,
+          "postal_votes": 116,
+          "total_votes": 7136
+        },
+        {
+          "name": "Er. Lalrinawma",
+          "party": "MNF",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 4902,
+          "postal_votes": 73,
+          "total_votes": 4975
+        },
+        {
+          "name": "T.t. Zothansanga",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 2659,
+          "postal_votes": 20,
+          "total_votes": 2679
+        },
+        {
+          "name": "C. Lalrinmawii",
+          "party": "IND",
+          "gender": "F",
+          "age": 45,
+          "evm_votes": 162,
+          "postal_votes": 3,
+          "total_votes": 165
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 41,
+          "postal_votes": 1,
+          "total_votes": 42
+        }
+      ]
+    },
+    {
+      "ac_no": 28,
+      "name": "Hrangturzo (ST)",
+      "category": "ST",
+      "electors": 16780,
+      "votes_polled": 13981,
+      "turnout_pct": 83.32,
+      "winner_name": "Lalmuanpuia Punte",
+      "winner_party": "ZPM",
+      "winner_votes": 6280,
+      "runner_up_name": "Lalremruata Chhangte",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 5025,
+      "margin": 1255,
+      "nota_votes": 37,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Lalmuanpuia Punte",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 6187,
+          "postal_votes": 93,
+          "total_votes": 6280
+        },
+        {
+          "name": "Lalremruata Chhangte",
+          "party": "MNF",
+          "gender": "M",
+          "age": 35,
+          "evm_votes": 4953,
+          "postal_votes": 72,
+          "total_votes": 5025
+        },
+        {
+          "name": "Lalroenga",
+          "party": "INC",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 2311,
+          "postal_votes": 29,
+          "total_votes": 2340
+        },
+        {
+          "name": "Dr. Zaichhawna Hlawndo",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 208,
+          "postal_votes": 3,
+          "total_votes": 211
+        },
+        {
+          "name": "Lalmalsawma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 37,
+          "evm_votes": 83,
+          "postal_votes": 5,
+          "total_votes": 88
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 36,
+          "postal_votes": 1,
+          "total_votes": 37
+        }
+      ]
+    },
+    {
+      "ac_no": 29,
+      "name": "South Tuipui (ST)",
+      "category": "ST",
+      "electors": 16348,
+      "votes_polled": 13818,
+      "turnout_pct": 84.52,
+      "winner_name": "Jeje Lalpekhlua",
+      "winner_party": "ZPM",
+      "winner_votes": 5468,
+      "runner_up_name": "Dr. R. Lalthangliana",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 5333,
+      "margin": 135,
+      "nota_votes": 59,
+      "num_candidates": 4,
+      "candidates": [
+        {
+          "name": "Jeje Lalpekhlua",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 32,
+          "evm_votes": 5415,
+          "postal_votes": 53,
+          "total_votes": 5468
+        },
+        {
+          "name": "Dr. R. Lalthangliana",
+          "party": "MNF",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 5279,
+          "postal_votes": 54,
+          "total_votes": 5333
+        },
+        {
+          "name": "C. Laldintluanga",
+          "party": "INC",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 2937,
+          "postal_votes": 21,
+          "total_votes": 2958
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 59,
+          "postal_votes": 0,
+          "total_votes": 59
+        }
+      ]
+    },
+    {
+      "ac_no": 30,
+      "name": "Lunglei North (ST)",
+      "category": "ST",
+      "electors": 17867,
+      "votes_polled": 15345,
+      "turnout_pct": 85.88,
+      "winner_name": "V. Malsawmtluanga",
+      "winner_party": "ZPM",
+      "winner_votes": 7369,
+      "runner_up_name": "Dr. Vanlaltanpuia",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 5394,
+      "margin": 1975,
+      "nota_votes": 56,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "V. Malsawmtluanga",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 34,
+          "evm_votes": 7182,
+          "postal_votes": 187,
+          "total_votes": 7369
+        },
+        {
+          "name": "Dr. Vanlaltanpuia",
+          "party": "MNF",
+          "gender": "M",
+          "age": 48,
+          "evm_votes": 5229,
+          "postal_votes": 165,
+          "total_votes": 5394
+        },
+        {
+          "name": "Eric R Zomuanpuia",
+          "party": "INC",
+          "gender": "M",
+          "age": 45,
+          "evm_votes": 2344,
+          "postal_votes": 52,
+          "total_votes": 2396
+        },
+        {
+          "name": "K. Lalrimawia",
+          "party": "IND",
+          "gender": "M",
+          "age": 74,
+          "evm_votes": 125,
+          "postal_votes": 5,
+          "total_votes": 130
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 53,
+          "postal_votes": 3,
+          "total_votes": 56
+        }
+      ]
+    },
+    {
+      "ac_no": 31,
+      "name": "Lunglei East (ST)",
+      "category": "ST",
+      "electors": 16327,
+      "votes_polled": 13584,
+      "turnout_pct": 83.2,
+      "winner_name": "Lalrinpuii",
+      "winner_party": "ZPM",
+      "winner_votes": 5641,
+      "runner_up_name": "Joseph Lalhimpuia",
+      "runner_up_party": "INC",
+      "runner_up_votes": 3995,
+      "margin": 1646,
+      "nota_votes": 48,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Lalrinpuii",
+          "party": "ZPM",
+          "gender": "F",
+          "age": 61,
+          "evm_votes": 5445,
+          "postal_votes": 196,
+          "total_votes": 5641
+        },
+        {
+          "name": "Joseph Lalhimpuia",
+          "party": "INC",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 3859,
+          "postal_votes": 136,
+          "total_votes": 3995
+        },
+        {
+          "name": "Lawmawma Tochhawng",
+          "party": "MNF",
+          "gender": "M",
+          "age": 67,
+          "evm_votes": 3728,
+          "postal_votes": 90,
+          "total_votes": 3818
+        },
+        {
+          "name": "Lalzuimawia",
+          "party": "IND",
+          "gender": "M",
+          "age": 64,
+          "evm_votes": 80,
+          "postal_votes": 2,
+          "total_votes": 82
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 47,
+          "postal_votes": 1,
+          "total_votes": 48
+        }
+      ]
+    },
+    {
+      "ac_no": 32,
+      "name": "Lunglei West (ST)",
+      "category": "ST",
+      "electors": 15686,
+      "votes_polled": 13030,
+      "turnout_pct": 83.07,
+      "winner_name": "T. Lalhlimpuia",
+      "winner_party": "ZPM",
+      "winner_votes": 5029,
+      "runner_up_name": "C. Lalrinsanga",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 3747,
+      "margin": 1282,
+      "nota_votes": 41,
+      "num_candidates": 7,
+      "candidates": [
+        {
+          "name": "T. Lalhlimpuia",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 46,
+          "evm_votes": 4823,
+          "postal_votes": 206,
+          "total_votes": 5029
+        },
+        {
+          "name": "C. Lalrinsanga",
+          "party": "MNF",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 3603,
+          "postal_votes": 144,
+          "total_votes": 3747
+        },
+        {
+          "name": "Pc Lalthanliana",
+          "party": "INC",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 2616,
+          "postal_votes": 80,
+          "total_votes": 2696
+        },
+        {
+          "name": "Lalnuntluanga Sailo",
+          "party": "IND",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 930,
+          "postal_votes": 29,
+          "total_votes": 959
+        },
+        {
+          "name": "Pc.mosia",
+          "party": "IND",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 432,
+          "postal_votes": 18,
+          "total_votes": 450
+        },
+        {
+          "name": "R. Lalbiaktluangi",
+          "party": "BJP",
+          "gender": "F",
+          "age": 65,
+          "evm_votes": 106,
+          "postal_votes": 2,
+          "total_votes": 108
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 39,
+          "postal_votes": 2,
+          "total_votes": 41
+        }
+      ]
+    },
+    {
+      "ac_no": 33,
+      "name": "Lunglei South (ST)",
+      "category": "ST",
+      "electors": 19050,
+      "votes_polled": 16005,
+      "turnout_pct": 84.02,
+      "winner_name": "Lalramliana Papuia",
+      "winner_party": "ZPM",
+      "winner_votes": 6531,
+      "runner_up_name": "Dr K. Pachhunga",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 5305,
+      "margin": 1226,
+      "nota_votes": 69,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Lalramliana Papuia",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 49,
+          "evm_votes": 6219,
+          "postal_votes": 312,
+          "total_votes": 6531
+        },
+        {
+          "name": "Dr K. Pachhunga",
+          "party": "MNF",
+          "gender": "M",
+          "age": 55,
+          "evm_votes": 5131,
+          "postal_votes": 174,
+          "total_votes": 5305
+        },
+        {
+          "name": "Meriam L Hrangchal",
+          "party": "INC",
+          "gender": "F",
+          "age": 49,
+          "evm_votes": 3810,
+          "postal_votes": 89,
+          "total_votes": 3899
+        },
+        {
+          "name": "Zd Dengngura",
+          "party": "IND",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 108,
+          "postal_votes": 6,
+          "total_votes": 114
+        },
+        {
+          "name": "T. Biaksailova",
+          "party": "BJP",
+          "gender": "M",
+          "age": 50,
+          "evm_votes": 78,
+          "postal_votes": 9,
+          "total_votes": 87
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 67,
+          "postal_votes": 2,
+          "total_votes": 69
+        }
+      ]
+    },
+    {
+      "ac_no": 34,
+      "name": "Thorang (ST)",
+      "category": "ST",
+      "electors": 14955,
+      "votes_polled": 13257,
+      "turnout_pct": 88.65,
+      "winner_name": "R. Rohmingliana",
+      "winner_party": "MNF",
+      "winner_votes": 4141,
+      "runner_up_name": "Zodintluanga Ralte",
+      "runner_up_party": "INC",
+      "runner_up_votes": 4079,
+      "margin": 62,
+      "nota_votes": 119,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "R. Rohmingliana",
+          "party": "MNF",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 4114,
+          "postal_votes": 27,
+          "total_votes": 4141
+        },
+        {
+          "name": "Zodintluanga Ralte",
+          "party": "INC",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 4056,
+          "postal_votes": 23,
+          "total_votes": 4079
+        },
+        {
+          "name": "C. Lalnunnema",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 58,
+          "evm_votes": 3109,
+          "postal_votes": 37,
+          "total_votes": 3146
+        },
+        {
+          "name": "Shanti Bikash Chakma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 36,
+          "evm_votes": 1765,
+          "postal_votes": 7,
+          "total_votes": 1772
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 117,
+          "postal_votes": 2,
+          "total_votes": 119
+        }
+      ]
+    },
+    {
+      "ac_no": 35,
+      "name": "West Tuipui (ST)",
+      "category": "ST",
+      "electors": 16793,
+      "votes_polled": 14740,
+      "turnout_pct": 87.77,
+      "winner_name": "Prova Chakma",
+      "winner_party": "MNF",
+      "winner_votes": 7167,
+      "runner_up_name": "Nihar Kanti Chakma",
+      "runner_up_party": "INC",
+      "runner_up_votes": 6456,
+      "margin": 711,
+      "nota_votes": 78,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Prova Chakma",
+          "party": "MNF",
+          "gender": "F",
+          "age": 48,
+          "evm_votes": 7085,
+          "postal_votes": 82,
+          "total_votes": 7167
+        },
+        {
+          "name": "Nihar Kanti Chakma",
+          "party": "INC",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 6393,
+          "postal_votes": 63,
+          "total_votes": 6456
+        },
+        {
+          "name": "Kawlhnuna",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 62,
+          "evm_votes": 764,
+          "postal_votes": 25,
+          "total_votes": 789
+        },
+        {
+          "name": "T. Lalengthanga",
+          "party": "BJP",
+          "gender": "M",
+          "age": 69,
+          "evm_votes": 245,
+          "postal_votes": 5,
+          "total_votes": 250
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 77,
+          "postal_votes": 1,
+          "total_votes": 78
+        }
+      ]
+    },
+    {
+      "ac_no": 36,
+      "name": "Tuichawng (ST)",
+      "category": "ST",
+      "electors": 36191,
+      "votes_polled": 29956,
+      "turnout_pct": 82.77,
+      "winner_name": "Rasik Mohan Chakma",
+      "winner_party": "MNF",
+      "winner_votes": 13346,
+      "runner_up_name": "Durjya Dhan Chakma",
+      "runner_up_party": "BJP",
+      "runner_up_votes": 12695,
+      "margin": 651,
+      "nota_votes": 260,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Rasik Mohan Chakma",
+          "party": "MNF",
+          "gender": "M",
+          "age": 60,
+          "evm_votes": 13194,
+          "postal_votes": 152,
+          "total_votes": 13346
+        },
+        {
+          "name": "Durjya Dhan Chakma",
+          "party": "BJP",
+          "gender": "M",
+          "age": 38,
+          "evm_votes": 12551,
+          "postal_votes": 144,
+          "total_votes": 12695
+        },
+        {
+          "name": "Hara Prasad Chakma",
+          "party": "INC",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 3194,
+          "postal_votes": 38,
+          "total_votes": 3232
+        },
+        {
+          "name": "Shanti Jiban Chakma",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 416,
+          "postal_votes": 7,
+          "total_votes": 423
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 257,
+          "postal_votes": 3,
+          "total_votes": 260
+        }
+      ]
+    },
+    {
+      "ac_no": 37,
+      "name": "Lawngtlai West (ST)",
+      "category": "ST",
+      "electors": 29542,
+      "votes_polled": 24937,
+      "turnout_pct": 84.41,
+      "winner_name": "C. Ngunlianchunga",
+      "winner_party": "INC",
+      "winner_votes": 11296,
+      "runner_up_name": "V. Zirsanga",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 10864,
+      "margin": 432,
+      "nota_votes": 81,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "C. Ngunlianchunga",
+          "party": "INC",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 11111,
+          "postal_votes": 185,
+          "total_votes": 11296
+        },
+        {
+          "name": "V. Zirsanga",
+          "party": "MNF",
+          "gender": "M",
+          "age": 61,
+          "evm_votes": 10688,
+          "postal_votes": 176,
+          "total_votes": 10864
+        },
+        {
+          "name": "Lalnunsema",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 2244,
+          "postal_votes": 68,
+          "total_votes": 2312
+        },
+        {
+          "name": "J.b. Rualchhinga",
+          "party": "BJP",
+          "gender": "M",
+          "age": 71,
+          "evm_votes": 315,
+          "postal_votes": 4,
+          "total_votes": 319
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 80,
+          "postal_votes": 1,
+          "total_votes": 81
+        },
+        {
+          "name": "C. Biakchhunga",
+          "party": "IND",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 64,
+          "postal_votes": 1,
+          "total_votes": 65
+        }
+      ]
+    },
+    {
+      "ac_no": 38,
+      "name": "Lawngtlai East (ST)",
+      "category": "ST",
+      "electors": 25937,
+      "votes_polled": 20280,
+      "turnout_pct": 78.19,
+      "winner_name": "Dr. Lorrain Lalpekliana Chinzah",
+      "winner_party": "ZPM",
+      "winner_votes": 10072,
+      "runner_up_name": "H. Biakzaua",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 7971,
+      "margin": 2101,
+      "nota_votes": 108,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "Dr. Lorrain Lalpekliana Chinzah",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 9652,
+          "postal_votes": 420,
+          "total_votes": 10072
+        },
+        {
+          "name": "H. Biakzaua",
+          "party": "MNF",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 7736,
+          "postal_votes": 235,
+          "total_votes": 7971
+        },
+        {
+          "name": "H. Zothangliana",
+          "party": "INC",
+          "gender": "M",
+          "age": 54,
+          "evm_votes": 1710,
+          "postal_votes": 51,
+          "total_votes": 1761
+        },
+        {
+          "name": "Nc Muankima",
+          "party": "BJP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 359,
+          "postal_votes": 9,
+          "total_votes": 368
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 106,
+          "postal_votes": 2,
+          "total_votes": 108
+        }
+      ]
+    },
+    {
+      "ac_no": 39,
+      "name": "Saiha (ST)",
+      "category": "ST",
+      "electors": 24197,
+      "votes_polled": 18810,
+      "turnout_pct": 77.74,
+      "winner_name": "Dr. K. Beichhua",
+      "winner_party": "BJP",
+      "winner_votes": 6740,
+      "runner_up_name": "H.c Lalmalsawma Zasai",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 6124,
+      "margin": 616,
+      "nota_votes": 47,
+      "num_candidates": 6,
+      "candidates": [
+        {
+          "name": "Dr. K. Beichhua",
+          "party": "BJP",
+          "gender": "M",
+          "age": 56,
+          "evm_votes": 6516,
+          "postal_votes": 224,
+          "total_votes": 6740
+        },
+        {
+          "name": "H.c Lalmalsawma Zasai",
+          "party": "MNF",
+          "gender": "M",
+          "age": 53,
+          "evm_votes": 5901,
+          "postal_votes": 223,
+          "total_votes": 6124
+        },
+        {
+          "name": "N. Chakhai",
+          "party": "INC",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 3512,
+          "postal_votes": 95,
+          "total_votes": 3607
+        },
+        {
+          "name": "Kh. Beithie",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 65,
+          "evm_votes": 2135,
+          "postal_votes": 84,
+          "total_votes": 2219
+        },
+        {
+          "name": "A. Phirthianga",
+          "party": "IND",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 69,
+          "postal_votes": 4,
+          "total_votes": 73
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 43,
+          "postal_votes": 4,
+          "total_votes": 47
+        }
+      ]
+    },
+    {
+      "ac_no": 40,
+      "name": "Palak (ST)",
+      "category": "ST",
+      "electors": 20435,
+      "votes_polled": 16044,
+      "turnout_pct": 78.51,
+      "winner_name": "K. Hrahmo",
+      "winner_party": "BJP",
+      "winner_votes": 6064,
+      "runner_up_name": "Kt Rokhaw",
+      "runner_up_party": "MNF",
+      "runner_up_votes": 4823,
+      "margin": 1241,
+      "nota_votes": 50,
+      "num_candidates": 5,
+      "candidates": [
+        {
+          "name": "K. Hrahmo",
+          "party": "BJP",
+          "gender": "M",
+          "age": 63,
+          "evm_votes": 5942,
+          "postal_votes": 122,
+          "total_votes": 6064
+        },
+        {
+          "name": "Kt Rokhaw",
+          "party": "MNF",
+          "gender": "M",
+          "age": 59,
+          "evm_votes": 4755,
+          "postal_votes": 68,
+          "total_votes": 4823
+        },
+        {
+          "name": "I.p. Junior",
+          "party": "INC",
+          "gender": "M",
+          "age": 51,
+          "evm_votes": 3645,
+          "postal_votes": 84,
+          "total_votes": 3729
+        },
+        {
+          "name": "K. Robinson",
+          "party": "ZPM",
+          "gender": "M",
+          "age": 42,
+          "evm_votes": 1326,
+          "postal_votes": 52,
+          "total_votes": 1378
+        },
+        {
+          "name": "Nota",
+          "party": "NOTA",
+          "gender": "-",
+          "age": null,
+          "evm_votes": 49,
+          "postal_votes": 1,
+          "total_votes": 50
+        }
+      ]
+    }
+  ]
+}

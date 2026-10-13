@@ -1,0 +1,1055 @@
+{
+  "total_states": 31,
+  "states": [
+    {
+      "key": "ap",
+      "name": "Andhra Pradesh",
+      "year": 2024,
+      "seats": 175,
+      "icon": "🏛️",
+      "leading_party": "TDP",
+      "leading_seats": 135,
+      "top_parties": [
+        {
+          "party": "TDP",
+          "seats": 135,
+          "votes": 15384576
+        },
+        {
+          "party": "JNP",
+          "seats": 21,
+          "votes": 2317747
+        },
+        {
+          "party": "YSRCP",
+          "seats": 11,
+          "votes": 13284134
+        },
+        {
+          "party": "BJP",
+          "seats": 8,
+          "votes": 953977
+        }
+      ],
+      "file": "data/elections/ap_assembly_2024.json",
+      "building": "Andhra Pradesh Legislative Assembly (Amaravati)",
+      "emblem": "Purna Kumbham & Sunburst (Government of AP)",
+      "seal_icon": "🪷"
+    },
+    {
+      "key": "ar",
+      "name": "Arunachal Pradesh",
+      "year": 2024,
+      "seats": 50,
+      "icon": "🏔️",
+      "leading_party": "BJP",
+      "leading_seats": 36,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 36,
+          "votes": 332773
+        },
+        {
+          "party": "NPEP",
+          "seats": 5,
+          "votes": 98254
+        },
+        {
+          "party": "NCP",
+          "seats": 3,
+          "votes": 63630
+        },
+        {
+          "party": "IND",
+          "seats": 3,
+          "votes": 28225
+        }
+      ],
+      "file": "data/elections/ar_assembly_2024.json",
+      "building": "Arunachal Pradesh Legislative Assembly (Itanagar)",
+      "emblem": "Mithun & Great Hornbill Emblem",
+      "seal_icon": "🦏"
+    },
+    {
+      "key": "as",
+      "name": "Assam",
+      "year": 2021,
+      "seats": 126,
+      "icon": "🦏",
+      "leading_party": "BJP",
+      "leading_seats": 82,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 82,
+          "votes": 8192498
+        },
+        {
+          "party": "INC",
+          "seats": 19,
+          "votes": 6464016
+        },
+        {
+          "party": "AGP",
+          "seats": 10,
+          "votes": 1402832
+        },
+        {
+          "party": "BOPF",
+          "seats": 10,
+          "votes": 807546
+        }
+      ],
+      "file": "data/elections/as_assembly_2021.json",
+      "building": "Assam Legislative Assembly (Dispur, Guwahati)",
+      "emblem": "One-horned Rhinoceros & Ashoka Lion Capital",
+      "seal_icon": "🦏"
+    },
+    {
+      "key": "br",
+      "name": "Bihar",
+      "year": 2020,
+      "seats": 243,
+      "icon": "🌾",
+      "leading_party": "BJP",
+      "leading_seats": 89,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 89,
+          "votes": 10081143
+        },
+        {
+          "party": "JDU",
+          "seats": 85,
+          "votes": 9667118
+        },
+        {
+          "party": "RJD",
+          "seats": 25,
+          "votes": 11546055
+        },
+        {
+          "party": "LJPRV",
+          "seats": 19,
+          "votes": 2497358
+        }
+      ],
+      "file": "data/elections/br_assembly_2020.json",
+      "building": "Bihar Vidhan Sabha (Patna)",
+      "emblem": "Bodhi Tree & Swastik Symbols",
+      "seal_icon": "🌳"
+    },
+    {
+      "key": "cg",
+      "name": "Chhattisgarh",
+      "year": 2023,
+      "seats": 90,
+      "icon": "🌳",
+      "leading_party": "BJP",
+      "leading_seats": 54,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 54,
+          "votes": 7234968
+        },
+        {
+          "party": "INC",
+          "seats": 35,
+          "votes": 6602586
+        },
+        {
+          "party": "GGP",
+          "seats": 1,
+          "votes": 216942
+        }
+      ],
+      "file": "data/elections/cg_assembly_2023.json",
+      "building": "Chhattisgarh Vidhan Sabha (Raipur)",
+      "emblem": "Ashoka Lion Capital with 36 Forts (Chhattis)",
+      "seal_icon": "🏰"
+    },
+    {
+      "key": "dl",
+      "name": "Delhi",
+      "year": 2020,
+      "seats": 70,
+      "icon": "🏛️",
+      "leading_party": "BJP",
+      "leading_seats": 48,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 48,
+          "votes": 4323110
+        },
+        {
+          "party": "AAP",
+          "seats": 22,
+          "votes": 4133898
+        }
+      ],
+      "file": "data/elections/dl_assembly_2020.json",
+      "building": "Old Secretariat (Delhi Vidhan Sabha)",
+      "emblem": "National Emblem of India & Ashoka Capital",
+      "seal_icon": "🏛️"
+    },
+    {
+      "key": "ga",
+      "name": "Goa",
+      "year": 2022,
+      "seats": 40,
+      "icon": "🏖️",
+      "leading_party": "BJP",
+      "leading_seats": 20,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 20,
+          "votes": 316573
+        },
+        {
+          "party": "INC",
+          "seats": 11,
+          "votes": 222948
+        },
+        {
+          "party": "IND",
+          "seats": 3,
+          "votes": 88902
+        },
+        {
+          "party": "MAG",
+          "seats": 2,
+          "votes": 72269
+        }
+      ],
+      "file": "data/elections/ga_assembly_2022.json",
+      "building": "Goa Legislative Assembly (Porvorim)",
+      "emblem": "Vriksha Deepa (Tree of Light) & Coconut Palm",
+      "seal_icon": "🌴"
+    },
+    {
+      "key": "gj",
+      "name": "Gujarat",
+      "year": 2022,
+      "seats": 182,
+      "icon": "🦁",
+      "leading_party": "BJP",
+      "leading_seats": 156,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 156,
+          "votes": 16707962
+        },
+        {
+          "party": "INC",
+          "seats": 17,
+          "votes": 8683968
+        },
+        {
+          "party": "AAP",
+          "seats": 5,
+          "votes": 4112057
+        },
+        {
+          "party": "IND",
+          "seats": 3,
+          "votes": 1174108
+        }
+      ],
+      "file": "data/elections/gj_assembly_2022.json",
+      "building": "Vithalbhai Patel Bhavan (Gandhinagar)",
+      "emblem": "Lion Capital of Ashoka & Satyameva Jayate",
+      "seal_icon": "🦁"
+    },
+    {
+      "key": "hr",
+      "name": "Haryana",
+      "year": 2024,
+      "seats": 90,
+      "icon": "🚜",
+      "leading_party": "BJP",
+      "leading_seats": 48,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 48,
+          "votes": 5548800
+        },
+        {
+          "party": "INC",
+          "seats": 37,
+          "votes": 5430602
+        },
+        {
+          "party": "IND",
+          "seats": 3,
+          "votes": 1448835
+        },
+        {
+          "party": "INLD",
+          "seats": 2,
+          "votes": 575192
+        }
+      ],
+      "file": "data/elections/hr_assembly_2024.json",
+      "building": "Haryana Vidhan Sabha (Chandigarh Palace)",
+      "emblem": "Lotus Flower rising from Sun & Wheat Stalks",
+      "seal_icon": "🪷"
+    },
+    {
+      "key": "hp",
+      "name": "Himachal Pradesh",
+      "year": 2022,
+      "seats": 68,
+      "icon": "🏔️",
+      "leading_party": "INC",
+      "leading_seats": 40,
+      "top_parties": [
+        {
+          "party": "INC",
+          "seats": 40,
+          "votes": 1852504
+        },
+        {
+          "party": "BJP",
+          "seats": 25,
+          "votes": 1814530
+        },
+        {
+          "party": "IND",
+          "seats": 3,
+          "votes": 409273
+        }
+      ],
+      "file": "data/elections/hp_assembly_2022.json",
+      "building": "Council Chamber (Vidhan Sabha, Shimla)",
+      "emblem": "Dhauladhar Snow Peaks & Lion Capital",
+      "seal_icon": "🏔️"
+    },
+    {
+      "key": "jk",
+      "name": "Jammu & Kashmir",
+      "year": 2024,
+      "seats": 90,
+      "icon": "❄️",
+      "leading_party": "JKN",
+      "leading_seats": 42,
+      "top_parties": [
+        {
+          "party": "JKN",
+          "seats": 42,
+          "votes": 1336147
+        },
+        {
+          "party": "BJP",
+          "seats": 29,
+          "votes": 1462225
+        },
+        {
+          "party": "IND",
+          "seats": 7,
+          "votes": 948985
+        },
+        {
+          "party": "INC",
+          "seats": 6,
+          "votes": 682666
+        }
+      ],
+      "file": "data/elections/jk_assembly_2024.json",
+      "building": "J&K Legislative Assembly (Srinagar & Jammu)",
+      "emblem": "Lotus & Sun Rays Emblem",
+      "seal_icon": "❄️"
+    },
+    {
+      "key": "jh",
+      "name": "Jharkhand",
+      "year": 2024,
+      "seats": 81,
+      "icon": "⛏️",
+      "leading_party": "JMM",
+      "leading_seats": 34,
+      "top_parties": [
+        {
+          "party": "JMM",
+          "seats": 34,
+          "votes": 4183344
+        },
+        {
+          "party": "BJP",
+          "seats": 21,
+          "votes": 5921501
+        },
+        {
+          "party": "INC",
+          "seats": 16,
+          "votes": 2776805
+        },
+        {
+          "party": "RJD",
+          "seats": 4,
+          "votes": 613880
+        }
+      ],
+      "file": "data/elections/jh_assembly_2024.json",
+      "building": "Jharkhand Vidhan Sabha (Kute Gram, Ranchi)",
+      "emblem": "Elephant, Palash (Flame of Forest) & Ashok Chakra",
+      "seal_icon": "🐘"
+    },
+    {
+      "key": "ka",
+      "name": "Karnataka",
+      "year": 2023,
+      "seats": 224,
+      "icon": "🐘",
+      "leading_party": "INC",
+      "leading_seats": 135,
+      "top_parties": [
+        {
+          "party": "INC",
+          "seats": 135,
+          "votes": 16789305
+        },
+        {
+          "party": "BJP",
+          "seats": 66,
+          "votes": 14096604
+        },
+        {
+          "party": "JDS",
+          "seats": 19,
+          "votes": 5205690
+        },
+        {
+          "party": "IND",
+          "seats": 2,
+          "votes": 1593517
+        }
+      ],
+      "file": "data/elections/ka_assembly_2023.json",
+      "building": "Vidhana Soudha (Bengaluru)",
+      "emblem": "Gandaberunda (Two-headed Sacred Bird Emblem)",
+      "seal_icon": "🦅"
+    },
+    {
+      "key": "kl",
+      "name": "Kerala",
+      "year": 2021,
+      "seats": 140,
+      "icon": "🌴",
+      "leading_party": "INC",
+      "leading_seats": 63,
+      "top_parties": [
+        {
+          "party": "INC",
+          "seats": 63,
+          "votes": 6217918
+        },
+        {
+          "party": "CPIM",
+          "seats": 26,
+          "votes": 4701735
+        },
+        {
+          "party": "IUML",
+          "seats": 22,
+          "votes": 2378053
+        },
+        {
+          "party": "CPI",
+          "seats": 8,
+          "votes": 1434524
+        }
+      ],
+      "file": "data/elections/kl_assembly_2021.json",
+      "building": "Kerala Niyamasabha Complex (Thiruvananthapuram)",
+      "emblem": "Two Elephants guarding Ashoka Capital & Shankha",
+      "seal_icon": "🐘"
+    },
+    {
+      "key": "mp",
+      "name": "Madhya Pradesh",
+      "year": 2023,
+      "seats": 230,
+      "icon": "🐅",
+      "leading_party": "BJP",
+      "leading_seats": 163,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 163,
+          "votes": 21116197
+        },
+        {
+          "party": "INC",
+          "seats": 66,
+          "votes": 17571582
+        },
+        {
+          "party": "BHRTADVSIP",
+          "seats": 1,
+          "votes": 106092
+        }
+      ],
+      "file": "data/elections/mp_assembly_2023.json",
+      "building": "Indira Gandhi Vidhan Bhavan (Bhopal)",
+      "emblem": "Banyan Tree with 24 Stupas & Lion Capital",
+      "seal_icon": "🌳"
+    },
+    {
+      "key": "mh",
+      "name": "Maharashtra",
+      "year": 2024,
+      "seats": 288,
+      "icon": "🏢",
+      "leading_party": "BJP",
+      "leading_seats": 132,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 132,
+          "votes": 17293650
+        },
+        {
+          "party": "SHS",
+          "seats": 57,
+          "votes": 7996930
+        },
+        {
+          "party": "NCP",
+          "seats": 41,
+          "votes": 5816566
+        },
+        {
+          "party": "SHSUBT",
+          "seats": 20,
+          "votes": 6433013
+        }
+      ],
+      "file": "data/elections/mh_assembly_2024.json",
+      "building": "Vidhan Bhavan (Nariman Point, Mumbai)",
+      "emblem": "Golden Lamp of Knowledge (प्रतिपच्चंद्रलेखेव)",
+      "seal_icon": "🪔"
+    },
+    {
+      "key": "mn",
+      "name": "Manipur",
+      "year": 2022,
+      "seats": 60,
+      "icon": "🌺",
+      "leading_party": "BJP",
+      "leading_seats": 32,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 32,
+          "votes": 702720
+        },
+        {
+          "party": "NPEP",
+          "seats": 7,
+          "votes": 321303
+        },
+        {
+          "party": "JDU",
+          "seats": 6,
+          "votes": 200103
+        },
+        {
+          "party": "INC",
+          "seats": 5,
+          "votes": 312705
+        }
+      ],
+      "file": "data/elections/mn_assembly_2022.json",
+      "building": "Manipur Legislative Assembly (Chingmeirong, Imphal)",
+      "emblem": "Kanglasha (Half-Lion Half-Dragon Royal Emblem)",
+      "seal_icon": "🐉"
+    },
+    {
+      "key": "ml",
+      "name": "Meghalaya",
+      "year": 2023,
+      "seats": 60,
+      "icon": "🌧️",
+      "leading_party": "NPEP",
+      "leading_seats": 26,
+      "top_parties": [
+        {
+          "party": "NPEP",
+          "seats": 26,
+          "votes": 597595
+        },
+        {
+          "party": "UDP",
+          "seats": 12,
+          "votes": 317426
+        },
+        {
+          "party": "AITC",
+          "seats": 5,
+          "votes": 255831
+        },
+        {
+          "party": "INC",
+          "seats": 5,
+          "votes": 245603
+        }
+      ],
+      "file": "data/elections/ml_assembly_2023.json",
+      "building": "Meghalaya Legislative Assembly (Mawdiangdiang, Shillong)",
+      "emblem": "Ashoka Lion Capital with Khasi/Garo/Jaintia Shields",
+      "seal_icon": "🛡️"
+    },
+    {
+      "key": "mz",
+      "name": "Mizoram",
+      "year": 2023,
+      "seats": 40,
+      "icon": "🌿",
+      "leading_party": "ZPM",
+      "leading_seats": 27,
+      "top_parties": [
+        {
+          "party": "ZPM",
+          "seats": 27,
+          "votes": 266127
+        },
+        {
+          "party": "MNF",
+          "seats": 10,
+          "votes": 246676
+        },
+        {
+          "party": "BJP",
+          "seats": 2,
+          "votes": 35524
+        },
+        {
+          "party": "INC",
+          "seats": 1,
+          "votes": 146172
+        }
+      ],
+      "file": "data/elections/mz_assembly_2023.json",
+      "building": "Mizoram Legislative Assembly (Treasury Square, Aizawl)",
+      "emblem": "Ashoka Capital & Crossed Rifles on Hills",
+      "seal_icon": "🌿"
+    },
+    {
+      "key": "nl",
+      "name": "Nagaland",
+      "year": 2023,
+      "seats": 60,
+      "icon": "🌄",
+      "leading_party": "NDPP",
+      "leading_seats": 25,
+      "top_parties": [
+        {
+          "party": "NDPP",
+          "seats": 25,
+          "votes": 369143
+        },
+        {
+          "party": "BJP",
+          "seats": 12,
+          "votes": 215292
+        },
+        {
+          "party": "NCP",
+          "seats": 7,
+          "votes": 109467
+        },
+        {
+          "party": "NPEP",
+          "seats": 5,
+          "votes": 65920
+        }
+      ],
+      "file": "data/elections/nl_assembly_2023.json",
+      "building": "Nagaland Legislative Assembly (Kohima)",
+      "emblem": "Mithun Bull & Traditional Naga Log Drum",
+      "seal_icon": "🐂"
+    },
+    {
+      "key": "or",
+      "name": "Odisha",
+      "year": 2024,
+      "seats": 147,
+      "icon": "🌊",
+      "leading_party": "BJP",
+      "leading_seats": 78,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 78,
+          "votes": 10064827
+        },
+        {
+          "party": "BJD",
+          "seats": 51,
+          "votes": 10102454
+        },
+        {
+          "party": "INC",
+          "seats": 14,
+          "votes": 3331319
+        },
+        {
+          "party": "IND",
+          "seats": 3,
+          "votes": 843702
+        }
+      ],
+      "file": "data/elections/or_assembly_2024.json",
+      "building": "Odisha Legislative Assembly (Bhubaneswar)",
+      "emblem": "Konark Sun Temple Warrior Horse (Konark Horse)",
+      "seal_icon": "🐎"
+    },
+    {
+      "key": "py",
+      "name": "Puducherry",
+      "year": 2021,
+      "seats": 30,
+      "icon": "⛵",
+      "leading_party": "AINRC",
+      "leading_seats": 12,
+      "top_parties": [
+        {
+          "party": "AINRC",
+          "seats": 12,
+          "votes": 200292
+        },
+        {
+          "party": "DMK",
+          "seats": 5,
+          "votes": 119036
+        },
+        {
+          "party": "BJP",
+          "seats": 4,
+          "votes": 105583
+        },
+        {
+          "party": "IND",
+          "seats": 3,
+          "votes": 75185
+        }
+      ],
+      "file": "data/elections/py_assembly_2021.json",
+      "building": "Puducherry Legislative Assembly (Rue de la Caserne)",
+      "emblem": "Lion Capital surrounded by French-Indian Crest",
+      "seal_icon": "⚜️"
+    },
+    {
+      "key": "pb",
+      "name": "Punjab",
+      "year": 2022,
+      "seats": 117,
+      "icon": "🌾",
+      "leading_party": "AAP",
+      "leading_seats": 92,
+      "top_parties": [
+        {
+          "party": "AAP",
+          "seats": 92,
+          "votes": 6538783
+        },
+        {
+          "party": "INC",
+          "seats": 18,
+          "votes": 3576684
+        },
+        {
+          "party": "SAD",
+          "seats": 3,
+          "votes": 2861286
+        },
+        {
+          "party": "BJP",
+          "seats": 2,
+          "votes": 1027143
+        }
+      ],
+      "file": "data/elections/pb_assembly_2022.json",
+      "building": "Punjab Vidhan Sabha (Sector 1, Chandigarh)",
+      "emblem": "Lion Capital & Golden Wheat Sheaves",
+      "seal_icon": "🌾"
+    },
+    {
+      "key": "rj",
+      "name": "Rajasthan",
+      "year": 2023,
+      "seats": 200,
+      "icon": "🏰",
+      "leading_party": "BJP",
+      "leading_seats": 115,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 115,
+          "votes": 16608741
+        },
+        {
+          "party": "INC",
+          "seats": 70,
+          "votes": 15763069
+        },
+        {
+          "party": "IND",
+          "seats": 8,
+          "votes": 2950608
+        },
+        {
+          "party": "BHRTADVSIP",
+          "seats": 3,
+          "votes": 929969
+        }
+      ],
+      "file": "data/elections/rj_assembly_2023.json",
+      "building": "Rajasthan Vidhan Sabha (Jyoti Nagar, Jaipur)",
+      "emblem": "Ashoka Lion Capital with Sunburst",
+      "seal_icon": "🏰"
+    },
+    {
+      "key": "sk",
+      "name": "Sikkim",
+      "year": 2024,
+      "seats": 32,
+      "icon": "🏔️",
+      "leading_party": "SKM",
+      "leading_seats": 31,
+      "top_parties": [
+        {
+          "party": "SKM",
+          "seats": 31,
+          "votes": 225068
+        },
+        {
+          "party": "SDF",
+          "seats": 1,
+          "votes": 105503
+        }
+      ],
+      "file": "data/elections/sk_assembly_2024.json",
+      "building": "Sikkim Legislative Assembly (Gangtok)",
+      "emblem": "Khorlo (Buddhist Dharma Wheel) & Lotus Blossom",
+      "seal_icon": "☸️"
+    },
+    {
+      "key": "tn",
+      "name": "Tamil Nadu",
+      "year": 2021,
+      "seats": 234,
+      "icon": "🛕",
+      "leading_party": "TVK",
+      "leading_seats": 108,
+      "top_parties": [
+        {
+          "party": "TVK",
+          "seats": 108,
+          "votes": 17226209
+        },
+        {
+          "party": "DMK",
+          "seats": 59,
+          "votes": 11929144
+        },
+        {
+          "party": "ADMK",
+          "seats": 47,
+          "votes": 10462146
+        },
+        {
+          "party": "INC",
+          "seats": 5,
+          "votes": 1661312
+        }
+      ],
+      "file": "data/elections/tn_assembly_2021.json",
+      "building": "Fort St. George (Tamil Nadu Assembly, Chennai)",
+      "emblem": "Srivilliputhur Andal Temple Gopuram Tower",
+      "seal_icon": "🛕"
+    },
+    {
+      "key": "tg",
+      "name": "Telangana",
+      "year": 2023,
+      "seats": 119,
+      "icon": "🏛️",
+      "leading_party": "INC",
+      "leading_seats": 64,
+      "top_parties": [
+        {
+          "party": "INC",
+          "seats": 64,
+          "votes": 9235833
+        },
+        {
+          "party": "BHRS",
+          "seats": 39,
+          "votes": 8753956
+        },
+        {
+          "party": "BJP",
+          "seats": 8,
+          "votes": 3257528
+        },
+        {
+          "party": "AIMIM",
+          "seats": 7,
+          "votes": 519379
+        }
+      ],
+      "file": "data/elections/tg_assembly_2023.json",
+      "building": "Telangana Legislative Assembly (Public Gardens, Hyderabad)",
+      "emblem": "Kakatiya Kala Thoranam Arch & Charminar",
+      "seal_icon": "🏛️"
+    },
+    {
+      "key": "tr",
+      "name": "Tripura",
+      "year": 2023,
+      "seats": 60,
+      "icon": "🎋",
+      "leading_party": "BJP",
+      "leading_seats": 32,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 32,
+          "votes": 985797
+        },
+        {
+          "party": "TMP",
+          "seats": 13,
+          "votes": 498182
+        },
+        {
+          "party": "CPIM",
+          "seats": 11,
+          "votes": 622829
+        },
+        {
+          "party": "INC",
+          "seats": 3,
+          "votes": 216637
+        }
+      ],
+      "file": "data/elections/tr_assembly_2023.json",
+      "building": "Tripura Legislative Assembly (Kunjaban, Agartala)",
+      "emblem": "Ashoka Lion Capital with Rising Sun & Bamboo",
+      "seal_icon": "🎍"
+    },
+    {
+      "key": "up",
+      "name": "Uttar Pradesh",
+      "year": 2022,
+      "seats": 403,
+      "icon": "🛕",
+      "leading_party": "BJP",
+      "leading_seats": 255,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 255,
+          "votes": 38051721
+        },
+        {
+          "party": "SP",
+          "seats": 111,
+          "votes": 29543934
+        },
+        {
+          "party": "ADAL",
+          "seats": 12,
+          "votes": 1493181
+        },
+        {
+          "party": "RLD",
+          "seats": 8,
+          "votes": 2630168
+        }
+      ],
+      "file": "data/elections/up_assembly_2022.json",
+      "building": "Vidhan Bhavan (Hazratganj, Lucknow)",
+      "emblem": "Twin Matsya (Fish), Bow & Arrow with Confluence",
+      "seal_icon": "🐟"
+    },
+    {
+      "key": "uk",
+      "name": "Uttarakhand",
+      "year": 2022,
+      "seats": 70,
+      "icon": "⛰️",
+      "leading_party": "BJP",
+      "leading_seats": 47,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 47,
+          "votes": 2383838
+        },
+        {
+          "party": "INC",
+          "seats": 19,
+          "votes": 2038509
+        },
+        {
+          "party": "IND",
+          "seats": 2,
+          "votes": 300059
+        },
+        {
+          "party": "BSP",
+          "seats": 2,
+          "votes": 259371
+        }
+      ],
+      "file": "data/elections/uk_assembly_2022.json",
+      "building": "Vidhan Bhavan (Dehradun & Bhararisain Gairsain)",
+      "emblem": "Three Himalayan Peaks & Ganga Sacred Waves",
+      "seal_icon": "🏔️"
+    },
+    {
+      "key": "wb",
+      "name": "West Bengal",
+      "year": 2021,
+      "seats": 294,
+      "icon": "🐅",
+      "leading_party": "BJP",
+      "leading_seats": 208,
+      "top_parties": [
+        {
+          "party": "BJP",
+          "seats": 208,
+          "votes": 29374470
+        },
+        {
+          "party": "AITC",
+          "seats": 80,
+          "votes": 26021160
+        },
+        {
+          "party": "INC",
+          "seats": 2,
+          "votes": 1900942
+        },
+        {
+          "party": "AJUP",
+          "seats": 2,
+          "votes": 470649
+        }
+      ],
+      "file": "data/elections/wb_assembly_2021.json",
+      "building": "West Bengal Legislative Assembly (Kolkata)",
+      "emblem": "Biswa Bangla Globe & Ashoka Lion Capital",
+      "seal_icon": "🌐"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <title>Electrol India – Lok Sabha & Assembly Elections Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- SEO -->
+  <meta name="description" content="Electrol India – Explore Lok Sabha 2024 and all 31 State Legislative Assemblies (Maharashtra, Andhra Pradesh, Haryana, UP, Gujarat, Karnataka, etc.), 4,120+ constituencies, 51,000+ candidates, interactive seat maps and analytics in 10 Indian languages.">
+  <meta name="keywords" content="India elections, Lok Sabha 2024, State Assemblies, Haryana 2024, Maharashtra 2024, Andhra Pradesh 2024, BJP, INC, constituency results, election data, भारत चुनाव">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://india-elections.netlify.app/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Electrol India – Elections Hub">
+  <meta property="og:description" content="Full results, maps, candidate search and statistics for India's elections in 10 languages.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://india-elections.netlify.app/">
+  <meta property="og:locale" content="en_IN">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Electrol India">
+  <meta name="twitter:description" content="Search results, maps and stats for Lok Sabha & State Assembly elections — in 10 Indian languages.">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#080d1a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Electrol India">
+
+  <!-- Google Fonts: Outfit + Inter + All Indian Language Scripts via Noto Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&family=Noto+Sans:wght@400;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Kannada:wght@400;600;700&family=Noto+Sans+Gujarati:wght@400;600;700&family=Noto+Sans+Gurmukhi:wght@400;600;700&family=Noto+Sans+Malayalam:wght@400;600;700&family=Noto+Sans+Oriya:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Preload critical JS -->
+  <link rel="preload" href="js/data-ls.js" as="script">
+  <link rel="preload" href="js/app.js?v=45" as="script">
+
+  <!-- Supabase JS client (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+
+  <!-- Supabase config -->
+  <script>
+    window.SUPABASE_URL = 'https://eedeakbnzcwkcrdcdmvn.supabase.co';
+    window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVlZGVha2JuemN3a2NyZGNkbXZuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA5MjEyNDMsImV4cCI6MjEwNjQ5NzI0M30.zejRHI7qLGBdhyrfF4dP0fn_tB-0CLnG8LzJDPIlglU';
+    try {
+      if (typeof supabase !== 'undefined' && supabase.createClient) {
+        window.supabaseClient = supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+      }
+    } catch(e) { console.warn('Supabase init skipped:', e); }
+  </script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-top">
+    <!-- Brand -->
+    <div class="brand" onclick="go('')" role="button" tabindex="0" title="Electrol India — Home" aria-label="Electrol India Home">
+      <svg class="brand-logo" viewBox="0 0 36 36" width="30" height="30" fill="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FF9933"/>
+            <stop offset="48%" stop-color="#FFFFFF"/>
+            <stop offset="100%" stop-color="#138808"/>
+          </linearGradient>
+        </defs>
+        <circle cx="18" cy="18" r="16.5" fill="none" stroke="url(#brandGrad)" stroke-width="2.2"/>
+        <circle cx="18" cy="18" r="13.5" fill="rgba(11,20,40,0.85)" stroke="#D4AF37" stroke-width="1"/>
+        <path d="M11 23h14v1.5H11z M12 18h12v4H12z M13.5 14h9v3h-9z M18 10c2.5 0 4.5 1.8 4.5 3.5h-9c0-1.7 2-3.5 4.5-3.5z" fill="#D4AF37"/>
+        <circle cx="18" cy="8.5" r="1" fill="#FF9933"/>
+        <circle cx="18" cy="19.5" r="2.2" fill="#000080" stroke="#FFFFFF" stroke-width="0.5"/>
+      </svg>
+      <span class="brand-text">ELECTROL <span>INDIA</span></span>
+    </div>
+
+    <!-- Actions: Language, Theme, Search -->
+    <div class="nav-actions">
+      <!-- 10-Language Selector -->
+      <select id="lg" aria-label="Select Language" onchange="setLang(this.value)">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="bn">বাংলা</option>
+        <option value="mr">मराठी</option>
+        <option value="te">తెలుగు</option>
+        <option value="ta">தமிழ்</option>
+        <option value="gu">ગુજરાતી</option>
+        <option value="ur">اردو</option>
+        <option value="kn">ಕನ್ನಡ</option>
+        <option value="ml">മലയാളം</option>
+      </select>
+
+      <!-- Dark/Light Theme Toggle -->
+      <button class="theme-toggle" id="theme-btn" onclick="tg()" title="Toggle Dark/Light Theme" aria-label="Toggle colour theme">
+        <span class="theme-icon sun-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+        </span>
+        <span class="theme-icon moon-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </span>
+        <span class="theme-label" id="theme-text">Light</span>
+      </button>
+
+      <!-- Global Search -->
+      <span class="sw">
+        <input id="nav-search"
+               placeholder="Search seat / candidate…"
+               aria-label="Search constituencies and candidates"
+               autocomplete="off"
+               oninput="sg(this)"
+               onblur="sgh(this)"
+               onkeydown="if(event.key==='Enter')go('q/'+encodeURIComponent(this.value))">
+        <div class="sug" role="listbox" aria-label="Search suggestions"></div>
+      </span>
+    </div>
+  </div>
+
+  <!-- Horizontal Tab Bar (scrollable on mobile) -->
+  <div class="nl" id="nl" role="navigation" aria-label="Main navigation">
+    <a data-path=""        onclick="go('')"        data-i18n="Home">Home</a>
+    <a data-path="ls"     onclick="go('ls')"      data-i18n="Lok Sabha">Lok Sabha</a>
+    <a data-path="members" onclick="go('members')">🏛️ Lok Sabha MPs</a>
+    <a data-path="mh"     onclick="go('mh')"      >Maharashtra</a>
+    <a data-path="corporations" onclick="go('corporations')">🏛️ Municipal Corporations</a>
+    <a data-path="councils"     onclick="go('councils')">🏢 Municipal Councils</a>
+    <a data-path="assembly" onclick="go('assembly')" >All Assemblies</a>
+    <a data-path="women"  onclick="go('women')"   >👩 Women</a>
+    <a data-path="map"    onclick="go('map')"     data-i18n="Map">Map</a>
+    <a data-path="pcs"    onclick="go('pcs')"     data-i18n="Constituencies">Constituencies</a>
+    <a data-path="cmp"    onclick="go('cmp')"     data-i18n="Compare">Compare</a>
+    <a data-path="parties" onclick="go('parties')" data-i18n="Parties">Parties</a>
+    <a data-path="stats"  onclick="go('stats')"   data-i18n="Statistics">Statistics</a>
+  </div>
+</nav>
+
+<!-- Main App Container -->
+<div class="w" id="app" role="main">
+  <p>Loading election data…</p>
+</div>
+
+<!-- Core data files (critical, loaded first) -->
+<script src="js/data-ls.js"></script>
+<script src="js/data-ls-members.js"></script>
+<script src="js/ls-members-ui.js"></script>
+<script src="js/data-mh.js"></script>
+<script src="js/data-mh-local-bodies.js"></script>
+<script src="js/mh-local-ui.js"></script>
+<script src="js/data-ap.js"></script>
+<script src="js/symbols.js"></script>
+<script src="js/i18n.js"></script>
+
+<!-- Lazy-loaded geo and supplemental data (loaded on demand by app.js) -->
+<script src="js/geo-ap.js"></script>
+
+<!-- Main application -->
+<script src="js/app.js?v=46"></script>
+
+<!-- Init: apply saved language, remove any old service workers -->
+<script>
+  // Apply saved language preference
+  (function(){
+    try{
+      var lang=localStorage.getItem('lang');
+      if(lang&&window.I18N&&window.I18N[lang]){
+        var el=document.getElementById('lg');
+        if(el)el.value=lang;
+        window.LANG=lang;
+        var lm={hi:'hi',mr:'hi',te:'te',ta:'ta',bn:'bn',kn:'kn',gu:'gu',pa:'pa',ml:'ml',or:'or'};
+        document.documentElement.lang=lm[lang]||'en';
+      }
+    }catch(e){}
+
+    // Apply saved theme
+    try{
+      var theme=localStorage.getItem('theme')||'dark';
+      document.documentElement.setAttribute('data-theme',theme);
+    }catch(e){}
+  })();
+
+  // Unregister old service workers (no caching)
+  if('serviceWorker' in navigator){
+    navigator.serviceWorker.getRegistrations().then(function(regs){
+      regs.forEach(function(r){r.unregister();});
+    });
+  }
+</script>
+
+</body>
+</html>
