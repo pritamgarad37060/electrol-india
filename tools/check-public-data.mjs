@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {publicDataHandler} from '../netlify/functions/public-data.mjs';
+import {safeFile,checksum,canonical} from './sync-public-data.mjs';
+const env={SUPABASE_URL:'https://example.supabase.co',SUPABASE_PUBLISHABLE_KEY:'sb_publishable_fixture'};let calls=0;
+const fetcher=async(url,options)=>{calls++;assert(url.includes('path=eq.%2Fdata%2Fcatalog.json'));assert.equal(options.headers.apikey,env.SUPABASE_PUBLISHABLE_KEY);return Response.json([{content:[{id:'fixture'}],checksum:'a'.repeat(64)}]);};
+const request=(suffix='',options={})=>new Request('https://example.test/api/public-data?path='+encodeURIComponent('/data/catalog.json')+suffix,options);
+let response=await publicDataHandler(request(),{env,fetcher});assert.equal(response.status,200);assert.deepEqual(await response.json(),[{id:'fixture'}]);assert.match(response.headers.get('cache-control'),/max-age=300/);
+response=await publicDataHandler(request('',{headers:{'If-None-Match':'"'+'a'.repeat(64)+'"'}}),{env,fetcher});assert.equal(response.status,304);
+response=await publicDataHandler(new Request('https://example.test/api/public-data?path=/data/../.env.local'),{env,fetcher});assert.equal(response.status,400);assert.equal(calls,2);
+response=await publicDataHandler(request('',{method:'POST'}),{env,fetcher});assert.equal(response.status,405);
+response=await publicDataHandler(request(),{env,fetcher:async()=>{throw Error()}});assert.equal(response.status,503);assert.equal(response.headers.get('cache-control'),'no-store');
+assert.throws(()=>safeFile('/data/../.env.local'));assert.equal(checksum({b:1,a:2}),checksum({a:2,b:1}));assert.equal(canonical({b:[{z:1,a:2}],a:0}),'{"a":0,"b":[{"a":2,"z":1}]}');
+console.log(JSON.stringify({publicDataAPI:'passed',readOnlyMethods:'passed',pathIsolation:'passed',cacheAndETag:'passed',providerFailure:'passed',stableChecksums:'passed'}));

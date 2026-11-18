@@ -1,0 +1,7 @@
+import fs from 'node:fs';import path from 'node:path';import {canonical,checksum,root} from './sync-public-data.mjs';
+const dir=path.resolve(process.argv[2]);fs.mkdirSync(dir,{recursive:true});
+const skip=new Set(['representatives-index.json','mc_data.json','civic-rural.json','geo_pc_map.json','design-source.json','import-audit.json']);
+function walk(p){return fs.readdirSync(p,{withFileTypes:true}).flatMap(e=>e.isDirectory()?(e.name==='maps'?[]:walk(path.join(p,e.name))):e.name.endsWith('.json')&&!skip.has(e.name)?[path.join(p,e.name)]:[]);}
+const rows=[],manifest=[];for(const f of walk(path.join(root,'data'))){const content=JSON.parse(fs.readFileSync(f,'utf8')),text=canonical(content),id='/'+path.relative(root,f).replaceAll('\\','/'),hash=checksum(content),size=100000,total=Math.ceil(text.length/size);manifest.push({path:id,checksum:hash});for(let offset=0,part=0;offset<text.length;offset+=size,part++)rows.push({path:id,checksum:hash,part,total,content:text.slice(offset,offset+size)});}
+let batches=[],current=[],bytes=0;for(const row of rows){const n=JSON.stringify(row).length;if(bytes+n>400000&&current.length){batches.push(current);current=[];bytes=0;}current.push(row);bytes+=n;}if(current.length)batches.push(current);
+for(let i=0;i<batches.length;i++)fs.writeFileSync(path.join(dir,i+'.json'),JSON.stringify(batches[i]));fs.writeFileSync(path.join(dir,'manifest.json'),JSON.stringify(manifest));console.log(JSON.stringify({datasets:manifest.length,batches:batches.length,parts:rows.length,directory:dir}));

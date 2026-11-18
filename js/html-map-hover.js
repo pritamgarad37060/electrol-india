@@ -1,0 +1,19 @@
+/* Shared hover cards use existing styling and stay within the browser viewport. */
+(()=>{
+ 'use strict';
+ const selector='[data-state-map-seat],[data-geo-seat]',nativeHide=geoHideHover;let portal,activeView,lastPointer,scrollFrame;
+ function tooltip(kind){if(!portal){portal=document.createElement('div');portal.className='geo-hover-tip';portal.dataset.connectedMapHover='';portal.setAttribute('role','tooltip');portal.hidden=true;portal.style.position='fixed';portal.style.zIndex='90';document.body.append(portal);}portal.dataset.mapKind=kind;portal.toggleAttribute('data-state-map-hover',kind==='assembly');return portal;}
+ function place(tip,view,x,y){activeView=view;tip.style.maxWidth=Math.max(80,Math.min(290,innerWidth-16))+'px';tip.hidden=false;const maxX=Math.max(8,innerWidth-tip.offsetWidth-8),maxY=Math.max(8,innerHeight-tip.offsetHeight-8);let left=x+15,top=y+15;if(top>maxY)top=y-tip.offsetHeight-12;tip.style.left=Math.max(8,Math.min(left,maxX))+'px';tip.style.top=Math.max(8,Math.min(top,maxY))+'px';}
+ function assemblyHTML({d,s}){const winner=fullWinner(s,d),party=d.parties[winner[1]],margin=fullMargin(s,d),total=s.rosterComplete?fullTotal(s):null;return `<strong>${esc(fullDisplayName(s.t))}</strong><small>${esc(s.state)} · Assembly ${d.year} · AC ${s.n}</small><span>${fullPartyBadge(party)} ${esc(fullDisplayName(winner[0]))}</span><div><b>${winner[2]==null?'Vote total unavailable':realNum(winner[2])+' votes'}</b><small>${margin==null?'Margin unavailable':realNum(margin)+' margin'}${total?' · '+(100*winner[2]/total).toFixed(2)+'%':''}</small></div>`;}
+ function show(path,x,y){path.querySelector('title')?.remove();const view=path.closest('.geo-viewport');if(!view)return;if(path.hasAttribute('data-geo-seat')){geoShowHover(path.dataset.geoSeat,x,y);return;}const record=window.ElectrolStateMaps.recordFor(path);if(!record?.s)return;const tip=tooltip('assembly'),key=record.d._id+'|'+record.s.n;if(tip.dataset.seat!==key){tip.innerHTML=assemblyHTML(record);tip.dataset.seat=key;}place(tip,view,x,y);}
+ geoShowHover=function(id,x,y){const view=document.querySelector('#geo-viewport'),feature=GEO_PC_MAP.features.find(f=>String(f.id)===String(id));if(!view||!feature||geoGesture)return;const tip=tooltip('lok'),key='lok|'+feature.id+'|'+geoState.metric;if(tip.dataset.seat!==key){tip.innerHTML=geoHoverHTML(feature);tip.dataset.seat=key;}geoHover=feature.id;place(tip,view,x,y);};
+ geoHideHover=function(){nativeHide();if(portal)portal.hidden=true;};
+ function hide(){geoHideHover();}
+ for(const type of ['pointerover','pointermove','mouseover','mousemove'])document.addEventListener(type,e=>{if(e.pointerType==='touch')return;lastPointer={x:e.clientX,y:e.clientY};const p=e.target.closest?.(selector);if(p)show(p,e.clientX,e.clientY);else hide();},true);
+ document.addEventListener('pointerout',e=>{if(e.target.closest?.(selector)&&!e.relatedTarget?.closest?.(selector))hide();},true);
+ document.addEventListener('focusin',e=>{const p=e.target.closest?.(selector);if(p){const r=p.getBoundingClientRect();show(p,r.left+r.width/2,r.top+r.height/2);}},true);
+ document.addEventListener('focusout',e=>{if(e.target.closest?.(selector))hide();},true);
+ document.addEventListener('keydown',e=>{if(e.key==='Escape')hide();},true);
+ document.addEventListener('pointerdown',hide,true);document.addEventListener('input',hide,true);document.addEventListener('scroll',()=>{if(scrollFrame)return;scrollFrame=requestAnimationFrame(()=>{scrollFrame=null;if(!lastPointer)return hide();const p=document.elementFromPoint(lastPointer.x,lastPointer.y)?.closest?.(selector);if(p)show(p,lastPointer.x,lastPointer.y);else hide();});},true);window.addEventListener('resize',hide);
+ new MutationObserver(()=>{if(activeView&&!activeView.isConnected)hide();}).observe(document.body,{childList:true,subtree:true});
+})();

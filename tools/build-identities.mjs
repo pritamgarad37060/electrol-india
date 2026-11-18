@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {createHash} from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+export const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+export const uid=key=>{const h=createHash('md5').update('electrol-identity-v1\u001f'+key).digest('hex');return [h.slice(0,8),h.slice(8,12),h.slice(12,16),h.slice(16,20),h.slice(20)].join('-');};
+const read=async f=>JSON.parse(await fs.readFile(path.join(root,f),'utf8'));
+const save=async(f,d)=>fs.writeFile(path.join(root,f),JSON.stringify(d));
+export async function buildIdentities(){
+ const seen=new Set(),report={people:0,candidates:0,localCandidates:0,localHeadCandidates:0,unresolvedLocal:[],sameNameContests:[],sourceReviewRows:0};
+ const add=key=>{const id=uid(key);if(seen.has(id))throw Error('Duplicate source-scoped identity '+key);seen.add(id);return id;};
+ for(const f of ['data/people-directory.json','data/representatives-index.json']){const d=await read(f),keys=new Set();for(const r of d.rows){if(keys.has(r.key))throw Error('Duplicate person source key '+r.key);keys.add(r.key);r.person_uid=uid('representative\u001f'+r.key);r.identity_status='source-scoped';}await save(f,d);if(f.includes('people-directory'))report.people=d.rows.length;}
+ for(const e of await read('data/catalog.json')){const f=e.file.replace(/^\//,''),d=await read(f);for(const s of d.seats){const occurrences=new Map();s.candidate_uids=s.c.map(c=>{if(d.parties[c[1]].short==='NOTA')return null;const nameparty=c[0]+'\u001f'+d.parties[c[1]].short,n=(occurrences.get(nameparty)||0)+1;occurrences.set(nameparty,n);if(n>1)report.sameNameContests.push({edition:e.id,seat:s.url,name:c[0],party:d.parties[c[1]].short,occurrence:n});report.candidates++;return add(['result',e.id,s.state,s.url,c[0],d.parties[c[1]].short,n].join('\u001f'));});}await save(f,d);}
+ for(const b of await read('data/local-catalog.json')){const f=b.file.replace(/^\//,''),d=await read(f);for(const [year,s]of Object.entries(d.snapshots)){if(s.president?.candidate){s.president.candidate_uid=add(['local-head',b.id,year,s.president.candidate,s.president.party].join('\u001f'));report.localHeadCandidates++;}for(const r of s.rows){const key=String(r.ward)+(r.seat||''),occurrences=new Map();if(r.review){report.sourceReviewRows++;r.candidate_uids=[];r.winner_uid=null;continue;}const cs=r.cands?.length?r.cands:[[r.name||r.candidate,r.party,r.votes??null]];r.candidate_uids=cs.map(c=>{if(c[1]==='NOTA')return null;const pair=c[0]+'\u001f'+c[1],n=(occurrences.get(pair)||0)+1;occurrences.set(pair,n);report.localCandidates++;return add(['local',b.id,year,key,c[0],c[1],n].join('\u001f'));});const wi=cs.findIndex(c=>c[0]===(r.name||r.candidate)&&c[1]===r.party);r.winner_uid=wi>=0?r.candidate_uids[wi]:null;}}await save(f,d);}
+ const people=await read('data/people-directory.json');for(const r of people.rows)if(r.kind==='local'&&(!r.body_kind||!r.seat)&&!/president|mayor|sarpanch/i.test(r.role||''))report.unresolvedLocal.push({key:r.key,name:r.name,body:r.body,reason:'Missing source body kind or seat; identity not inferred'});
+ report.uniqueCandidateIds=seen.size;report.version=1;await fs.mkdir(path.join(root,'reports/identity-audit'),{recursive:true});await save('reports/identity-audit/source-validation.json',report);console.log(JSON.stringify({...report,unresolvedLocal:report.unresolvedLocal.length,sameNameContests:report.sameNameContests.length}));await (await import('./audit-person-records.mjs')).auditPersonRecords();return report;
+}
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))await buildIdentities();

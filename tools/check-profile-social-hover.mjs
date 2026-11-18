@@ -1,0 +1,27 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {launchBrowser} from './browser.mjs';
+import {render,root} from './build.mjs';
+const browser=await launchBrowser(),page=await browser.newPage({viewport:{width:393,height:852}}),errors=[];
+page.on('pageerror',e=>errors.push(e.message));
+await page.route('**/*',async route=>{const u=new URL(route.request().url());if(u.hostname!=='127.0.0.1')return route.abort();try{if(u.pathname.startsWith('/api/'))return route.fulfill({contentType:'application/json',body:JSON.stringify({configured:false,user:null})});if(/^\/(js|css|data|assets)\//.test(u.pathname))return route.fulfill({body:await fs.readFile(path.join(root,u.pathname)),contentType:({'.js':'text/javascript','.css':'text/css','.json':'application/json','.jpg':'image/jpeg','.svg':'image/svg+xml'})[path.extname(u.pathname)]||'application/octet-stream'});const r=await render(u.pathname);return route.fulfill({status:r.status,contentType:'text/html',body:r.html});}catch{return route.fulfill({status:404,body:''});}});
+try{
+ await page.goto('http://127.0.0.1/');await page.evaluate(()=>ElectrolBackend.ready);await page.evaluate(()=>ElectrolDirectories.loadPeople());
+ const winners=await page.evaluate(()=>{const d=FULL_ELECTION_DATA['lok|All India|2024'],ids=[];for(const s of d.seats){const p=publicPerson(personIdFor(s,fullWinner(s,d),d)),m=ElectrolProfiles.profileFor(p);if(m)ids.push(m.id);}return ids;});assert.equal(winners.length,543);assert.equal(new Set(winners).size,543);
+ const araku=await page.evaluate(()=>{const d=FULL_ELECTION_DATA['lok|All India|2024'],s=d.seats.find(s=>s.state==='Andhra Pradesh'&&s.n===1);return personIdFor(s,fullWinner(s,d),d);});await page.evaluate(id=>openRepresentative(id),araku);await page.waitForFunction(()=>document.querySelector('.rep-hero img[data-profile-photo="5679"]')?.naturalWidth>0);
+ await page.evaluate(()=>openRepresentative('leader:modi'));await page.waitForFunction(()=>document.querySelector('.rep-hero img[data-profile-photo="4589"]')?.naturalWidth>0);assert.equal(await page.locator('.rep-socials a').count(),5);
+ await page.evaluate(()=>openRepresentative('imported-person:mp-5126'));await page.waitForFunction(()=>document.querySelector('.rep-hero img[data-profile-photo="5126"]')?.naturalWidth>0);
+ const expected=JSON.parse(await fs.readFile(path.join(root,'data/public-profiles/5126.json'),'utf8')).social;
+ for(const [field,label] of [['facebook','Facebook'],['twitter','X'],['instagram','Instagram']])if(expected[field]){const a=page.locator('.rep-socials a[aria-label="'+label+'"]');assert.equal(await a.getAttribute('href'),new URL(expected[field]).href);assert.equal(await a.locator('svg').count(),1);}
+ await fs.mkdir(path.join(root,'reports/media-maps'),{recursive:true});await page.screenshot({path:path.join(root,'reports/media-maps/profile-social-icons.png')});
+ for(const width of [320,393,1440])for(const theme of ['light','dark']){
+  await page.setViewportSize({width,height:852});await page.evaluate(t=>applyAppearance(t),theme);
+  await page.evaluate(async()=>{await openElectionEdition('assembly|Maharashtra|2024');electionDashboardTab='map';renderElectionDashboard();});await page.waitForSelector('[data-state-map-seat]');const seat=page.locator('[data-state-map-seat]').first();await seat.scrollIntoViewIfNeeded();await seat.hover({force:true});await page.waitForSelector('[data-state-map-hover]:not([hidden])');
+  let rect=await page.locator('[data-state-map-hover]').boundingBox();assert(rect.width>0&&rect.x>=0&&rect.x+rect.width<=width+1&&rect.y>=0&&rect.y+rect.height<=852+1,'Assembly tooltip must fit viewport');assert((await page.locator('[data-state-map-hover]').textContent()).includes('votes'));
+  await seat.focus();await page.waitForSelector('[data-state-map-hover]:not([hidden])');await page.keyboard.press('Escape');assert(await page.locator('[data-state-map-hover]').evaluate(n=>n.hidden));
+  await page.evaluate(async()=>{await openElectionEdition('lok|All India|2024');fullScope='Maharashtra';electionDashboardTab='map';renderElectionDashboard();});const pc=page.locator('[data-geo-seat]').first();await pc.scrollIntoViewIfNeeded();await pc.hover({force:true});await page.waitForSelector('[data-connected-map-hover][data-map-kind="lok"]:not([hidden])');rect=await page.locator('[data-connected-map-hover][data-map-kind=lok]').boundingBox();assert(rect.width>0&&rect.x>=0&&rect.x+rect.width<=width+1&&rect.y>=0&&rect.y+rect.height<=852+1,'Lok Sabha tooltip must fit viewport');assert((await page.locator('[data-connected-map-hover][data-map-kind=lok]').textContent()).includes('votes'));
+ }
+ await page.screenshot({path:path.join(root,'reports/media-maps/lok-sabha-hover.png')});assert.deepEqual(errors,[]);
+ console.log(JSON.stringify({uniqueWinnerPhotos:543,resultProfileAlias:'passed',modiLocalPhoto:'passed',socialLinksAndIcons:'matched source',assemblyHover:'passed',lokSabhaHover:'passed',keyboardAndEscape:'passed',tooltipBounds:'passed',widths:[320,393,1440],themes:['light','dark'],errors}));
+}catch(error){console.log(JSON.stringify({viewport:page.viewportSize(),tips:await page.locator('.geo-hover-tip').evaluateAll(ns=>ns.map(n=>({rect:n.getBoundingClientRect().toJSON(),style:n.getAttribute('style'),view:n.parentElement.getBoundingClientRect().toJSON(),hidden:n.hidden}))),errors}));await page.screenshot({path:path.join(root,'reports/media-maps/hover-failure.png')});throw error;}finally{await browser.close();}

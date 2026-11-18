@@ -1,0 +1,1 @@
+(function(){var t='system';try{t=localStorage.getItem('electrol-appearance')||'system'}catch(e){}if(!['light','dark','system'].includes(t))t='system';document.documentElement.dataset.appearance=t;document.documentElement.dataset.theme=t==='system'?(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'):t})();

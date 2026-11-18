@@ -1,0 +1,94 @@
+[build]
+ command = "npm run build"
+ publish = "dist"
+[functions]
+ directory = "netlify/functions"
+ node_bundler = "esbuild"
+[functions."account"]
+ included_files = ["netlify/generated/global-search-index.json"]
+[functions."ingest-updates"]
+ schedule = "*/15 * * * *"
+[functions."deliver-notifications"]
+ schedule = "*/5 * * * *"
+[[headers]]
+ for = "/account/*"
+ [headers.values]
+ Cache-Control = "private, no-store"
+ X-Robots-Tag = "noindex, nofollow"
+[[headers]]
+ for = "/auth/*"
+ [headers.values]
+ Cache-Control = "private, no-store"
+ X-Robots-Tag = "noindex, nofollow"
+ Referrer-Policy = "no-referrer"
+[[headers]]
+ for = "/*"
+ [headers.values]
+ X-Content-Type-Options = "nosniff"
+ X-Frame-Options = "DENY"
+ Referrer-Policy = "strict-origin-when-cross-origin"
+[[headers]]
+ for = "/sw.js"
+ [headers.values]
+ Cache-Control = "no-cache, no-store"
+[[redirects]]
+ from = "/api/public-data"
+ to = "/.netlify/functions/public-data"
+ status = 200
+[[redirects]]
+ from = "/api/account/*"
+ to = "/.netlify/functions/account/:splat"
+ status = 200
+[[redirects]]
+ from = "/account/*"
+ to = "/account/index.html"
+ status = 200
+[[redirects]]
+ from = "/auth/*"
+ to = "/auth/login/index.html"
+ status = 200
+
+[[redirects]]
+ from = "/hi/*"
+ to = "/:splat"
+ status = 200
+
+[[redirects]]
+ from = "/mr/*"
+ to = "/:splat"
+ status = 200
+
+[[redirects]]
+ from = "/bn/*"
+ to = "/:splat"
+ status = 200
+
+[[redirects]]
+ from = "/te/*"
+ to = "/:splat"
+ status = 200
+
+[[redirects]]
+ from = "/ta/*"
+ to = "/:splat"
+ status = 200
+
+[[redirects]]
+ from = "/gu/*"
+ to = "/:splat"
+ status = 200
+
+[[redirects]]
+ from = "/ur/*"
+ to = "/:splat"
+ status = 200
+
+[[redirects]]
+ from = "/kn/*"
+ to = "/:splat"
+ status = 200
+
+[[redirects]]
+ from = "/ml/*"
+ to = "/:splat"
+ status = 200

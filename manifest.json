@@ -1,0 +1,22 @@
+{
+  "name": "Electrol India",
+  "short_name": "Electrol India",
+  "description": "Indian election results, constituencies and representatives.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f7",
+  "theme_color": "#f5f5f7",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": [
+    "news"
+  ]
+}

@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import {fetchFeed} from './collect-youtube.mjs';
+const here=new URL('./',import.meta.url);
+const data=JSON.parse(await fs.readFile(new URL('youtube-data.json',here),'utf8'));
+const claims=JSON.parse(await fs.readFile(new URL('youtube-lookups.json',here),'utf8'));
+let cursor=0;
+const pending=data.people.filter(p=>!p.youtube.channelId&&claims.some(x=>x.id===p.id&&x.channelId));
+await Promise.all(Array.from({length:3},async()=>{while(cursor<pending.length){const p=pending[cursor++],c=claims.find(x=>x.id===p.id&&x.channelId);try{const f=await fetchFeed(c.channelId,p.id);p.youtube={channelId:c.channelId,title:f.title,source:c.source,identity:'Wikidata association; ownership not independently verified',status:'Available feed',fetchedAt:new Date().toISOString()};data.videos.push(...f.videos);}catch{}}}));
+data.fetchedAt=new Date().toISOString();await fs.writeFile(new URL('youtube-data.json',here),JSON.stringify(data));
+console.log(JSON.stringify({politicians:data.people.length,channels:data.people.filter(p=>p.youtube.channelId).length,videos:data.videos.length}));

@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import vm from 'node:vm';
+const source=await fs.readFile('js/backend-bridge.js','utf8');
+const start=source.indexOf(' const localAccountHost='),end=source.indexOf(' // Share a lightweight CSRF bootstrap;',start);
+assert(start>0&&end>start);
+const code=source.slice(start,end)+'\napi';
+const transport=(hostname,fetcher,online=true)=>vm.runInNewContext(code,{location:{hostname},navigator:{onLine:online},fetch:fetcher,AbortSignal,Error,csrf:'',errors:{},channel:null});
+await assert.rejects(transport('127.0.0.1',async()=>new Response('{}',{status:404}))('auth-bootstrap'),/running server needs the latest account update/);
+await assert.rejects(transport('example.com',async()=>new Response('<html>old site</html>'))('auth-bootstrap'),/Deploy the frontend and account function together/);
+await assert.rejects(transport('127.0.0.1',async()=>{throw new TypeError('network')})('session'),/Cannot connect to the local account server/);
+await assert.rejects(transport('example.com',async()=>{throw new TypeError('network')},false)('session'),/You are offline/);
+await assert.rejects(transport('example.com',async()=>Response.json({error:'service_unavailable'},{status:503}))('google'),/authentication provider is temporarily unavailable/);
+const clock=performance.now(),keepAlive=setTimeout(()=>{},6000);
+await assert.rejects(transport('127.0.0.1',(_url,{signal})=>new Promise((_resolve,reject)=>signal.addEventListener('abort',()=>reject(signal.reason))))('auth-bootstrap'),/Account startup timed out/).finally(()=>clearTimeout(keepAlive));
+const ms=Math.round(performance.now()-clock);assert(ms<5000,'Bootstrap did not fail quickly');
+console.log(JSON.stringify({outdatedServer:'detected',offline:'detected',providerOutage:'identified',startupTimeoutMs:ms}));

@@ -1,0 +1,41 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {render,root} from './build.mjs';
+import {launchBrowser} from './browser.mjs';
+const read=async file=>JSON.parse(await fs.readFile(path.join(root,file),'utf8'));
+const index=await read('data/local-catalog.json'),directory=await read('data/party-directory.json');
+assert.equal(new Set(index.map(b=>b.id)).size,index.length);
+assert.equal(new Set(directory.parties.map(p=>p.id)).size,directory.parties.length);
+for(const b of index){const raw=await read(b.file);assert.equal(raw.id,b.id);for(const y of b.years){const s=raw.snapshots[y];assert(s);assert.equal(s.year,y);assert(Array.isArray(s.rows));assert(s.seats>=s.rows.length||s.rows.length===0,'Roster exceeds seats '+b.id+' '+y);}}
+assert(index.filter(b=>b.kind==='council'&&b.years.includes(2025)).length>200);
+assert.equal(index.filter(b=>b.kind==='corporation').length,30);
+const browser=await launchBrowser();
+const page=await browser.newPage({viewport:{width:393,height:852}}),errors=[];
+page.on('pageerror',e=>errors.push(e.message));
+await page.route('**/*',async route=>{const url=new URL(route.request().url());if(url.hostname!=='127.0.0.1')return route.abort();try{if(url.pathname.startsWith('/api/'))return route.fulfill({contentType:'application/json',body:JSON.stringify({configured:false,user:null})});if(/^\/(js|css|data|assets)\//.test(url.pathname))return route.fulfill({body:await fs.readFile(path.join(root,url.pathname)),contentType:({'.js':'text/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml'})[path.extname(url.pathname)]||'application/octet-stream'});const response=await render(url.pathname);return route.fulfill({status:response.status,contentType:'text/html',body:response.html});}catch(e){return route.fulfill({status:500,body:e.message});}});
+try{
+ console.log('Checking home');
+ await page.goto('http://127.0.0.1/');await page.waitForFunction(()=>window.ElectrolBackend?.ready);await page.evaluate(()=>ElectrolBackend.ready);
+ const counts=await page.evaluate(async()=>await ElectrolDirectories.ready);assert.equal(counts.localBodies,index.length);
+ console.log('Checking parties');
+ await page.evaluate(()=>openDiscovery('parties'));assert.equal(await page.locator('.simple-party-row').count(),24);
+ await page.locator('[data-discovery-query="parties"]').fill('Dravida Munnetra');await page.locator('[data-open-party="party:dmk"]').click();await page.waitForSelector('.party-profile-heading');
+ await page.evaluate(()=>{partyContext.type='lok';partyContext.region='All India';partyContext.year='2024';discoveryDetailTab='performance';return openDiscoveryDetail('party','party:dmk',true)});
+ const dmk=directory.parties.find(p=>p.code==='DMK').editions.find(r=>r.level==='lok'&&r.state==='All India'&&r.year===2024);assert((await page.locator('.single-metrics').textContent()).includes(dmk.seats+' / 543'));assert(!(await page.locator('.party-detail-content').textContent()).includes('Demo'));
+ console.log('Checking municipal');
+ await page.evaluate(()=>openMunicipalDirectory());await page.waitForSelector('#mc-search');await page.locator('#mc-search').fill('Nagpur');assert((await page.locator('#mc-directory-results').textContent()).includes('2026'));
+ await page.locator('#mc-directory-results [data-mc-open]').first().click();await page.waitForSelector('[data-connected-mc-year]');assert.equal(await page.locator('[data-connected-mc-year]').inputValue(),'2026');await page.locator('.mc-detail-tabs [data-mc-tab="wards"]').click();assert(await page.locator('[data-mc-ward]').count()>0);await page.locator('[data-mc-ward]').first().click();await page.waitForSelector('.municipal-ward-profile');assert((await page.locator('.mc-ward-heading').textContent()).includes('2026'));assert(!(await page.locator('.municipal-ward-profile').textContent()).includes('2017'));
+ await page.locator('[data-mc-ward-tab="candidates"]').first().click();assert(await page.locator('.mc-candidate-row, [data-mc-person]').count()>1);
+ await page.evaluate(()=>openMunicipalProfile('nagpur-nmc',false,2017));await page.waitForSelector('[data-connected-mc-year]');assert.equal(await page.locator('[data-connected-mc-year]').inputValue(),'2017');await page.locator('[data-connected-mc-year]').selectOption('2026');await page.waitForFunction(()=>MC_DATA[mcCurrent].year===2026);
+ console.log('Checking council');
+ await page.evaluate(async()=>{await openLocalBodyDirectory('council');const x=LOCAL_BODY_DIRECTORY.find(x=>x._bodyId==='council:akluj');await openLocalBodyProfile(x.id);localBodyTab='results';await openLocalBodyProfile(x.id,true)});assert((await page.locator('#local-body-content').textContent()).includes('NCP (SP)'));await page.locator('[data-local-body-tab="members"]').click();assert((await page.locator('#local-body-content').textContent()).includes('Yuvraj'));
+ await page.locator('[data-local-body-tab="head"]').click();assert((await page.locator('#local-body-content').textContent()).includes('Reshma'));
+ await page.evaluate(async()=>{const x=LOCAL_BODY_DIRECTORY.find(x=>x._bodyId==='zp:thane');localBodyTab='results';await openLocalBodyProfile(x.id,true)});assert((await page.locator('#local-body-content').textContent()).includes((702499).toLocaleString('en-IN')));
+ await page.evaluate(async()=>{const s=constituencyRecords().find(s=>s._connected&&s.region==='Gujarat'&&s.type==='assembly');await openDiscoveryDetail('seat',s.id)});await page.waitForSelector('#dialog[open]');assert((await page.locator('#dialog').textContent()).includes('2022'));
+ await page.evaluate(()=>document.querySelectorAll('dialog[open]').forEach(d=>d.close()));
+ console.log('Checking people');
+ await page.evaluate(()=>openPeopleDirectory());assert((await page.locator('#people-results').textContent()).includes('profiles'));const rep=await page.locator('#people-results [data-rep-open^="imported-person:"]').first().getAttribute('data-rep-open');assert(rep);await page.evaluate(id=>openRepresentative(id),rep);await page.waitForSelector('.rep-hero h1');
+ await page.goto('http://127.0.0.1/parties/dmk/');await page.waitForFunction(()=>window.ElectrolBackend?.ready);await page.evaluate(()=>ElectrolBackend.ready);assert((await page.locator('.party-profile-heading').textContent()).includes('Dravida'));
+ assert.deepEqual(errors,[]);console.log(JSON.stringify({localBodies:index.length,localEditions:index.reduce((n,b)=>n+b.years.length,0),parties:directory.parties.length,partyPagination:'passed',partyScopeResults:'passed',municipalDirectory:'passed',municipalYearSwitch:'passed',wardCandidates:'passed',councilMembersAndPresident:'passed',ruralTotals:'passed',assemblyDirectory:'passed',representatives:'passed',partyURL:'passed',errors}));
+}catch(e){console.log('Failure:',e.message,'Browser state:',await page.evaluate(()=>({url:location.href,destination:typeof siteDestination==='undefined'?'unavailable':siteDestination,text:document.body.textContent.slice(0,2600)})).catch(()=>null),errors);throw e;}finally{await browser.close();}
