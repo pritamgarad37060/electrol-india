@@ -49,12 +49,23 @@
  const userItem=e=>({id:'account:'+e.id,name:e.name,short:e.name,type:({person:'leaders',body:'cities',constituency:'constituencies',election:'elections',party:'parties'})[e.kind]||'topics',location:e.subtitle||e.metadata?.state_name||'',region:e.metadata?.state_name||'',url:e.url,provenance:'sourced'});
  function entityMatches(item,e){if(!item||!e)return false;if(item.id==='account:'+e.id)return true;const target=window.ElectrolHTMLData?.identity(item.id)||{},url=target.url||item.url;const path=u=>{try{const v=new URL(u,location.origin);v.searchParams.sort();return v.pathname+v.search;}catch{return null;}};if(url&&e.url&&path(url)===path(e.url))return true;if(norm(item.name)!==norm(e.name))return false;const person=item.type==='leaders'||e.kind==='person';if(!person)return true;const m=e.metadata||{},state=m.state_name||m.state,seat=m.constituency||m.seat_name||m.body_name;return !!state&&!!seat&&norm(state)===norm(item.region)&&norm(seat)===norm(item.location)&&(!m.level||m.level===(item.level||item.d?.level));}
  function applyProfile(){
-  const p=session?.profile;if(!session?.user){demoSession=null;navPrefs.follows=[];return;}
+  const p=session?.profile;
+  if(!session?.user){
+   demoSession=null;
+   try{
+    const stored=JSON.parse(localStorage.getItem(NAV_PREF_KEY)||'{}');
+    if(Array.isArray(stored.follows)&&stored.follows.length){
+     navPrefs.follows=[...new Set([...navPrefs.follows,...stored.follows])];
+    }
+   }catch{}
+   return;
+  }
   demoSession={name:p?.display_name||session.user.email,email:session.user.email,demo:false};
   if(p){navPrefs.name=p.display_name||'';appDetails={...appDetails,username:p.username||'',bio:p.bio||'',location:p.location||'',website:p.website||'',social:{x:'',instagram:'',youtube:'',...p.social_links},photo:p.avatar_url||'',cover:p.cover_url||'',joinedAt:p.created_at||appDetails.joinedAt};}
   const prefs=session.preferences||{};appDetails.quiet={enabled:!!prefs.quiet_enabled,start:prefs.quiet_start||'22:00',end:prefs.quiet_end||'07:00'};appDetails.frequency=prefs.frequency==='instant'?'all':prefs.frequency||'important';navPrefs.notifications={...navPrefs.notifications,inapp:prefs.in_app!==false,elections:prefs.categories?.includes('elections')??true,leaders:prefs.categories?.includes('representatives')??true,news:prefs.categories?.includes('news')??true,policy:prefs.categories?.includes('government')??true};
  }
  function syncFollows(){
+  if(!session?.user)return;
   navPrefs.follows=[];const catalog=original.followCatalog();
   for(const [entityId,row]of serverFollows){const e=row.entity;if(!e)continue;const matches=catalog.filter(item=>entityMatches(item,e));const item=matches.length===1?matches[0]:userItem(e);resolved.set(item.id,e);navPrefs.follows.push(item.id);followDetails[item.id]={saved:false,followedAt:row.followed_at,alerts:{enabled:!row.muted,news:row.alert_types?.includes('news'),elections:row.alert_types?.includes('elections'),events:false,policy:row.alert_types?.includes('government')},activity:[]};}
  }
@@ -80,9 +91,9 @@
  function followRender(work){if(followRenderSnapshot)return work();followRenderSnapshot=buildFollowCatalog();followRenderIndex=new Map(followRenderSnapshot.map(x=>[x.id,x]));try{return work()}finally{followRenderSnapshot=null;followRenderIndex=null}}
  const nativeFollowResults=renderFollowResults;
  renderFollowResults=function(...args){return followRender(()=>nativeFollowResults(...args))};
- persistNavPrefs=function(){try{const {follows,elections,...preferences}=navPrefs;localStorage.setItem(NAV_PREF_KEY,JSON.stringify(preferences));return true}catch{return false}};
+ persistNavPrefs=function(){try{if(session?.user){const {follows,elections,...preferences}=navPrefs;localStorage.setItem(NAV_PREF_KEY,JSON.stringify(preferences));}else{localStorage.setItem(NAV_PREF_KEY,JSON.stringify(navPrefs));}return true;}catch{return false;}};
  persistDetails=function(){try{const prefs={};for(const key of ['contentLanguage','region','city','dateFormat','hour12','timeZone'])prefs[key]=appDetails[key];localStorage.setItem(DETAILS_KEY,JSON.stringify(prefs));return true}catch{return false}};
- persistFollowDetails=()=>true;
+ persistFollowDetails=function(){try{if(!session?.user){localStorage.setItem(FOLLOW_KEY,JSON.stringify(followDetails));}return true;}catch{return false;}};
  async function entity(id){
   if(resolved.has(id))return resolved.get(id);
   if(id.startsWith('account:')){const row=serverFollows.get(id.slice(8));if(row?.entity){resolved.set(id,row.entity);return row.entity;}}
@@ -91,13 +102,44 @@
   if(item.type==='leaders')await window.ElectrolDirectories?.loadPeople();const target=window.ElectrolHTMLData?.identity(id)||{};
   if(target.url||item.url){const byURL=await api('entities?url='+encodeURIComponent(target.url||item.url));if(byURL.rows?.length===1){resolved.set(id,byURL.rows[0]);return byURL.rows[0];}}
   const name=item.type==='constituencies'?item.name.split(' · ')[0]:item.name,kind=({leaders:'person',parties:'party',constituencies:'constituency'})[item.type];
-  const data=await api('entities?q='+encodeURIComponent(name.replace(/^(shri|smt|dr\.?|adv\.?)\s+/i,''))+(kind?'&kind='+kind:''));const matches=(data.rows||[]).filter(e=>entityMatches({...item,name},e));
+  const cleanQ=name.replace(/[\(\),\*]/g,' ').replace(/^(shri|smt|dr\.?|adv\.?)\s+/i,'').trim();
+  const data=await api('entities?q='+encodeURIComponent(cleanQ)+(kind?'&kind='+kind:''));const matches=(data.rows||[]).filter(e=>entityMatches({...item,name},e));
   if(matches.length!==1)throw Error('This identity cannot yet be uniquely matched to the account catalog.');resolved.set(id,matches[0]);return matches[0];
  }
- isFollowing=function(id,item){if(!serverFollows.size)return false;let e=resolved.get(id);if(!e){try{item||=findFollow(id)||publicPerson(id)}catch{}if(item){const name=item.type==='constituencies'?item.name.split(' · ')[0]:item.name,matches=[...serverFollows.values()].filter(row=>row.entity&&entityMatches({...item,name},row.entity));if(matches.length===1){e=matches[0].entity;resolved.set(id,e);}}}return !!e&&serverFollows.has(e.id)};
+ isFollowing=function(id,item){
+  if(!session?.user){return navPrefs.follows.includes(id);}
+  if(!serverFollows.size)return navPrefs.follows.includes(id);
+  let e=resolved.get(id);
+  if(!e){try{item||=findFollow(id)||publicPerson(id)}catch{}if(item){const name=item.type==='constituencies'?item.name.split(' · ')[0]:item.name,matches=[...serverFollows.values()].filter(row=>row.entity&&entityMatches({...item,name},row.entity));if(matches.length===1){e=matches[0].entity;resolved.set(id,e);}}}
+  return (!!e&&serverFollows.has(e.id))||navPrefs.follows.includes(id);
+ };
  async function toggle(id){
-  if(!signedIn()||pending.has(id))return;pending.add(id);enhanceFollowControls();
-  try{const e=await entity(id),was=serverFollows.has(e.id);await api(was?'unfollow':'follow',{entity_id:e.id});if(was)serverFollows.delete(e.id);else serverFollows.set(e.id,{entity_id:e.id,entity:e,muted:false,alert_types:['elections','news'],followed_at:new Date().toISOString()});syncFollows();refreshFollowUI();notify(was?'Unfollowed.':'Added to My Follows.');}
+  if(pending.has(id))return;
+  if(!session?.user){
+   let item=findFollow(id);if(!item)try{item=publicPerson(id)}catch{}
+   let active=navPrefs.follows.includes(id);
+   if(active){
+    navPrefs.follows=navPrefs.follows.filter(x=>x!==id);
+    if(followDetails[id])followDetails[id].alerts={enabled:false};
+   }else{
+    if(!navPrefs.follows.includes(id))navPrefs.follows.push(id);
+    followDetails[id]={saved:false,followedAt:new Date().toISOString(),alerts:{enabled:true,news:true,elections:true,events:false,policy:true},activity:[]};
+   }
+   persistNavPrefs();
+   persistFollowDetails();
+   refreshFollowUI();
+   enhanceFollowControls();
+   notify(active?'Unfollowed.':'Added to My Follows on this device.');
+   return;
+  }
+  pending.add(id);enhanceFollowControls();
+  try{
+   const e=await entity(id),was=serverFollows.has(e.id);
+   await api(was?'unfollow':'follow',{entity_id:e.id});
+   if(was){serverFollows.delete(e.id);navPrefs.follows=navPrefs.follows.filter(x=>x!==id);}
+   else{serverFollows.set(e.id,{entity_id:e.id,entity:e,muted:false,alert_types:['elections','news'],followed_at:new Date().toISOString()});if(!navPrefs.follows.includes(id))navPrefs.follows.push(id);}
+   syncFollows();refreshFollowUI();notify(was?'Unfollowed.':'Added to My Follows.');
+  }
   catch(error){status(error.message,true)}finally{pending.delete(id);enhanceFollowControls();}
  }
  toggleFollowing=id=>{void toggle(id)};

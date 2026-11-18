@@ -30,10 +30,10 @@ export function accountHandler({env=process.env,fetcher=fetch}={}){
     return json({configured:true,user:{id:s.user.id,email:s.user.email,email_change_pending:!!s.user.new_email},profile:presentProfile(profiles?.[0]||null),preferences:preferences?.[0]||{},summary,staff:!!roles?.length,aal:s.jwt.aal,csrf,capabilities:{push:!!(env.WEB_PUSH_PUBLIC_KEY&&env.WEB_PUSH_PRIVATE_KEY&&env.WEB_PUSH_SUBJECT),passkeys:false,email:!!(env.RESEND_API_KEY&&env.ACCOUNT_EMAIL_FROM)}},200,headers);
    }
    if(req.method==='GET'&&action==='entities'){
-    await service.rate(req,'catalog');const u=new URL(req.url),q=(u.searchParams.get('q')||'').trim(),kind=u.searchParams.get('kind'),parent=u.searchParams.get('parent');
+    await service.rate(req,'catalog');const u=new URL(req.url),rawQ=(u.searchParams.get('q')||'').trim(),kind=u.searchParams.get('kind'),parent=u.searchParams.get('parent');
     const page=Math.max(0,Math.min(10000,Number(u.searchParams.get('page'))||0)),limit=Math.max(1,Math.min(60,Number(u.searchParams.get('limit'))||20));
     let query='followable_entities?active=eq.true&order=name.asc,id.asc&limit='+(limit+1)+'&offset='+(page*limit);
-    if(q){if(q.length>100||/[,*()]/.test(q))throw new AccountError('invalid_input');query+='&name=ilike.'+eq('*'+q+'*');}
+    if(rawQ){const q=rawQ.replace(/[,*()]/g,' ').trim();if(q.length>100)throw new AccountError('invalid_input');if(q)query+='&name=ilike.'+eq('*'+q+'*');}
     if(kind){if(!/^[a-z]+$/.test(kind))throw new AccountError('invalid_input');query+='&kind=eq.'+kind;}
     if(parent)query+='&parent_id=eq.'+eq(text(parent,240));
     if(u.searchParams.get('url'))query+='&url=eq.'+eq(internalPath(u.searchParams.get('url')));
