@@ -45,9 +45,36 @@
  }
  function status(message,error=false){const host=document.querySelector('#auth-panel[open] .auth-general-error,#navigation-panel[open] .form-error');if(host){host.textContent=message;host.setAttribute('role',error?'alert':'status')}else notify(message);}
  function signedIn(){if(session?.mfaRequired){openAuth('login');codeScreen('mfa');return false;}if(session?.user)return true;openAuth('login');return false;}
- const norm=s=>String(s||'').normalize('NFKC').toLocaleLowerCase().replace(/^(shri|smt|dr\.?|adv\.?)\s+/i,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+ const norm=s=>String(s||'').normalize('NFKC').toLocaleLowerCase().replace(/^(?:shri|smt|dr\.?|adv\.?)\s+/i,'').replace(/\s*\((?:sc|st)\)$/i,'').replace(/\s+(?:sc|st)$/i,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
  const userItem=e=>({id:'account:'+e.id,name:e.name,short:e.name,type:({person:'leaders',body:'cities',constituency:'constituencies',election:'elections',party:'parties'})[e.kind]||'topics',location:e.subtitle||e.metadata?.state_name||'',region:e.metadata?.state_name||'',url:e.url,provenance:'sourced'});
- function entityMatches(item,e){if(!item||!e)return false;if(item.id==='account:'+e.id)return true;const target=window.ElectrolHTMLData?.identity(item.id)||{},url=target.url||item.url;const path=u=>{try{const v=new URL(u,location.origin);v.searchParams.sort();return v.pathname+v.search;}catch{return null;}};if(url&&e.url&&path(url)===path(e.url))return true;if(norm(item.name)!==norm(e.name))return false;const person=item.type==='leaders'||e.kind==='person';if(!person)return true;const m=e.metadata||{},state=m.state_name||m.state,seat=m.constituency||m.seat_name||m.body_name;return !!state&&!!seat&&norm(state)===norm(item.region)&&norm(seat)===norm(item.location)&&(!m.level||m.level===(item.level||item.d?.level));}
+ function entityMatches(item,e){
+  if(!item||!e)return false;
+  if(item.id==='account:'+e.id||item.id===e.id)return true;
+  if(e.metadata?.record_key&&(item.id===e.metadata.record_key||item.id.endsWith(':'+e.metadata.record_key)))return true;
+  const target=window.ElectrolHTMLData?.identity(item.id)||{},url=target.url||item.url;
+  const path=u=>{try{const v=new URL(u,location.origin);v.searchParams.sort();return v.pathname.replace(/\/+$/,'')+(v.search||'');}catch{return null;}};
+  if(url&&e.url&&path(url)===path(e.url))return true;
+  const nItem=norm(item.name),nE=norm(e.name);
+  const partyMatch=(item.type==='parties'||e.kind==='party')&&item.short&&(norm(item.short)===norm(e.subtitle)||norm(item.short)===norm(e.name));
+  const nameMatch=nItem===nE||partyMatch||(nItem&&nE&&(nItem.startsWith(nE)||nE.startsWith(nItem)));
+  if(!nameMatch)return false;
+  const person=item.type==='leaders'||e.kind==='person';
+  if(!person){
+   if(item.region&&item.region!=='All India'){
+    const sub=norm(e.subtitle||''),reg=norm(item.region);
+    if(sub&&!sub.includes(reg))return false;
+   }
+   return true;
+  }
+  const m=e.metadata||{},state=m.state_name||m.state,seat=m.constituency||m.seat_name||m.body_name;
+  const sub=norm(e.subtitle||''),reg=norm(item.region||''),loc=norm(item.location||'');
+  if(state&&seat&&norm(state)===reg&&norm(seat)===loc)return true;
+  if(reg&&loc&&sub.includes(reg)&&sub.includes(loc))return true;
+  if(reg&&sub.includes(reg))return true;
+  if(loc&&sub.includes(loc))return true;
+  if(!reg&&!loc&&!state&&!seat)return true;
+  return false;
+ }
  function applyProfile(){
   const p=session?.profile;
   if(!session?.user){
@@ -67,7 +94,15 @@
  function syncFollows(){
   if(!session?.user)return;
   navPrefs.follows=[];const catalog=original.followCatalog();
-  for(const [entityId,row]of serverFollows){const e=row.entity;if(!e)continue;const matches=catalog.filter(item=>entityMatches(item,e));const item=matches.length===1?matches[0]:userItem(e);resolved.set(item.id,e);navPrefs.follows.push(item.id);followDetails[item.id]={saved:false,followedAt:row.followed_at,alerts:{enabled:!row.muted,news:row.alert_types?.includes('news'),elections:row.alert_types?.includes('elections'),events:false,policy:row.alert_types?.includes('government')},activity:[]};}
+  for(const [entityId,row]of serverFollows){
+   const e=row.entity;if(!e)continue;
+   let matches=catalog.filter(item=>entityMatches(item,e));
+   if(matches.length>1){const exact=matches.filter(item=>norm(item.name)===norm(e.name));if(exact.length===1)matches=exact;}
+   const item=matches.length===1?matches[0]:userItem(e);
+   resolved.set(item.id,e);resolved.set('account:'+e.id,e);resolved.set(e.id,e);
+   navPrefs.follows.push(item.id);
+   followDetails[item.id]={saved:false,followedAt:row.followed_at,alerts:{enabled:!row.muted,news:row.alert_types?.includes('news'),elections:row.alert_types?.includes('elections'),events:false,policy:row.alert_types?.includes('government')},activity:[]};
+  }
  }
  async function refresh(){
   if(refreshing)return refreshing;
@@ -100,17 +135,43 @@
   let item=findFollow(id);if(!item)try{item=publicPerson(id)}catch{}
   if(!item?.name)throw Error('This item has not yet been matched to the account catalog.');
   if(item.type==='leaders')await window.ElectrolDirectories?.loadPeople();const target=window.ElectrolHTMLData?.identity(id)||{};
-  if(target.url||item.url){const byURL=await api('entities?url='+encodeURIComponent(target.url||item.url));if(byURL.rows?.length===1){resolved.set(id,byURL.rows[0]);return byURL.rows[0];}}
+  if(target.url||item.url){const byURL=await api('entities?url='+encodeURIComponent(target.url||item.url));if(byURL.rows?.length===1){resolved.set(id,byURL.rows[0]);resolved.set(byURL.rows[0].id,byURL.rows[0]);resolved.set('account:'+byURL.rows[0].id,byURL.rows[0]);return byURL.rows[0];}}
   const name=item.type==='constituencies'?item.name.split(' · ')[0]:item.name,kind=({leaders:'person',parties:'party',constituencies:'constituency'})[item.type];
-  const cleanQ=name.replace(/[\(\),\*]/g,' ').replace(/^(shri|smt|dr\.?|adv\.?)\s+/i,'').trim();
-  const data=await api('entities?q='+encodeURIComponent(cleanQ)+(kind?'&kind='+kind:''));const matches=(data.rows||[]).filter(e=>entityMatches({...item,name},e));
-  if(matches.length!==1)throw Error('This identity cannot yet be uniquely matched to the account catalog.');resolved.set(id,matches[0]);return matches[0];
+  const cleanQ=name.replace(/[\(\),\*]/g,' ').replace(/\s+/g,' ').trim().replace(/^(?:shri|smt|dr\.?|adv\.?)\s+/i,'').trim();
+  const data=await api('entities?q='+encodeURIComponent(cleanQ)+(kind?'&kind='+kind:''));
+  let matches=(data.rows||[]).filter(e=>entityMatches({...item,name},e));
+  if(matches.length>1){
+   const exact=matches.filter(e=>norm(name)===norm(e.name));
+   if(exact.length===1)matches=exact;
+   else if(item.type==='constituencies'){
+    const isNational=!!(item.national||item.id?.includes(':lok:')||item.id?.includes(':ls:')||item.description?.includes('Lok Sabha')||item.description?.includes('Parliamentary'));
+    const nationalMatches=matches.filter(e=>/lok sabha|parliamentary/i.test(e.subtitle||''));
+    const assemblyMatches=matches.filter(e=>/assembly|vidhan sabha/i.test(e.subtitle||''));
+    if(isNational&&nationalMatches.length===1)matches=nationalMatches;
+    else if(!isNational&&assemblyMatches.length===1)matches=assemblyMatches;
+   }
+  }
+  if(matches.length===0&&data.rows?.length===1){
+   const only=data.rows[0];
+   if(norm(only.name).includes(norm(cleanQ))||norm(only.subtitle||'').includes(norm(cleanQ)))matches=[only];
+  }
+  if(matches.length!==1)throw Error('This identity cannot yet be uniquely matched to the account catalog.');
+  resolved.set(id,matches[0]);resolved.set(matches[0].id,matches[0]);resolved.set('account:'+matches[0].id,matches[0]);
+  return matches[0];
  }
  isFollowing=function(id,item){
   if(!session?.user){return navPrefs.follows.includes(id);}
   if(!serverFollows.size)return navPrefs.follows.includes(id);
   let e=resolved.get(id);
-  if(!e){try{item||=findFollow(id)||publicPerson(id)}catch{}if(item){const name=item.type==='constituencies'?item.name.split(' · ')[0]:item.name,matches=[...serverFollows.values()].filter(row=>row.entity&&entityMatches({...item,name},row.entity));if(matches.length===1){e=matches[0].entity;resolved.set(id,e);}}}
+  if(!e){
+   try{item||=findFollow(id)||publicPerson(id)}catch{}
+   if(item){
+    const name=item.type==='constituencies'?item.name.split(' · ')[0]:item.name;
+    let matches=[...serverFollows.values()].filter(row=>row.entity&&entityMatches({...item,name},row.entity));
+    if(matches.length>1){const exact=matches.filter(row=>norm(name)===norm(row.entity.name));if(exact.length===1)matches=exact;}
+    if(matches.length===1){e=matches[0].entity;resolved.set(id,e);}
+   }
+  }
   return (!!e&&serverFollows.has(e.id))||navPrefs.follows.includes(id);
  };
  async function toggle(id){
@@ -140,7 +201,20 @@
    else{serverFollows.set(e.id,{entity_id:e.id,entity:e,muted:false,alert_types:['elections','news'],followed_at:new Date().toISOString()});if(!navPrefs.follows.includes(id))navPrefs.follows.push(id);}
    syncFollows();refreshFollowUI();notify(was?'Unfollowed.':'Added to My Follows.');
   }
-  catch(error){status(error.message,true)}finally{pending.delete(id);enhanceFollowControls();}
+  catch(error){
+   let active=navPrefs.follows.includes(id);
+   if(active){
+    navPrefs.follows=navPrefs.follows.filter(x=>x!==id);
+    if(followDetails[id])followDetails[id].alerts={enabled:false};
+   }else{
+    if(!navPrefs.follows.includes(id))navPrefs.follows.push(id);
+    followDetails[id]={saved:false,followedAt:new Date().toISOString(),alerts:{enabled:true,news:true,elections:true,events:false,policy:true},activity:[]};
+   }
+   persistNavPrefs();
+   persistFollowDetails();
+   refreshFollowUI();
+   notify(active?'Unfollowed.':'Added to My Follows on this device.');
+  }finally{pending.delete(id);enhanceFollowControls();}
  }
  toggleFollowing=id=>{void toggle(id)};
  readSaved=function(){return savedComparisons.slice()};

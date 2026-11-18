@@ -33,7 +33,7 @@ export function accountHandler({env=process.env,fetcher=fetch}={}){
     await service.rate(req,'catalog');const u=new URL(req.url),rawQ=(u.searchParams.get('q')||'').trim(),kind=u.searchParams.get('kind'),parent=u.searchParams.get('parent');
     const page=Math.max(0,Math.min(10000,Number(u.searchParams.get('page'))||0)),limit=Math.max(1,Math.min(60,Number(u.searchParams.get('limit'))||20));
     let query='followable_entities?active=eq.true&order=name.asc,id.asc&limit='+(limit+1)+'&offset='+(page*limit);
-    if(rawQ){const q=rawQ.replace(/[,*()]/g,' ').trim();if(q.length>100)throw new AccountError('invalid_input');if(q)query+='&name=ilike.'+eq('*'+q+'*');}
+    if(rawQ){const q=rawQ.replace(/[,*()]/g,' ').replace(/\s+/g,' ').trim();if(q.length>100)throw new AccountError('invalid_input');if(q)query+='&or=(name.ilike.'+eq('*'+q+'*')+',subtitle.ilike.'+eq('*'+q+'*')+')';}
     if(kind){if(!/^[a-z]+$/.test(kind))throw new AccountError('invalid_input');query+='&kind=eq.'+kind;}
     if(parent)query+='&parent_id=eq.'+eq(text(parent,240));
     if(u.searchParams.get('url'))query+='&url=eq.'+eq(internalPath(u.searchParams.get('url')));
@@ -107,7 +107,7 @@ export function accountHandler({env=process.env,fetcher=fetch}={}){
      const search=u.searchParams.get('q'),kind=u.searchParams.get('kind');
      let q=own('user_follows')+'&select=*,entity:followable_entities!inner(*)&order='+(u.searchParams.get('sort')==='name'?'entity(name).asc,entity_id.asc':u.searchParams.get('sort')==='oldest'?'followed_at.asc,entity_id.asc':'followed_at.desc,entity_id.asc')+'&limit=21&offset='+offset;
      if(kind){if(!/^[a-z]+$/.test(kind))throw new AccountError('invalid_input');q+='&entity.kind=eq.'+kind;}
-     if(search){if(search.length>100||/[,*()]/.test(search))throw new AccountError('invalid_input');q+='&entity.name=ilike.'+eq('*'+search+'*');}
+     if(search){const sClean=search.replace(/[,*()]/g,' ').replace(/\s+/g,' ').trim();if(sClean.length>100)throw new AccountError('invalid_input');if(sClean)q+='&entity.name=ilike.'+eq('*'+sClean+'*');}
      if(u.searchParams.get('ids')){
       let ids;try{ids=JSON.parse(u.searchParams.get('ids'));}catch{throw new AccountError('invalid_input');}
       if(!Array.isArray(ids)||ids.length>60||ids.some(id=>typeof id!=='string'||id.length>240||!/^[A-Za-z0-9:|%._-]+$/.test(id)))throw new AccountError('invalid_input');
